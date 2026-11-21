@@ -1,0 +1,83 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.Data.ZMod.Basic": "ffcf1a81e7b8c84c22a19043b6339af62dbb65fc10003b0397afb88b69f924f5",
+    "Reimann.TameRestriction": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+    "Reimann.Transfer": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e"
+  },
+  "steps": {
+    "ResidueCharacter.representative": {
+      "sha256": "4dfe0c3e4bf6d8f115fbb0b884b0f749fb1ba8ca09ea273ab9fdc2bb68bff517",
+      "line": 11,
+      "status": "checked"
+    },
+    "ResidueCharacter.cast_representative": {
+      "sha256": "dc770e82cf166a8416219cec8313f6d512cfc72f9813bda480ea3dc07ab1187e",
+      "line": 13,
+      "status": "checked",
+      "checker_output": "'Reimann.TameResidueCharacter277.cast_representative' depends on axioms: [propext, Quot.sound]"
+    },
+    "ResidueCharacter.difference_iff": {
+      "sha256": "23c480a6ff7994fe8c753533e3394fe69a3f5289b759bf73dbba3981ee0b86cf",
+      "line": 16,
+      "status": "checked",
+      "checker_output": "<stdin>:16:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameResidueCharacter277.difference_iff`:\n  [NeZero m]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [NeZero m] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.TameResidueCharacter277.difference_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ResidueCharacter.representative_add": {
+      "sha256": "31cc86acf582a516340b93adeed53479da8712f39a05940df44f58b9108b42fe",
+      "line": 19,
+      "status": "checked",
+      "checker_output": "<stdin>:16:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameResidueCharacter277.difference_iff`:\n  [NeZero m]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [NeZero m] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.TameResidueCharacter277.representative_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ResidueCharacter.representative_scale": {
+      "sha256": "a25483a46b2ef9a16114a7df68625db4883c769708ee4e47f3af3807f3679178",
+      "line": 23,
+      "status": "checked",
+      "checker_output": "<stdin>:16:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameResidueCharacter277.difference_iff`:\n  [NeZero m]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [NeZero m] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.TameResidueCharacter277.representative_scale' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ResidueCharacter.ResidueCharacter": {
+      "sha256": "b8f6dc7b44e41e89c8ca307d610ce4c1ba1252497230e220583bbf4ebc80150a",
+      "line": 30,
+      "status": "checked",
+      "checker_output": "<stdin>:16:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameResidueCharacter277.difference_iff`:\n  [NeZero m]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [NeZero m] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`"
+    },
+    "ResidueCharacter.realize": {
+      "sha256": "6fcae7a11895c2fc6ad0067503112465c23e4dd127d4b9e09593e5521ecb85c8",
+      "line": 39,
+      "status": "checked",
+      "checker_output": "<stdin>:16:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameResidueCharacter277.difference_iff`:\n  [NeZero m]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [NeZero m] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`"
+    },
+    "ResidueCharacter.extend_crossed_residue": {
+      "sha256": "24e75734df8d5ffa76c3f5256aa1e7bdc1eddcaddbac79ecacec0b1323ad0554",
+      "line": 44,
+      "status": "checked",
+      "checker_output": "<stdin>:16:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameResidueCharacter277.difference_iff`:\n  [NeZero m]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [NeZero m] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.TameResidueCharacter277.extend_crossed_residue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ResidueCharacter.extend_at_kernel": {
+      "sha256": "a0f9677cd3ba7c8104c7ff30fa7e74fb80fff4230819f25f3efb1939108b0d3f",
+      "line": 47,
+      "status": "checked",
+      "checker_output": "<stdin>:16:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameResidueCharacter277.difference_iff`:\n  [NeZero m]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [NeZero m] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.TameResidueCharacter277.extend_at_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ResidueCharacter.extend_formula": {
+      "sha256": "88d72f3b5a1c76e1446de5e0b80169ff8f5823cfbf26977c034bbd1108d2bbc6",
+      "line": 51,
+      "status": "checked",
+      "checker_output": "<stdin>:16:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameResidueCharacter277.difference_iff`:\n  [NeZero m]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [NeZero m] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.TameResidueCharacter277.extend_formula' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ResidueCharacter.restrictions_equal_iff_principal": {
+      "sha256": "247e785ca4c1c643533a577e5f43da39500f0ae89d5c12c80c4cf04feb5c5ba4",
+      "line": 57,
+      "status": "checked",
+      "checker_output": "<stdin>:16:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameResidueCharacter277.difference_iff`:\n  [NeZero m]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [NeZero m] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.TameResidueCharacter277.restrictions_equal_iff_principal' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "ResidueCharacter.complete": {
+      "sha256": "b0351faf35ff545cc4eef5ad1fceaff7b42211140cb8d1233cd84aa21d589b3b",
+      "line": 64,
+      "status": "checked",
+      "checker_output": "<stdin>:16:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameResidueCharacter277.difference_iff`:\n  [NeZero m]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [NeZero m] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`"
+    }
+  }
+}

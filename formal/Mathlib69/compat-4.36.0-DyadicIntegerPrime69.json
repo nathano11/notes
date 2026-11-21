@@ -1,0 +1,133 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "ReimannNative69.DyadicNativePrime69": "8939a31d64129d93f84456af64ba001f938915471b113ccadd6984847a640574",
+    "Reimann.DyadicPrimeConjugacy69": "f8d939f55fb5d3d8052972b1faf4723f294ffda714e3f04a81d4491e1470a555",
+    "Mathlib.Algebra.Ring.GrindInstances": "3b908608621d9d497b29d916d64f6e4e0a5ef88ed2a0ee9c067d9dabdc3828f4",
+    "Mathlib.RingTheory.IntegralClosure.Algebra.Basic": "63ee00b21ee6547bedfcc8e86f86b0df4a65d9f1018c2e30425a0e2799710729",
+    "Mathlib.RingTheory.Ideal.GoingUp": "7f329c18ab0c71b0196a3f6007bd2da88d2b04ff53b53536d0d4b2d26b2aa68a",
+    "Reimann.DyadicUnramifiedBase69": "ca3c18ae20a21d69a5f44eefeb989cd98a7c9c26e1d80de8bd5332aa8b554494",
+    "Reimann.Transfer": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.DyadicOrderCompletion69": "337430c9bb356c1ac801d36ef263528c3cb98e91cda80a0409b7a85c9754bd82",
+    "Reimann.DyadicIntegralPlaces": "ae2ae5fd25a06ad0dead3e536738ae0c0400d633247ef070a3bde6d52f639044",
+    "Reimann.DyadicFieldTrace69": "93556570c2ab88fd48226f6f306788e5d82262fa79fb296a58449de583754872",
+    "Reimann.Dyadic": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Reimann.DyadicBasisComparison": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+    "Reimann.DyadicTraceOrder": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Reimann.DyadicPlaceAlgebra": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+    "Reimann.DyadicFiberDescent": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+    "Reimann.DyadicFiberPrimes": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+    "Reimann.DyadicInert": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+    "Reimann.DyadicQuotient": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+    "Reimann.DyadicLattice": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+    "Reimann.DyadicSplitRoot": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+    "Mathlib.RingTheory.Ideal.Prime": "7d6cd8c9f31143dd875ab2df1cbb099149b39a96910a4053814162475c46fdd4",
+    "Mathlib.Algebra.Ring.Subring.Basic": "caf373944435b533d40a6a2aa32cb46abbf1afe8af12cb075c532f551cfdb8ea"
+  },
+  "steps": {
+    "DyadicIntegerPrime69.contraction_eq_comap": {
+      "sha256": "717e8a4c74ffeb5d87dbd25a101f667cabe9dcb88ce38df30b6e8b6daea70dba",
+      "line": 14,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicIntegerPrime69.contraction_eq_comap' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicIntegerPrime69.integerRing": {
+      "sha256": "2a41620f9a505755e92d168e4252c2576e906467e7d06dbf1432171154d18206",
+      "line": 18,
+      "status": "checked"
+    },
+    "DyadicIntegerPrime69.integersMap": {
+      "sha256": "a65868516ac7e5529663f572194db02c45cc120336b468c9f2bb74270cdf6e98",
+      "line": 21,
+      "status": "checked"
+    },
+    "DyadicIntegerPrime69.integers_reflect": {
+      "sha256": "435abae5cf9e3f31f8a08aa24af65929e8c78749db98b20c269be7c229bfd078",
+      "line": 29,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicIntegerPrime69.integers_reflect' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegerPrime69.integerStageEquiv": {
+      "sha256": "63a184dd77cbeb0b8c31dadfb01920712d16f5491e26792aafb322d0c4f8767b",
+      "line": 32,
+      "status": "checked"
+    },
+    "DyadicIntegerPrime69.integral_norm_descends": {
+      "sha256": "276e74b3c14596c6ec04c2e56fcb31542665fec9fd32ed52ed0d5f160a7ee995",
+      "line": 43,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicIntegerPrime69.integral_norm_descends' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegerPrime69.stage_ring_prime": {
+      "sha256": "dd0a934ff587f74df79edd0cfed8382854242cc0e4ba2f815299e579c9f31e88",
+      "line": 51,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicIntegerPrime69.stage_ring_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegerPrime69.contracted_integer_tower": {
+      "sha256": "210b1ee9e5a36b593b55e09ac2b31025cd73176a700ba473ace955a45ab67d32",
+      "line": 56,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicIntegerPrime69.contracted_integer_tower' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegerPrime69.integersMap_integral": {
+      "sha256": "9716fbfd9afff41a7cf62acf72711533fa7b03103ee69d31f1e1511d3b07959c",
+      "line": 71,
+      "status": "checked",
+      "checker_output": "<stdin>:75:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.DyadicIntegerPrime69.integersMap_integral' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegerPrime69.maximal_integer_contraction": {
+      "sha256": "762f364c22250e8f3cbc5c71de173e1d5707ed79486977d2bfc4ed17e1b65bc9",
+      "line": 78,
+      "status": "checked",
+      "checker_output": "<stdin>:75:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:80:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.DyadicIntegerPrime69.maximal_integer_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegerPrime69.prolong_integer_prime": {
+      "sha256": "50b5ff65e4a95a2e5a1aa938745e859344e87295f3e8bbb17658842d43330d77",
+      "line": 86,
+      "status": "checked",
+      "checker_output": "<stdin>:75:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:80:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:90:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:91:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:92:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.DyadicIntegerPrime69.prolong_integer_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegerPrime69.residueMaximal_of_maximal": {
+      "sha256": "126f24c8a3429f569c4ff1687ebf47f18723344cbb535de4e2fb3b1818dda94d",
+      "line": 103,
+      "status": "checked",
+      "checker_output": "<stdin>:75:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:80:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:90:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:91:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:92:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.DyadicIntegerPrime69.residueMaximal_of_maximal' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegerPrime69.integer_contraction_transitive": {
+      "sha256": "0a6765620b2a72b8d9a9a313183061b747211fa144bcb7f96e3b14c0407fe7b4",
+      "line": 114,
+      "status": "checked",
+      "checker_output": "<stdin>:75:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:80:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:90:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:91:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:92:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.DyadicIntegerPrime69.integer_contraction_transitive' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegerPrime69.adjacent_integer_contraction": {
+      "sha256": "80df1ab13526a6624282cc2eb33b67b9aee12a1e482f6eb05ed528e7c998e4bd",
+      "line": 119,
+      "status": "checked",
+      "checker_output": "<stdin>:75:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:80:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:90:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:91:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:92:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.DyadicIntegerPrime69.adjacent_integer_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegerPrime69.dyadic_prime_tower": {
+      "sha256": "5f74ef57209645627fb3e476a76006203c1c93b635b0fb917e07243185cd0572",
+      "line": 126,
+      "status": "checked",
+      "checker_output": "<stdin>:75:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:80:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:90:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:91:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:92:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.DyadicIntegerPrime69.dyadic_prime_tower' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegerPrime69.distinct_prolongations": {
+      "sha256": "ddab6fe0f6c186cc8aabc8cfc382271404008d7b5fd51ba531014dc8d8509964",
+      "line": 144,
+      "status": "checked",
+      "checker_output": "<stdin>:75:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:80:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:90:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:91:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:92:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.DyadicIntegerPrime69.distinct_prolongations' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegerPrime69.complete": {
+      "sha256": "f524b86dc6462f7e1486b7809582ffba9fd55bd54d98bd00325ac0699080340a",
+      "line": 152,
+      "status": "checked",
+      "checker_output": "<stdin>:75:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:80:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:90:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:91:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:92:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    }
+  }
+}

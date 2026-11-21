@@ -1,0 +1,113 @@
+{
+  "steps": {
+    "DyadicBasisComparison.toIntegral": {
+      "sha256": "e9eb1ced3188693fe5662182d71444378677a69bc2cd73457d819c464b222411",
+      "status": "checked",
+      "line": 13,
+      "local_sources": {
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicBasisComparison.evaluation_comparison": {
+      "sha256": "873d0bbb543347e0906899490083b868c499ebfba0658c8a195928681a0409ac",
+      "status": "checked",
+      "line": 16,
+      "local_sources": {
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicBasisComparison.evaluation_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBasisComparison.fromIntegral": {
+      "sha256": "e703186b74e24f5f4b57fffc768fd4e0204690d715eb49c1f8fe2ab1365bd32a",
+      "status": "checked",
+      "line": 23,
+      "local_sources": {
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicBasisComparison.inverses_at_odd_prime": {
+      "sha256": "5e43369aa9c5984b339f0d86b165ce74abd2c482027c2b48da28b71519b6deb4",
+      "status": "checked",
+      "line": 27,
+      "local_sources": {
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicBasisComparison.inverses_at_odd_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBasisComparison.integer_image": {
+      "sha256": "ecd8c586a92049450bb07ebd50b9f34ac18188f5177a0ab3fcd009befb0d6038",
+      "status": "checked",
+      "line": 33,
+      "local_sources": {
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicBasisComparison.integer_image' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBasisComparison.basis_comparison_277": {
+      "sha256": "65bb9ebe472ae69c6f0f5faa6c118de515bbd7de6a05b36cf5fcc60341d489d8",
+      "status": "checked",
+      "line": 42,
+      "local_sources": {
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicBasisComparison.basis_comparison_277' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBasisComparison.cosetIndex": {
+      "sha256": "e2083704b49c05e52441f2a561f324827f7d90644e00f96e71d144d576f83730",
+      "status": "checked",
+      "line": 51,
+      "local_sources": {
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicBasisComparison.same_coset_iff": {
+      "sha256": "2f2372f9cb3f9994898e66f248180c75498f3c8584537a03867986994e7492f8",
+      "status": "checked",
+      "line": 55,
+      "local_sources": {
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicBasisComparison.same_coset_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBasisComparison.sixteen_cosets": {
+      "sha256": "794bfdd16946076087d509efaaf5ca73cc6b4410c4701ca9a30c121a19398b7c",
+      "status": "checked",
+      "line": 62,
+      "local_sources": {
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicBasisComparison.sixteen_cosets' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicBasisComparison.complete": {
+      "sha256": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+      "status": "checked",
+      "line": 69,
+      "local_sources": {
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

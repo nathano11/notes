@@ -1,0 +1,187 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "ReimannNative69.CircularCommonField69": "5556655a4b148a0134146765322d264f81aa95ac282cbc8ebc0bbed7d2e9e949",
+    "ReimannNative69.CommonConjugation69": "5ffb9d5f2703352ceb58230c2872bffa5d2c70b1a79b3d8d31b3a575c0b65acc",
+    "ReimannNative69.CommonRealPart69": "46d5d0791ded4edb24f94c31314e98285c01a9e9168264d296f2e138bf53277c",
+    "ReimannNative69.CommonRootPowers69": "c660b50eaea9a4dfdc1dfdb4e0fde1cd9dfb7d2045ff4c77cbb24414645deb0d",
+    "ReimannNative69.CircularOrbitFamily69": "505320978118977582df295ababaa2cd214bf67746907ba66728e8cd39fca85c",
+    "ReimannNative69.CircularSubgroup69": "71c695ca0c34658b326303245953996b18b5b4421c3de53f6d4a61eec9c917ff",
+    "Reimann.CircularQuotientCoordinate69": "172fea361d37e6f8443bb02c9601dc8ebe29c85c832fef85b6a5a37098ebdf17",
+    "Reimann.CircularFieldReduction69": "423714a90c79c1deacc3688054774052de70a7dee0ac20c70655e329ab742fc4",
+    "Reimann.CircularPrimitive69": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+    "Reimann.CircularPolynomial69": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.CircularIndependence69": "3dbb2717347857c0edb3291029c008daaadb05367c3849be72ca2b22b3753320",
+    "Reimann.CircularIntegralNormal69": "8eba6177716a6ce39708eb156d6205f6c7ed495a37c04b13770968079962385a",
+    "Reimann.CircularReduction69": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+    "Reimann.CircularFactor69": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+    "Reimann.CircularNonpower69": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+    "Reimann.CircularQuadratic69": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+    "Reimann.CircularHorner69": "7540049658edfa48b4040d0aba2e704ecd7a9ad0b4044c7753957215ca0e942b",
+    "Reimann.CircularIrreducible69": "a316b55d80159b7265e9a72f4b17fd88f86b6f2a0c22c7d23bc54a793faf48f3",
+    "Reimann.CircularLeastRelation69": "6c9fdb5bc98ea97f81af2a93b56ae04d214288607d6208766c5950622bfae217",
+    "Reimann.CircularNormalForm69": "3c1864f3705762bb811d17ff68df499845c8974ffbd4336ff6d7c6a3b34a9e9a",
+    "Reimann.CircularRelationEval69": "27078762be301dec3dec34af7ae8a15030c81968bd53cc0ed9fecd69827838b5",
+    "Reimann.CircularMonomial69": "3f08e7fee74d8fab61391a6a561244ab881781b4690f94425fab7e3b82b8dd2a",
+    "Reimann.CircularConvolution69": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+    "Reimann.CircularGauss69": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+    "Reimann.CircularAbsolute69": "2b2d7c9d7eed85083ee9784bff476ccf998f226438ce5709c240583752fe3dd5",
+    "Reimann.CircularPrimeDivisor69": "06a84f95ab3fea5452caff59f24160df03a1724535aaea7d19d752926b60cc44",
+    "Reimann.CircularEisenstein69": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb",
+    "Mathlib.Algebra.CharP.Basic": "1ee2c7e626c87567baae872374ce4e8e21b0462619059b918ab3a43c19cd0476",
+    "Mathlib.Algebra.Group.Subgroup.Lattice": "3141b7ae9c446d60f307ec7de94ff3cf3689624478542266bb9608807d1e16f9",
+    "Mathlib.Algebra.Ring.Subring.Basic": "caf373944435b533d40a6a2aa32cb46abbf1afe8af12cb075c532f551cfdb8ea",
+    "Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs": "bf00b5178db12c0b5a0e4f81a1d6009a7b6954b5805b954f86c90783fb2beda0",
+    "Mathlib.Algebra.Polynomial.Degree.Operations": "5318586e256b42782f6df6696f01827a89713c8abfeee6ba23f213bbbb8ee019",
+    "Mathlib.Algebra.Polynomial.Eval.Defs": "5d2057eb7c61bb52c0d7eed81127e9c9b7ac854adef84550bc8a0b3cb68ab760",
+    "Reimann.CircularSinnott69": "04586e0dc74c6d5f9aa90b29f532d0bd72c4d4680ca2ebe60a315fa1de206825",
+    "Reimann.CircularRelativeGalois69": "18010dae8d6fd3f213a42f2d9fca54d4cce3424e0a6cd0790e877ca85c0508d4",
+    "Reimann.CircularRealUnit69": "dc9de8146b13e808eba70fef8fda105dca5f495245deb635f8e3e1c4adaf1835",
+    "Reimann.CircularCosets69": "cd732e15ba2a95d41a85dba9cb09e50b7a194d080d4287396e190896d1781edf",
+    "Reimann.CircularCosetData69": "2849f469e51121fad47b1b5f4070ba7589ed5dc04ce7de94c12cf3c93ef824b7",
+    "Reimann.CircularKernel69": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+    "Reimann.CircularNormAction69": "38a2899adcd18d5c5de56e9acd7c19d612ad19ee702ab3a591d51d69d4aef28f",
+    "Reimann.CircularFieldNorm69": "e506e4113b959f1117cef472eb012b2fca5e5cb59d1987a5d9a11407b7d0ddea",
+    "Reimann.CircularPolynomialField69": "179642452aaf230e8d1d08038692fd5adeab9667ee827ac24d6eb56348f1b5d7",
+    "Reimann.CircularFieldBasis69": "df443352e25031116f2b0ede3da6df4d585b2008c817b04836faab67c8adca8c",
+    "Reimann.CircularMultiplication69": "b5e1ebaa2fb9e0390d6152f954f1f9bf1f4ad4dad2e2c3803f125e9b1ed1c752",
+    "Reimann.CircularNormTransport69": "c7728d2d158c3b6fa695899039460a5aa569ed2128dfabe9c250a495d48b6900",
+    "Reimann.CircularNorm69": "4dee9babdd3dd198aa8c57c3f87a41025fbf03fa0bb586ed8959510fc0d77c58",
+    "Reimann.CircularFiniteSum69": "dfd30be403ef65e97f16e582394d058288ec98b6090b38c93edf89b557b88a62",
+    "Reimann.CircularRelativeBasis69": "8ab08406284772440826940b74d390f8b3dc4e85675ed40d923a582054f5631d",
+    "Reimann.CircularRationalPeriod69": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+    "Reimann.CircularBasis69": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+    "Reimann.CircularBasisData69": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+    "Reimann.CircularRational69": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Reimann.CircularGalois69": "bc6b390c7b57478a0ee298038bc1f1237b468c368d58cc94a0c5019f695cc7ed",
+    "Reimann.CircularPowerSubstitution69": "22d7f9b85db22c09568761654442eaba7a991dbfe2011d1e20a88640bcca8ed8",
+    "Reimann.CircularRootOrbit69": "51218dc73fd5b4dd7876000c99d6ebbc92654d8bbd1dd1b8b785141b3f42c809",
+    "Reimann.CircularAmbient69": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+    "Reimann.CircularSubstitution69": "151917fa387b29139dde3a14e9dcf7dd368d5642268ba225dc388bc3bc3524fa",
+    "Reimann.CircularConjugateRadicals69": "a19878cd5b7e206ba63c95a6edd25d2f833d6a7ccc814d51438c0144dc6b145b",
+    "Reimann.CircularRadicals69": "cb65934771b9fc9650c39ac7521d186a5ec4b038fdc3dba3ed56be7ff4cd1342",
+    "Reimann.CircularIntersection69": "0971830ac2de79a0939917d8e76b6a57e903c8f963a4030c52b6153fd31e2f29",
+    "Mathlib.Algebra.Field.Subfield.Basic": "ac7c78c8af9b69eb70d080d74e8459723237a2e0d9880931e4511a3c2267bc81",
+    "Mathlib.Algebra.Algebra.Basic": "fb91c42137436d51d2c3569e8a7fe3d5adccce30bf8fdf2805b5540b4c807371",
+    "Mathlib.Algebra.Order.BigOperators.Ring.Finset": "ed92fc9b0d69d73de273d7bade76207916de8efdea22d122dfa244eec91a4fcb",
+    "Mathlib.Algebra.Order.Field.Rat": "4132886ad9faaae77d3e31f69a60f33a0c75de8199ac61d66b6c89edef83177f",
+    "Mathlib.LinearAlgebra.Basis.VectorSpace": "6a113fa2a3de597a7bcd79ac8f74af490cb1502a27c39bdb4882c319fb23bb67",
+    "ReimannNative69.CommonAmbient69": "1fefe43a6ce55f76189f0c789c8e8c074e5e52de12b3bdac31aef0b0ed776147",
+    "ReimannNative69.ConcreteQuotient69": "e9d2617b17bcb8dd71982f8105fe2338df14e77ae1e9307cc54d251a48a4ceaa",
+    "Mathlib.Algebra.Polynomial.Degree.Units": "698b167bec0b2b9d65f15aabdec82eb8ed877a75c7958f74291d79b70dc8ed8b",
+    "Mathlib.RingTheory.Ideal.Maximal": "6e2c0783bb6c9032c8b9ad35434c975d66d088cdd17b70e077bf0ebbfc02cd94",
+    "Mathlib.RingTheory.Ideal.Quotient.Basic": "2d3eae760cf3532861226b2b66521b9d57a97979c0df2d2dfffa0049b8843762",
+    "Reimann.CircularOrder69": "6f5576e2dff90df26e459a56b90fa9aa12d512944328511c00bbc254a7e59c34",
+    "Reimann.CircularNormIdentification69": "5e3555960b70215432e0e47f076d081ae427d4887bd013f580521ff09837e636"
+  },
+  "steps": {
+    "CircularConductorWitness69.period": {
+      "sha256": "34b6cc3dc87c26bd5457687c7fa619428c016373b4c228a55fe6baca0a5881a0",
+      "line": 10,
+      "status": "checked"
+    },
+    "CircularConductorWitness69.period_equation": {
+      "sha256": "9d190d7c1dba312ad4dcf1bc10433b283ffc256b51d0ad53e171725e8022eb11",
+      "line": 12,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularConductorWitness69.period_equation' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularConductorWitness69.radical_square_value": {
+      "sha256": "02f9281781455be1fd626a48da474dd5ca8e2cfc60ca62ea534847716bb5316d",
+      "line": 16,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularConductorWitness69.radical_square_value' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularConductorWitness69.radical_in_real_field": {
+      "sha256": "4879e096ce10583dd2c2debdef20b33e71ec28d0d0e490c383d0fcb7ef6768d6",
+      "line": 19,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularConductorWitness69.radical_in_real_field' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularConductorWitness69.realRadical": {
+      "sha256": "824a57b49e3617aa5ca19a71113215068b75a3f0c16d40c04f6ccb68083e75a4",
+      "line": 25,
+      "status": "checked"
+    },
+    "CircularConductorWitness69.realRadical_square": {
+      "sha256": "d2824d4ead4eb80570e0ce2593aebbc2536020a6d8031175c810f7e916ec9b61",
+      "line": 27,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularConductorWitness69.realRadical_square' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularConductorWitness69.radical_ne_rational": {
+      "sha256": "e07cd138ac008d4a43b1ba6f286290553f4bd03d6f9549709a5ece186bba7891",
+      "line": 29,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularConductorWitness69.radical_ne_rational' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularConductorWitness69.period_from_product": {
+      "sha256": "56dae7dedbecbb4fd6393433f18704644d6e0e2bf4710e7906538c54f107fcc4",
+      "line": 35,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularConductorWitness69.period_from_product' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularConductorWitness69.quadratic_embedding_injective": {
+      "sha256": "8005f7a7e8d715a6a97ec74f1c600929973df513d5891d6e756c40f91b004156",
+      "line": 40,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularConductorWitness69.quadratic_embedding_injective' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "CircularConductorWitness69.periodField": {
+      "sha256": "c27fea48e616686f7aaca24b815be94468340ff62172ef6cc0430d8cce43c11a",
+      "line": 44,
+      "status": "checked"
+    },
+    "CircularConductorWitness69.period_mem_image": {
+      "sha256": "04786e55c5cae837b110c47c6525714af25277feba5575ed91482878d643bd99",
+      "line": 53,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularConductorWitness69.period_mem_image' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularConductorWitness69.radical_mem_image": {
+      "sha256": "6dafb956fbd5cc1fc901d5be5e9f6af6f47b4b5e47c4e6c5a6a83f346cd22f38",
+      "line": 55,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularConductorWitness69.radical_mem_image' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularConductorWitness69.quadratic_image_eq_radical_field": {
+      "sha256": "00b2ff74880fdf477d65ba34e10a4c2d69aa80ee58e76eebe3de6822fc15b814",
+      "line": 60,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularConductorWitness69.quadratic_image_eq_radical_field' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "CircularConductorWitness69.quadratic_image_real": {
+      "sha256": "90d3e57d9b5021a5190b72f155a198546177038616814a25fd276133930509a1",
+      "line": 74,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularConductorWitness69.quadratic_image_real' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularConductorWitness69.root_trace_in_compositum": {
+      "sha256": "65cc648ceaad46917ae88bc7e780b77a7c76c338e3436045dbd13ada859d674c",
+      "line": 78,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularConductorWitness69.root_trace_in_compositum' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularConductorWitness69.root_trace_fixed": {
+      "sha256": "5fab889bf93fd3e3dcca68074f7e805af4d77a8655a564cf5b318bea474ea1a2",
+      "line": 89,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularConductorWitness69.root_trace_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularConductorWitness69.root_trace_in_real_field": {
+      "sha256": "8451af0398182e5bd5ee9f1d7f0006b389e46476f6ef0e2732203251944880b8",
+      "line": 93,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularConductorWitness69.root_trace_in_real_field' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularConductorWitness69.complete": {
+      "sha256": "8749d7f865d60d7fa6dda580b8eef13d7483aafbcf4db631c5f75edd1634a069",
+      "line": 96,
+      "status": "checked"
+    }
+  }
+}

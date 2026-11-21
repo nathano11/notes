@@ -1,0 +1,272 @@
+{
+  "steps": {
+    "DyadicIntegralPlaces.Order": {
+      "sha256": "726544db17aa3af823d243a2a76212e9a82dbbd8257da126a61009bcdc36c135",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicIntegralPlaces.zero": {
+      "sha256": "59243c0aa537353ca5e7bb73a24994162258d5300b96c58fc88272d3d4185ca4",
+      "status": "checked",
+      "line": 13,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicIntegralPlaces.one": {
+      "sha256": "1913401529a94e509f6824916b8ed9e268ace232fd9df59d0b3f2b56056740c4",
+      "status": "checked",
+      "line": 15,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicIntegralPlaces.sum": {
+      "sha256": "d69c355acbe0c392fcd26b1231316f9ffa4b38e27ad333dd87f5db38ee5aacae",
+      "status": "checked",
+      "line": 17,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicIntegralPlaces.reduction": {
+      "sha256": "b6e184b924ef4c84678b4e18762f44a9428037dd04cfd6190a46a84c6e6c27e7",
+      "status": "checked",
+      "line": 19,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicIntegralPlaces.reduction_add": {
+      "sha256": "445cba911c34144f94aae377ec64ee69bb993deb8ffa76f2c090b89f42b6af1a",
+      "status": "checked",
+      "line": 22,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicIntegralPlaces.reduction_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegralPlaces.reduction_mul": {
+      "sha256": "bf53454321b9e31ee580e3cb9b4b898716a3fa95f26fdc241b3a6e6e13f5d376",
+      "status": "checked",
+      "line": 27,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicIntegralPlaces.reduction_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegralPlaces.reduction_surjective": {
+      "sha256": "b91e8795d1b80abcf7e413adda846707220d893cc3e47428639c85ba1cd2cff0",
+      "status": "checked",
+      "line": 34,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicIntegralPlaces.reduction_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegralPlaces.same_residue_translate": {
+      "sha256": "2a1b72f18608af52d3d8b84c408659c37aab822d44418b415400a2a2da671172",
+      "status": "checked",
+      "line": 43,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicIntegralPlaces.same_residue_translate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegralPlaces.equal_reductions_differ_by_double": {
+      "sha256": "4e95f0b43eee840d6725159a674396e783cd4eb41bdcb5def694fa84e78b36bd",
+      "status": "checked",
+      "line": 61,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicIntegralPlaces.equal_reductions_differ_by_double' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "DyadicIntegralPlaces.two_times": {
+      "sha256": "976ef4331856ba0249f9ea253c7304fcee9dc2d852da9b77fca5f0da31460d35",
+      "status": "checked",
+      "line": 81,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicIntegralPlaces.two_times' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegralPlaces.algebraReduction": {
+      "sha256": "b0836b1e0ae5f5d5f9f039e91b23af802d10ca12a36cbd0a978c96df50c088f0",
+      "status": "checked",
+      "line": 87,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicIntegralPlaces.saturated_over_two": {
+      "sha256": "0cafaaeb8051d9c8db15cf8a0a29824a34eaee21df68d9c2d51db55276fe4555",
+      "status": "checked",
+      "line": 100,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicIntegralPlaces.saturated_over_two' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegralPlaces.primes_above_two": {
+      "sha256": "27fb16c1efb66dfb44a72f10dc3d5da229c11794d310046aed451783f035816c",
+      "status": "checked",
+      "line": 115,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicIntegralPlaces.primes_above_two' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegralPlaces.conjugate_reduction": {
+      "sha256": "b732d0bc94944e9a88e38473c9fb9dbff3fd8eb59035e3f6be1fa4e31e3d07c1",
+      "status": "checked",
+      "line": 134,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicIntegralPlaces.conjugate_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegralPlaces.two_distinct_kernels_3_23": {
+      "sha256": "5d71f640548ed5e4f4f4f5aff527299b67917c3aaf43a914bb745f535ca8bab9",
+      "status": "checked",
+      "line": 139,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicIntegralPlaces.two_distinct_kernels_3_23' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicIntegralPlaces.complete": {
+      "sha256": "ae2ae5fd25a06ad0dead3e536738ae0c0400d633247ef070a3bde6d52f639044",
+      "status": "checked",
+      "line": 150,
+      "local_sources": {
+        "Reimann/DyadicPlaceAlgebra.lean": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+        "Reimann/DyadicFiberDescent.lean": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

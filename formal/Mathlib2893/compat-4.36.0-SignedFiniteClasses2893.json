@@ -1,0 +1,40 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann2893.SignedLayerClasses2893": "37518ac7f8487a08f970e3c9fe2faaace26a6e5abfc48b2739d8e13f36ec79bd",
+    "Mathlib.NumberTheory.ClassNumber.Finite": "2e631e7e737c365dbd67c25c2dd35eade6c1244239822ab2af89f5a29d827af0",
+    "Mathlib.NumberTheory.ClassNumber.AdmissibleAbs": "6914e7bb1da3679dec96ae168b14e3946589a32173c19a0cefe3f810c3311f3c",
+    "Reimann2893.SignedClassAction2893": "8f606a671578071814cd5ec8294aa770307d4360ea3314e980d1b24abe7c3d2c",
+    "Reimann2893.SignedFieldLayers2893": "e5d1cec02d6adbf207557994b67a9e234dea14dc914ba1726c0dded18b86d735",
+    "Reimann2893.SignedForwardPeriod2893": "da8e239fc5101fa91010e5f9bf4008a2fe406fe08166ee9d3990a92eb8e54f90",
+    "Mathlib.Algebra.QuadraticAlgebra.Basic": "a290cb1668536c7e63cf0f109c82e9621e26d3e8fd3924fe46813c5846d21eea",
+    "Mathlib.Data.Rat.Sqrt": "43a8685ebc47faaf47a484b3714d9266dfcb7d99fc168c82dc7049d5a7ce2e2c",
+    "Mathlib.Tactic.Linarith": "93dc12bfc3fc322fc4ed054e013bdaba10b97da70f02f3eb2f177512e6a3f373",
+    "Mathlib.Tactic.NormNum": "480ebc7f2e8d9370016d90be1babe5c26d8bfa3f597e0fa8fcd718528133826c",
+    "Mathlib.Tactic.Ring": "a8692039dfd1a85e1a1f422f0f9d6ec69ccc4ba24e829b034f94c2e435e815f4",
+    "Mathlib.RingTheory.ClassGroup.ExtendedHom": "51edede1a0e5b01d78572d9442974aebfb3452fb58eed9e675073bd25e08cadb",
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33",
+    "Mathlib.GroupTheory.Torsion": "078b637c7fad4ed17cc49d87acdb15cf4e60bd5f2014058cdba3a71f79b2411c"
+  },
+  "steps": {
+    "SignedFiniteClasses2893.finite_layer_classes": {
+      "sha256": "3c8c02255204cb742ea845e8c323f56bba19901fe1eac4fdc4c128632d63f0bd",
+      "line": 11,
+      "status": "checked",
+      "checker_output": "<stdin>:12:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.SignedFiniteClasses2893.finite_layer_classes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedFiniteClasses2893.finite_two_classes": {
+      "sha256": "bbe319f477d2f814fa78881929295e1d3960b98a758bb79de37570c27781e65e",
+      "line": 16,
+      "status": "checked",
+      "checker_output": "<stdin>:12:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.SignedFiniteClasses2893.finite_two_classes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedFiniteClasses2893.complete": {
+      "sha256": "d3aa17b25a395d943ce3722c3eec6028be83fb7e491015728667e559931bc7b8",
+      "line": 20,
+      "status": "checked",
+      "checker_output": "<stdin>:12:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    }
+  }
+}

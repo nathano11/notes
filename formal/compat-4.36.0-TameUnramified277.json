@@ -1,0 +1,60 @@
+{
+  "steps": {
+    "TameUnramified277.factor": {
+      "sha256": "4f06df24a6a105f60d128337ba77146afbf83c6ab6e3ff5d5bd6a64ea9cca242",
+      "status": "checked",
+      "line": 10,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameUnramified277.power_difference": {
+      "sha256": "e3f7037fe9c81f6ac6594bdda68d0810ea7735dc8ef85795695ab34a81f67971",
+      "status": "checked",
+      "line": 14,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameUnramified277.power_difference' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameUnramified277.Reduction": {
+      "sha256": "6e49b5cc1b33183259e2ad6900ad5f68116d8370ac4a6a47e9540cd978de84aa",
+      "status": "checked",
+      "line": 22,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameUnramified277.map_power": {
+      "sha256": "5fbdd88264803e8607e6ad588513d2c5dcbd7f588d482a3d6cc2266432b74ae2",
+      "status": "checked",
+      "line": 29,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameUnramified277.map_power' does not depend on any axioms"
+    },
+    "TameUnramified277.diagonal_reduction": {
+      "sha256": "12abac6acbbdb718ddfabb7aa4a46a671e79cfa819b9636ad1dd0ebf7525740d",
+      "status": "checked",
+      "line": 36,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameUnramified277.diagonal_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameUnramified277.injective_on_power_roots": {
+      "sha256": "91e1a6cb1a7b549c4b8c767141fa83d25c76b64c34eb4771daa0131978b9561d",
+      "status": "checked",
+      "line": 46,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameUnramified277.injective_on_power_roots' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameUnramified277.inertia_fixes": {
+      "sha256": "915ed7dbf200a6a89ff3895b69bbf0d2832a642937b9b3a9826b29142232110e",
+      "status": "checked",
+      "line": 58,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameUnramified277.inertia_fixes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameUnramified277.complete": {
+      "sha256": "fded94df921fd77392dda052c165c6f4eac8bb0d39c7717deb30d07c2c2c3f25",
+      "status": "checked",
+      "line": 66,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

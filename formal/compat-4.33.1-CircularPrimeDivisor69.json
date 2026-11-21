@@ -1,0 +1,147 @@
+{
+  "steps": {
+    "CircularPrimeDivisor69.F": {
+      "sha256": "6e12798d3340e9f50225cc47c6366ff063ed6e852ee2540a4d3ecd001e4cb986",
+      "status": "checked",
+      "line": 8,
+      "local_sources": {
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularPrimeDivisor69.digit": {
+      "sha256": "824664287b4ecc1dc7b2d3d4b2768d0e023eb7b99f9260ca9d62d51f647d336a",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularPrimeDivisor69.digit_zero_index": {
+      "sha256": "123bafac76607c7bd4dbac8a7d94ef29296fffc334614ec75de52242bb5fa9ec",
+      "status": "checked",
+      "line": 17,
+      "local_sources": {
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularPrimeDivisor69.digit_zero_index' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularPrimeDivisor69.digit_padd": {
+      "sha256": "ecc1c16bfed15477b0abacd61e312b8b3c89178ab69701c52f9bb1dfdeaa7ebf",
+      "status": "checked",
+      "line": 22,
+      "local_sources": {
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularPrimeDivisor69.digit_padd' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPrimeDivisor69.digit_scale": {
+      "sha256": "57a8d4b2da923748688d4e38ec90fbbd46abcdb00424565a5b7732355f1f76d8",
+      "status": "checked",
+      "line": 32,
+      "local_sources": {
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularPrimeDivisor69.digit_scale' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPrimeDivisor69.digit_pmul_first": {
+      "sha256": "c414fc6a9c47d3e8913cf04996189a29e7195d98500e299c5123a0768fe9ae3e",
+      "status": "checked",
+      "line": 39,
+      "local_sources": {
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularPrimeDivisor69.digit_pmul_first' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPrimeDivisor69.digit_quadratic_mul": {
+      "sha256": "6f4c658d62dbb68fbaba63e2df4939bbb12572a07a552630da954114cb817422",
+      "status": "checked",
+      "line": 57,
+      "local_sources": {
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularPrimeDivisor69.digit_quadratic_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPrimeDivisor69.quadratic_power_lower_digits": {
+      "sha256": "2b405db0db5dab8ccb288816adf7031a8c40cfe1bc9a5ac295259e9d26a7de2e",
+      "status": "checked",
+      "line": 66,
+      "local_sources": {
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularPrimeDivisor69.quadratic_power_lower_digits' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPrimeDivisor69.unit_factor_lower_digits": {
+      "sha256": "9053864e69526c0c3d70a469464ee0fd2fef93defa1a989cceb60cef8f165a45",
+      "status": "checked",
+      "line": 76,
+      "local_sources": {
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularPrimeDivisor69.unit_factor_lower_digits' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPrimeDivisor69.digit_above_and_at_degree": {
+      "sha256": "a97b3c796a8c5075b8132c214a82d0b44cc73430e87f8c0a4d7c9cb7695749e2",
+      "status": "checked",
+      "line": 86,
+      "local_sources": {
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularPrimeDivisor69.digit_above_and_at_degree' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPrimeDivisor69.monic_top_digit_ne_zero": {
+      "sha256": "28b1e925e4a7bd642fc6efc4adf14924a43b49a0d68bc6c78900ac5012ad43e1",
+      "status": "checked",
+      "line": 133,
+      "local_sources": {
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularPrimeDivisor69.monic_top_digit_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPrimeDivisor69.positive_factor_vanishes": {
+      "sha256": "727f7c3763ddffe32747e2b9886acd7ba1bf5da3728af38504ae195886a8f8e6",
+      "status": "checked",
+      "line": 144,
+      "local_sources": {
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularPrimeDivisor69.positive_factor_vanishes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPrimeDivisor69.complete": {
+      "sha256": "06a84f95ab3fea5452caff59f24160df03a1724535aaea7d19d752926b60cc44",
+      "status": "checked",
+      "line": 152,
+      "local_sources": {
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    }
+  },
+  "required_lean": "4.33.1",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+}

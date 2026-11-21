@@ -1,0 +1,246 @@
+{
+  "steps": {
+    "TameOrderCompletion277.Evaluation": {
+      "sha256": "b7190cd2a97c3c023079ff9d92a3782f7275d3368701c50a9556c86922e44f50",
+      "status": "checked",
+      "line": 8,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameOrderCompletion277.Approximant": {
+      "sha256": "d305de10566f06269ed40c62ce78b65add9cb8f69053c06fab8372a79d04d42b",
+      "status": "checked",
+      "line": 15,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameOrderCompletion277.sameResidues": {
+      "sha256": "0f6eb8320537d2fea503faea1033bfd25fc298c861bfd80c55a0043c5c713eb3",
+      "status": "checked",
+      "line": 19,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameOrderCompletion277.Completion": {
+      "sha256": "a6b207725438f4f8a8debe196d32b9572f20749a5fbc15bfb360096b3c6bdc66",
+      "status": "checked",
+      "line": 23,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameOrderCompletion277.toInteger": {
+      "sha256": "0302891a9f145449e06ee2cb235b35ee0b51b9ee627ddf083965aa94b2b388d9",
+      "status": "checked",
+      "line": 25,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameOrderCompletion277.liftIntegral": {
+      "sha256": "d85c70575c4d1a5c3e008f8b870e7ccc616005d83f344fe43c287c2361749411",
+      "status": "checked",
+      "line": 33,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameOrderCompletion277.fromInteger": {
+      "sha256": "b41bcf19da1f534b3233c99e2a7273df13e661f3be0e1bf263c5e32062d4ae01",
+      "status": "checked",
+      "line": 41,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameOrderCompletion277.constants_mod": {
+      "sha256": "20a84722e85845ac55898fc9ed3ada9657d7ed8803d6f5a7d6d8569e7baa4d18",
+      "status": "checked",
+      "line": 44,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameOrderCompletion277.constants_mod' depends on axioms: [propext]"
+    },
+    "TameOrderCompletion277.toInteger_fromInteger": {
+      "sha256": "2c8ef3464cde25565b95b26edafca307b55c35098eeabb9ef8e8c8b9175be45e",
+      "status": "checked",
+      "line": 48,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameOrderCompletion277.toInteger_fromInteger' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameOrderCompletion277.fromInteger_toInteger": {
+      "sha256": "5bfe1e02a5caccaf1bc882630f91ce914408dd45b8cdf16d32b47f9e7051d7c3",
+      "status": "checked",
+      "line": 54,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameOrderCompletion277.fromInteger_toInteger' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameOrderCompletion277.ofOrder": {
+      "sha256": "7ceb9f61c50089853a6ef144a76ee64e4672fd4ec5de728c3593d6b5f5798737",
+      "status": "checked",
+      "line": 63,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameOrderCompletion277.integer_constants_dense": {
+      "sha256": "61d1c9cad68495e0fee0bcc9db756958ba883b44fac5f41c6db466684007ea42",
+      "status": "checked",
+      "line": 67,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameOrderCompletion277.integer_constants_dense' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameOrderCompletion277.approximate_through": {
+      "sha256": "352e7f7af36ff244c9d0e2d53c9c4fab479a6e3b1b64862895e493bec4cf58b6",
+      "status": "checked",
+      "line": 71,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameOrderCompletion277.approximate_through' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameOrderCompletion277.coherent_of_residues": {
+      "sha256": "a43a512afc999b0d129a87c5ac3b6e5c8058457dfe46abf99dc7aabf0fadaf5b",
+      "status": "checked",
+      "line": 79,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameOrderCompletion277.coherent_of_residues' depends on axioms: [propext]"
+    },
+    "TameOrderCompletion277.BinaryOperation": {
+      "sha256": "cfd0b0c9410cc64d3bd2b9adf3aadc0fcc0380873ab153a9ffbb96d14dc3cebd",
+      "status": "checked",
+      "line": 89,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameOrderCompletion277.pointwise": {
+      "sha256": "c409700090196fdbc0c08657afcd9e9e695e7ff379fb1fa34d5599038fbb132f",
+      "status": "checked",
+      "line": 98,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameOrderCompletion277.pointwise_respects": {
+      "sha256": "62c40c0e2a96d73c2e696efcf8dc9bc86d75729962114d6917076c78cf1a4b84",
+      "status": "checked",
+      "line": 105,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameOrderCompletion277.pointwise_respects' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameOrderCompletion277.onCompletion": {
+      "sha256": "ac78133228e022495841a4ecea4728259ce53b3fa7f5053872f87d32f7957b00",
+      "status": "checked",
+      "line": 114,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameOrderCompletion277.toInteger_onCompletion": {
+      "sha256": "4f3ca71f8f69e055e68959becf4f12a65f2ebd2b1f85510015db881f9313a43f",
+      "status": "checked",
+      "line": 124,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameOrderCompletion277.toInteger_onCompletion' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameOrderCompletion277.addition": {
+      "sha256": "acbbb5d49079b1451e73166135340b34fe560615a76b6db617bd863f5a42b9fb",
+      "status": "checked",
+      "line": 136,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameOrderCompletion277.multiplication": {
+      "sha256": "966aa2a237af0f8d1265bae2c8ef8de38c17d99a7a70f93c99144cb8f124ae21",
+      "status": "checked",
+      "line": 145,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameOrderCompletion277.fromInteger_limitOp": {
+      "sha256": "79c3998015940a240f9160dc7348585822f2afe8b53e3f214509998eaa7dff32",
+      "status": "checked",
+      "line": 154,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameOrderCompletion277.fromInteger_limitOp' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameOrderCompletion277.complete": {
+      "sha256": "4f13588caa002782d7596a41dc4430d15f584506829b6e7cc3c5beb951f47cfd",
+      "status": "checked",
+      "line": 161,
+      "local_sources": {
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

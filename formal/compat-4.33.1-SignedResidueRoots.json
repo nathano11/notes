@@ -1,0 +1,110 @@
+{
+  "steps": {
+    "SignedResidueRoots.linear_half": {
+      "sha256": "812f661641f8df70f07cc9ceed0c4ad00e18a0d45951e3ac7f1a782c3653b167",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/SignedAdicRoots.lean": "93af86da62be4183a31e9911329a24af3616deb8663802c5ee243658b3909a86",
+        "Reimann/DyadicBottom.lean": "c281688bff7fc68650e6b038c5135fca45b794bf62cce5edcabfcb09f655f245",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedResidueRoots.linear_half' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedResidueRoots.constant_quarter": {
+      "sha256": "2e94fd0e3901efa23075eca8d24c2363a18d8ba509705e6f3775e8bda0911c1c",
+      "status": "checked",
+      "line": 21,
+      "local_sources": {
+        "Reimann/SignedAdicRoots.lean": "93af86da62be4183a31e9911329a24af3616deb8663802c5ee243658b3909a86",
+        "Reimann/DyadicBottom.lean": "c281688bff7fc68650e6b038c5135fca45b794bf62cce5edcabfcb09f655f245",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedResidueRoots.constant_quarter' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedResidueRoots.factorization_of_six_bits": {
+      "sha256": "39176e749b7770596c8952b56f47d0afead655af1ea84e1810677c7f33993f57",
+      "status": "checked",
+      "line": 39,
+      "local_sources": {
+        "Reimann/SignedAdicRoots.lean": "93af86da62be4183a31e9911329a24af3616deb8663802c5ee243658b3909a86",
+        "Reimann/DyadicBottom.lean": "c281688bff7fc68650e6b038c5135fca45b794bf62cce5edcabfcb09f655f245",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedResidueRoots.factorization_of_six_bits' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedResidueRoots.quadraticValue": {
+      "sha256": "1f4af3d41a917b91456f7b77c6a2d1479eb0379813399bb781d185115aed68a0",
+      "status": "checked",
+      "line": 49,
+      "local_sources": {
+        "Reimann/SignedAdicRoots.lean": "93af86da62be4183a31e9911329a24af3616deb8663802c5ee243658b3909a86",
+        "Reimann/DyadicBottom.lean": "c281688bff7fc68650e6b038c5135fca45b794bf62cce5edcabfcb09f655f245",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "SignedResidueRoots.ordinary_factorization": {
+      "sha256": "85759567f8d830eea6a63b41f37cffad0b47820b68e289a07335ebb7dde50efd",
+      "status": "checked",
+      "line": 51,
+      "local_sources": {
+        "Reimann/SignedAdicRoots.lean": "93af86da62be4183a31e9911329a24af3616deb8663802c5ee243658b3909a86",
+        "Reimann/DyadicBottom.lean": "c281688bff7fc68650e6b038c5135fca45b794bf62cce5edcabfcb09f655f245",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedResidueRoots.ordinary_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedResidueRoots.labelled_zeros": {
+      "sha256": "c345b68e474fd34567d1619f3e0bd137ab5f3a0576c38fe094fee81800cb8980",
+      "status": "checked",
+      "line": 60,
+      "local_sources": {
+        "Reimann/SignedAdicRoots.lean": "93af86da62be4183a31e9911329a24af3616deb8663802c5ee243658b3909a86",
+        "Reimann/DyadicBottom.lean": "c281688bff7fc68650e6b038c5135fca45b794bf62cce5edcabfcb09f655f245",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedResidueRoots.labelled_zeros' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedResidueRoots.complete": {
+      "sha256": "70f6bdd999a47149ca79854b6a4619884ff5205f1f58fc2ebba4b537b8acdde2",
+      "status": "checked",
+      "line": 79,
+      "local_sources": {
+        "Reimann/SignedAdicRoots.lean": "93af86da62be4183a31e9911329a24af3616deb8663802c5ee243658b3909a86",
+        "Reimann/DyadicBottom.lean": "c281688bff7fc68650e6b038c5135fca45b794bf62cce5edcabfcb09f655f245",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    }
+  },
+  "required_lean": "4.33.1",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+}

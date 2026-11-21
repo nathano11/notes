@@ -1,0 +1,38 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.FieldTheory.AlgebraicClosure": "c2f11e68318ccd96baa4110de1c5f0f3396c7e7384cf434b3e88eab2fe3297da",
+    "Mathlib.FieldTheory.Galois.Infinite": "fafd7393bb3ae8c704964fa1b3b00a91c9fc2590ff9e415f467a358c4635ccc0"
+  },
+  "steps": {
+    "LocalCompositum.localCompositum": {
+      "sha256": "3d14ab89b44412209df6ad2b1a8920318c0b1eec5cc54df6565e6c04bf1a089c",
+      "line": 11,
+      "status": "checked"
+    },
+    "LocalCompositum.mem_fixing_localCompositum_iff": {
+      "sha256": "e8832383f9d19e79b565461194189519ddefa27d74a9647fbe822ccdc8b15098",
+      "line": 16,
+      "status": "checked",
+      "checker_output": "'Reimann.TameLocalCompositum277.mem_fixing_localCompositum_iff' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "LocalCompositum.fixing_localCompositum": {
+      "sha256": "54785b728ce4fd4f2467c795af03af5aa5f4af7784b35c5fd7ae159b8ba761e6",
+      "line": 35,
+      "status": "checked",
+      "checker_output": "'Reimann.TameLocalCompositum277.fixing_localCompositum' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalCompositum.fixedField_comap": {
+      "sha256": "25c2c41c7cfb8c0d66b27ad33f8ae39e4ec3b3b859b21072c67b5c413b1bde7f",
+      "line": 44,
+      "status": "checked",
+      "checker_output": "'Reimann.TameLocalCompositum277.fixedField_comap' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalCompositum.complete": {
+      "sha256": "c636b5c2e9dc4042797631a436cc22be9aa90d815533ef51620437eecebf606d",
+      "line": 51,
+      "status": "checked"
+    }
+  }
+}

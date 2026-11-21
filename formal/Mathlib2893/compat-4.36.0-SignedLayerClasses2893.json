@@ -1,0 +1,67 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann2893.SignedClassAction2893": "8f606a671578071814cd5ec8294aa770307d4360ea3314e980d1b24abe7c3d2c",
+    "Reimann2893.SignedFieldLayers2893": "e5d1cec02d6adbf207557994b67a9e234dea14dc914ba1726c0dded18b86d735",
+    "Reimann2893.SignedForwardPeriod2893": "da8e239fc5101fa91010e5f9bf4008a2fe406fe08166ee9d3990a92eb8e54f90",
+    "Mathlib.Algebra.QuadraticAlgebra.Basic": "a290cb1668536c7e63cf0f109c82e9621e26d3e8fd3924fe46813c5846d21eea",
+    "Mathlib.Data.Rat.Sqrt": "43a8685ebc47faaf47a484b3714d9266dfcb7d99fc168c82dc7049d5a7ce2e2c",
+    "Mathlib.Tactic.Linarith": "93dc12bfc3fc322fc4ed054e013bdaba10b97da70f02f3eb2f177512e6a3f373",
+    "Mathlib.Tactic.NormNum": "480ebc7f2e8d9370016d90be1babe5c26d8bfa3f597e0fa8fcd718528133826c",
+    "Mathlib.Tactic.Ring": "a8692039dfd1a85e1a1f422f0f9d6ec69ccc4ba24e829b034f94c2e435e815f4",
+    "Mathlib.RingTheory.ClassGroup.ExtendedHom": "51edede1a0e5b01d78572d9442974aebfb3452fb58eed9e675073bd25e08cadb",
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33",
+    "Mathlib.GroupTheory.Torsion": "078b637c7fad4ed17cc49d87acdb15cf4e60bd5f2014058cdba3a71f79b2411c"
+  },
+  "steps": {
+    "SignedLayerClasses2893.layerNumberField": {
+      "sha256": "96b56e5aed586aa992ca2b9c4c5f103beee7b79c49c7d016837914ab364dbcdd",
+      "line": 12,
+      "status": "checked"
+    },
+    "SignedLayerClasses2893.layerClass": {
+      "sha256": "a395d6e31f3690f30ec195e0304fce96f815b0e8b7ee8198562b9b66975cb617",
+      "line": 16,
+      "status": "checked"
+    },
+    "SignedLayerClasses2893.layerTwoClass": {
+      "sha256": "f3736d009ad92d296395a6b698d85b4f6fba6b1712d86cada9a493a1f9edf212",
+      "line": 18,
+      "status": "checked"
+    },
+    "SignedLayerClasses2893.classForward": {
+      "sha256": "6c5663d4e1eac22a0ad08cd03c750b1994b85f8c56d71d819d49b09419b00f45",
+      "line": 20,
+      "status": "checked"
+    },
+    "SignedLayerClasses2893.primaryForward": {
+      "sha256": "eeb816b2a500e4be7a097072e7b0010fa9821ee92207da8dde1adcbb00286276",
+      "line": 23,
+      "status": "checked"
+    },
+    "SignedLayerClasses2893.forward_on_integral_ideal": {
+      "sha256": "5fb3d6c43d93a5760df51b53df44e9901742eedc441c70df4ae73c8a236b0c52",
+      "line": 28,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedLayerClasses2893.forward_on_integral_ideal' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedLayerClasses2893.forward_on_classes": {
+      "sha256": "109e7ca67d6c7044a4ac75822c6a137ec10478abf925cafcce7c9863647d4fc9",
+      "line": 35,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedLayerClasses2893.forward_on_classes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedLayerClasses2893.primaryForward_period": {
+      "sha256": "7847c598676be6614121f32c735a569845d28192f65c07414b722834f39f06f3",
+      "line": 39,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedLayerClasses2893.primaryForward_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedLayerClasses2893.complete": {
+      "sha256": "37518ac7f8487a08f970e3c9fe2faaace26a6e5abfc48b2739d8e13f36ec79bd",
+      "line": 43,
+      "status": "checked"
+    }
+  }
+}

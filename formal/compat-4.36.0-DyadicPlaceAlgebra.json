@@ -1,0 +1,232 @@
+{
+  "steps": {
+    "DyadicPlaceAlgebra.Quadratic": {
+      "sha256": "79cfcdabc5f6ad7883c126a17f085ea2d550a6e5ac0240cdb71722661d4c2092",
+      "status": "checked",
+      "line": 14,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceAlgebra.plus": {
+      "sha256": "bab10b2d6f648abab24bdb7022a8127ffd4de2907e90e894a2203ae57743eb8b",
+      "status": "checked",
+      "line": 16,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceAlgebra.minus": {
+      "sha256": "27d8dd1346f525989ba1fbb6bb7308b3b3fcdb30c2809d9705b6cb35d09fa9b6",
+      "status": "checked",
+      "line": 18,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceAlgebra.evaluate": {
+      "sha256": "54780292f3709cb16027a0babb0bdbe4bcfb75f6347ac108d64b7b0c554f2431",
+      "status": "checked",
+      "line": 20,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceAlgebra.evaluations": {
+      "sha256": "4123e3e67efd059be55155a8e3c32512df343bca32bbaaf1b152336ba70d6d6a",
+      "status": "checked",
+      "line": 23,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceAlgebra.interpolate": {
+      "sha256": "283b77d3dbd582e93f965e68e3c56567713a36b8f4cac664be6ed6a23037340e",
+      "status": "checked",
+      "line": 26,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceAlgebra.slope_of_evaluations": {
+      "sha256": "2a7fe8bc3d579010e823da6b5c61e0c4fc91259d65b7e6575478b98f4693181e",
+      "status": "checked",
+      "line": 32,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceAlgebra.slope_of_evaluations' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicPlaceAlgebra.interpolate_evaluations": {
+      "sha256": "9172d9334bd7aedff97e18e3393264e6f603da031b985ffc46e977d95729d0e3",
+      "status": "checked",
+      "line": 41,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceAlgebra.interpolate_evaluations' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicPlaceAlgebra.evaluations_interpolate": {
+      "sha256": "2da6ef8d487f41ad32d50757da9147fdf94813cd6458676f287fc5f544a39e5e",
+      "status": "checked",
+      "line": 52,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceAlgebra.evaluations_interpolate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicPlaceAlgebra.product": {
+      "sha256": "3b76aa370e0393c016f6b0d70e010cae5381c081cf37270ef1f9f42490c216b6",
+      "status": "checked",
+      "line": 59,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceAlgebra.evaluate_product": {
+      "sha256": "4bd54fa721387d89ea67d2a28b8739239de22d0950fba8f1061d5875d6c210c7",
+      "status": "checked",
+      "line": 66,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceAlgebra.evaluate_product' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicPlaceAlgebra.evaluate_add": {
+      "sha256": "9cd20c5c75e57abe654107422e1ffe1cdd4f9864f9ac2f597a12d03eae0f09ff",
+      "status": "checked",
+      "line": 74,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceAlgebra.evaluate_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicPlaceAlgebra.evaluate_one": {
+      "sha256": "6dcee7732ea05bf2c1a38964a65e6e07afa2435be658e304caa5754be3961922",
+      "status": "checked",
+      "line": 79,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceAlgebra.evaluate_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicPlaceAlgebra.roots_sum_one": {
+      "sha256": "39a5ffcc084495ffa08047c11c15c320a588508915aa016afa3d440cd122c110",
+      "status": "checked",
+      "line": 84,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceAlgebra.roots_sum_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicPlaceAlgebra.conjugateSplit": {
+      "sha256": "6438927521707bbe1e0f958a3a2630b81ee5072b2a02f266d66cb934178f5be5",
+      "status": "checked",
+      "line": 97,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceAlgebra.conjugate_exchanges_factors": {
+      "sha256": "2a41d118e4446f3f8e4eef2066c165b15eae3efabcaf748ddfc4c8fa126f0d9d",
+      "status": "checked",
+      "line": 100,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceAlgebra.conjugate_exchanges_factors' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicPlaceAlgebra.two_dyadic_factors": {
+      "sha256": "e4f6d7fde22cc1b222740339baeab773726f352db988ab417b69db42fc2d2346",
+      "status": "checked",
+      "line": 111,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceAlgebra.two_dyadic_factors' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicPlaceAlgebra.complete": {
+      "sha256": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+      "status": "checked",
+      "line": 129,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

@@ -1,0 +1,452 @@
+{
+  "steps": {
+    "CircularRational69.rat_square_ne_69": {
+      "sha256": "91301425b25d44a5cebb2ab3f97f14b73ab2b1bfa1f6a92a4b03be88dfe1d2e4",
+      "status": "checked",
+      "line": 9,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.rat_square_ne_69' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.theta_not_rational": {
+      "sha256": "6d74dd2496345aa41f0ad5fa0a1e8f7311e8d0bee27b2adebc05e664ef2a98c7",
+      "status": "checked",
+      "line": 15,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.theta_not_rational' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.Element": {
+      "sha256": "cb2063c35bd2eabe02bd3c31ceb187d90e1fc2ded6e63c49d3027c638d3bb7f7",
+      "status": "checked",
+      "line": 20,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularRational69.ext_coordinates": {
+      "sha256": "bd45d5db55b829b997c5757e67b569bde020fac3026472bbb47277421b0aa3a5",
+      "status": "checked",
+      "line": 25,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.ext_coordinates' does not depend on any axioms"
+    },
+    "CircularRational69.scalar": {
+      "sha256": "58c18a4cd60b93c1dc5fcc565a3391613175a8feba38827a0800563b4b9fd5f9",
+      "status": "checked",
+      "line": 29,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularRational69.theta": {
+      "sha256": "dd4bc6947378674bf3e57bf9aaa93ebb533ad45793f3e6548b017b4675da2fbe",
+      "status": "checked",
+      "line": 31,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularRational69.plus": {
+      "sha256": "2183ca2ebd6044a187fe17e17ed0d3aae9d6b9b46eef7710d586a5c2d8d5da4b",
+      "status": "checked",
+      "line": 33,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularRational69.negative": {
+      "sha256": "ebd5e359ecf14787719ce7f2b266a9cb1718e01ee513194d7937bc0d442c33bc",
+      "status": "checked",
+      "line": 35,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularRational69.times": {
+      "sha256": "b9d862e5a04c4643b291e686b0ee0c807fa86951bf6502bf4779c264de175b7d",
+      "status": "checked",
+      "line": 37,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularRational69.conjugate": {
+      "sha256": "41a4a6ffebe8e9b045edc797367d68eb835c2ea1c046501cecf1fc8c6e55880e",
+      "status": "checked",
+      "line": 40,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularRational69.norm": {
+      "sha256": "3853e3473f80ec1f9bb5406cea5013db6cbaf73f9307b9b7c2935a2791010c48",
+      "status": "checked",
+      "line": 42,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularRational69.norm_discriminant": {
+      "sha256": "b23f410c60a7f27ea7668dd51b6d21914abc9daafc2b05d4671afa70081cfcf2",
+      "status": "checked",
+      "line": 44,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.norm_discriminant' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.norm_ne_zero": {
+      "sha256": "5dafd65f8197c756b0e9ed717b6bd41e6357bdda4bb40f4019ecac14ff34b3f1",
+      "status": "checked",
+      "line": 49,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.norm_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.inverse": {
+      "sha256": "0e06273435e8ab0ffce41290d075750656c60aae69a469880be23eb1327fa8d5",
+      "status": "checked",
+      "line": 62,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularRational69.times_conjugate": {
+      "sha256": "e5a8949251ab2ff991afc0ed0695b9a38afbe2e5d4da58f96bc8e2efe617eac2",
+      "status": "checked",
+      "line": 65,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.times_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.times_inverse": {
+      "sha256": "d84647709f79e92555cc15c16a2a427530655bc5e42c0cef0b3941029917113c",
+      "status": "checked",
+      "line": 68,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.times_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.inverse_zero": {
+      "sha256": "df7fb5584f05d6765df8798162ae20ab8012b6aac1037ae7f59cd5932ce16390",
+      "status": "checked",
+      "line": 74,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.inverse_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.inverse_one": {
+      "sha256": "db8830823241efd101601e49cd99f84f70537bcd24e7f4285cb3ae6c4152a80d",
+      "status": "checked",
+      "line": 76,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.inverse_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.theta_quadratic": {
+      "sha256": "0971d696d8b9e8549a734f881d3d2f62c2f13660e1acbf60bcfa10096eb3257a",
+      "status": "checked",
+      "line": 78,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.theta_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.times_assoc": {
+      "sha256": "553d2eb5d14619d6ad16dc0a5f9d0ae6253318e69b2c060495f15972b12b0988",
+      "status": "checked",
+      "line": 80,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.times_assoc' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.times_comm": {
+      "sha256": "ddd7f3d981deccf14fd8cd0cf7a39d86950520e6021e4cfa5d49502e6d91688b",
+      "status": "checked",
+      "line": 83,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.times_comm' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.times_one": {
+      "sha256": "20a718850ad72442dd2958f7ebf5c4b64ce921cade401aeea7e7f62937db6580",
+      "status": "checked",
+      "line": 86,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.times_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.times_zero": {
+      "sha256": "ab7aa0232533e5b9d0fee466dde3d613ca63483699cddb0ce2865a7e1f5cd117",
+      "status": "checked",
+      "line": 89,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.times_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.inverse_nonzero": {
+      "sha256": "f14c659f6c790dcb41c6f93e6796bde0fdd54c9b90d8f19d540bad59ce4df0d8",
+      "status": "checked",
+      "line": 92,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.inverse_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.inverse_inverse": {
+      "sha256": "b0aea42003cf11e1a61ded6a806cbba142789604ff88baf61a7416dd0ce87521",
+      "status": "checked",
+      "line": 98,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.inverse_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.plus_zero": {
+      "sha256": "7b07b16cf5dbb8bc20025028b561061ba7da40534dabea0d9bd0e97a3ad7f632",
+      "status": "checked",
+      "line": 107,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.plus_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.plus_comm": {
+      "sha256": "bbdb6c1d13c53163772f3f60557f2297ea96165c1241b1d94641f9eed0d88553",
+      "status": "checked",
+      "line": 110,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.plus_comm' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.plus_assoc": {
+      "sha256": "c45034de3978036d613dabcf37fb9eab50388b5d2cbaed7eb384efa6fc5accfa",
+      "status": "checked",
+      "line": 113,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.plus_assoc' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.times_distrib": {
+      "sha256": "e42697d347cc72aadd9e28513305b04ce1a979b25d00f69c23e0843d81f13f87",
+      "status": "checked",
+      "line": 116,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.times_distrib' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.negative_plus": {
+      "sha256": "6a6bc5372ee09d0fca2b11236adabb47fe3e1697a4bbe5d9bffae9e0408b0f30",
+      "status": "checked",
+      "line": 120,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.negative_plus' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.npow": {
+      "sha256": "28647363bf45f57d8b3bdead86907db38b2e0ee03173327fc1c13f7d40e24ace",
+      "status": "checked",
+      "line": 123,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularRational69.zpow": {
+      "sha256": "f4dac14a7b29365f175bba4bd8304282ef5dcf09a1e8c41323df2476ed81eb49",
+      "status": "checked",
+      "line": 127,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularRational69.zpow_neg": {
+      "sha256": "760e1765d866b6610e52b0f0940af2e6ba7a13099ac4324c4b3dfa933f2392da",
+      "status": "checked",
+      "line": 131,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.zpow_neg' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.scalar_nat_succ": {
+      "sha256": "e50836d33410a8570f1f0d83e64679b4e3290d38cdce2c25723a120c3a596a04",
+      "status": "checked",
+      "line": 138,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.scalar_nat_succ' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.scalar_int_neg": {
+      "sha256": "080d264fd83a451d413e77429c2175a53b83a041f3604cfcce93f43c28783039",
+      "status": "checked",
+      "line": 141,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.scalar_int_neg' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.times_negative": {
+      "sha256": "c58ad4e4fe60612151bc19f2ba6da3f5eceb17d815af372125588349eedd4315",
+      "status": "checked",
+      "line": 144,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.times_negative' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.quadraticRing": {
+      "sha256": "a7dd612a329319e28a2d6a5604cdfa679ce315cb7184a6a3361d92491882a971",
+      "status": "checked",
+      "line": 148,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularRational69.quadraticField": {
+      "sha256": "1c3848ba1128b57d9971e272b0dc60225ba064a2dd3676fb0b2c7fc64fc6f524",
+      "status": "checked",
+      "line": 181,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularRational69.char_zero": {
+      "sha256": "cfdf6bafa09979a117f7133f97c66c3710ad507446959a1a0a988bbbf8368b34",
+      "status": "checked",
+      "line": 196,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.char_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.scalar_injective": {
+      "sha256": "6c9516c5a4831fbbd6839d8fc61188c557b06ec3ce43dbc185a839402432b38a",
+      "status": "checked",
+      "line": 211,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.scalar_injective' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularRational69.basis_expansion": {
+      "sha256": "b0f67fa28cb5f8133d793d7d7ee5ba0d474e5af6b7324f135a12464e5dba7630",
+      "status": "checked",
+      "line": 214,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.basis_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.radical": {
+      "sha256": "1bbb8cfc6071426b7f45fb34be5da16b24257bb159c4073a6afe6692ae32037c",
+      "status": "checked",
+      "line": 218,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularRational69.radical_square": {
+      "sha256": "092ef73a52edc016310fd75becb96c6937fdc058177b494629d97221a2bbd950",
+      "status": "checked",
+      "line": 220,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.radical_square' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.theta_of_radical": {
+      "sha256": "cd56acccca9e3d693e98ae030bbab2c252788ebfde2274635a7f5f70b6e47420",
+      "status": "checked",
+      "line": 222,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.theta_of_radical' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.canonical_scalar": {
+      "sha256": "ee4b4572d47c73b1a6d36b3f4146da32e92d5b10f3529a19d6ebcdc94e1e1a88",
+      "status": "checked",
+      "line": 224,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRational69.canonical_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRational69.complete": {
+      "sha256": "4da75c7bdfc7e396ead536a0e246ad476b32cfa2fe0332b6a98ba24fa9d04782",
+      "status": "checked",
+      "line": 233,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

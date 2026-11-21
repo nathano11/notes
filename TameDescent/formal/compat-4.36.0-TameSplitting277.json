@@ -1,0 +1,128 @@
+{
+  "steps": {
+    "TameSplitting277.rootStep": {
+      "sha256": "ae8bb81ce5688906b5da9948e9679f35474910cf4e24922056e7aebd8af32404",
+      "status": "checked",
+      "line": 6,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameSplitting277.root_error": {
+      "sha256": "32a67b441f5d7df2e4de531e2a88497896589fb7d684f6cea4b54035eb58978a",
+      "status": "checked",
+      "line": 8,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameSplitting277.root_error' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameSplitting277.derivative_error": {
+      "sha256": "07ae470a739c93d04046c34d5ca2dea085acf4601e6dc6a492be27b076a57fbd",
+      "status": "checked",
+      "line": 13,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameSplitting277.derivative_error' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameSplitting277.inverseStep": {
+      "sha256": "f065ce2d32ac8a9aacf31bc4554039f33a4bbb3e59afbbb381c2d565a45a98de",
+      "status": "checked",
+      "line": 18,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameSplitting277.inverse_error": {
+      "sha256": "7de04279c2ad6b58426fce1cc94ce66d3d7ea66823771b978ffd71eb6337abba",
+      "status": "checked",
+      "line": 20,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameSplitting277.inverse_error' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameSplitting277.newton_precision": {
+      "sha256": "d158475d934a13c5757d8aec4a8dd3ce5f471fd1be9d06075ad21a77dd4c14f7",
+      "status": "checked",
+      "line": 24,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameSplitting277.newton_precision' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameSplitting277.quadratic_to_successor": {
+      "sha256": "65a9374e4e131607430ae33fa18a2717eb480c535353a24c1042e93731e28493",
+      "status": "checked",
+      "line": 35,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameSplitting277.quadratic_to_successor' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameSplitting277.liftPair": {
+      "sha256": "77323e5cb859f4ddc19974569147a18a50460c13876533f0c2025b2ff1c72949",
+      "status": "checked",
+      "line": 43,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameSplitting277.liftPair_precision": {
+      "sha256": "2e7bc80139b89c8c1271efc9af76fd1a65b7e5db9e1efb310ddd074701eeb4d3",
+      "status": "checked",
+      "line": 50,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameSplitting277.liftPair_precision' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameSplitting277.liftPair_coherent": {
+      "sha256": "168cb8c5c2809e4d78a9d4ab532f8ca36f642cf521160f6fa4f7987340c58d3f",
+      "status": "checked",
+      "line": 61,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameSplitting277.liftPair_coherent' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameSplitting277.simple_seeds": {
+      "sha256": "2cbf4691a052aa7b9cb8066bf936c9bb521efa80dff13dc5db5bd6a2c03ad87e",
+      "status": "checked",
+      "line": 81,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameSplitting277.simple_seeds' depends on axioms: [propext]"
+    },
+    "TameSplitting277.all_seed_residues": {
+      "sha256": "f121edadb563b094b7606efc4edb62ddc8e614a615a4ec8a8b3d46dc8f58cba2",
+      "status": "checked",
+      "line": 87,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameSplitting277.all_seed_residues' does not depend on any axioms"
+    },
+    "TameSplitting277.signed_distinct": {
+      "sha256": "f05de995a9a5259d79a000828fc67134ae2938b55c8c1c1b0485a364da313445",
+      "status": "checked",
+      "line": 93,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameSplitting277.signed_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameSplitting277.precision_nonunit": {
+      "sha256": "fd8152a033e431dc4d4ec7cfe0a9153df1eca4e83199ff0f4ac43770c967bcf6",
+      "status": "checked",
+      "line": 99,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameSplitting277.precision_nonunit' depends on axioms: [propext]"
+    },
+    "TameSplitting277.SignedLevel": {
+      "sha256": "ff3dce31d3932db10af6c5337b3f563d3f5e774d8e68e1ff07cde2c06d9803d2",
+      "status": "checked",
+      "line": 106,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameSplitting277.signed_tower": {
+      "sha256": "1283e8694b913ee2100fc98538e1ce5c3180776a5c9e27d9541a072671e32a9d",
+      "status": "checked",
+      "line": 115,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameSplitting277.signed_tower' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameSplitting277.split_both_277": {
+      "sha256": "f3a5db0f8eee3cbe21ba34632b68722dc511547b338b4dce3d0d4062cc44a960",
+      "status": "checked",
+      "line": 130,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameSplitting277.split_both_277' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameSplitting277.complete": {
+      "sha256": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+      "status": "checked",
+      "line": 135,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

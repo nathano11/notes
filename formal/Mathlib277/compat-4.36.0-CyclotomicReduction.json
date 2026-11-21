@@ -1,0 +1,43 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.PadicInteger": "b9528953f8045b5009ec90a0e7d305b4807d566fb2a50eb222fd24ff0d488f48",
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Reimann.TameLimit277": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+    "Reimann.TameLocalOrders277": "7596b78ef21b0c5280340bd64566b0602408339c991da705e9cf24d97837dd18",
+    "Reimann.TameArithmetic277": "48e0882aeffd38210c101bceab1e5aafefd3c877b7bafc39567fb2b0ad592b54",
+    "Reimann.TameOrderCompletion277": "4f13588caa002782d7596a41dc4430d15f584506829b6e7cc3c5beb951f47cfd",
+    "Reimann.TamePrimePowers277": "9c5db0aad6d6d16ef27a54edf4fa99d8283bf17cc04157dc8955f41fc1adda6c",
+    "Reimann.TameOrderPrimes277": "847a93ca9be19999dca67c119cc95e685f21fd8f3956100065a73bc8b521336b",
+    "Reimann.TameFiber277": "7d07f4bd543ccecef281e086cbc1d023250657743c14eb5d5e5a0884442650d2",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.TameOrderReduction277": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6"
+  },
+  "steps": {
+    "CyclotomicReduction.reductionPrime": {
+      "sha256": "b4f976262b914f37d3883d0e7d5703cacbe12a110508c1dbb2db675c10e2be8b",
+      "line": 7,
+      "status": "checked"
+    },
+    "CyclotomicReduction.reduction_near": {
+      "sha256": "b5d8cce1d3bcaca7f09c8f470873eec1fc60b2145395987d6a73725b1050e911",
+      "line": 10,
+      "status": "checked",
+      "checker_output": "'Reimann.TameCyclotomicLocal277.reduction_near' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicReduction.continuous_reduction": {
+      "sha256": "4945ee03843c0226566f5802ae947024f810937feb27601a70949fbbd3aa0c3c",
+      "line": 21,
+      "status": "checked",
+      "checker_output": "'Reimann.TameCyclotomicLocal277.continuous_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicReduction.complete": {
+      "sha256": "dd25d98efd45c6ac5be439576866db9932c264d85ce4cb36a13fa2b8ec8069d6",
+      "line": 25,
+      "status": "checked"
+    }
+  }
+}

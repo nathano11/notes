@@ -1,0 +1,140 @@
+{
+  "steps": {
+    "CircularIrreducible69.truncation": {
+      "sha256": "40632325153512faf251be84ae0f1883f7581287061a3e1868b5aa213b5e02fa",
+      "status": "checked",
+      "line": 9,
+      "local_sources": {
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularAbsolute69.lean": "2b2d7c9d7eed85083ee9784bff476ccf998f226438ce5709c240583752fe3dd5",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularPrimeDivisor69.lean": "06a84f95ab3fea5452caff59f24160df03a1724535aaea7d19d752926b60cc44",
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularIrreducible69.truncation_length": {
+      "sha256": "d84b5f56dc59beb6982a12a907a08f1228efa55bbedeca2c2836a67999dbcc5b",
+      "status": "checked",
+      "line": 12,
+      "local_sources": {
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularAbsolute69.lean": "2b2d7c9d7eed85083ee9784bff476ccf998f226438ce5709c240583752fe3dd5",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularPrimeDivisor69.lean": "06a84f95ab3fea5452caff59f24160df03a1724535aaea7d19d752926b60cc44",
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularIrreducible69.truncation_length' depends on axioms: [propext]"
+    },
+    "CircularIrreducible69.truncation_coeff": {
+      "sha256": "7367fcd60b91485fd271b3ae6d8f817c683930a202971a96dae2a5ecd8bd2a66",
+      "status": "checked",
+      "line": 15,
+      "local_sources": {
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularAbsolute69.lean": "2b2d7c9d7eed85083ee9784bff476ccf998f226438ce5709c240583752fe3dd5",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularPrimeDivisor69.lean": "06a84f95ab3fea5452caff59f24160df03a1724535aaea7d19d752926b60cc44",
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularIrreducible69.truncation_coeff' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularIrreducible69.truncation_last": {
+      "sha256": "d6c749038b5dc57ee610ccd3d93761e6ca50a9b24b6cf52ca95374e967b2ca39",
+      "status": "checked",
+      "line": 23,
+      "local_sources": {
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularAbsolute69.lean": "2b2d7c9d7eed85083ee9784bff476ccf998f226438ce5709c240583752fe3dd5",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularPrimeDivisor69.lean": "06a84f95ab3fea5452caff59f24160df03a1724535aaea7d19d752926b60cc44",
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularIrreducible69.truncation_last' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularIrreducible69.lift_length": {
+      "sha256": "7961dc8c84079706cdc8d0c36a451090fe4ddff05601a67dd3b7a31cb837ed74",
+      "status": "checked",
+      "line": 31,
+      "local_sources": {
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularAbsolute69.lean": "2b2d7c9d7eed85083ee9784bff476ccf998f226438ce5709c240583752fe3dd5",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularPrimeDivisor69.lean": "06a84f95ab3fea5452caff59f24160df03a1724535aaea7d19d752926b60cc44",
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularIrreducible69.lift_length' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularIrreducible69.lift_last": {
+      "sha256": "24d6fed57c811eb3edbd69794f7fc8364d88937fa533428176b2517d2783b2f5",
+      "status": "checked",
+      "line": 35,
+      "local_sources": {
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularAbsolute69.lean": "2b2d7c9d7eed85083ee9784bff476ccf998f226438ce5709c240583752fe3dd5",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularPrimeDivisor69.lean": "06a84f95ab3fea5452caff59f24160df03a1724535aaea7d19d752926b60cc44",
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularIrreducible69.lift_last' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularIrreducible69.integral_lifts": {
+      "sha256": "87a43445bc6fe67aaad119cab370ecc4e4e3be7396d7c90355e844362579a248",
+      "status": "checked",
+      "line": 46,
+      "local_sources": {
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularAbsolute69.lean": "2b2d7c9d7eed85083ee9784bff476ccf998f226438ce5709c240583752fe3dd5",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularPrimeDivisor69.lean": "06a84f95ab3fea5452caff59f24160df03a1724535aaea7d19d752926b60cc44",
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularIrreducible69.integral_lifts' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularIrreducible69.no_rational_split": {
+      "sha256": "aa0c18042b5bc80dbbd23bfb176d1a8b3a08563009de24441d81282ab35cfabf",
+      "status": "checked",
+      "line": 61,
+      "local_sources": {
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularAbsolute69.lean": "2b2d7c9d7eed85083ee9784bff476ccf998f226438ce5709c240583752fe3dd5",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularPrimeDivisor69.lean": "06a84f95ab3fea5452caff59f24160df03a1724535aaea7d19d752926b60cc44",
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularIrreducible69.no_rational_split' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularIrreducible69.complete": {
+      "sha256": "a316b55d80159b7265e9a72f4b17fd88f86b6f2a0c22c7d23bc54a793faf48f3",
+      "status": "checked",
+      "line": 70,
+      "local_sources": {
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularAbsolute69.lean": "2b2d7c9d7eed85083ee9784bff476ccf998f226438ce5709c240583752fe3dd5",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularPrimeDivisor69.lean": "06a84f95ab3fea5452caff59f24160df03a1724535aaea7d19d752926b60cc44",
+        "Reimann/CircularEisenstein69.lean": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

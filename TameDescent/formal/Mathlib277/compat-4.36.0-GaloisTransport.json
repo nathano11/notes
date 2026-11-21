@@ -1,0 +1,38 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.FieldTheory.AbsoluteGaloisGroup": "e7746c2ccccbe078b0f2fa2e1ebe6016737f3a603542c2281d530f9ca0d96c20"
+  },
+  "steps": {
+    "GaloisTransport.transport": {
+      "sha256": "7a705e077889c749e6321c1e9b8f98759705ad692ab53d2814b859b54213a8a9",
+      "line": 9,
+      "status": "checked"
+    },
+    "GaloisTransport.transport_commutes": {
+      "sha256": "298a05514118390727c3f79f8cce7567af7141ffedef0d5d82ad0bb0bc76b5eb",
+      "line": 18,
+      "status": "checked",
+      "checker_output": "<stdin>:23:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:24:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:25:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCanonicalDecomposition277.transport_commutes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "GaloisTransport.inverse_square": {
+      "sha256": "09c5fa78c101db3a62e5faac954f88a489361df09bfdd141c12eed72df842a71",
+      "line": 30,
+      "status": "checked",
+      "checker_output": "<stdin>:23:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:24:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:25:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCanonicalDecomposition277.inverse_square' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "GaloisTransport.transport_surjective": {
+      "sha256": "634eafa4404f8206beb3819be7b47fadbcd2a4cf613203c8a358934cba7916a7",
+      "line": 36,
+      "status": "checked",
+      "checker_output": "<stdin>:23:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:24:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:25:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCanonicalDecomposition277.transport_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "GaloisTransport.complete": {
+      "sha256": "41f0b6aea35f01031a4bb5d6cd160fcae3e93c7484a568503615798a1d2da24f",
+      "line": 52,
+      "status": "checked",
+      "checker_output": "<stdin>:23:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:24:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:25:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    }
+  }
+}

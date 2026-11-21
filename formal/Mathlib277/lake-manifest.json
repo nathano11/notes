@@ -1,0 +1,99 @@
+{
+  "version": "1.3.0",
+  "packagesDir": ".lake/packages",
+  "packages": [
+    {
+      "scope": "leanprover-community",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "type": "path",
+      "dir": "../../scratch_tw_units/mathlib277/mathlib/.lake/packages/plausible"
+    },
+    {
+      "scope": "leanprover-community",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "type": "path",
+      "dir": "../../scratch_tw_units/mathlib277/mathlib/.lake/packages/LeanSearchClient"
+    },
+    {
+      "scope": "leanprover-community",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "type": "path",
+      "dir": "../../scratch_tw_units/mathlib277/mathlib/.lake/packages/importGraph"
+    },
+    {
+      "scope": "leanprover-community",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.lean",
+      "type": "path",
+      "dir": "../../scratch_tw_units/mathlib277/mathlib/.lake/packages/proofwidgets"
+    },
+    {
+      "scope": "leanprover-community",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "type": "path",
+      "dir": "../../scratch_tw_units/mathlib277/mathlib/.lake/packages/aesop"
+    },
+    {
+      "scope": "leanprover-community",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "type": "path",
+      "dir": "../../scratch_tw_units/mathlib277/mathlib/.lake/packages/Qq"
+    },
+    {
+      "scope": "leanprover-community",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "type": "path",
+      "dir": "../../scratch_tw_units/mathlib277/mathlib/.lake/packages/batteries"
+    },
+    {
+      "scope": "leanprover",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "type": "path",
+      "dir": "../../scratch_tw_units/mathlib277/mathlib/.lake/packages/Cli"
+    },
+    {
+      "name": "mathlib",
+      "scope": "",
+      "manifestFile": "lake-manifest.json",
+      "inherited": false,
+      "configFile": "lakefile.lean",
+      "type": "path",
+      "dir": "../../scratch_tw_units/mathlib277/mathlib"
+    },
+    {
+      "name": "reimannCheckpoint",
+      "scope": "",
+      "manifestFile": "lake-manifest.json",
+      "inherited": false,
+      "configFile": "lakefile.toml",
+      "type": "path",
+      "dir": ".."
+    }
+  ],
+  "name": "reimannPadic277",
+  "lakeDir": ".lake",
+  "fixedToolchain": false
+}

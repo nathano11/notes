@@ -1,0 +1,134 @@
+{
+  "steps": {
+    "BoundaryLifts.numerator_lift_iff": {
+      "sha256": "469f29006e1f27baa881dcc62b987396cb4c85744cd8428bd7548158b6012f3b",
+      "status": "checked",
+      "line": 7,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.BoundaryLifts.numerator_lift_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BoundaryLifts.connecting_numerator": {
+      "sha256": "8de9373512d55378e4fe5ac7fa0690ae44dbc685da60386e22713ba8432ec6ca",
+      "status": "checked",
+      "line": 19,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.BoundaryLifts.connecting_numerator' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BoundaryLifts.sameClass": {
+      "sha256": "08e1b51fa7e44b870072eab5474d0e66565167cd557fa4918367c35cd282355b",
+      "status": "checked",
+      "line": 26,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "BoundaryLifts.connecting_class_iff": {
+      "sha256": "35d69777bf24de30dda07f681820bd2da2bbcf95b026ff895b95a98c993db5c0",
+      "status": "checked",
+      "line": 32,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.BoundaryLifts.connecting_class_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BoundaryLifts.connecting_class_surjective": {
+      "sha256": "930557f5e309f6732fecae5f52955ec430b5642ead6ca76b963dc1fa06a5e775",
+      "status": "checked",
+      "line": 51,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.BoundaryLifts.connecting_class_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BoundaryLifts.powers_sameClass": {
+      "sha256": "c94cd5fadb2b1a3e9ad7e40dfd7c3ef800f977f1279e1b66d1f723353477889d",
+      "status": "checked",
+      "line": 60,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.BoundaryLifts.powers_sameClass' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BoundaryLifts.exceptional_boundary_parameters": {
+      "sha256": "87a4e8eb0299a56e43a96aa98875ed7dc5392f4a985ac6d846dd32eb9ee21275",
+      "status": "checked",
+      "line": 83,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.BoundaryLifts.exceptional_boundary_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BoundaryLifts.inverse_class_respects": {
+      "sha256": "5669c6fe61e9b57b3dfd69ad61fd911609f5e19df41f3f3d1f53b867a99a329c",
+      "status": "checked",
+      "line": 91,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.BoundaryLifts.inverse_class_respects' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BoundaryLifts.boundaryOnQuotient": {
+      "sha256": "47c6da3e64cc46f6b707722e71c86962aac99fa52a0ade22a6f31d0ce96da8b5",
+      "status": "checked",
+      "line": 102,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "BoundaryLifts.liftFromQuotient": {
+      "sha256": "1b59b50b751b991a0cd221f8e2360bbe535965af14451fa5c9f8ce6f57368541",
+      "status": "checked",
+      "line": 107,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "BoundaryLifts.boundary_left_inverse": {
+      "sha256": "3ad65a06924aefda70dcd304b48148a0416bbb3b538ce9e50fb137382edeb6f1",
+      "status": "checked",
+      "line": 112,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.BoundaryLifts.boundary_left_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BoundaryLifts.boundary_right_inverse": {
+      "sha256": "d859525cecd5d030d3af4a5f7fa4e6fbdc3210c69e45747eb794c517e4addfc9",
+      "status": "checked",
+      "line": 124,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.BoundaryLifts.boundary_right_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BoundaryLifts.residue": {
+      "sha256": "9ab97a4965f87c2f90c69f9a8d2a3ebd665da458ac0606e5d6503e1f414e326c",
+      "status": "checked",
+      "line": 130,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "BoundaryLifts.residue_value": {
+      "sha256": "ed3a2af5add56dcc45e78e5d5dbd1c73f5b1e61fca34212ffe83b42256b45116",
+      "status": "checked",
+      "line": 136,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.BoundaryLifts.residue_value' depends on axioms: [propext, Quot.sound]"
+    },
+    "BoundaryLifts.sourceRepresentative": {
+      "sha256": "c7d1e717c0e01de1d848527eede53095081bcb2aa8171553e4c44bcff534ecf8",
+      "status": "checked",
+      "line": 141,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "BoundaryLifts.finite_representative_roundtrip": {
+      "sha256": "0fee151a960e25a6852b34cfd574d3df8265de47959d6be99f32b0eedc9f9bd1",
+      "status": "checked",
+      "line": 153,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.BoundaryLifts.finite_representative_roundtrip' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BoundaryLifts.source_representative_roundtrip": {
+      "sha256": "1a3d5ad5bc61985fa54e48c5cf0f103025f91d8dd4b68108c91716325fc40b39",
+      "status": "checked",
+      "line": 161,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.BoundaryLifts.source_representative_roundtrip' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BoundaryLifts.boundary_finite_classification": {
+      "sha256": "79f25414981aa4fb6b59b13ef360da6fcc97da06131fcff679593f608f64780d",
+      "status": "checked",
+      "line": 175,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.BoundaryLifts.boundary_finite_classification' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BoundaryLifts.complete": {
+      "sha256": "e5c095cc5fc9d451e25b9a2594d874013d883a5b197a2bcb03417b782ff550af",
+      "status": "checked",
+      "line": 191,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

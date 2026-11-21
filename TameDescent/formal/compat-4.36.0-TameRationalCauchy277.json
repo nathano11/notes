@@ -1,0 +1,704 @@
+{
+  "steps": {
+    "TameRationalCauchy277.scale": {
+      "sha256": "be3cf239ebbe415da55c0edaccb0a7fa85ae74288904e7b4c90207750211608b",
+      "status": "checked",
+      "line": 8,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalCauchy277.Small": {
+      "sha256": "044931122f53dff6b803530b7838191bed4618c6b213ac933ee4c64a772c89a2",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalCauchy277.Close": {
+      "sha256": "49a2a079ab98a2f7a08e5b2b5237f217bafb3df1504f9b62a67fb8bcfb94a6cd",
+      "status": "checked",
+      "line": 14,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalCauchy277.scale_add": {
+      "sha256": "8da623e292d6232a0d7e5b9b03f0eba77c819be6461b6707018d9e74a9cde3aa",
+      "status": "checked",
+      "line": 16,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.scale_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.unit_product": {
+      "sha256": "bad03ac0136b8830eaa6abad9dc650fdd8452a41c23edd1e07eb76703da94487",
+      "status": "checked",
+      "line": 20,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.unit_product' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.small_zero": {
+      "sha256": "c879772ec9943f2030052bf6b806f8f19de78e4fc7b10ce6d1e56c76f6de2776",
+      "status": "checked",
+      "line": 25,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.small_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.small_add": {
+      "sha256": "64b53df5ce9a98cecfcb64e335e7ae6beb94b2ebffc9cddfc8a453016175831f",
+      "status": "checked",
+      "line": 28,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.small_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.small_neg": {
+      "sha256": "f0652930718c7a80bd1058b4d1a3aa3b0ab5267bfa3c7b0bac3cbdf1379b7c2a",
+      "status": "checked",
+      "line": 38,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.small_neg' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.small_drop": {
+      "sha256": "eee4ea1f263468fcfbc574377b963a5575db546ac6f97f2a6f532d67d3b8d977",
+      "status": "checked",
+      "line": 44,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.small_drop' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.small_int_iff": {
+      "sha256": "d711018df0dbde8f0f10b3a4d086b058f61348c3fdb3f5b6ffe40ef378245ddb",
+      "status": "checked",
+      "line": 52,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.small_int_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.close_refl": {
+      "sha256": "49c8ece456397677030d37a005581bc14b55c275e340860468d7c9bb63ffd101",
+      "status": "checked",
+      "line": 63,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.close_refl' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.close_symm": {
+      "sha256": "dea135c64b8dc4bcf46072246f964993f65f84f8ebfa6dc2d6d7b3ff05fd2e49",
+      "status": "checked",
+      "line": 68,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.close_symm' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.close_trans": {
+      "sha256": "18ed5807bb2515cd4e20fbbc4310822fc09d29730e886d2d8866064e293f8d42",
+      "status": "checked",
+      "line": 73,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.close_trans' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.affine_close_iff": {
+      "sha256": "2500bd7eaf6df356fcf1fa528a08f884a3d11dc35109dbbc0713773370832eba",
+      "status": "checked",
+      "line": 79,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.affine_close_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.integer_approximation": {
+      "sha256": "c90d4ab328822ab0a7d70eb33dff2b1006867c480a50c32e56eae037ee21b287",
+      "status": "checked",
+      "line": 86,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.integer_approximation' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.RatCauchy": {
+      "sha256": "e93a282e759ed07e93ad1e207569e48afdc1b57a44bb3c390921515d2140106c",
+      "status": "checked",
+      "line": 103,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalCauchy277.Equivalent": {
+      "sha256": "6f5173c9de1a73d45cef3db0ad0d6b5ca9a9fea6a89b7e86a062514fdde074c1",
+      "status": "checked",
+      "line": 106,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalCauchy277.equivalent_refl": {
+      "sha256": "72f26a7546fc82dad56816ce086d7ee1f3b44f7c36ae35e3d65ca0c06a18be1a",
+      "status": "checked",
+      "line": 109,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.equivalent_refl' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.equivalent_symm": {
+      "sha256": "9287a6635c1ee2b8f2a460376cb9109ff0ab510b7bdd9e34674d7077ee9a5dbe",
+      "status": "checked",
+      "line": 112,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.equivalent_symm' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.equivalent_trans": {
+      "sha256": "261eff96f365ea5bbdfd80c8ac3d317d74f44b38b166adc0a3e10a9d5ad40e7f",
+      "status": "checked",
+      "line": 117,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.equivalent_trans' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.cauchy_transfer": {
+      "sha256": "273a4d4addb2c01c49dcbe58988920ea82288ab0268b763104eec65f487e138e",
+      "status": "checked",
+      "line": 125,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.cauchy_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.affine_cauchy_iff": {
+      "sha256": "d61486254d8d29d1d3632f067492a377ea6cfc2d6ddef09524f0d6e808bf9949",
+      "status": "checked",
+      "line": 136,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalCauchy277.affine_cauchy_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.tail_approximation": {
+      "sha256": "7c0fd4c823c54542473af7cfcd998713ba9188985788d054b9635ba46550c8da",
+      "status": "checked",
+      "line": 147,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.TameRationalCauchy277.tail_approximation' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.equivalent_of_increasing_precision": {
+      "sha256": "ed8182255ac5b354fade8c75838b21f1c4a50ad2314f032e497c29ff4eb7d4c0",
+      "status": "checked",
+      "line": 159,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.TameRationalCauchy277.equivalent_of_increasing_precision' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "TameRationalCauchy277.rational_cauchy_integer_tail": {
+      "sha256": "fc280342a7e5b5d5e23d2c965d9dda33a88cdcd13e63e99c0b679b49bd04d5bf",
+      "status": "checked",
+      "line": 168,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.TameRationalCauchy277.rational_cauchy_integer_tail' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.RationalSeq": {
+      "sha256": "9a3b79304e13372b2738fce26f66989ece0c454d9bad68ed2f792b8d1314b7f8",
+      "status": "checked",
+      "line": 176,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲"
+    },
+    "TameRationalCauchy277.Rel": {
+      "sha256": "3caea80fe79679c8be06e7cc7af16b485c63fcb275c85ecbcee497c7256d85e8",
+      "status": "checked",
+      "line": 180,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲"
+    },
+    "TameRationalCauchy277.RationalCompletion": {
+      "sha256": "26e71b7239c30ad51cfaf9bffbfab40b8d6744e88b47c204e0396edf900d1b51",
+      "status": "checked",
+      "line": 182,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲"
+    },
+    "TameRationalCauchy277.quot_eq_iff": {
+      "sha256": "906b3286913eccf23b9d3ce8a985978eadd6a08b415956558e21e43a878f4e54",
+      "status": "checked",
+      "line": 184,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.TameRationalCauchy277.quot_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.affineSeq": {
+      "sha256": "db6619e59fff003f93dc2042add4b886f14aa9a3955d0432110737fa02558fb7",
+      "status": "checked",
+      "line": 190,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲"
+    },
+    "TameRationalCauchy277.affine_rel_iff": {
+      "sha256": "ea02a6c9eac6c092a02510da727ea94413f934dec90cc6faa6f519456435987e",
+      "status": "checked",
+      "line": 193,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.TameRationalCauchy277.affine_rel_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.affine": {
+      "sha256": "f9f4905799a307691623c75a74d986d9ee245338cb9d2def6ac13ced21ba8fe9",
+      "status": "checked",
+      "line": 205,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲"
+    },
+    "TameRationalCauchy277.affine_injective": {
+      "sha256": "cad6e141d6302583723f254c3619b28c99fba2441dd9ef0d2da7d5841c93c508",
+      "status": "checked",
+      "line": 209,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.TameRationalCauchy277.affine_injective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.affine_cover": {
+      "sha256": "eae138eff8c2c04f095aea21677a4f1d741371f04fd6cc5a28fff19b2dd2469b",
+      "status": "checked",
+      "line": 218,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.TameRationalCauchy277.affine_cover' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.affine_coordinates": {
+      "sha256": "3e495ad85f8f5e2db71204688175c1aa00ccd1cec45a6aa89ae7d04fc925f7ce",
+      "status": "checked",
+      "line": 230,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.TameRationalCauchy277.affine_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.overlap_integral": {
+      "sha256": "0af8ba5f52f526c427cf94104e3dfa44ffd66c5d8d73db4434d4935c39be1bb3",
+      "status": "checked",
+      "line": 240,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.TameRationalCauchy277.overlap_integral' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.overlap_of_integral": {
+      "sha256": "ea86fbb111a1ca7381ff0a788c1162078857e539e483200bc3c89c90738f29c3",
+      "status": "checked",
+      "line": 251,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.TameRationalCauchy277.overlap_of_integral' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.affine_overlap_iff": {
+      "sha256": "20c8a144c23f1e951ecc3addeb25fdb3618d2c101be5dd35540cf6d79dffabdc",
+      "status": "checked",
+      "line": 270,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.TameRationalCauchy277.affine_overlap_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalCauchy277.complete": {
+      "sha256": "c2863cda151c484f8edf53a4e972f85aa825601486862d56d635812ec88f0ddf",
+      "status": "checked",
+      "line": 282,
+      "local_sources": {
+        "Reimann/TameCauchy277.lean": "6a321efb93cb400fb2343e861962acacbf283aee47f52bab784b0478266f7341",
+        "Reimann/TameAdicDomain277.lean": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+        "Reimann/TameLimit277.lean": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+        "Reimann/TameTwist277.lean": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+        "Reimann/TameRootExhaustion277.lean": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+        "Reimann/ScalarCoinvariants.lean": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:157:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

@@ -1,0 +1,85 @@
+{
+  "steps": {
+    "TameStability.iterate_fixed_zero": {
+      "sha256": "f853d7f61022e3e3d030ff67257edfddc01bc6255eb5983d3b453d83d82c0604",
+      "status": "checked",
+      "line": 6,
+      "local_sources": {
+        "Reimann/OddDescent.lean": "25eb8d653649c15cb616dd726437c1f3afad6c62ec36745fddf1a0bdda5f55a8"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameStability.iterate_fixed_zero' does not depend on any axioms"
+    },
+    "TameStability.iterate_on_image": {
+      "sha256": "626f123f759c01f7a61806c3fb89ba3d4b1fed1fb8ac88131472eacddb6e0201",
+      "status": "checked",
+      "line": 12,
+      "local_sources": {
+        "Reimann/OddDescent.lean": "25eb8d653649c15cb616dd726437c1f3afad6c62ec36745fddf1a0bdda5f55a8"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameStability.iterate_on_image' does not depend on any axioms"
+    },
+    "TameStability.plateau_captures_kernel": {
+      "sha256": "b9fcb0cea0e192d62f92d2a2d009cb1ae1abdf80cc3893801e046756b2a52440",
+      "status": "checked",
+      "line": 20,
+      "local_sources": {
+        "Reimann/OddDescent.lean": "25eb8d653649c15cb616dd726437c1f3afad6c62ec36745fddf1a0bdda5f55a8"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameStability.plateau_captures_kernel' does not depend on any axioms"
+    },
+    "TameStability.all_torsion_stabilizes": {
+      "sha256": "adb79f8189b5f45bb3838eeb82b03a72c9792b7d15b45f53991f5d7e30b4950c",
+      "status": "checked",
+      "line": 37,
+      "local_sources": {
+        "Reimann/OddDescent.lean": "25eb8d653649c15cb616dd726437c1f3afad6c62ec36745fddf1a0bdda5f55a8"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameStability.all_torsion_stabilizes' does not depend on any axioms"
+    },
+    "TameStability.zero_layer": {
+      "sha256": "f9c0397464677dc1eff9000802524822a1141af3532d9d5569002deba477fa5c",
+      "status": "checked",
+      "line": 46,
+      "local_sources": {
+        "Reimann/OddDescent.lean": "25eb8d653649c15cb616dd726437c1f3afad6c62ec36745fddf1a0bdda5f55a8"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameStability.zero_layer' does not depend on any axioms"
+    },
+    "TameStability.one_layer": {
+      "sha256": "234f314d88d5b56ea7f27a070952e2f4475b73c6aa52fa12b5fb702e6dc81854",
+      "status": "checked",
+      "line": 51,
+      "local_sources": {
+        "Reimann/OddDescent.lean": "25eb8d653649c15cb616dd726437c1f3afad6c62ec36745fddf1a0bdda5f55a8"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameStability.one_layer' does not depend on any axioms"
+    },
+    "TameStability.full_character_readout": {
+      "sha256": "0925d322287c7dca5170ca5860ad7e0091100be6328cdd1c01d830ca7404dc9a",
+      "status": "checked",
+      "line": 58,
+      "local_sources": {
+        "Reimann/OddDescent.lean": "25eb8d653649c15cb616dd726437c1f3afad6c62ec36745fddf1a0bdda5f55a8"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameStability.complete": {
+      "sha256": "0d898b9bca6aadeb016e8af66a7a4a41bbb23a4bc49de21f62f96a8c590df32d",
+      "status": "checked",
+      "line": 67,
+      "local_sources": {
+        "Reimann/OddDescent.lean": "25eb8d653649c15cb616dd726437c1f3afad6c62ec36745fddf1a0bdda5f55a8"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

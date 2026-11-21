@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "CircularCosetData69.needsSign": {
+      "sha256": "21cd7eda03f73ddf027e70669135f285adbbea1758d411e24e51fca3d9b6343f",
+      "status": "checked",
+      "line": 8,
+      "local_sources": {
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularCosetData69.needsLong": {
+      "sha256": "5a5af2903817c54422e538ac2dae71ce461725f2d9ac1e96f8b67e7c40e0a9e0",
+      "status": "checked",
+      "line": 10,
+      "local_sources": {
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularCosetData69.members": {
+      "sha256": "c3a08d4e25c55f6c0edfc8f9d87bb3536dd3e497ac245682d5b54eb4f012e925",
+      "status": "checked",
+      "line": 12,
+      "local_sources": {
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularCosetData69.members_nodup": {
+      "sha256": "38c315accca9a154672dd3ecef11b1f7566f1e007b83229a6071e9a958b7df4c",
+      "status": "checked",
+      "line": 16,
+      "local_sources": {
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularCosetData69.members_nodup' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularCosetData69.model_orders": {
+      "sha256": "156b51d6e8acb8308b078dbb359517b86ffdaa86e5edd4a177a5b36056e2871e",
+      "status": "checked",
+      "line": 18,
+      "local_sources": {
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularCosetData69.model_orders' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularCosetData69.members_iff": {
+      "sha256": "924688d26e4818419288d8d540edf23e2533526194f1ed517f7a602fcb2ace8b",
+      "status": "checked",
+      "line": 21,
+      "local_sources": {
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularCosetData69.members_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularCosetData69.sign_extraction": {
+      "sha256": "823943e01ff2d77fcb08e77924ea192f071b1876e039e236e7f60e38b7f1f68f",
+      "status": "checked",
+      "line": 25,
+      "local_sources": {
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularCosetData69.sign_extraction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularCosetData69.long_extraction": {
+      "sha256": "d884c4a403d7668feeb82e4585405400683b17d39c51f9806cb608fd4f2485ea",
+      "status": "checked",
+      "line": 27,
+      "local_sources": {
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularCosetData69.long_extraction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularCosetData69.component_product": {
+      "sha256": "6b6eef57020a2a684ede9048b3822260957b6c1c82c5c50c266612afc8d3aa25",
+      "status": "checked",
+      "line": 30,
+      "local_sources": {
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularCosetData69.component_product' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularCosetData69.subgroup_power": {
+      "sha256": "99ca0572731fd44ab5c9b5bd32fe96d02e93d1b11b3c5e077a1a21266a28af35",
+      "status": "checked",
+      "line": 34,
+      "local_sources": {
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularCosetData69.subgroup_power' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularCosetData69.subgroup_components": {
+      "sha256": "edb700e113c4be9713c81ae9c28a77a952b0f04f7b08170155d80314cfd98bc1",
+      "status": "checked",
+      "line": 42,
+      "local_sources": {
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularCosetData69.subgroup_components' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularCosetData69.subgroup_model": {
+      "sha256": "679b75a50f50fe47d02f913c1ec6bb48071a723e7829355bd45f4ec74901ff9a",
+      "status": "checked",
+      "line": 64,
+      "local_sources": {
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularCosetData69.subgroup_model' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularCosetData69.complete": {
+      "sha256": "2849f469e51121fad47b1b5f4070ba7589ed5dc04ce7de94c12cf3c93ef824b7",
+      "status": "checked",
+      "line": 73,
+      "local_sources": {
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

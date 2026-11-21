@@ -1,0 +1,220 @@
+{
+  "steps": {
+    "TameRootExhaustion277.sum_unit_of_agreement": {
+      "sha256": "813ce66dfeb616080d14cd9d4cb99cb9aabaca3df7ee252aeda10eecfea54262",
+      "status": "checked",
+      "line": 9,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.sum_unit_of_agreement' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRootExhaustion277.simple_root_unique": {
+      "sha256": "8cc65c5b9870d9daa6ba4b94f64ebd556496b787e8971d9d5b6189a08a71e1ab",
+      "status": "checked",
+      "line": 17,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.simple_root_unique' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRootExhaustion277.signed": {
+      "sha256": "2257065caf4548a8171d0fd48d3ae196bdf9f0b44fa8fc62365173f508f7f5ca",
+      "status": "checked",
+      "line": 28,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRootExhaustion277.base_divides": {
+      "sha256": "e39e25ad7110d82c978deb0144900265e10b54a7b9981aae0e1547676b8a49d5",
+      "status": "checked",
+      "line": 30,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.base_divides' depends on axioms: [propext]"
+    },
+    "TameRootExhaustion277.first_digit": {
+      "sha256": "4914247d411dce67b64b516a425c4e1303de5fbbb952c1502abc467f0211f147",
+      "status": "checked",
+      "line": 34,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.first_digit' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRootExhaustion277.signed_data": {
+      "sha256": "7c9e4cd727ff9b6b03bb1dee79b4620f1f96d521f71a9a586d3d887dc24eb262",
+      "status": "checked",
+      "line": 43,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.signed_data' does not depend on any axioms"
+    },
+    "TameRootExhaustion277.root_with_given_digit": {
+      "sha256": "7e5a89ee0385ed278a77e227c7e3726cd2fb8485293bf3f5dad3bf8da23e3e46",
+      "status": "checked",
+      "line": 53,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.root_with_given_digit' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRootExhaustion277.digit_representative": {
+      "sha256": "bb26bca43d1d4858973f4311bb000eb50680eca5f1f81452ab33a3434e7111bb",
+      "status": "checked",
+      "line": 67,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.digit_representative' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameRootExhaustion277.transport_square": {
+      "sha256": "9fd41643bb554296a3644226877a89d5e094f0fe93f7c5ff264aec79fccb4afd",
+      "status": "checked",
+      "line": 74,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.transport_square' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRootExhaustion277.seed_test": {
+      "sha256": "31d9bc737a4aaaf603470cad8406078716e79f02c274914b10403c51999dcb3b",
+      "status": "checked",
+      "line": 81,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.seed_test' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRootExhaustion277.both_seed_tests": {
+      "sha256": "da9e5cc9df80224aa956db51d1953618c3c1bc88b1be226c24d93731e9116482",
+      "status": "checked",
+      "line": 95,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.both_seed_tests' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRootExhaustion277.sign_unique": {
+      "sha256": "37f164b54797a9c748e70d17494a866ceddfba2a9862e104171d954532bf6b6a",
+      "status": "checked",
+      "line": 111,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.sign_unique' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRootExhaustion277.root_at_level_iff": {
+      "sha256": "6c707a1692529cd2489efb3992c10652febf1825a341d00a4946bcc4d080132f",
+      "status": "checked",
+      "line": 122,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.root_at_level_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRootExhaustion277.coherent_root_iff": {
+      "sha256": "d0342fd2e8e83ed3df98e0fb53ae284c3d3e346052718d3f1bdbd64dc4e65ce6",
+      "status": "checked",
+      "line": 137,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.coherent_root_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRootExhaustion277.Matches": {
+      "sha256": "cd276759b55fce1d3042dc89aa53399f525574e2f33dcb92fbc68d5a5fd567ad",
+      "status": "checked",
+      "line": 157,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRootExhaustion277.four_signs_iff": {
+      "sha256": "8e59fbfc664c85fbd4336a84a7a327003a72badf0d255d276c0e6b88d3fb457b",
+      "status": "checked",
+      "line": 162,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.four_signs_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRootExhaustion277.every_sign_pair_occurs": {
+      "sha256": "c421197fcba1279df725196f17b325367c2a23da6c4e7337ea5e9fe025ac6b3d",
+      "status": "checked",
+      "line": 184,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRootExhaustion277.every_sign_pair_occurs' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRootExhaustion277.complete": {
+      "sha256": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+      "status": "checked",
+      "line": 197,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/CyclicBoundary.lean": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

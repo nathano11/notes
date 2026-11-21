@@ -1,0 +1,142 @@
+{
+  "steps": {
+    "DyadicQuotient.dropBits": {
+      "sha256": "d0f93899a346f8b34b1b0412d642b2ff798477704f2987be3acb71a2a0751017",
+      "status": "checked",
+      "line": 10,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicQuotient.split_at_residue": {
+      "sha256": "61c0a73e416b2123bd954055580e17f885f0ecdb4b496527dc727b039952221f",
+      "status": "checked",
+      "line": 19,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicQuotient.split_at_residue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicQuotient.residue_eq_iff_multiple": {
+      "sha256": "6675790dc188911cfbba82a8a7a80e3694ba7773834977dc6cb3f56c642952c3",
+      "status": "checked",
+      "line": 35,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicQuotient.residue_eq_iff_multiple' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicQuotient.double_residue": {
+      "sha256": "8760679286ba3c59c3bfca681f42b9b978a4d2218950151895b6b1d8ce646742",
+      "status": "checked",
+      "line": 56,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicQuotient.double_residue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicQuotient.inAmbient": {
+      "sha256": "3444c06cd1a33bd44092ff43ced4255fc8064951f6afd3c7d59033990a618dcf",
+      "status": "checked",
+      "line": 65,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicQuotient.inAmbient_injective": {
+      "sha256": "a7291a09b9d515b2e160447c893f4b13f2104f88f66264847e4a24d136e726ca",
+      "status": "checked",
+      "line": 67,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicQuotient.inAmbient_injective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicQuotient.sameCoset": {
+      "sha256": "4e4dc37357861974a15196eabccaad5e20d95121907be3b63ad362315c80cc42",
+      "status": "checked",
+      "line": 81,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicQuotient.residuePair": {
+      "sha256": "f5d768bed714b983484d515a67f61d33a315be1c2464ff33a4d73c3b757c5ab4",
+      "status": "checked",
+      "line": 87,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicQuotient.sameCoset_iff_residuePair": {
+      "sha256": "70cd45e9babee1b52b096b2e719da7043da8f431292f19281866b8df6d31d52b",
+      "status": "checked",
+      "line": 90,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicQuotient.sameCoset_iff_residuePair' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicQuotient.residuePair_section": {
+      "sha256": "da48d21a4cc574dbbd908a115a2ab1596884b681fea5acf9a749f00408a5beee",
+      "status": "checked",
+      "line": 111,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicQuotient.residuePair_section' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicQuotient.residuePair_add": {
+      "sha256": "1f3d4d2a0c6d2c899230d5909f62e00dcbefe23a0668781e9b215943766c5046",
+      "status": "checked",
+      "line": 117,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicQuotient.residuePair_add' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicQuotient.quotient_classification": {
+      "sha256": "6de4c5288cb153d906aea61e4ed63315e3e7576357cf84482b56f03065e4cc4e",
+      "status": "checked",
+      "line": 122,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicQuotient.quotient_classification' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicQuotient.complete": {
+      "sha256": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+      "status": "checked",
+      "line": 157,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicQuotient.quotient_cardinality": {
+      "sha256": "0b0d289ea208ba5506760e28c42c0d25fce22d3a923461977fc62d8a609c8b31",
+      "status": "checked",
+      "line": 139,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicQuotient.quotient_cardinality' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

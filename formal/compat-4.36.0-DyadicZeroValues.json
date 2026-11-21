@@ -1,0 +1,239 @@
+{
+  "steps": {
+    "DyadicZeroValues.chi276": {
+      "sha256": "ea199d49dba00896e31eb69cd1d9be817727606c9180ec1e8074c719ab0a5a7b",
+      "status": "checked",
+      "line": 12,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicZeroValues.chi552": {
+      "sha256": "87d3c0a4ddd22afa4ac0c31d40ea1b776abf1fa77a672fa7713e67d22d686aac",
+      "status": "checked",
+      "line": 20,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicZeroValues.moments": {
+      "sha256": "7f7cd11056696d7069eaf618d450fa7e5da916eb1cf87d3865975490593c6983",
+      "status": "checked",
+      "line": 27,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicZeroValues.moments_276": {
+      "sha256": "080d06ed6f2b78134041022afb60cb5033c8fe410a756f7629304133f88467e2",
+      "status": "checked",
+      "line": 36,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.moments_276' does not depend on any axioms"
+    },
+    "DyadicZeroValues.moments_552": {
+      "sha256": "44b73d6f1da9f147ddff8c645dbe14fcaf1fb12b87072877b910e3a2c198a036",
+      "status": "checked",
+      "line": 38,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.moments_552' does not depend on any axioms"
+    },
+    "DyadicZeroValues.depletion_at_two": {
+      "sha256": "4944eb514913dc81a20862cdefb821dc1595a52923a2ed0c308f567a907b138f",
+      "status": "checked",
+      "line": 41,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.depletion_at_two' does not depend on any axioms"
+    },
+    "DyadicZeroValues.depletedNumerator": {
+      "sha256": "f0ae9df0b16fc9d84fede1481a9b7f10aabb2eccf2e8eda8b100fa919a4a5d36",
+      "status": "checked",
+      "line": 44,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicZeroValues.depleted_values_cleared": {
+      "sha256": "b45b4f634f71a6bc6e2e46975906df44365dcac895d13cf1f617302349efc047",
+      "status": "checked",
+      "line": 49,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.depleted_values_cleared' depends on axioms: [propext]"
+    },
+    "DyadicZeroValues.halfValue": {
+      "sha256": "59cbf13a95b197e86aecaa67db987a7be2c14b91dcce0abd6f18506fe3593707",
+      "status": "checked",
+      "line": 59,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicZeroValues.half_values": {
+      "sha256": "522ea4573013687c05b898802315ab4758cdcdc2244c2c8b29a0300a34f6b61a",
+      "status": "checked",
+      "line": 62,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.half_values' depends on axioms: [propext]"
+    },
+    "DyadicZeroValues.FactorsOnUnits": {
+      "sha256": "1b99bc5cd11bd927fa11473b7f7de0fa9d3aaa651e97b489d19fed3794c3e9cc",
+      "status": "checked",
+      "line": 69,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicZeroValues.unit_witness": {
+      "sha256": "f633d4d86ec5c1f4656fcd9f66aed559e3aa9d3649956ca960ce54fd8e15627b",
+      "status": "checked",
+      "line": 74,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.unit_witness' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicZeroValues.proper_divisor_cover": {
+      "sha256": "19f7fa885c42d13c3e472f7dbe9d0be96d64411b59e0565f08d0f30c40e27d43",
+      "status": "checked",
+      "line": 83,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.proper_divisor_cover' depends on axioms: [propext]"
+    },
+    "DyadicZeroValues.primitive_276": {
+      "sha256": "5f3977e1f5bbd784ebc2b15e2ea33ea70da26d9624dea2578afa1790cf5a4128",
+      "status": "checked",
+      "line": 88,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.primitive_276' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicZeroValues.primitive_552": {
+      "sha256": "f3426283feb1316eeb62304130c3df1ba9d0c53e4e748b1dfbd7228b7226fdc5",
+      "status": "checked",
+      "line": 96,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.primitive_552' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicZeroValues.odd_characters": {
+      "sha256": "33fa603abdc29d7c0b36eac3de80a953c693084a98f2041066bc76ee4f845df2",
+      "status": "checked",
+      "line": 104,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.odd_characters' does not depend on any axioms"
+    },
+    "DyadicZeroValues.reduce_at_conductors": {
+      "sha256": "a826dd934503f307c48c09458a486f51170e9d090ac7ec1070250f07b64e05ff",
+      "status": "checked",
+      "line": 107,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.reduce_at_conductors' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicZeroValues.oddFactor": {
+      "sha256": "fef02785b2d2457a0b4f4d5c99e20feb867992137be872fa75549d4ed7823b2a",
+      "status": "checked",
+      "line": 116,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicZeroValues.local_factorization": {
+      "sha256": "9b9f6ebed452ed456690d5c8ef651ab64705ad38496fc25d5c52cdaf66dd8e72",
+      "status": "checked",
+      "line": 124,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.local_factorization' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicZeroValues.prime_factor_multiplicative": {
+      "sha256": "156e36daa70d10dbe55bcc3a9e21b6595fe9b664727ec3126a05b7cae7e2d4db",
+      "status": "checked",
+      "line": 135,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.prime_factor_multiplicative' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicZeroValues.odd_factor_multiplicative": {
+      "sha256": "e11d7196273e06c9953dac8512b936bed24c091bbc50e928dd89a7d83eeb77cb",
+      "status": "checked",
+      "line": 145,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.odd_factor_multiplicative' depends on axioms: [propext]"
+    },
+    "DyadicZeroValues.characters_multiplicative": {
+      "sha256": "87c47a9c7d68132cdc74370d4af70cacb80048d169b9512f03b407e5b9820916",
+      "status": "checked",
+      "line": 154,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.characters_multiplicative' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicZeroValues.support_on_units": {
+      "sha256": "a313c6808dc17de27c7e8f6696089dda063061dd35aeb8e61a4bcff91daba1d0",
+      "status": "checked",
+      "line": 163,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicZeroValues.support_on_units' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicZeroValues.complete": {
+      "sha256": "0a919675f48954a60f6aa6d4bd7eefa37a0268cd82a0c156dc159378fa076542",
+      "status": "checked",
+      "line": 173,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

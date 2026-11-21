@@ -1,0 +1,99 @@
+{
+  "version": "1.3.0",
+  "packagesDir": ".lake/packages",
+  "packages": [
+    {
+      "type": "path",
+      "scope": "",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inherited": false,
+      "configFile": "lakefile.lean",
+      "dir": "C:\\code\\Reimann\\.checkpoints\\m436\\pkg\\mathlib"
+    },
+    {
+      "type": "path",
+      "scope": "leanprover-community",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "dir": "C:\\code\\Reimann\\.checkpoints\\m436\\pkg\\plausible"
+    },
+    {
+      "type": "path",
+      "scope": "leanprover-community",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "dir": "C:\\code\\Reimann\\.checkpoints\\m436\\pkg\\LeanSearchClient"
+    },
+    {
+      "type": "path",
+      "scope": "leanprover-community",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "dir": "C:\\code\\Reimann\\.checkpoints\\m436\\pkg\\importGraph"
+    },
+    {
+      "type": "path",
+      "scope": "leanprover-community",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.lean",
+      "dir": "C:\\code\\Reimann\\.checkpoints\\m436\\pkg\\proofwidgets"
+    },
+    {
+      "type": "path",
+      "scope": "leanprover-community",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "dir": "C:\\code\\Reimann\\.checkpoints\\m436\\pkg\\aesop"
+    },
+    {
+      "type": "path",
+      "scope": "leanprover-community",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "dir": "C:\\code\\Reimann\\.checkpoints\\m436\\pkg\\Qq"
+    },
+    {
+      "type": "path",
+      "scope": "leanprover-community",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "dir": "C:\\code\\Reimann\\.checkpoints\\m436\\pkg\\batteries"
+    },
+    {
+      "type": "path",
+      "scope": "leanprover",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "dir": "C:\\code\\Reimann\\.checkpoints\\m436\\pkg\\Cli"
+    },
+    {
+      "type": "path",
+      "scope": "",
+      "name": "reimannCheckpoint",
+      "manifestFile": "lake-manifest.json",
+      "inherited": false,
+      "dir": "..",
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "name": "reimannCircularNative69",
+  "lakeDir": ".lake",
+  "fixedToolchain": false
+}

@@ -1,0 +1,262 @@
+{
+  "steps": {
+    "SignedAdicProduct.valuationAt": {
+      "sha256": "f3350bdd9e5f190c83045ee7db4600b235491a3052af6fd59115024232ac83e8",
+      "status": "checked",
+      "line": 12,
+      "local_sources": {
+        "Reimann/SignedProduct.lean": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+        "Reimann/SignedCoefficients.lean": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "SignedAdicProduct.integer_digit_iff": {
+      "sha256": "e356ab54ea6b60be2f32965ffbaf13757c163c7623884d6a7181fc2feeeb653e",
+      "status": "checked",
+      "line": 14,
+      "local_sources": {
+        "Reimann/SignedProduct.lean": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+        "Reimann/SignedCoefficients.lean": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedAdicProduct.integer_digit_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicProduct.representative": {
+      "sha256": "5bb5ce10e500d1a017b91103e826938780275b2f0418987b3764c5d1e0bb377a",
+      "status": "checked",
+      "line": 38,
+      "local_sources": {
+        "Reimann/SignedProduct.lean": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+        "Reimann/SignedCoefficients.lean": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "SignedAdicProduct.representative_bits": {
+      "sha256": "b15b871bda66414a297270c34443945568ba898c5ce8dc7b5803ea151ae6c363",
+      "status": "checked",
+      "line": 40,
+      "local_sources": {
+        "Reimann/SignedProduct.lean": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+        "Reimann/SignedCoefficients.lean": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedAdicProduct.representative_bits' depends on axioms: [propext]"
+    },
+    "SignedAdicProduct.representative_mod64": {
+      "sha256": "10a0bf0611efd2cc61092a60a00692915b18b45909940a750d6932a3c7757420",
+      "status": "checked",
+      "line": 44,
+      "local_sources": {
+        "Reimann/SignedProduct.lean": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+        "Reimann/SignedCoefficients.lean": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedAdicProduct.representative_mod64' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedAdicProduct.sample": {
+      "sha256": "9723443ee0afe0bc23544169a4f5dce2ffe2034ce4dcb11dd2f78bf267ae6876",
+      "status": "checked",
+      "line": 53,
+      "local_sources": {
+        "Reimann/SignedProduct.lean": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+        "Reimann/SignedCoefficients.lean": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "SignedAdicProduct.sample_bits": {
+      "sha256": "df2105f872ce5a5d412ab0e6b56c095dc39871ca3d84c2eb4bfbb054053e4365",
+      "status": "checked",
+      "line": 57,
+      "local_sources": {
+        "Reimann/SignedProduct.lean": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+        "Reimann/SignedCoefficients.lean": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedAdicProduct.sample_bits' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedAdicProduct.product": {
+      "sha256": "567e043db7079d2c34bae29b221858c6b17d74146db2483ec4133a912acccf7b",
+      "status": "checked",
+      "line": 65,
+      "local_sources": {
+        "Reimann/SignedProduct.lean": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+        "Reimann/SignedCoefficients.lean": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "SignedAdicProduct.product_bits": {
+      "sha256": "ed141711070a54671cb716da2d7f280beb0cea797a3296834b55b045ffd9ea7b",
+      "status": "checked",
+      "line": 69,
+      "local_sources": {
+        "Reimann/SignedProduct.lean": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+        "Reimann/SignedCoefficients.lean": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedAdicProduct.product_bits' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicProduct.transfer": {
+      "sha256": "a87dc797d68400b588ee07e90bdb7a9ddffaacc0bddef90c03a5a5c18e58f46e",
+      "status": "checked",
+      "line": 88,
+      "local_sources": {
+        "Reimann/SignedProduct.lean": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+        "Reimann/SignedCoefficients.lean": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedAdicProduct.transfer' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicProduct.weight_three_at_precision": {
+      "sha256": "e365a35e4738bb5cf4b921649dd18351d2535673468335ae230177dcd6d0952d",
+      "status": "checked",
+      "line": 96,
+      "local_sources": {
+        "Reimann/SignedProduct.lean": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+        "Reimann/SignedCoefficients.lean": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedAdicProduct.weight_three_at_precision' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicProduct.product_valuation_spectrum": {
+      "sha256": "6b8db9826b991a2d30a849104168265b46a8edf3b525a323e5d023fd671b2e62",
+      "status": "checked",
+      "line": 106,
+      "local_sources": {
+        "Reimann/SignedProduct.lean": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+        "Reimann/SignedCoefficients.lean": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedAdicProduct.product_valuation_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicProduct.complete": {
+      "sha256": "27cb3891fbfed3b9d90a5a6fac4fc0a086918b9d05874f267cd8f59599466119",
+      "status": "checked",
+      "line": 120,
+      "local_sources": {
+        "Reimann/SignedProduct.lean": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+        "Reimann/SignedCoefficients.lean": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    }
+  },
+  "required_lean": "4.33.1",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+}

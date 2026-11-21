@@ -1,0 +1,174 @@
+{
+  "steps": {
+    "TameCoefficients.Action": {
+      "sha256": "a6cf203aec391304f530da63fca2af6648eb2cf87f429cb5500fa93d41d3abb3",
+      "status": "checked",
+      "line": 9,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameCoefficients.Cocycle": {
+      "sha256": "e418b86003d25c1cd839ed3ca3427233650cb7148edb24b72b69376e4a10830a",
+      "status": "checked",
+      "line": 14,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameCoefficients.delta": {
+      "sha256": "a16202ab247e9a56062e304bd7351386fff50dc6f9c2e5668312a342114aaf23",
+      "status": "checked",
+      "line": 17,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameCoefficients.delta_cocycle": {
+      "sha256": "24e36f2c3c6a28cc0e705851d0b058d64c4ae593ecdce5be9916b4baac91ce17",
+      "status": "checked",
+      "line": 19,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.delta_cocycle' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameCoefficients.subtract_cocycles": {
+      "sha256": "9a188079d89f12a33809eb5c01c75593f571a45853aeed1368c5039067439453",
+      "status": "checked",
+      "line": 24,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.subtract_cocycles' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameCoefficients.CoefficientMap": {
+      "sha256": "47e01140b65c80fdddf16bd0f1ee357ad9640c0be243a4d4e66878ef68182610",
+      "status": "checked",
+      "line": 30,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameCoefficients.Kernel": {
+      "sha256": "0df7519c9286a86173fdeee34e8bc20a366beefda5005b99fc7c1ad263190400",
+      "status": "checked",
+      "line": 35,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameCoefficients.map_delta": {
+      "sha256": "1193218e52b93a44832f9b26bd61ceafa59b9b9f461cfa394a4e11944d54ba0a",
+      "status": "checked",
+      "line": 37,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.map_delta' does not depend on any axioms"
+    },
+    "TameCoefficients.corrected_in_kernel": {
+      "sha256": "0f644159988ec44598f9824a9903a1741a7923ccdc81ec9ee2ae573cfa1fdcb6",
+      "status": "checked",
+      "line": 41,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.corrected_in_kernel' does not depend on any axioms"
+    },
+    "TameCoefficients.lift_torsion_cocycle": {
+      "sha256": "b253f30358ad4fb3d61f66df036265b710351556d405b0ea2712bddb1f20a19b",
+      "status": "checked",
+      "line": 46,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.lift_torsion_cocycle' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameCoefficients.torsion_of_kernel_lift": {
+      "sha256": "746ab76f44ac39583be2cdd24dc7904f1f9899880df4e1fa077dde06b2a24903",
+      "status": "checked",
+      "line": 56,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.torsion_of_kernel_lift' depends on axioms: [propext]"
+    },
+    "TameCoefficients.torsion_iff_kernel_lift": {
+      "sha256": "d31e7d48b2d37ec044ddbc9308054d5197ae9df8b68f24aea21f63811488f33e",
+      "status": "checked",
+      "line": 65,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.torsion_iff_kernel_lift' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameCoefficients.primitive_image_fixed": {
+      "sha256": "3bc5a9329c3f0baa6b70419d42dd153a72fb679e4df7013e8cae0936e83950b2",
+      "status": "checked",
+      "line": 75,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.primitive_image_fixed' depends on axioms: [propext]"
+    },
+    "TameCoefficients.local_principal_iff": {
+      "sha256": "e0afeece0c8810148d01c201916212142033e8c9c57b345818c83dcdbed4c8bc",
+      "status": "checked",
+      "line": 84,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.local_principal_iff' depends on axioms: [propext]"
+    },
+    "TameCoefficients.fixed_zero_of_tame_injectivity": {
+      "sha256": "e867688cbf6021083706b3a8e8cc07ded5bda4c7af1142cf16a3204a4a5d0115",
+      "status": "checked",
+      "line": 95,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.fixed_zero_of_tame_injectivity' depends on axioms: [propext]"
+    },
+    "TameCoefficients.action_zero": {
+      "sha256": "cba3f67eb139417ce940ea6cb5790da6a365d87e85796e7c3fa903514024b228",
+      "status": "checked",
+      "line": 105,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.action_zero' does not depend on any axioms"
+    },
+    "TameCoefficients.action_add": {
+      "sha256": "d8b4904457910d0967edae2ded5db7c1510160f8dd9e420415d9ad7cd0c54ae2",
+      "status": "checked",
+      "line": 108,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.action_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameCoefficients.action_nat_multiple": {
+      "sha256": "43eaf68a71129210410ce81948513afa93b63ec2b4ddc0e070f26af17bd9cde6",
+      "status": "checked",
+      "line": 114,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.action_nat_multiple' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameCoefficients.primePowerMap": {
+      "sha256": "a5083523584b3486e9e8e038e85f2e57b6026c800839c9547d92bc79a44e04d9",
+      "status": "checked",
+      "line": 122,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameCoefficients.delta_sub": {
+      "sha256": "708964a56ff162b038377177c39cd357dd2bb511fa4328bedf30828d7ab27db9",
+      "status": "checked",
+      "line": 127,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.delta_sub' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameCoefficients.local_strictness_of_lift": {
+      "sha256": "d22dfe9576e838134fd7a54f5a273551a653d68ccdd840374a15bd48ed45cd99",
+      "status": "checked",
+      "line": 132,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.local_strictness_of_lift' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameCoefficients.primePower_surj": {
+      "sha256": "3d4a509526b1cd8edec0613828102fbc27e1c1b2a412cb3004df5c134e78337c",
+      "status": "checked",
+      "line": 142,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.primePower_surj' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameCoefficients.kernelDifference": {
+      "sha256": "d1eb84bfa10024c88e1c175cb8dee35639714217110a560bd715f1c3f2b6d734",
+      "status": "checked",
+      "line": 159,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameCoefficients.finite_classes_equal_iff": {
+      "sha256": "9711d9af52477b848cb2a89da32836e035f1495c5a95e3f73e7366990ef99814",
+      "status": "checked",
+      "line": 162,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameCoefficients.finite_classes_equal_iff' depends on axioms: [propext]"
+    },
+    "TameCoefficients.complete": {
+      "sha256": "c97a7499d4a43fd74a6b1c0e5d0db71c3befd59a071412e3ecb35aecde53f593",
+      "status": "checked",
+      "line": 168,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

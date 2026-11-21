@@ -1,0 +1,104 @@
+{
+  "steps": {
+    "SignedNormalizationPrecision.conductor_coprime": {
+      "sha256": "53af9fbfbd3c43ace6429727942aef37d5c4b64b1810dd2c487c324963b21552",
+      "status": "checked",
+      "line": 7,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedNormalizationPrecision.conductor_coprime' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedNormalizationPrecision.odd_conductor_cancel": {
+      "sha256": "4c8dfeda0dfc45c484c72e9c03f085c169b5f625a6a1bdcb48984b9ec66e34c1",
+      "status": "checked",
+      "line": 13,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedNormalizationPrecision.odd_conductor_cancel' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedNormalizationPrecision.power_scale_cancel": {
+      "sha256": "98ce61b77b39a061aba2ed5907cad48c85a15535396cafe4ef545c5f4b0da5f6",
+      "status": "checked",
+      "line": 20,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedNormalizationPrecision.power_scale_cancel' depends on axioms: [propext]"
+    },
+    "SignedNormalizationPrecision.scaled_difference_dvd_iff": {
+      "sha256": "d698d09bbe32125cf2bfa4a23bd523ba50af8838aa936e9576b027495072812a",
+      "status": "checked",
+      "line": 26,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedNormalizationPrecision.scaled_difference_dvd_iff' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedNormalizationPrecision.residue_iff_dvd": {
+      "sha256": "fe00ebded3ce933c0c3123082d1a019d1b5a5b8916af56cfdca59534b490b8cc",
+      "status": "checked",
+      "line": 30,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedNormalizationPrecision.residue_iff_dvd' depends on axioms: [propext]"
+    },
+    "SignedNormalizationPrecision.scaled_residue_iff": {
+      "sha256": "3fa8bb4cdecc86ac862ee09afeed816ea29d579906eecca1f5ddf9361bd9ea86",
+      "status": "checked",
+      "line": 35,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedNormalizationPrecision.scaled_residue_iff' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedNormalizationPrecision.numerators_compare": {
+      "sha256": "ebedeeb5eaf5187b69542763b834526295c051d958304102c6dab7bc7c44a1b5",
+      "status": "checked",
+      "line": 42,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedNormalizationPrecision.numerators_compare' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedNormalizationPrecision.raw_residue_iff": {
+      "sha256": "1e618f9cfa1ca7dc6408ec3a3b79d69519ebcf0deda8817b2043c64b0839c174",
+      "status": "checked",
+      "line": 48,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedNormalizationPrecision.raw_residue_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedNormalizationPrecision.literal_residue_iff": {
+      "sha256": "ad5b63af67369870b76b5ce1f8405c6e03b10298eac84cff6c293fb662b5ae09",
+      "status": "checked",
+      "line": 57,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedNormalizationPrecision.literal_residue_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedNormalizationPrecision.next_bit_separates": {
+      "sha256": "3f984f1e40ff0584d3e4780d82eabd0e3089af6495a9595f96d6a9eb88cc0848",
+      "status": "checked",
+      "line": 64,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedNormalizationPrecision.next_bit_separates' depends on axioms: [propext]"
+    },
+    "SignedNormalizationPrecision.precision_sharp": {
+      "sha256": "cf0911c836d12451f40982969b4998fbc9f9ff203593d7e348bcca2a69590a0d",
+      "status": "checked",
+      "line": 73,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedNormalizationPrecision.precision_sharp' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedNormalizationPrecision.residues_of_numerator_difference": {
+      "sha256": "bd0824d77ee6c96138589d6875335ab40eeeab19bc49fea205c9a35b8a9dd467",
+      "status": "checked",
+      "line": 82,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedNormalizationPrecision.residues_of_numerator_difference' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedNormalizationPrecision.level256_six_bits": {
+      "sha256": "522dfa5ed9bdb1f4cbf46448e9de0657ccc8a12911c94cf08c0b277ab0ef03bc",
+      "status": "checked",
+      "line": 88,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedNormalizationPrecision.level256_six_bits' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedNormalizationPrecision.complete": {
+      "sha256": "e476fbd9d6aa98e768818b065e1508b09419082270614f538ae5848665ecfc18",
+      "status": "checked",
+      "line": 98,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    }
+  },
+  "required_lean": "4.33.1",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+}

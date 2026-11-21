@@ -1,0 +1,67 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.AbsoluteDecomposition": "2097d8377c5c7459b1c5bc0fc16ebe4fec5847e5fd4d42d49b7a4c7fc62d015e",
+    "Reimann277.CyclotomicReduction": "dd25d98efd45c6ac5be439576866db9932c264d85ce4cb36a13fa2b8ec8069d6",
+    "Reimann277.CyclotomicRoots": "7fd154cc71d8b6a95ae46966cd027347b73abe0d2ccc3c52d445cdc9112184de",
+    "Mathlib.FieldTheory.Galois.Infinite": "fafd7393bb3ae8c704964fa1b3b00a91c9fc2590ff9e415f467a358c4635ccc0",
+    "Mathlib.NumberTheory.Cyclotomic.CyclotomicCharacter": "884abf82e78e5d2ee5411a67c913591cc309afca5b35ef3d53fd958aaf7b5837",
+    "Mathlib.Topology.Algebra.Group.Units": "391461914e60edcef38dadb7db8776c5fc36d3e43915fe0ea93ffbcba43fd4a7",
+    "Mathlib.Topology.Algebra.Group.ZPow": "cb68d6e276f157a861f1f8314612ed32ea28e271d6ce4d86f82d74924394b1bd",
+    "Mathlib.Topology.Instances.ZMod": "be5db6a7ac3268e4bff4e1efbd48b2ab13e7da12440e22930a2f3688660c7e4b",
+    "Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure": "5bee948d1b475ea3c1ed28dad07788cfdd23259aaaace34ab8d59ab07fbdef90",
+    "Mathlib.FieldTheory.Separable": "274c40c3dc56b66b9c8979e997ec57b0710402078a0189810fe6be7c50be4637",
+    "Mathlib.RingTheory.RootsOfUnity.EnoughRootsOfUnity": "ab5ce55bcd415154e61fe2217b355a51031ddb39d43015616a03c3fc9c4f4053",
+    "Reimann277.PadicInteger": "b9528953f8045b5009ec90a0e7d305b4807d566fb2a50eb222fd24ff0d488f48",
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Reimann.TameLimit277": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+    "Reimann.TameLocalOrders277": "7596b78ef21b0c5280340bd64566b0602408339c991da705e9cf24d97837dd18",
+    "Reimann.TameArithmetic277": "48e0882aeffd38210c101bceab1e5aafefd3c877b7bafc39567fb2b0ad592b54",
+    "Reimann.TameOrderCompletion277": "4f13588caa002782d7596a41dc4430d15f584506829b6e7cc3c5beb951f47cfd",
+    "Reimann.TamePrimePowers277": "9c5db0aad6d6d16ef27a54edf4fa99d8283bf17cc04157dc8955f41fc1adda6c",
+    "Reimann.TameOrderPrimes277": "847a93ca9be19999dca67c119cc95e685f21fd8f3956100065a73bc8b521336b",
+    "Reimann.TameFiber277": "7d07f4bd543ccecef281e086cbc1d023250657743c14eb5d5e5a0884442650d2",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.TameOrderReduction277": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+    "Reimann277.PadicEmbeddings": "9b170d977d243dd5ef8a465ef9a9bea343438cb0ea3bda092c8aed013ce2c9a8",
+    "Mathlib.FieldTheory.AbsoluteGaloisGroup": "e7746c2ccccbe078b0f2fa2e1ebe6016737f3a603542c2281d530f9ca0d96c20",
+    "Reimann277.Biquadratic": "1eecf3556b0b3cbf21ff1704cade538325a07227d454a3ade53283149eb974df",
+    "Reimann.TameSignedEmbeddings277": "3fd66f8a13aff48d00713431797d6f628c25abc54f4c7023f7c93ca2e483d588",
+    "Reimann.TameEmbeddings277": "7c184751698ce48d191a56ef92f45ca365f177a4cab5a4f52c9c29bcee50b5c7",
+    "Reimann.TameLimitRoots277": "cf5d2f76685ac0c2b3a7527dd65304d36462bc6502b0484e661782ba519abd57",
+    "Reimann.TameOrderFaithful277": "371738ead39dfaf6910c6fe1737e3a192e11812c07cf508fdd0b28ba0bb43d2f",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Reimann.TameRootExhaustion277": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+    "Reimann.CyclicBoundary": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+    "Reimann.CyclotomicNorm": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+    "Mathlib.Algebra.Algebra.Hom": "cb23985743d69ab47c814e821ec7620d49ce642073d96ea0016b5f48fd5dd445",
+    "Mathlib.Algebra.Algebra.Rat": "27a6444a720f4100b0a93140231049882e266bacef7f4c6bb8c7a1374cc6561b",
+    "Mathlib.Algebra.Field.MinimalAxioms": "5a4f6a6ce4037663e35257965bd052a4fa36d040c7bc7ad7eed074e9dd1a2872",
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb"
+  },
+  "steps": {
+    "CyclotomicLocal.fact277": {
+      "sha256": "19d36d626bb438d49b57623c7c714adeb91e56fa8c5ad0da67e6fd209aee269a",
+      "line": 15,
+      "status": "checked"
+    },
+    "CyclotomicLocal.Scalars": {
+      "sha256": "6a7e97aca102fa8c39c0073aa3aa4fed536e5d248ac49c0eeb841ebfca60a5ff",
+      "line": 17,
+      "status": "checked"
+    },
+    "CyclotomicLocal.fieldCharacter": {
+      "sha256": "e3580e33f307b320ae430491153b99c96dc26f5ccd9dde53d3e14e58e66b1a3e",
+      "line": 20,
+      "status": "checked"
+    },
+    "CyclotomicLocal.cyclotomic": {
+      "sha256": "d3926586e315246401078d6d0128012716bc414837ea20971c09f6f813223810",
+      "line": 26,
+      "status": "pending"
+    }
+  }
+}

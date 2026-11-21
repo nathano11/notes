@@ -1,0 +1,156 @@
+{
+  "steps": {
+    "WeightDepth.weight_linear": {
+      "sha256": "8cab9b8dd4b8eaab213f957adbd4379260f29b6c5a259e62775164c73b4ad7eb",
+      "status": "checked",
+      "line": 6,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightDepth.weight_linear' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightDepth.normalized_difference": {
+      "sha256": "150b1c56544a36397a933e16fd1a83813dcebc16a284a85d4109417d4a068e78",
+      "status": "checked",
+      "line": 13,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightDepth.normalized_difference' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightDepth.next_power_iff": {
+      "sha256": "d8a3b31748021d78eafb6958e0c643108700d890ea8bf41d3b91bb34109e347a",
+      "status": "checked",
+      "line": 24,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightDepth.next_power_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightDepth.weight_depth_test": {
+      "sha256": "e8a5fb7d3321ca36fda57b0d0a0c4c64646c9f54380b02d15dbcaf82a2a60be3",
+      "status": "checked",
+      "line": 35,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightDepth.weight_depth_test' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightDepth.weight_dvd_lower": {
+      "sha256": "d506a82a9c5ad25585139d74bf77d14584dc26cf346c4fdf1cad73c3a74e004c",
+      "status": "checked",
+      "line": 44,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightDepth.weight_dvd_lower' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightDepth.generator_divisibility": {
+      "sha256": "aabb84a84433a4d167aa8f1a4bc6735fbf9cef821f7b61fde15eacdfc19d9023",
+      "status": "checked",
+      "line": 52,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightDepth.generator_divisibility' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightDepth.generator_period": {
+      "sha256": "44604969f297d16852cdd7b7c87e7c865044827baeefc50b7d1c51b2cfdd389f",
+      "status": "checked",
+      "line": 71,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightDepth.generator_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightDepth.generator_least_period": {
+      "sha256": "5ac7f1aeefbb54cf3aee56f40fd9d32a5557ccce81eec48c911d94cce9105ab4",
+      "status": "checked",
+      "line": 78,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightDepth.generator_least_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightDepth.inverse_trivial_iff": {
+      "sha256": "8cf166fb9a55b89736cabb9dbf7deab5801bb2f9125dcd4dc37b8cfcacd7ac2b",
+      "status": "checked",
+      "line": 87,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightDepth.inverse_trivial_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightDepth.inverse_weight_representative": {
+      "sha256": "ed9841b5a80ac1b24bfba29d7df6c6ad0e3133dac4de6e621cefa5124fc7ec1e",
+      "status": "checked",
+      "line": 97,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightDepth.inverse_weight_representative' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightDepth.inverse_weight_period": {
+      "sha256": "4df9162d301084727db2f301ac7ad094977b4f03535f5dd56cace602ced4ef37",
+      "status": "checked",
+      "line": 110,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightDepth.inverse_weight_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightDepth.inverse_first_digit": {
+      "sha256": "8d565d05485cb1e72a44411d20ca34aafc01abf67467bd3bf13daa0c4039a7bd",
+      "status": "checked",
+      "line": 117,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightDepth.inverse_first_digit' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightDepth.inverse_normalized_difference": {
+      "sha256": "f887408f68a2b6a7ecef71f478080e5d2175da636a4465395ccd3dbb34bdd451",
+      "status": "checked",
+      "line": 134,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightDepth.inverse_normalized_difference' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightDepth.negative_weight_digit": {
+      "sha256": "be3e9c4e5612b79c18af78c66eb42523dac7e74a57e755665b5d174d0ce2a17e",
+      "status": "checked",
+      "line": 149,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightDepth.negative_weight_digit' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightDepth.complete": {
+      "sha256": "154e0bdeea56016cbba72ac1f9ce2db2c983dd7fd5667b72614f049a64a57c7c",
+      "status": "checked",
+      "line": 156,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

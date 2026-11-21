@@ -1,0 +1,95 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.Topology.Algebra.Group.Quotient": "da71e1e4b4c9a24918e9b56dc82da21597d5df79f9070cc2e5127b7925e4933b",
+    "Mathlib.Topology.Algebra.ContinuousMonoidHom": "2fd311acabbf5f50aa46547f23fc32f4e7359c2000034897357c8ec4fdef2bf8",
+    "Mathlib.GroupTheory.Commutator.Basic": "a3f5ea65a36bb722f0804b3c94e1f15c594c2a33fd6bbecded70678761d549ac"
+  },
+  "steps": {
+    "SplitQuotient.relations": {
+      "sha256": "b502c036e6ac020da1605fe4601e0c341d2aefccb6e2220d2a05bfc54b954b87",
+      "line": 12,
+      "status": "checked"
+    },
+    "SplitQuotient.kernel": {
+      "sha256": "82cc1078267775fc820a17f291b358f0836b495c3297ccadd626153cb44d638b",
+      "line": 15,
+      "status": "checked"
+    },
+    "SplitQuotient.kernelNormal": {
+      "sha256": "e9c53ce950517cef8b78405603b84800a69cd7873f2d0114576693f639569b87",
+      "line": 18,
+      "status": "checked"
+    },
+    "SplitQuotient.SplitQuotient": {
+      "sha256": "c22afbf962bc468ed8130b0e7955a2664156d09fe759e427ab669de3ef49f905",
+      "line": 22,
+      "status": "checked"
+    },
+    "SplitQuotient.project": {
+      "sha256": "639fc13db683df67ccb618b4015e5a5c90ed2e63588669421df20f6cf4506edc",
+      "line": 24,
+      "status": "checked"
+    },
+    "SplitQuotient.project_surjective": {
+      "sha256": "8f3c8150cffd384e429cf93fe2985ec9f946750510c76a98940d3c9392ae51ce",
+      "line": 27,
+      "status": "checked",
+      "checker_output": "'Reimann.TameSplitQuotient277.project_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SplitQuotient.project_one": {
+      "sha256": "08cfe31f21142fb59c2039817cd8cbbc8bb3abb880cb8aedb3a196fb94186396",
+      "line": 30,
+      "status": "checked",
+      "checker_output": "'Reimann.TameSplitQuotient277.project_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SplitQuotient.project_local": {
+      "sha256": "289aff656561c8ead540b77b10e860feab88fc8c72b66bbfd9e84802c4fe8484",
+      "line": 35,
+      "status": "checked",
+      "checker_output": "'Reimann.TameSplitQuotient277.project_local' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SplitQuotient.project_commutes": {
+      "sha256": "b20ccbb3b576532daef6f9e82ce19c26ee89c8e0a90e1715da0392faa65145d1",
+      "line": 38,
+      "status": "checked",
+      "checker_output": "'Reimann.TameSplitQuotient277.project_commutes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SplitQuotient.kills_kernel": {
+      "sha256": "a7dcfc88d84cfda891fe5b59cb7cae0d31e04936389e32c05ce512f0f172de73",
+      "line": 47,
+      "status": "checked",
+      "checker_output": "'Reimann.TameSplitQuotient277.kills_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SplitQuotient.descend": {
+      "sha256": "1c4d265c6c7e7ad880fba1e54874d67ec466b3d3751035200f22e0fb90da1a67",
+      "line": 58,
+      "status": "checked"
+    },
+    "SplitQuotient.descend_project": {
+      "sha256": "15fd170d024b25a84c54129485130f2037f8ebf2447b5de03d757352cefd4234",
+      "line": 63,
+      "status": "checked",
+      "checker_output": "'Reimann.TameSplitQuotient277.descend_project' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SplitQuotient.descend_unique": {
+      "sha256": "01954c0f6209f18c871cb0f08043a2b95374f897e559ead710ba6101d07b0137",
+      "line": 66,
+      "status": "checked",
+      "checker_output": "<stdin>:66:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameSplitQuotient277.descend_unique`:\n  [T2Space A]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [T2Space A] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.TameSplitQuotient277.descend_unique' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SplitQuotient.continuous_characters": {
+      "sha256": "989b70ab3570d8abbef7956f0503ce15c4c3cb4aa5864b2e3ae08eda01f8c0ea",
+      "line": 72,
+      "status": "checked",
+      "checker_output": "<stdin>:66:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameSplitQuotient277.descend_unique`:\n  [T2Space A]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [T2Space A] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.TameSplitQuotient277.continuous_characters' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SplitQuotient.complete": {
+      "sha256": "da1fc61725a62abcb6395a532199d0783d39ede7f152dc5dc781f06ab6e30245",
+      "line": 82,
+      "status": "checked",
+      "checker_output": "<stdin>:66:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameSplitQuotient277.descend_unique`:\n  [T2Space A]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [T2Space A] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`"
+    }
+  }
+}

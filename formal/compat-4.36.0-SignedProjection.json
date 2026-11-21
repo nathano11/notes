@@ -1,0 +1,81 @@
+{
+  "steps": {
+    "SignedProjection.total": {
+      "sha256": "5139fdbc7fddf3a63ab16426b8f179aba5a734dfeb644ef4a2102a508bcffc6a",
+      "status": "checked",
+      "line": 8,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedProjection.total_append": {
+      "sha256": "49415cbd3f5dba734df6063ebd5d9233cc95507cacfa01bb068c8cde36b71185",
+      "status": "checked",
+      "line": 12,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProjection.total_append' depends on axioms: [propext]"
+    },
+    "SignedProjection.total_pairs": {
+      "sha256": "646c073a39af31ea4055f7dc79ea0657707d667910c2d13999923e9447bb4344",
+      "status": "checked",
+      "line": 20,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProjection.total_pairs' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedProjection.total_affine": {
+      "sha256": "b83f0b9d8acb7c640378967826359328d106a9e3ffdb343e2402bc8b5ae6aefb",
+      "status": "checked",
+      "line": 30,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProjection.total_affine' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProjection.moment": {
+      "sha256": "45b73087f9773b556dfe3a6058e3d097110aac9b70bd16d0aeffac6af7c608c0",
+      "status": "checked",
+      "line": 37,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedProjection.moment_two_blocks": {
+      "sha256": "10628b6c2272dcac9e7cce6da87a5745ca112d243e63777efdcb6e6042c04c69",
+      "status": "checked",
+      "line": 39,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProjection.moment_two_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProjection.moment_two_fibres": {
+      "sha256": "6ba30182c4fab27411c09d3454bb1b70894de73576d42ee2df3fd38f20f2c3bb",
+      "status": "checked",
+      "line": 52,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProjection.moment_two_fibres' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProjection.moment_refine": {
+      "sha256": "192bd3cd6a601435868c43c50d6dc7cce3c14a2b6f892e67482399d2ee69b07b",
+      "status": "checked",
+      "line": 70,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProjection.moment_refine' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProjection.paired_numerator": {
+      "sha256": "49cf1a394aba94bd014b07fad1a02d3cfe676acead910e30e2ec8676980a729a",
+      "status": "checked",
+      "line": 80,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProjection.paired_numerator' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProjection.paired_normalization": {
+      "sha256": "78df2213e0c23d36c6bdc4947c87f05981268c5e78289a9aded6a495a02cf654",
+      "status": "checked",
+      "line": 92,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProjection.paired_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProjection.complete": {
+      "sha256": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f",
+      "status": "checked",
+      "line": 101,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

@@ -1,0 +1,741 @@
+{
+  "steps": {
+    "CircularQuadraticNonpower69.F": {
+      "sha256": "ef8bb36a731e8c237e255afb9eb6bd2bc323c77712cf214e7caad9bce8a6e2ba",
+      "status": "checked",
+      "line": 15,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularQuadraticNonpower69.bitExponent": {
+      "sha256": "9b5d2cadee8b178e7fdd9958f4fff6f911a887e3bdd3c7b18a0f3b6194624647",
+      "status": "checked",
+      "line": 17,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularQuadraticNonpower69.bitPower": {
+      "sha256": "c1e267c43bf59a59864257f154e4bf6fbdb1723a48faa99fcd1352e65a149326",
+      "status": "checked",
+      "line": 21,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularQuadraticNonpower69.bitPower_correct": {
+      "sha256": "def802dde1f005bb7ab1986af0b2a463b58f41b14c575846838720423750cc7b",
+      "status": "checked",
+      "line": 27,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.bitPower_correct' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.fermatDigits": {
+      "sha256": "c3cc69fbff1a225ebbf333d6e70df30bd35fc0c4e05140c28176cca1b7f710ef",
+      "status": "checked",
+      "line": 35,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularQuadraticNonpower69.fermatExponent": {
+      "sha256": "3866e67d6568da98154d4aff32eea62819079e76bc03f25e4950e23b9b99cffc",
+      "status": "checked",
+      "line": 38,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.fermatExponent' does not depend on any axioms"
+    },
+    "CircularQuadraticNonpower69.fermat_table": {
+      "sha256": "49ce3d98e9d0e338a55485abfc25880863cc45ccbf65f3845b3b574f90820297",
+      "status": "checked",
+      "line": 40,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.fermat_table' depends on axioms: [propext]"
+    },
+    "CircularQuadraticNonpower69.fermat": {
+      "sha256": "50c1ea78aede5650183cb6ed2ea5040aaf3e3bc4eb9064c9be6c4aa34e990dc5",
+      "status": "checked",
+      "line": 45,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.fermat' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.prime_1109": {
+      "sha256": "1b37a6542ecb8232d120cdc8f2e968e7a815c6f1f9dfd2df5cec8114eee8d969",
+      "status": "checked",
+      "line": 48,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.prime_1109' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.roots": {
+      "sha256": "a75ca3e53e3837eb1443600fb992d5a3259a7d9c09f2583621ed7e88cc189c8e",
+      "status": "checked",
+      "line": 55,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.roots' depends on axioms: [propext]"
+    },
+    "CircularQuadraticNonpower69.residue": {
+      "sha256": "b9c97eada8817caf9d09fa1e11e62889a1638c407fa3496290d0d9e14105e25d",
+      "status": "checked",
+      "line": 57,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularQuadraticNonpower69.signed_fourth": {
+      "sha256": "e6c6fc6972cdf7272517eae8393539c1043a2773dba31e4586ccc8ce074b02f3",
+      "status": "checked",
+      "line": 60,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.signed_fourth' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.fourth_power": {
+      "sha256": "694886c8336ad87c0c23d946120098bb094295d68962740dbae5029c8342557e",
+      "status": "checked",
+      "line": 66,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.fourth_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.denominator_zero": {
+      "sha256": "34c5c28e568b4c7f89b86c75aa357eaada5d972c185a94c5ea371812dc87c3fa",
+      "status": "checked",
+      "line": 72,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.denominator_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.numerator_zero": {
+      "sha256": "392fbda0cdd3ba37c42e10289f34881725a2ef4e279e3a69befff7abda070276",
+      "status": "checked",
+      "line": 86,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.numerator_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.separate_coordinates": {
+      "sha256": "00ee486283411f8b89195ba4f336857d957e18c35693f01b6f2a1129a1ba2cbc",
+      "status": "checked",
+      "line": 95,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.separate_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.cast_zero_divides": {
+      "sha256": "c1400ed444f7c9ce1107e2a09a8e369db5b26b58090a1b444c8272c82d73a648",
+      "status": "checked",
+      "line": 101,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.cast_zero_divides' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.primitive_coordinates": {
+      "sha256": "6cbb1a4439274cd90da50782e64fed60f31e283f1e2a5f09f6054793ca98ae4b",
+      "status": "checked",
+      "line": 104,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.primitive_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.integral_injective": {
+      "sha256": "7145278f9eaf1a896335d9347dd47785885edfd2c635f9a38ac33fb57673de41",
+      "status": "checked",
+      "line": 135,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.integral_injective' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.integral_product": {
+      "sha256": "4f6f16ea9078f4449b5e56374259e4a57df5275c86432c5fcd527508091ed68a",
+      "status": "checked",
+      "line": 138,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.integral_product' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.integral_power": {
+      "sha256": "1aac9b8975776efda772f9e86caf288679152f83dfc256cd3658ebdaddff24cc",
+      "status": "checked",
+      "line": 144,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.integral_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.clear_power": {
+      "sha256": "d6edb24f8179c08083c63d46afacecdf1ddd4cc0f8e39c52c3ce0663b61d5c0a",
+      "status": "checked",
+      "line": 150,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.clear_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.residue_scalar": {
+      "sha256": "536f07a1b17f7537ab7b864622111777a9ecd4ee952a114311f79797e1e77512",
+      "status": "checked",
+      "line": 157,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.residue_scalar' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.specialization": {
+      "sha256": "94ae0a3b1f0ccd2317dfbff24e5cd5374ea9113e7b3ec150b68bf592c93a032d",
+      "status": "checked",
+      "line": 161,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.specialization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.local_obstruction": {
+      "sha256": "53a5f80988f8870c83ad3e9ed7adafbc5886669aafb22571e9747d34b89a48e7",
+      "status": "checked",
+      "line": 172,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.local_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.quadratic_field_nonpowers": {
+      "sha256": "8e7375502444947279ef7faa801091fa66722a51cedaa0245af937bb4cb64fd1",
+      "status": "checked",
+      "line": 186,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.quadratic_field_nonpowers' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.signed_inverse": {
+      "sha256": "f393c1aa7d811ed09df0ff1caf3f805dcf57a0e4175b912e99bdd47aad2c44a7",
+      "status": "checked",
+      "line": 193,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.signed_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.degree276_field_obstruction": {
+      "sha256": "27adf8751525a29fc6654280525ced70278354cf3755d79caba5c3db8c34e282",
+      "status": "checked",
+      "line": 199,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.degree276_field_obstruction' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.complete": {
+      "sha256": "c0d8b02e451315f5f99bd7b9cea4a8c4995c8c12c77ac19418fe3bff23c9957c",
+      "status": "checked",
+      "line": 266,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularQuadraticNonpower69.projected_periods": {
+      "sha256": "9aecf4979289c6dd014bd91389ee1473f0c37bfec68f02a30b8707bfc47434f3",
+      "status": "checked",
+      "line": 211,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.projected_periods' depends on axioms: [propext]"
+    },
+    "CircularQuadraticNonpower69.power_mod_277": {
+      "sha256": "c69f3d05445f913a9f061a36c1bc3130a7eb9276ebe5dfbbd4ed552c4e1624d8",
+      "status": "checked",
+      "line": 213,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.power_mod_277' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.projected_orders": {
+      "sha256": "8fd126389ec982c0821c54c345096f924e7281dcfa735ddad2ad8879108c9a12",
+      "status": "checked",
+      "line": 218,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.projected_orders' depends on axioms: [propext]"
+    },
+    "CircularQuadraticNonpower69.projections_of_nonmultiple": {
+      "sha256": "cd8ab827280fadcfc5aff925b88bcc904d73f3b5aa9ceff5e17c0e7aa80b524c",
+      "status": "checked",
+      "line": 225,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.projections_of_nonmultiple' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.project_fourth": {
+      "sha256": "6cdd414b21f83984910289b722389b2ad8f848c119560a25951955f2a6906bb9",
+      "status": "checked",
+      "line": 231,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.project_fourth' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.signed_nonmultiple": {
+      "sha256": "7f625ee645b11d762340e80eba678f887f4d59fd6bd90a88f03bae5995c7851b",
+      "status": "checked",
+      "line": 237,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.signed_nonmultiple' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.power_of_multiple": {
+      "sha256": "7f41ce2471de69dcebe07773aad6fd7be0656a47a87501ac487e1107c6c650be",
+      "status": "checked",
+      "line": 250,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.power_of_multiple' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticNonpower69.signed_power_classes": {
+      "sha256": "c1123ad43979e26fed8f204b0338e8afebc1e0b3076aeae7d99dff677469a13e",
+      "status": "checked",
+      "line": 255,
+      "local_sources": {
+        "Reimann/CircularRationalPeriod69.lean": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularGauss69.lean": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularQuadraticNonpower69.signed_power_classes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    }
+  },
+  "required_lean": "4.33.1",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+}

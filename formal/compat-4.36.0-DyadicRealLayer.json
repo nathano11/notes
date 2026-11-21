@@ -1,0 +1,197 @@
+{
+  "steps": {
+    "DyadicRealLayer.eval": {
+      "sha256": "0729b57f1b63935a89ee9b7316431ddffa511b839ac8458fdd96e83b1f183478",
+      "status": "checked",
+      "line": 10,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicRealLayer.compose_square_sub_two": {
+      "sha256": "5f7fb5aba6de3e345acf5893672de60360e6cf30dfc16f719f6a12aee0d7582e",
+      "status": "checked",
+      "line": 14,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.compose_square_sub_two' does not depend on any axioms"
+    },
+    "DyadicRealLayer.square_power": {
+      "sha256": "68533aa05a57c10e36a0d1619f45f95a691e63eb128e0efd709f5fd67a21692e",
+      "status": "checked",
+      "line": 20,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.square_power' depends on axioms: [propext]"
+    },
+    "DyadicRealLayer.power_inverse": {
+      "sha256": "c87149e4d1dc0435791a764576b86faec7fd608ed71f1d7b6aeee0564a449d20",
+      "status": "checked",
+      "line": 24,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.power_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicRealLayer.eval_trace": {
+      "sha256": "d08f424b935754ed2f31dbcde28a4a332d02b88a93ede9606ab3509a91f6454e",
+      "status": "checked",
+      "line": 34,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.eval_trace' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicRealLayer.real_cyclotomic_root": {
+      "sha256": "048a0479813f4eb0c3ad2379335425f8bd5c3de34a087567478983b48a8f0d2b",
+      "status": "checked",
+      "line": 45,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.real_cyclotomic_root' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicRealLayer.characteristic_two_reduction": {
+      "sha256": "f353dd8cd2e544f92c10108f0ee2b409497f7f74698598116a30bf216f5448a2",
+      "status": "checked",
+      "line": 58,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.characteristic_two_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicRealLayer.positive_layer_constant": {
+      "sha256": "44e42242c93b7ad462a25c61073f7e6c53ff2042cc827e5e47d803fb6dff49a4",
+      "status": "checked",
+      "line": 64,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.positive_layer_constant' depends on axioms: [propext]"
+    },
+    "DyadicRealLayer.constant_mod_four": {
+      "sha256": "20a19f07a1d5c91bcd3a1171d018eb33adfe3daba3b11265150bd4ad8866e7a2",
+      "status": "checked",
+      "line": 73,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.constant_mod_four' depends on axioms: [propext]"
+    },
+    "DyadicRealLayer.prime_contains_power_root": {
+      "sha256": "2455973d301497fb39974485e0d8e7715836bbdd24eabade4c53f62aaac7c4f8",
+      "status": "checked",
+      "line": 76,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.prime_contains_power_root' depends on axioms: [propext]"
+    },
+    "DyadicRealLayer.prime_contains_generator": {
+      "sha256": "21999a95b6b580e31bde82919137aa2fbc352217a4129cdf1ccc827e636b6f9e",
+      "status": "checked",
+      "line": 89,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.prime_contains_generator' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicRealLayer.horner": {
+      "sha256": "b26585ad258bf327ff0b013434ad382733983355f4ea9d43f15273df07f6d062",
+      "status": "checked",
+      "line": 98,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicRealLayer.addScaled": {
+      "sha256": "2d18083d6d8d8ff999f8d3feba03d579ce421eb5fa2dcabe76506126fa6539d3",
+      "status": "checked",
+      "line": 103,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicRealLayer.length_addScaled": {
+      "sha256": "c34505772c68673193b8e5a6d9ba4c69695e9b25dac1ed5b90321da98d188d52",
+      "status": "checked",
+      "line": 108,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.length_addScaled' depends on axioms: [propext]"
+    },
+    "DyadicRealLayer.horner_addScaled": {
+      "sha256": "fe9064adcde26598d14791882df2de557a4ef907d7586b19e52fe4d2927b0d65",
+      "status": "checked",
+      "line": 113,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.horner_addScaled' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicRealLayer.explicit_leading_one": {
+      "sha256": "57da8f6d0c5e6072f7f6dd96c173ae89231ce03acac66ef147075b69806a220b",
+      "status": "checked",
+      "line": 126,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.explicit_leading_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicRealLayer.monicProduct": {
+      "sha256": "2b8b36ebf876955b4e9d80366e936946f2e02a9d9560783c7c502388cbc57f36",
+      "status": "checked",
+      "line": 134,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicRealLayer.monicProduct_degree": {
+      "sha256": "cab381fc8c360244984d0298bd3827c3f367caeb61d493b90d950db48fe6db56",
+      "status": "checked",
+      "line": 138,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.monicProduct_degree' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicRealLayer.monicProduct_eval": {
+      "sha256": "ec69b76fc933c1ce1f69f7448939993d9336c8e3099ee98910e00febfdde96ab",
+      "status": "checked",
+      "line": 144,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.monicProduct_eval' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicRealLayer.lowCoefficients": {
+      "sha256": "05c57afaa9e601e2e245f4ce4d4dbc4830c24f0da0d3c68843e30efdd0b12240",
+      "status": "checked",
+      "line": 156,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicRealLayer.monic_degree": {
+      "sha256": "bf3cbe6ee71be923b0fcf4b6aac052dd387208b728dc2f8b70694dbd1dd304c2",
+      "status": "checked",
+      "line": 160,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.monic_degree' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicRealLayer.monic_coefficients_eval": {
+      "sha256": "6b2f93360ef60e6f756d90a5bce5553426c3b22f44abe34a27f7bb8c118d3f61",
+      "status": "checked",
+      "line": 167,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.monic_coefficients_eval' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicRealLayer.addScaled_even": {
+      "sha256": "b08dfc32e6ded8fb2f70f0a3fe3d22470e74d9f9ab4a07781dcf7f9fda2f4181",
+      "status": "checked",
+      "line": 180,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.addScaled_even' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicRealLayer.monicProduct_even": {
+      "sha256": "5925b0cd75f15be807abfe63b2b80e4d331c3873d9a9aa7dd723a6ecf291f8ba",
+      "status": "checked",
+      "line": 194,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.monicProduct_even' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicRealLayer.low_coefficients_even": {
+      "sha256": "91bcda0d1021e94cb240e927ffea9d2ca239a3245db0e3cdb508cb102ce0d8a6",
+      "status": "checked",
+      "line": 206,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.low_coefficients_even' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicRealLayer.prime_iff_constant": {
+      "sha256": "d634eab0227877ae78b69c716ecef6616be6fe568e4537321a4da950d29c57d6",
+      "status": "checked",
+      "line": 214,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.prime_iff_constant' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicRealLayer.prime_pullback": {
+      "sha256": "fa5c83ea396cf35d819ff4b09bab7da89d16014370909d82a301103e715e05d5",
+      "status": "checked",
+      "line": 230,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRealLayer.prime_pullback' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicRealLayer.complete": {
+      "sha256": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+      "status": "checked",
+      "line": 240,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

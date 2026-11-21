@@ -1,0 +1,175 @@
+{
+  "steps": {
+    "ScalarCoinvariants.Related": {
+      "sha256": "ed18d83b2d13ade7972b2ab453437d4993eae054139d475a7d85287cf301eaef",
+      "status": "checked",
+      "line": 7,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "ScalarCoinvariants.complete": {
+      "sha256": "a46386d10165c817fe2234a91ac1a1ff6067bc68ea2799d2f42cfb06f1bb3569",
+      "status": "checked",
+      "line": 153,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "ScalarCoinvariants.remainder_as_difference": {
+      "sha256": "cd96716d7fe5ccd5e87cac34aec3208ef1981b721c1c0ef2be46976620ae373a",
+      "status": "checked",
+      "line": 10,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.remainder_as_difference' depends on axioms: [propext, Quot.sound]"
+    },
+    "ScalarCoinvariants.nat_gcd_bezout": {
+      "sha256": "a2b22409b616e5a0d9a046673a77b064a1bf29c65cb2b4b36f2e81cbb6ad9642",
+      "status": "checked",
+      "line": 16,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.nat_gcd_bezout' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ScalarCoinvariants.int_gcd_bezout": {
+      "sha256": "19ceffc9ca32c911961661947b273f64adc8918b6bcecaa003b75cd38ad5b34a",
+      "status": "checked",
+      "line": 28,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.int_gcd_bezout' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ScalarCoinvariants.gcd_dvd_difference": {
+      "sha256": "349b0b0e2981f3ebff592844b71345feebe65a2620d146a068f89a9be6192998",
+      "status": "checked",
+      "line": 35,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.gcd_dvd_difference' depends on axioms: [propext, Quot.sound]"
+    },
+    "ScalarCoinvariants.related_of_gcd_dvd_difference": {
+      "sha256": "a118c56417ecfd656d90b5606aa940a562453b0fffe7657025eadd72744643b8",
+      "status": "checked",
+      "line": 42,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.related_of_gcd_dvd_difference' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ScalarCoinvariants.related_iff_remainder": {
+      "sha256": "6cb20251781559b710bb93876f5201d41e59f3782bb29bc1b6a7bb7ec0729964",
+      "status": "checked",
+      "line": 50,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.related_iff_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ScalarCoinvariants.Coinvariants": {
+      "sha256": "989d17d31d2d13c8cfdf53815fbd098dcb7d9a0f16624f4aacc20832c021d8b0",
+      "status": "checked",
+      "line": 56,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "ScalarCoinvariants.modulus_pos": {
+      "sha256": "9cfee0ca7efa9080f48919fb5d302c2fe4f952c87c89164014d72e87c1b361b3",
+      "status": "checked",
+      "line": 58,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.modulus_pos' depends on axioms: [propext, Quot.sound]"
+    },
+    "ScalarCoinvariants.representative": {
+      "sha256": "a2529a54ea8481411cd23e587022ea225182a0b15695baa0c3fb8c682c4dfbf5",
+      "status": "checked",
+      "line": 62,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "ScalarCoinvariants.representative_val": {
+      "sha256": "29bedeb4202c07bec5a811deab5ecfe2bf304b38128003bffeec1c155ff62c80",
+      "status": "checked",
+      "line": 68,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.representative_val' depends on axioms: [propext, Quot.sound]"
+    },
+    "ScalarCoinvariants.representative_eq_iff": {
+      "sha256": "9ce530ae5a6450c0448a9782140c4abccaaed6ea7fc2fe15578fb9e11b77212e",
+      "status": "checked",
+      "line": 72,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.representative_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ScalarCoinvariants.toResidue": {
+      "sha256": "56e2171074bfdb24dd473c93685a08ac2231bc008c8aa141a973567cb03d8e26",
+      "status": "checked",
+      "line": 78,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "ScalarCoinvariants.ofResidue": {
+      "sha256": "bd02016cb2e4a1fbe39227260fece1ada3876a67a1a2aeec381fbe5e7b24c929",
+      "status": "checked",
+      "line": 83,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "ScalarCoinvariants.toResidue_ofResidue": {
+      "sha256": "05f03c2c1816f21f59e99fdbbf3b79420e921ee5061dda7d26cb1de51f0523ea",
+      "status": "checked",
+      "line": 86,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.toResidue_ofResidue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ScalarCoinvariants.ofResidue_toResidue": {
+      "sha256": "f8cc73ac69139d5e62cc8fb68dc0389d0777ebce8483f181250c7ac9eb149be4",
+      "status": "checked",
+      "line": 94,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.ofResidue_toResidue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ScalarCoinvariants.representative_add": {
+      "sha256": "6793d0ee766432aafc21dd063faf9fe0bd876f9b6c08447e49b82cb84cbb13d4",
+      "status": "checked",
+      "line": 103,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.representative_add' depends on axioms: [propext, Quot.sound]"
+    },
+    "ScalarCoinvariants.addClasses": {
+      "sha256": "a3891ab4b427438dcfe5a0ef3becebd9ab3e9fd13a959cb040ecb52c69b464a4",
+      "status": "checked",
+      "line": 110,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "ScalarCoinvariants.addClasses_mk": {
+      "sha256": "fdcc99d67a5768ed5199a2b200daa6d86b19d99cc6f9d23b72ef5cd78d132bce",
+      "status": "checked",
+      "line": 113,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.addClasses_mk' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ScalarCoinvariants.toResidue_addClasses": {
+      "sha256": "df7b8fa61e17e69fdd70f1ecc8631b0a71120a6947fb7a336757777f1dac4bf0",
+      "status": "checked",
+      "line": 120,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.toResidue_addClasses' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ScalarCoinvariants.gcd_at_shallow_depth": {
+      "sha256": "d941d6084069f42a3a3383778e09487832d3ee8a125f40064e74003554567015",
+      "status": "checked",
+      "line": 124,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.gcd_at_shallow_depth' depends on axioms: [propext, Quot.sound]"
+    },
+    "ScalarCoinvariants.gcd_at_deep_depth": {
+      "sha256": "da2b7064bf679eb2247eb15b86541cab34269b439eb0fe47df0ddfbc577cae36",
+      "status": "checked",
+      "line": 132,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.gcd_at_deep_depth' depends on axioms: [propext, Quot.sound]"
+    },
+    "ScalarCoinvariants.scalar_order_at_depth": {
+      "sha256": "a9af2a0cb3f8e8852982de955da51e0a5475b70fe9adb0e7139ea6f18812a1cc",
+      "status": "checked",
+      "line": 139,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.scalar_order_at_depth' depends on axioms: [propext, Quot.sound]"
+    },
+    "ScalarCoinvariants.related_at_depth": {
+      "sha256": "72d928d3a3a6ec5a893121367f7039db8180d37a67b7a94a117b10ee6794e670",
+      "status": "checked",
+      "line": 148,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.ScalarCoinvariants.related_at_depth' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

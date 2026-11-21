@@ -1,0 +1,83 @@
+{
+  "steps": {
+    "SignedTaylorScalar.narrow_int": {
+      "sha256": "e302bd758e11dae97faef8be729a7201d75f685c9cf72d0943e01f963d0f3de0",
+      "status": "checked",
+      "line": 12,
+      "local_sources": {
+        "Reimann/SignedTaylor.lean": "98243200ad22f4a1cee247ac6ad75e3ca87172a96f0757bd8ce81403e38ab9d9",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTaylorScalar.narrow_int' depends on axioms: [propext]"
+    },
+    "SignedTaylorScalar.ofInt_at_level": {
+      "sha256": "1aeb9c27d44c9cce1e9468be43535e7d37dc9050a85aa4f913d6a7f6c0e146bc",
+      "status": "checked",
+      "line": 24,
+      "local_sources": {
+        "Reimann/SignedTaylor.lean": "98243200ad22f4a1cee247ac6ad75e3ca87172a96f0757bd8ce81403e38ab9d9",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTaylorScalar.ofInt_at_level' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTaylorScalar.coefficient": {
+      "sha256": "fe2ecc72a4137cf5355b5272cd693556e91f7a9d12b594e4394c0aa1a8e6b964",
+      "status": "checked",
+      "line": 37,
+      "local_sources": {
+        "Reimann/SignedTaylor.lean": "98243200ad22f4a1cee247ac6ad75e3ca87172a96f0757bd8ce81403e38ab9d9",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedTaylorScalar.coefficient_at_level": {
+      "sha256": "6a94b17d2a831c877b3a5ebd941aa76e7eb9ce1769560e2a02afc49b7697d136",
+      "status": "checked",
+      "line": 45,
+      "local_sources": {
+        "Reimann/SignedTaylor.lean": "98243200ad22f4a1cee247ac6ad75e3ca87172a96f0757bd8ce81403e38ab9d9",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTaylorScalar.coefficient_at_level' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTaylorScalar.jet_at_thirteen": {
+      "sha256": "c4d5307a9e4e9848265a5673b64bc04ae6ae4bb675ce1fa402b6154f75970867",
+      "status": "checked",
+      "line": 53,
+      "local_sources": {
+        "Reimann/SignedTaylor.lean": "98243200ad22f4a1cee247ac6ad75e3ca87172a96f0757bd8ce81403e38ab9d9",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTaylorScalar.jet_at_thirteen' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTaylorScalar.complete": {
+      "sha256": "801dfd3d99a5b4705b11e56ba98f12da934597f85725f024ed126738f9e7a09f",
+      "status": "checked",
+      "line": 59,
+      "local_sources": {
+        "Reimann/SignedTaylor.lean": "98243200ad22f4a1cee247ac6ad75e3ca87172a96f0757bd8ce81403e38ab9d9",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

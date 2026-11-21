@@ -1,0 +1,395 @@
+{
+  "steps": {
+    "DyadicFieldTrace69.half": {
+      "sha256": "2493ac3b044c0cac8d76955e044643bfc98c73652c1456795b3f08b3c77bbdbc",
+      "status": "checked",
+      "line": 13,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicFieldTrace69.twice_half": {
+      "sha256": "0b65563416857fa96c69b5df4049c98a3b3de5c861873a9f3ad449210b13a14d",
+      "status": "checked",
+      "line": 15,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicFieldTrace69.twice_half' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.embed": {
+      "sha256": "df43f9b9bf834fd5273ee38b0e8d9425bebe905924ed3af19373f43ae94977cd",
+      "status": "checked",
+      "line": 20,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicFieldTrace69.recover_coordinates": {
+      "sha256": "055510209a6799ac572316c50d9d541236c3e5db4712902d3181a3756ddd33ed",
+      "status": "checked",
+      "line": 23,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicFieldTrace69.recover_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.embed_injective": {
+      "sha256": "15ade80baa25319deb6a8ae9d2258a712cf08f3c99058621f5cbb24ef16605d9",
+      "status": "checked",
+      "line": 27,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.embed_injective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.regularTrace": {
+      "sha256": "0334edabc089f66e211d565685b581805adf12e2381018d2e99b934f7e1ddc78",
+      "status": "checked",
+      "line": 34,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`"
+    },
+    "DyadicFieldTrace69.regularTrace_formula": {
+      "sha256": "c0a9f4f9dbb001d2e1a475af3d49b28e94dac6ff9b8ea43a5a60e5c973314931",
+      "status": "checked",
+      "line": 38,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.regularTrace_formula' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.embed_scale": {
+      "sha256": "2399bb30f256d73fbe5a163645e71453cac55fb96750b13b32d22bad42fb6ff6",
+      "status": "checked",
+      "line": 42,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.embed_scale' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.basisE": {
+      "sha256": "2c0f12386f651bef77fc5cebf7d565a161388e5efc67bd132edc7fc16eab366f",
+      "status": "checked",
+      "line": 47,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`"
+    },
+    "DyadicFieldTrace69.basisW": {
+      "sha256": "8a465462c2d0eb0b856d17bb4634304ccb7b4a644732274de7804bd66e064f35",
+      "status": "checked",
+      "line": 49,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`"
+    },
+    "DyadicFieldTrace69.doubled_generators": {
+      "sha256": "9f5b53481a0515c0a732432d8170bd81d1665c1766d0c54ab7f17666f6749f78",
+      "status": "checked",
+      "line": 51,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.doubled_generators' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.embed_timesE": {
+      "sha256": "779dc833dc266a8f6c7f5292c531b82899a9b82867936bf43378c9039859b057",
+      "status": "checked",
+      "line": 57,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.embed_timesE' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.embed_timesW": {
+      "sha256": "d53998ef2ade351f06341e2aa0e86488ed41c20547aed427889155e877f14cfc",
+      "status": "checked",
+      "line": 63,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.embed_timesW' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.embed_add": {
+      "sha256": "e4b1e1af4390ee67bcf0245083256691da929927a4956cae92d6cf8e7eb04a38",
+      "status": "checked",
+      "line": 69,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.embed_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.field_trace_embed": {
+      "sha256": "dcaa02a769c1644103fa11bff93e2b7cfbf0aed7aa4447516691bd48d6083077",
+      "status": "checked",
+      "line": 74,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.field_trace_embed' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.fieldPairings": {
+      "sha256": "3d37310151cb1a6b28ebe39387a398afb041fa37aa31b99218c873dbce248772",
+      "status": "checked",
+      "line": 82,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`"
+    },
+    "DyadicFieldTrace69.field_pairings_embed": {
+      "sha256": "bb4b4c17ba6e82906c673495f6d24825c8da8e08948fa7d76956c8494cd50def",
+      "status": "checked",
+      "line": 86,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.field_pairings_embed' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.conjugate": {
+      "sha256": "b737e2e4259ddb37dc1d40b7a6286146aa2b8efaf3f43b066129463fc0d5041c",
+      "status": "checked",
+      "line": 93,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`"
+    },
+    "DyadicFieldTrace69.conjugate_multiply": {
+      "sha256": "3fd9533133867ac8ad6e78e040c6de81a5ae9459fdbafadc08e3b97a7ef536b7",
+      "status": "checked",
+      "line": 96,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.conjugate_multiply' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.conjugate_involution": {
+      "sha256": "e54441ecc6a3c2641639338ccbbfbc96baab972d3573733ec2d0bf9638519c29",
+      "status": "checked",
+      "line": 100,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.conjugate_involution' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.trace_as_conjugate_sum": {
+      "sha256": "d7443babf7e3841ca310e08cdd0aba802df6c816ebcd4b57d91ff114d5b495f1",
+      "status": "checked",
+      "line": 104,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.trace_as_conjugate_sum' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.field_pairings_scale": {
+      "sha256": "9d5b457bf6fea8ce93c8a60072d5c6693ab161909463b469d909c4e4659507a8",
+      "status": "checked",
+      "line": 110,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.field_pairings_scale' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.cancel_field_scalar": {
+      "sha256": "1a81c287a25858717c0e4e327e7acba2872aa63efd21f4e65b3a64fae2565874",
+      "status": "checked",
+      "line": 115,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.cancel_field_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.field_trace_denominator": {
+      "sha256": "fd8b419b98f298285c03e0e487402250f377473239e91b15163b99d49f24a2dc",
+      "status": "checked",
+      "line": 126,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.field_trace_denominator' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.field_trace_saturation": {
+      "sha256": "14ab877aad0a1fc3133901160261012f1e48b6ee405202beeb11a88d21791486",
+      "status": "checked",
+      "line": 142,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'Reimann.DyadicFieldTrace69.field_trace_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFieldTrace69.complete": {
+      "sha256": "93556570c2ab88fd48226f6f306788e5d82262fa79fb296a58449de583754872",
+      "status": "checked",
+      "line": 156,
+      "local_sources": {
+        "Reimann/DyadicBasisComparison.lean": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+        "Reimann/DyadicTraceOrder.lean": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:31:12: warning: This simp argument is unused:\n  Matrix.mk.injEq\n\nHint: Omit it from the simp argument list.\n  [apply] simp_all\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

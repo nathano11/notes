@@ -1,0 +1,285 @@
+{
+  "steps": {
+    "DyadicPlaceProduct.kernel": {
+      "sha256": "cd70a32baae5fb68f372b1929009e153c9737f2d3f37a0412fbb9587b718abfe",
+      "status": "checked",
+      "line": 13,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceProduct.kernel_normal": {
+      "sha256": "7c28d304cf0b0c6c07957d39961ca63290485cce342330902a7962113e1b2de9",
+      "status": "checked",
+      "line": 25,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceProduct.kernel_normal' does not depend on any axioms"
+    },
+    "DyadicPlaceProduct.CoversImage": {
+      "sha256": "28db8dc7dd9a1685ceb92f21f14898ed09ac04cba3adf4b7d5ed8bd8ff18d2e9",
+      "status": "checked",
+      "line": 33,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceProduct.same_image_difference": {
+      "sha256": "177c994872e1c27a77006bda39eec9288734885f601437fa843f8d1f609400ea",
+      "status": "checked",
+      "line": 36,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceProduct.same_image_difference' does not depend on any axioms"
+    },
+    "DyadicPlaceProduct.difference_times": {
+      "sha256": "2430b4fd7aa6c89b11370403e5fc5760def780506bb22f61473c021673c85385",
+      "status": "checked",
+      "line": 41,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceProduct.difference_times' does not depend on any axioms"
+    },
+    "DyadicPlaceProduct.factor_iff_covers_image": {
+      "sha256": "a42895486ddc2de68a2c80382ad4dea7b02b21cf1177edf75bfcef630dc9851d",
+      "status": "checked",
+      "line": 44,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceProduct.factor_iff_covers_image' does not depend on any axioms"
+    },
+    "DyadicPlaceProduct.localProduct": {
+      "sha256": "7c008da8114176461d9f67ae06645b58040f283a72e7f7af5500ce7667058c01",
+      "status": "checked",
+      "line": 57,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceProduct.mapSubgroup": {
+      "sha256": "b2065653f10bb8fa570a7421a11f21c8d8c34db28b02b35f70be85cdfaec2e62",
+      "status": "checked",
+      "line": 63,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceProduct.discrepancy": {
+      "sha256": "db1bbb1ee7191e1c156434f2ece56e6769ea6b4591cd470c6f97f48c12e0244e",
+      "status": "checked",
+      "line": 74,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceProduct.discrepancy_in_kernel": {
+      "sha256": "ca2de7cf8210bd5ace54bbb6dff4e5f28da8817f2ba03a41337ca1a808099408",
+      "status": "checked",
+      "line": 76,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceProduct.discrepancy_in_kernel' does not depend on any axioms"
+    },
+    "DyadicPlaceProduct.discrepancy_factor": {
+      "sha256": "038d36d097ca984241f734efeadc0d565700511120f92407e32399674e39b095",
+      "status": "checked",
+      "line": 80,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceProduct.discrepancy_factor' does not depend on any axioms"
+    },
+    "DyadicPlaceProduct.extend_on_conjugate": {
+      "sha256": "20d0d8527f323c5f5aae3377a7e76878bdf150c2a220ac4b6f97da4b641789d5",
+      "status": "checked",
+      "line": 86,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceProduct.extend_on_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicPlaceProduct.discrepancy_action": {
+      "sha256": "cc952b0c691e2487d775434ee85d136758ef4ef68eddf5e242691cb24ab0d107",
+      "status": "checked",
+      "line": 92,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceProduct.discrepancy_action' does not depend on any axioms"
+    },
+    "DyadicPlaceProduct.principal_conjugate_iff": {
+      "sha256": "329ca8bf19a046542801f3eca9ab7e78a8a6336f7b95ef48cb422440554d76d6",
+      "status": "checked",
+      "line": 101,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceProduct.principal_conjugate_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicPlaceProduct.strict_iff_conjugate_discrepancy": {
+      "sha256": "17c81fac43a39ebf84ad042c29ec78dbdae018e21e942f09a8a27c18cd424e22",
+      "status": "checked",
+      "line": 121,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceProduct.strict_iff_conjugate_discrepancy' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicPlaceProduct.subgroupLaw": {
+      "sha256": "abc27ea9d9a0398b1abc204a5318970c5f69fe0491f4589568db41be42e97970",
+      "status": "checked",
+      "line": 140,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceProduct.conjugate_product": {
+      "sha256": "8f2af52cea87752ecd89adc06a9d795406a3fc5b4347477fa25ba348fdd4e2a8",
+      "status": "checked",
+      "line": 150,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceProduct.conjugate_product' depends on axioms: [propext]"
+    },
+    "DyadicPlaceProduct.conjugate_identity": {
+      "sha256": "fe07c8d2b68135d616b7cb1cd4e5d8b0970168b507814d5db1b3162c3c0c4f00",
+      "status": "checked",
+      "line": 154,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceProduct.conjugate_identity' does not depend on any axioms"
+    },
+    "DyadicPlaceProduct.conjugate_inverse": {
+      "sha256": "6c561cb4bbf8b78d10b70e19dd2340f86eb5eba30bb0bfe96e1f401374396d66",
+      "status": "checked",
+      "line": 157,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceProduct.conjugate_inverse' depends on axioms: [propext]"
+    },
+    "DyadicPlaceProduct.ambientConjugation": {
+      "sha256": "ef6d10cf8e454adb368b3bd392cbafe6c7657634b079ae382ea4238e63449d93",
+      "status": "checked",
+      "line": 164,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicPlaceProduct.ambient_discrepancy": {
+      "sha256": "4018ced46afbbafb12a361a8d5afb28f7ed3db90e2403f6057600ae78df33e39",
+      "status": "checked",
+      "line": 172,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicPlaceProduct.ambient_discrepancy' depends on axioms: [propext]"
+    },
+    "DyadicPlaceProduct.complete": {
+      "sha256": "279b896de7562bede642ad803c0d50264c8b92e5bfd81c6159f723f23599219c",
+      "status": "checked",
+      "line": 176,
+      "local_sources": {
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

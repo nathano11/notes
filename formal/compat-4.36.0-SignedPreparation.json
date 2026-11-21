@@ -1,0 +1,163 @@
+{
+  "steps": {
+    "SignedPreparation.Coord": {
+      "sha256": "e5d10f00686f35a15ea667eb7abe3edebfcbb79a1617550fddf252c3073ca7a7",
+      "status": "checked",
+      "line": 8,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedPreparation.mulX": {
+      "sha256": "d0b2455ab125dcf4612c7fe31beae6497c94e68169c71592155154809e47feb9",
+      "status": "checked",
+      "line": 11,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedPreparation.reduce": {
+      "sha256": "d67676938b7b2c689c4e1f7e844af63a14ddb5b702ddd214da93909534e600a2",
+      "status": "checked",
+      "line": 14,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedPreparation.remainder": {
+      "sha256": "2bc94989d137ed9030d30a772cb6ae599bbb1f26c01c4517d5aebfce90edec3e",
+      "status": "checked",
+      "line": 21,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedPreparation.add": {
+      "sha256": "8e8bc6445a59e410e67664b94024dcadef2cf13e55f322509b1afa70e9ea8e05",
+      "status": "checked",
+      "line": 25,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedPreparation.scale": {
+      "sha256": "917c260b92764b37ef7901e5d0eb4e4d99e05eb7c3de30d1a3b0070c49ec25b0",
+      "status": "checked",
+      "line": 27,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedPreparation.mulX_add": {
+      "sha256": "64d0d608661171f320e491aba14174484264916bbc44b1ad08556e81a4098682",
+      "status": "checked",
+      "line": 29,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedPreparation.mulX_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedPreparation.mulX_scale": {
+      "sha256": "54cadc024a64dc490fba2ce9c9bcacb697fd6d1590c77d22796b0a09b6d31f19",
+      "status": "checked",
+      "line": 34,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedPreparation.mulX_scale' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedPreparation.sumPoly": {
+      "sha256": "789aa96e5f7f7e6be611f607225ad3f512efadb4240438da4608d643260c1265",
+      "status": "checked",
+      "line": 40,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedPreparation.reduce_sum": {
+      "sha256": "f388dcb1bbb0b290f2c51c1d9468a84a90b116ebe673e636a02b11371265cb82",
+      "status": "checked",
+      "line": 45,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedPreparation.reduce_sum' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedPreparation.reduce_scale": {
+      "sha256": "eb57a1f5cdd8f8eff525e00dfc019d311fbea97ca31c99a3763e70b9f32334eb",
+      "status": "checked",
+      "line": 58,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedPreparation.reduce_scale' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedPreparation.productPoly": {
+      "sha256": "3c6454cb356382654a7dd52d760de79c895c3037b4cab3a84db7301033111698",
+      "status": "checked",
+      "line": 68,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedPreparation.product_vanishes": {
+      "sha256": "e992107df8d3183e2acc96fb32a6ccfdff93563933bf40d149ba95328f4e968e",
+      "status": "checked",
+      "line": 72,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedPreparation.product_vanishes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedPreparation.quadratic": {
+      "sha256": "87a2a8868b7ad809035a435c32785702aad5aae5ab7c34929911f798bcc3df75",
+      "status": "checked",
+      "line": 79,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedPreparation.quadratic_vanishes": {
+      "sha256": "1957844245dd3e1534febc0626a83c8535ceb5b7acc28e20c06527b43f6205b9",
+      "status": "checked",
+      "line": 81,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedPreparation.quadratic_vanishes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedPreparation.cycle": {
+      "sha256": "e0a3b9488c158c720b139c74fefb35dd8407f86f0ce29c87f1d2ef929e1f8f5a",
+      "status": "checked",
+      "line": 87,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedPreparation.even_cast": {
+      "sha256": "83b065b817f7f3c17eccab221f3b21171a428126bc3f5bfea6be24541d094bb3",
+      "status": "checked",
+      "line": 89,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedPreparation.even_cast' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedPreparation.cycle_at_even_residues": {
+      "sha256": "94de04a9e2c4cd1176f4c8c107a633fa2b616d40e2ff341027d6ea11f0b3c171",
+      "status": "checked",
+      "line": 100,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedPreparation.cycle_at_even_residues' depends on axioms: [propext]"
+    },
+    "SignedPreparation.cycle_vanishes": {
+      "sha256": "e8becc4f8eb63e8972e24fd4d7038bea9cdae7ef4813c79b54385736d4e5133b",
+      "status": "checked",
+      "line": 104,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedPreparation.cycle_vanishes' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedPreparation.CyclicFactor": {
+      "sha256": "3e30cf39897144ba5eaf94d067effbea21de3cc346d0cfda158d56b79788e3d9",
+      "status": "checked",
+      "line": 111,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedPreparation.reduce_uncons": {
+      "sha256": "d5bf159286feacf86d60d36308e0f8dc3ccf8852a257d7b660abca2f81bbefff",
+      "status": "checked",
+      "line": 115,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedPreparation.reduce_uncons' depends on axioms: [propext]"
+    },
+    "SignedPreparation.congr_of_bound": {
+      "sha256": "be0306eb9fe909fc00ab293121d340bac24a6508350e272f2faaafa98ef8c95f",
+      "status": "checked",
+      "line": 123,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedPreparation.congr_of_bound' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedPreparation.cyclic_factor_remainder": {
+      "sha256": "28c10e62a0e12a08f5d2e1dac2cd9c73f9a4c967dd725f6bf7883463cc66a9e3",
+      "status": "checked",
+      "line": 141,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedPreparation.cyclic_factor_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedPreparation.complete": {
+      "sha256": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+      "status": "checked",
+      "line": 155,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

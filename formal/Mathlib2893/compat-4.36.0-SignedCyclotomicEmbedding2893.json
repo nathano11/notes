@@ -1,0 +1,73 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann2893.SignedFieldLayers2893": "e5d1cec02d6adbf207557994b67a9e234dea14dc914ba1726c0dded18b86d735",
+    "Reimann2893.SignedCyclotomicTrace2893": "9b471c290fee3cf718e78a914efb3bd5a546d5e11a7f0d9b66f07886a5d441c8",
+    "Mathlib.Algebra.Field.Subfield.Basic": "ac7c78c8af9b69eb70d080d74e8459723237a2e0d9880931e4511a3c2267bc81",
+    "Mathlib.Tactic.FieldSimp": "976875a59edb69c0d2f58e092b94e312a5b8d2176dac9eff3eeb7553c52693a1",
+    "Mathlib.Tactic.Ring": "a8692039dfd1a85e1a1f422f0f9d6ec69ccc4ba24e829b034f94c2e435e815f4",
+    "Mathlib.Algebra.QuadraticAlgebra.Basic": "a290cb1668536c7e63cf0f109c82e9621e26d3e8fd3924fe46813c5846d21eea",
+    "Mathlib.Data.Rat.Sqrt": "43a8685ebc47faaf47a484b3714d9266dfcb7d99fc168c82dc7049d5a7ce2e2c",
+    "Mathlib.Tactic.Linarith": "93dc12bfc3fc322fc4ed054e013bdaba10b97da70f02f3eb2f177512e6a3f373",
+    "Mathlib.Tactic.NormNum": "480ebc7f2e8d9370016d90be1babe5c26d8bfa3f597e0fa8fcd718528133826c"
+  },
+  "steps": {
+    "SignedCyclotomicEmbedding2893.Roots": {
+      "sha256": "42a50d4473579d2e6832e867719ef362bd0ca2c8f3012b81f79f8d22f5776d71",
+      "line": 13,
+      "status": "checked"
+    },
+    "SignedCyclotomicEmbedding2893.realization": {
+      "sha256": "01ac209c5f85e7faf7dc7353f7ccf28d2c750b05157ce4906ce95ccd92f7ca4e",
+      "line": 21,
+      "status": "checked"
+    },
+    "SignedCyclotomicEmbedding2893.embedding": {
+      "sha256": "0ba35e87be0b58d6dfc71cc0cc946319b8011e9aebfaf0d5abee4e7daac7e859",
+      "line": 33,
+      "status": "checked"
+    },
+    "SignedCyclotomicEmbedding2893.embedding_trace": {
+      "sha256": "4b44df08e86f3a607b7eb7175e981c372882059d43c7e36bb2e53987e5f94266",
+      "line": 36,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedCyclotomicEmbedding2893.embedding_trace' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCyclotomicEmbedding2893.embedding_include": {
+      "sha256": "7d84749dfe9867e2a3b67ba26a53a8aa79e83705451a12dc655a9741f9562d2b",
+      "line": 39,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedCyclotomicEmbedding2893.embedding_include' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCyclotomicEmbedding2893.embedding_radical": {
+      "sha256": "95597e4eb69cbb3eeabf1087ab53839e8aeee81df58ddf079b8160c3f9b5d9e9",
+      "line": 45,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedCyclotomicEmbedding2893.embedding_radical' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCyclotomicEmbedding2893.image_forward_trace": {
+      "sha256": "8a158e742199b99956000f520c50b1a0a64ea1f5c6d05f544763b005aaabe515",
+      "line": 51,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedCyclotomicEmbedding2893.image_forward_trace' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCyclotomicEmbedding2893.image_mem": {
+      "sha256": "64140d7c79a6f736f98ad89d4b5e8887d3a8b2c84c1712b832ed5920d280d2b2",
+      "line": 56,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedCyclotomicEmbedding2893.image_mem' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCyclotomicEmbedding2893.image_generated": {
+      "sha256": "08f4bde0ba1ec2c02eb238dda652fdcdc366c69917cc63032f39225bbb1ec6bb",
+      "line": 72,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedCyclotomicEmbedding2893.image_generated' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCyclotomicEmbedding2893.complete": {
+      "sha256": "d758e498a530f7b1142d4a91774df8ce7ce84d49b499e0658bcce00d29125109",
+      "line": 86,
+      "status": "checked"
+    }
+  }
+}

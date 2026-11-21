@@ -1,0 +1,102 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.NumberTheory.Padics.PadicNumbers": "dbf403e24fbff90ced849ddbe6353860810e69ddd8c0cc7af3f4b1eb61ee0954",
+    "Mathlib.Topology.MetricSpace.Completion": "e0abedc5fa2a84e49e39e6008e9f274dd36431fc472206c453d07b49297337a6"
+  },
+  "steps": {
+    "Completion.prime277": {
+      "sha256": "a52c1d4ee6a6278eb8e00e3fa94c2873a06dc22725e8178286aaed48eb7164f5",
+      "line": 8,
+      "status": "checked"
+    },
+    "Completion.isometry_of_norm": {
+      "sha256": "bc8dd4d6427400a082735e26cf4bd09362f474fb094e77fdc9d4222b18f7d930",
+      "line": 14,
+      "status": "checked",
+      "checker_output": "'Reimann.TameMetricCompletion277.isometry_of_norm' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Completion.dense_of_rationals": {
+      "sha256": "6daa8793d4b64f230a1e1ff7aabc78bbc50e5732888a7a4007433d9853d49ddc",
+      "line": 19,
+      "status": "checked",
+      "checker_output": "'Reimann.TameMetricCompletion277.dense_of_rationals' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Completion.extend": {
+      "sha256": "317ce19481ff8adf1b9c37475bcc8f066723f9d0ca8e12b882bd12a27e053bbe",
+      "line": 27,
+      "status": "checked"
+    },
+    "Completion.extend_coe": {
+      "sha256": "4b7bf3616e393788a144b616a7cdece28712c4bee0ea079f315466e55d1d1b45",
+      "line": 31,
+      "status": "checked",
+      "checker_output": "'Reimann.TameMetricCompletion277.extend_coe' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Completion.extend_isometry": {
+      "sha256": "25a9a72bb45f6cecc6bcaf4e0d7897fcda776a8387500f90c23a6df8cb0192b2",
+      "line": 35,
+      "status": "checked",
+      "checker_output": "'Reimann.TameMetricCompletion277.extend_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Completion.extend_closed_range": {
+      "sha256": "c5e01237af141324b498858e85d9a8a2b0f9b10f2b04d2d6cf81d50d97f245fb",
+      "line": 39,
+      "status": "checked",
+      "checker_output": "'Reimann.TameMetricCompletion277.extend_closed_range' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Completion.extend_dense": {
+      "sha256": "ce700cd8105e5763ad9740d6fa10f9535cb16bbc4993b8fb7c179fe6e52e6a52",
+      "line": 43,
+      "status": "checked",
+      "checker_output": "'Reimann.TameMetricCompletion277.extend_dense' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Completion.extend_surjective": {
+      "sha256": "281e4ee6ef721a487e35746613444c77d0db46c96c0e1b18aab0899c632d1d82",
+      "line": 51,
+      "status": "checked",
+      "checker_output": "'Reimann.TameMetricCompletion277.extend_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Completion.completionEquiv": {
+      "sha256": "313175f2e1dfb1ea58d7123ae8bf8427811ea43716b5cd6229c2137d973dfc9b",
+      "line": 56,
+      "status": "checked"
+    },
+    "Completion.completionEquiv_dist": {
+      "sha256": "b81a725c1a850842e1d965c85808f94d290fbcee6d26c0e817fdb389f4f99e4a",
+      "line": 60,
+      "status": "checked",
+      "checker_output": "'Reimann.TameMetricCompletion277.completionEquiv_dist' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Completion.inverse_dist": {
+      "sha256": "1bcd77e332255c51656a9f74deb0fd0c5a5a6f3d8e732f415779424cefcc62ff",
+      "line": 64,
+      "status": "checked",
+      "checker_output": "'Reimann.TameMetricCompletion277.inverse_dist' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Completion.completion_of_padic_embedding": {
+      "sha256": "c76299579fc366428df33944643e95c785565b2a49e3d2c716316e7a700df482",
+      "line": 70,
+      "status": "checked",
+      "checker_output": "'Reimann.TameMetricCompletion277.completion_of_padic_embedding' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "Completion.surjective_of_contains_dense": {
+      "sha256": "75cebcaafbc232a1976673bbb58fc0e72c625e9c7c436c57cef7648fae350fec",
+      "line": 79,
+      "status": "checked",
+      "checker_output": "'Reimann.TameMetricCompletion277.surjective_of_contains_dense' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "Completion.dense_completion": {
+      "sha256": "b6eaaa26a350212eb8938cdfc38dcd1e4aef1e90adaf9a5139f5c81c0398048f",
+      "line": 91,
+      "status": "checked",
+      "checker_output": "'Reimann.TameMetricCompletion277.dense_completion' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Completion.complete": {
+      "sha256": "6cca8c54e06d14be2ed211ea4a1169ba4acdae1714e62bb4d94b8a7c2fd3a847",
+      "line": 106,
+      "status": "checked"
+    }
+  }
+}

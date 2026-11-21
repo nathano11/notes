@@ -1,0 +1,77 @@
+{
+  "steps": {
+    "CircularNormalForm69.Represents": {
+      "sha256": "7c8a518aac8260032e4870c0f69a46a6218d087cb611a0dcac08125e29cd96b9",
+      "status": "checked",
+      "line": 9,
+      "local_sources": {
+        "Reimann/CircularRelationEval69.lean": "27078762be301dec3dec34af7ae8a15030c81968bd53cc0ed9fecd69827838b5",
+        "Reimann/CircularMonomial69.lean": "3f08e7fee74d8fab61391a6a561244ab881781b4690f94425fab7e3b82b8dd2a",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularNormalForm69.value_at_bound": {
+      "sha256": "33d6216136126b9cce72eb6ce079d64768af190674b96e93c0ccbd541ebaf805",
+      "status": "checked",
+      "line": 12,
+      "local_sources": {
+        "Reimann/CircularRelationEval69.lean": "27078762be301dec3dec34af7ae8a15030c81968bd53cc0ed9fecd69827838b5",
+        "Reimann/CircularMonomial69.lean": "3f08e7fee74d8fab61391a6a561244ab881781b4690f94425fab7e3b82b8dd2a",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNormalForm69.value_at_bound' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularNormalForm69.same_value_subtract_root": {
+      "sha256": "cc1c1660e30debdb9003e9640609917b5de5e8fdb4315b2c31c7a70ede8f30a3",
+      "status": "checked",
+      "line": 18,
+      "local_sources": {
+        "Reimann/CircularRelationEval69.lean": "27078762be301dec3dec34af7ae8a15030c81968bd53cc0ed9fecd69827838b5",
+        "Reimann/CircularMonomial69.lean": "3f08e7fee74d8fab61391a6a561244ab881781b4690f94425fab7e3b82b8dd2a",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNormalForm69.same_value_subtract_root' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularNormalForm69.normal_form_at_root": {
+      "sha256": "c6556c721eb15509c8f3bd1f8b6944bd6883d63862a4eb1dbe322d576737df8b",
+      "status": "checked",
+      "line": 31,
+      "local_sources": {
+        "Reimann/CircularRelationEval69.lean": "27078762be301dec3dec34af7ae8a15030c81968bd53cc0ed9fecd69827838b5",
+        "Reimann/CircularMonomial69.lean": "3f08e7fee74d8fab61391a6a561244ab881781b4690f94425fab7e3b82b8dd2a",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNormalForm69.normal_form_at_root' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularNormalForm69.unique_at_degree": {
+      "sha256": "29828934b1d63b415578c56b3dddaacef6c82b51d3ee59c28698fd2dd9278ff7",
+      "status": "checked",
+      "line": 41,
+      "local_sources": {
+        "Reimann/CircularRelationEval69.lean": "27078762be301dec3dec34af7ae8a15030c81968bd53cc0ed9fecd69827838b5",
+        "Reimann/CircularMonomial69.lean": "3f08e7fee74d8fab61391a6a561244ab881781b4690f94425fab7e3b82b8dd2a",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNormalForm69.unique_at_degree' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularNormalForm69.complete": {
+      "sha256": "3c1864f3705762bb811d17ff68df499845c8974ffbd4336ff6d7c6a3b34a9e9a",
+      "status": "checked",
+      "line": 53,
+      "local_sources": {
+        "Reimann/CircularRelationEval69.lean": "27078762be301dec3dec34af7ae8a15030c81968bd53cc0ed9fecd69827838b5",
+        "Reimann/CircularMonomial69.lean": "3f08e7fee74d8fab61391a6a561244ab881781b4690f94425fab7e3b82b8dd2a",
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    }
+  },
+  "required_lean": "4.33.1",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+}

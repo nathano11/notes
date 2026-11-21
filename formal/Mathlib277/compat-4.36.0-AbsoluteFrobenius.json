@@ -1,0 +1,49 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.Inertia": "2fd798730479b1e529f6a01be30c4a4b0aef428588625f481a839811a35cb739",
+    "Mathlib.FieldTheory.KrullTopology": "019859cfb2d63fa3066dbc97d5ebd9c2a5c75ed8f4482bc217647e6bb36f5409",
+    "Mathlib.Topology.Compactness.Compact": "bf6aab96d41fb5b43921540a09ea7481b80bd5f1ca32696077a272d6b3f90520",
+    "Mathlib.RingTheory.IntegralClosure.Algebra.Basic": "63ee00b21ee6547bedfcc8e86f86b0df4a65d9f1018c2e30425a0e2799710729",
+    "Mathlib.RingTheory.Ideal.Quotient.Basic": "2d3eae760cf3532861226b2b66521b9d57a97979c0df2d2dfffa0049b8843762",
+    "Reimann.TameUnramified277": "fded94df921fd77392dda052c165c6f4eac8bb0d39c7717deb30d07c2c2c3f25",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e"
+  },
+  "steps": {
+    "AbsoluteFrobenius.one_test_open": {
+      "sha256": "ac438324b88b029aefb5a4f3572d8e992f3a26467f705837e3e1a014dc69e747",
+      "line": 12,
+      "status": "checked",
+      "checker_output": "'Reimann.TameAbsoluteFrobenius277.one_test_open' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "AbsoluteFrobenius.one_test_closed": {
+      "sha256": "c7e3d07f04c13669ed183ec92a93ad3566d700987c7c3d3d571ad2196519488f",
+      "line": 34,
+      "status": "checked",
+      "checker_output": "'Reimann.TameAbsoluteFrobenius277.one_test_closed' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "AbsoluteFrobenius.TestAt": {
+      "sha256": "e7bbc689bd680264adce69979afa63f13b469faae431190dd47f934afed9c9f5",
+      "line": 38,
+      "status": "checked"
+    },
+    "AbsoluteFrobenius.closed_test": {
+      "sha256": "36cb5c15eed63e62c4837087da31ad4eee280a01b0ad5a7e5d993158460420e7",
+      "line": 41,
+      "status": "checked",
+      "checker_output": "'Reimann.TameAbsoluteFrobenius277.closed_test' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "AbsoluteFrobenius.exists_of_finite_tests": {
+      "sha256": "9a8ba8c6d5c7f37d92870a8d9f5dd61e20ba90c391038270f0ab6158d4661e7f",
+      "line": 47,
+      "status": "checked",
+      "checker_output": "'Reimann.TameAbsoluteFrobenius277.exists_of_finite_tests' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "AbsoluteFrobenius.complete": {
+      "sha256": "a92c2fe5d5f20aeb38bb40648804f9859d8a2f9e739ab798d2c97b242781f737",
+      "line": 57,
+      "status": "checked"
+    }
+  }
+}

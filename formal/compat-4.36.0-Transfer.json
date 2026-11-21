@@ -1,0 +1,190 @@
+{
+  "steps": {
+    "Transfer.GroupLaw": {
+      "sha256": "17361b137bdaf8a34783374ae0734d5760ec0eb3d9bf1af10c5905a000a74ec1",
+      "status": "checked",
+      "line": 13,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Transfer.Hom": {
+      "sha256": "1db7006f57c4152cb64e20c638a01bda73f1ca9ca74bc6727418a1200c510255",
+      "status": "checked",
+      "line": 23,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Transfer.multiple": {
+      "sha256": "858527e74d5b05023b9d649d391f9c59d5acd2cb314ef188a93fe10f11b6a063",
+      "status": "checked",
+      "line": 30,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Transfer.multiple_add": {
+      "sha256": "ee9c71c64736b6402e0108026688e2b5b1e7de423b39126eefcdf7d901104632",
+      "status": "checked",
+      "line": 34,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Transfer.multiple_add' depends on axioms: [propext]"
+    },
+    "Transfer.multiple_mul": {
+      "sha256": "6346d2b347ef922541e64e515e68bacec046101537cd7c6372e9e3963792381f",
+      "status": "checked",
+      "line": 43,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Transfer.multiple_mul' depends on axioms: [propext]"
+    },
+    "Transfer.hom_multiple": {
+      "sha256": "3f0c70e0672ff0f0bb40b296c2849d6b8a602440ae0393fa725c18bd0b4db6b7",
+      "status": "checked",
+      "line": 49,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Transfer.hom_multiple' depends on axioms: [propext]"
+    },
+    "Transfer.HasPrimaryOrder": {
+      "sha256": "a9f63bc038baa64ea2d24abd3cbc842e1cea927dd0c2692cea17676f236e6148",
+      "status": "checked",
+      "line": 56,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Transfer.ValuationAtMost": {
+      "sha256": "62145f1e9dae329b3f7d2b8e19652fdd9ec56526ec004deef243811faa017309",
+      "status": "checked",
+      "line": 60,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Transfer.valuation_le_log2": {
+      "sha256": "39b60c2c90c4f0fc1a81471fcefc821d5c81965344921ae97203f175d927263e",
+      "status": "checked",
+      "line": 65,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Transfer.valuation_le_log2' depends on axioms: [propext, Quot.sound]"
+    },
+    "Transfer.congruence_index_depth": {
+      "sha256": "b445d6b3712979398ab58b0853368bac5abfd2990181d9c815a37139782a1b5f",
+      "status": "checked",
+      "line": 76,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Transfer.congruence_index_depth' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Transfer.primary_index_annihilator": {
+      "sha256": "0ada10b620aeaa2fa6c5c07389e1e615c147dcd3d8d88438a702f284075f2a80",
+      "status": "checked",
+      "line": 87,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Transfer.primary_index_annihilator' depends on axioms: [propext]"
+    },
+    "Transfer.transfer_kernel_depth": {
+      "sha256": "d62742e8d7bd90740ad203f67d4c990e9328e08bd5895e83ca59a423bf66c09b",
+      "status": "checked",
+      "line": 95,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Transfer.transfer_kernel_depth' depends on axioms: [propext]"
+    },
+    "Transfer.Kernel": {
+      "sha256": "f2253b26fba2326ecd5457140a93c163f2d0b3f45d7908221e30fc9e01e30716",
+      "status": "checked",
+      "line": 111,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Transfer.Image": {
+      "sha256": "213a2b1608fc8e58d55f6570a3a6b8ef9ade182df0a3593dc723e17fb781cefa",
+      "status": "checked",
+      "line": 114,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Transfer.Bijection": {
+      "sha256": "de96a58356e97f606d451e30a18f0f1f07de9c2ababd74fe09585141629ef11c",
+      "status": "checked",
+      "line": 118,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Transfer.imageKernelBijection": {
+      "sha256": "175bec138fbbf822c0f0fc144f5fbb9e628000fd2cefe3d179766048b2462006",
+      "status": "checked",
+      "line": 126,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Transfer.Enumeration": {
+      "sha256": "4ebcf8d2284cc4e0258cf1b49d4ba6e2312303fd7042adf4cc7f520937d64345",
+      "status": "checked",
+      "line": 153,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Transfer.nodupMap": {
+      "sha256": "a293495c4b9da37d4243f93cf2a5932ff0be0e8aea52ada629025d584900a7b4",
+      "status": "checked",
+      "line": 158,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'_private._stdin.0.Reimann.Transfer.nodupMap' depends on axioms: [propext, Quot.sound]"
+    },
+    "Transfer.bijection_card": {
+      "sha256": "1e1222b96fe597e20ef13e94844deb946f474439338359a524b0149e0dfd36c9",
+      "status": "checked",
+      "line": 170,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'_private._stdin.0.Reimann.Transfer.bijection_card' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Transfer.pairs": {
+      "sha256": "41b8c3033a3a5632c943e270420d2f56c245f082a6cd53dd880cca1cac773fa0",
+      "status": "checked",
+      "line": 183,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Transfer.pairs_length": {
+      "sha256": "ebca183441be22d2f566b36a876675f6fae23403eb995fd12e96a30d000c4322",
+      "status": "checked",
+      "line": 186,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'_private._stdin.0.Reimann.Transfer.pairs_length' depends on axioms: [propext]"
+    },
+    "Transfer.pairs_distinct": {
+      "sha256": "df3c12f9f6629692779e26360f0e435f77c9d76dcc54e35bcf6860c89324416c",
+      "status": "checked",
+      "line": 194,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'_private._stdin.0.Reimann.Transfer.pairs_distinct' depends on axioms: [propext, Quot.sound]"
+    },
+    "Transfer.productEnumeration": {
+      "sha256": "a93073ae8b62432740ad79ba34d07c9f4e3363b183259c3dc3c65f96fd3ac050",
+      "status": "checked",
+      "line": 210,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Transfer.image_kernel_card": {
+      "sha256": "c2f82421c35d793b1cabec815506b70b9ec0034445e072f81aca40589946baf9",
+      "status": "checked",
+      "line": 221,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Transfer.image_kernel_card' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Transfer.order_bound": {
+      "sha256": "5baabd467285db046409ebcb7d3cc3d0d0301182f4dc14950d4287072cd88d05",
+      "status": "checked",
+      "line": 232,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Transfer.order_bound' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Transfer.power_budget": {
+      "sha256": "16d48147f8d3f4398ca03d3eb2bef3f5bcc20e9d02a34043d0c0b613b338e774",
+      "status": "checked",
+      "line": 243,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Transfer.power_budget' depends on axioms: [propext]"
+    },
+    "Transfer.bottom_exponent_margin": {
+      "sha256": "fddce00497c6fbb3d065aca9019c976354283a47b7cf9b0fff25ba4c24235a98",
+      "status": "checked",
+      "line": 252,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Transfer.bottom_exponent_margin' depends on axioms: [propext, Quot.sound]"
+    },
+    "Transfer.complete": {
+      "sha256": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3",
+      "status": "checked",
+      "line": 255,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

@@ -1,0 +1,218 @@
+{
+  "steps": {
+    "LocalCorrection.ord": {
+      "sha256": "11791b31ab974eb47eced9a8e8bf8ff220f79c76d964e2e626160f3873581ce8",
+      "status": "checked",
+      "line": 12,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "LocalCorrection.complete": {
+      "sha256": "6d4c98a8fe655b9b910363ad2769180728f1dc97b0c5c04a3548d3826f0560a2",
+      "status": "checked",
+      "line": 258,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "LocalCorrection.ord_of_not_dvd": {
+      "sha256": "7f793d6511d8f2c6c4b21418c5f8e2e6101c1a7a896c0db5c1196fd5fd721060",
+      "status": "checked",
+      "line": 17,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.ord_of_not_dvd' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.ord_mul_base": {
+      "sha256": "1434507c75ae727e74bb8cca9df237856e397bf43a65afa2b3f4f5bc76530513",
+      "status": "checked",
+      "line": 20,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.ord_mul_base' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.ord_decomposition": {
+      "sha256": "425abf5f2498557929d295b044b2a539e2d8ce06fa243f84ec49289a8518b5bf",
+      "status": "checked",
+      "line": 27,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.ord_decomposition' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.ord_pow_mul": {
+      "sha256": "53d0389ce959b44cca5ef67eea8aceefa16f6a6f0415474bbb2dc3c5c758bae0",
+      "status": "checked",
+      "line": 49,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.ord_pow_mul' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.ord_mul": {
+      "sha256": "1a091ccff61951e5eb2170897039e5ffbfeb528fd693d9df81b29cf767bd2e56",
+      "status": "checked",
+      "line": 58,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.ord_mul' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.factorial": {
+      "sha256": "45b39347ab7f53cb3e0290d6f50b249f45a1513e3985694a32065e8c31597671",
+      "status": "checked",
+      "line": 68,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "LocalCorrection.factorial_pos": {
+      "sha256": "8fd2de39c15aae7a9c61091d8cd4efe906e1d44492214003989db40b1459f997",
+      "status": "checked",
+      "line": 72,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.factorial_pos' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.two_prime_divisor": {
+      "sha256": "05119925d3c4459958de32f9e1c8738aef2b20498049840807155cc8d108f27c",
+      "status": "checked",
+      "line": 77,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.two_prime_divisor' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.ord_factorial_succ": {
+      "sha256": "f61b114d18361a09528959a6adf3cff20cd54e293a160c23d04a47f23b1faab8",
+      "status": "checked",
+      "line": 86,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.ord_factorial_succ' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.weightSum": {
+      "sha256": "0a531f4edad649636a80401e3dd6307c5d628dfe9ca8f651f2b9540954324590",
+      "status": "checked",
+      "line": 92,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "LocalCorrection.sum_add_constant": {
+      "sha256": "82f12164493e8cf952429a384f82993c3b8c89fbfa1c9ab32642ef0d8b51aa00",
+      "status": "checked",
+      "line": 96,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.sum_add_constant' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.sum_multiples": {
+      "sha256": "7970ad64698c7b7346abd6350ec38b9efcc935ecf45d5db754d7de80318b53ff",
+      "status": "checked",
+      "line": 103,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.sum_multiples' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalCorrection.sum_ord_factorial": {
+      "sha256": "69d4df087b9998cd148210d1f44054aad950a38b2fbc1eded88f94e0aaeda460",
+      "status": "checked",
+      "line": 112,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.sum_ord_factorial' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.weightSum_congr": {
+      "sha256": "d0c591996b7afb00db76ab162a5ed74ec71471ac4b42d405bdae6d20190945ac",
+      "status": "checked",
+      "line": 122,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.weightSum_congr' does not depend on any axioms"
+    },
+    "LocalCorrection.dyadicWeight": {
+      "sha256": "e85c743f330921ec2f92b37cd3ea70f88f0062e80000c17551ac7edc258c504c",
+      "status": "checked",
+      "line": 129,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "LocalCorrection.dyadicWeight_split": {
+      "sha256": "4fc290b80f4ac7cfe00c5d815cc9bd36781ff4239c894cc841b037ac3e2fe5b9",
+      "status": "checked",
+      "line": 131,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.dyadicWeight_split' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.dyadic_factorial_correction": {
+      "sha256": "6e50c509cb2253916e947a484042223fa4a40afc40ac9dafe2fcec2ae9c38062",
+      "status": "checked",
+      "line": 142,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.dyadic_factorial_correction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalCorrection.ord_pred": {
+      "sha256": "8cb1bf6a861132eaa6e778dd17081779d94c082621fd1e59ae961ce7fffabcc3",
+      "status": "checked",
+      "line": 150,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.ord_pred' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.tameWeight": {
+      "sha256": "60e6310af003c199916f174f863e5fdc5dce2f4931a269a4f46d50d275ecfc50",
+      "status": "checked",
+      "line": 157,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "LocalCorrection.tameWeight_progression": {
+      "sha256": "c5dc66467b39f7b5ed0ddc764710d62c85ee8819f590173759a85b2f0be60a26",
+      "status": "checked",
+      "line": 159,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.tameWeight_progression' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.tame_factorial_correction": {
+      "sha256": "3ea102ae5a5a6e5b4cf58e17fa6b2052da12e6758495901185f88d0e192439d2",
+      "status": "checked",
+      "line": 175,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.tame_factorial_correction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalCorrection.sum_scale": {
+      "sha256": "2ae8d50f8367eb82a5f001352b83c104faaa8d4a925e835683c60ca63f6b650d",
+      "status": "checked",
+      "line": 182,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.sum_scale' depends on axioms: [propext]"
+    },
+    "LocalCorrection.tame_place_correction": {
+      "sha256": "32a1e3607176e128a1fbe79b22e958eedeb32a9faa0f86862ad1f21a4d842403",
+      "status": "checked",
+      "line": 188,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.tame_place_correction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalCorrection.example_denominator": {
+      "sha256": "bba52ddfddec1b0f0dda980284a14dea00a42aebe56c94338dba8ee3469674d2",
+      "status": "checked",
+      "line": 195,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.example_denominator' depends on axioms: [propext]"
+    },
+    "LocalCorrection.ord_split_multiples": {
+      "sha256": "91348a91df1553b6e40364d56075b7e157f0d1ed5202606857ec521429a3b47e",
+      "status": "checked",
+      "line": 200,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.ord_split_multiples' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.ord_factorial_div": {
+      "sha256": "2b80b56d0b0352703088446499e7ec24df9072d3f1f5c023085297b6054fb70a",
+      "status": "checked",
+      "line": 215,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.ord_factorial_div' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalCorrection.ord_factorial_bound": {
+      "sha256": "7c6b268c39f6359cf6a2ac6fcd7a14104de81e890da9dafe056d07b63838a0ae",
+      "status": "checked",
+      "line": 223,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.ord_factorial_bound' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalCorrection.tame_zero_above_window": {
+      "sha256": "bb9c7e786fee731f15ea0ab2b4e5135307eefb3fad1d69513380610afe99f8c8",
+      "status": "checked",
+      "line": 243,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.tame_zero_above_window' depends on axioms: [propext, Quot.sound]"
+    },
+    "LocalCorrection.ramified_half_period_excluded": {
+      "sha256": "9973d4943ee8253736251e9a53eadd1072dfd8f4bb999c67196e182cb5cd1b47",
+      "status": "checked",
+      "line": 252,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.LocalCorrection.ramified_half_period_excluded' depends on axioms: [propext, Quot.sound]"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

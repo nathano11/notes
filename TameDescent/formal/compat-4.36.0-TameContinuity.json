@@ -1,0 +1,242 @@
+{
+  "steps": {
+    "TameContinuity.Topology": {
+      "sha256": "bc5ed4430acf9c2a0d00cc950479f4c14c5d544726722c948b768e5c9593c174",
+      "status": "checked",
+      "line": 9,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameContinuity.Continuous": {
+      "sha256": "188b4a816270b914a9762223e066c987f066c5af3603717c67853086e8d45b91",
+      "status": "checked",
+      "line": 15,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameContinuity.id_continuous": {
+      "sha256": "cd7af5c077d24c7c28c65853fada24f050df044d82717f9714007caf1dd2c29b",
+      "status": "checked",
+      "line": 18,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.id_continuous' does not depend on any axioms"
+    },
+    "TameContinuity.const_continuous": {
+      "sha256": "1d4654d740488e748d116f9a74227ef1ed2f9b189eb50e08c0d865986cff7614",
+      "status": "checked",
+      "line": 20,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.const_continuous' does not depend on any axioms"
+    },
+    "TameContinuity.comp_continuous": {
+      "sha256": "e6bda73a352456eec867f3ee738ee8e4edf468e54043ab124125846a710bdaef",
+      "status": "checked",
+      "line": 27,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.comp_continuous' does not depend on any axioms"
+    },
+    "TameContinuity.GroupTopology": {
+      "sha256": "987da2cf24a1d169f1f22a79ed555f75f9a7a0f22413073d85d943e696f1e00a",
+      "status": "checked",
+      "line": 33,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameContinuity.pointwise_add_continuous": {
+      "sha256": "3a09a13147c2e0d276c9645353669aa689d9b18ff86558f97abf904e9e19b21e",
+      "status": "checked",
+      "line": 38,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.pointwise_add_continuous' does not depend on any axioms"
+    },
+    "TameContinuity.commutator_continuous": {
+      "sha256": "e628cabb44041a1d8d496f82d3944336eda4f658bf6a133b791a71ccc0880cb4",
+      "status": "checked",
+      "line": 49,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.commutator_continuous' does not depend on any axioms"
+    },
+    "TameContinuity.RelativeOpen": {
+      "sha256": "1b5a0b4a8e0fc0af0ea9f23876d4ae547e50051a5dde421da0046823e0c16071",
+      "status": "checked",
+      "line": 55,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameContinuity.preimage_relative_open": {
+      "sha256": "6fa3693e602da314b5cef45f26a24a36fc7ab227e45d3e3ac9ec483053e0988e",
+      "status": "checked",
+      "line": 58,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.preimage_relative_open' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameContinuity.discrete": {
+      "sha256": "062369d64e4883fee538ac820d3505f70db8bff1168b63cfe82b61066f2d6818",
+      "status": "checked",
+      "line": 68,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameContinuity.ContinuousKernelCharacter": {
+      "sha256": "ee2b340838557135f60219aea801444e3351b5f11d50eec97196504693952d75",
+      "status": "checked",
+      "line": 76,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameContinuity.commutator_value_continuous": {
+      "sha256": "e4faa657e4f98e3a1195927ac6e1e38d227c88ae711fb23dbfd1ac6d6863aad2",
+      "status": "checked",
+      "line": 80,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.commutator_value_continuous' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameContinuity.scalar_residue": {
+      "sha256": "02f2f6dd202858b66409ec4ad15eb2d7081a0c26f9aceef44d369c345b652c5d",
+      "status": "checked",
+      "line": 87,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.scalar_residue' depends on axioms: [propext]"
+    },
+    "TameContinuity.normalized_extension_continuous": {
+      "sha256": "b735c3822a500009cfee07e346e16c38ee36eb4180a405a48c36dcd25be0ed78",
+      "status": "checked",
+      "line": 92,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.normalized_extension_continuous' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameContinuity.restriction_continuous": {
+      "sha256": "9c12058ce8ceb3fd18aea3e3a658d66ba7dd318649652f566fef4d163fe178b6",
+      "status": "checked",
+      "line": 100,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.restriction_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameContinuity.continuous_crossed_lift": {
+      "sha256": "27dc6a11f42bd73eca33a377487051fde03db65e5805b47452bb6f9dfe583a70",
+      "status": "checked",
+      "line": 107,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.continuous_crossed_lift' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameContinuity.discrete_binary_continuous": {
+      "sha256": "0b3721c260d54938a2c8ea215af59589442af69f933f7c9b601976169553ebf9",
+      "status": "checked",
+      "line": 114,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.discrete_binary_continuous' does not depend on any axioms"
+    },
+    "TameContinuity.correction_residue": {
+      "sha256": "c7ca8d495bc08a673c0b7f33765d5234973f4d089f0830996e9b70b6a1167c85",
+      "status": "checked",
+      "line": 128,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.correction_residue' depends on axioms: [propext]"
+    },
+    "TameContinuity.reconstruction_as_residues": {
+      "sha256": "a2bbe5a02389cf40bb5b58f1c5563aca5fccde4d95137e4ee2b193d30ce860bb",
+      "status": "checked",
+      "line": 135,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.reconstruction_as_residues' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameContinuity.crossed_continuous_iff_restriction": {
+      "sha256": "f9827b237632aa0ae63358dcea1779f3c5ad0e7035470f37ec61b392d5c33ab6",
+      "status": "checked",
+      "line": 145,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameContinuity.crossed_continuous_iff_restriction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameContinuity.complete": {
+      "sha256": "0277af0f7f4de202444b4b4e16ef89e21cddb50c5f844ffe5c56d90c636dbfea",
+      "status": "checked",
+      "line": 160,
+      "local_sources": {
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

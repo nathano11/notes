@@ -1,0 +1,150 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.RingTheory.Ideal.Norm.AbsNorm": "de43bd992cc930d04433c5cd1d1c2d213fe82db6c102df08ed17e5e8e0c1068b",
+    "Mathlib.Algebra.BigOperators.Associated": "3cb88ae79ac52cf7b936bf91ed3ab17145c827baebffaeadaf1fc1cc66397161",
+    "Reimann277.NumberFieldPrime": "840c508847a7fa3e900aee45680c8ed17e60abc9cfb070fabbbed60104761098",
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33",
+    "Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas": "dda72839a8f427d125f9ff4ba7cc57c27b8cface562af7dbd88e7010535a5a37",
+    "Mathlib.RingTheory.Polynomial.RationalRoot": "5deb8267b40ea8f5f9b528dcbfb2da9bd9845ea5f794f41b8646d6ce07fe4e60",
+    "Mathlib.Tactic.NormNum": "480ebc7f2e8d9370016d90be1babe5c26d8bfa3f597e0fa8fcd718528133826c",
+    "Reimann277.FiniteResidue": "8057211f528b52050823cef9600765c025b5c40670ad1ecd0211c73721fcfcb9",
+    "Reimann277.PadicPlaces": "155937076b57c18e90a487cda215e61c346e3cff5dbece5297f6d10847088522",
+    "Reimann277.BiquadraticNumberField": "9ed61f06c082da74c91725d648b3a6fae5680fa00197bd4e3168e3c3e8c59604",
+    "Mathlib.LinearAlgebra.Dimension.Constructions": "ddb3ce6891ef7453182bdbba8b9fa73c892f71dd0907ad2cf02a2e67c41fbcfd",
+    "Reimann277.BiquadraticReal": "a74e90feb809a047934a3b679a9bcfe158c3ff179d2050289c8bbeaffa63e716",
+    "Mathlib.Basic.Real.Basic": "47e972d32100969f0c7f6dc5a413dac152d941c4e14fc9cbc2d4b43e9d05ef63",
+    "Reimann277.Biquadratic": "1eecf3556b0b3cbf21ff1704cade538325a07227d454a3ade53283149eb974df",
+    "Mathlib.Algebra.Algebra.Hom": "cb23985743d69ab47c814e821ec7620d49ce642073d96ea0016b5f48fd5dd445",
+    "Mathlib.Algebra.Algebra.Rat": "27a6444a720f4100b0a93140231049882e266bacef7f4c6bb8c7a1374cc6561b",
+    "Mathlib.Algebra.Field.MinimalAxioms": "5a4f6a6ce4037663e35257965bd052a4fa36d040c7bc7ad7eed074e9dd1a2872",
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb",
+    "Reimann.TameEmbeddings277": "7c184751698ce48d191a56ef92f45ca365f177a4cab5a4f52c9c29bcee50b5c7",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann277.PadicEmbeddings": "9b170d977d243dd5ef8a465ef9a9bea343438cb0ea3bda092c8aed013ce2c9a8",
+    "Reimann277.Completion": "6cca8c54e06d14be2ed211ea4a1169ba4acdae1714e62bb4d94b8a7c2fd3a847",
+    "Reimann.TamePlaceRestriction277": "cf1ccc09ba9b61d840e4834dcc716e5ea57965a697fc54044a2489422cc114c8",
+    "Reimann.TameOrderFaithful277": "371738ead39dfaf6910c6fe1737e3a192e11812c07cf508fdd0b28ba0bb43d2f",
+    "Reimann.TameLocalOrders277": "7596b78ef21b0c5280340bd64566b0602408339c991da705e9cf24d97837dd18",
+    "Reimann.TameArithmetic277": "48e0882aeffd38210c101bceab1e5aafefd3c877b7bafc39567fb2b0ad592b54",
+    "Reimann.TameOrderCompletion277": "4f13588caa002782d7596a41dc4430d15f584506829b6e7cc3c5beb951f47cfd",
+    "Reimann.TamePrimePowers277": "9c5db0aad6d6d16ef27a54edf4fa99d8283bf17cc04157dc8955f41fc1adda6c",
+    "Reimann.TameOrderPrimes277": "847a93ca9be19999dca67c119cc95e685f21fd8f3956100065a73bc8b521336b",
+    "Reimann.TameFiber277": "7d07f4bd543ccecef281e086cbc1d023250657743c14eb5d5e5a0884442650d2",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Reimann.TameOrderReduction277": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+    "Reimann.TameLimit277": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+    "Mathlib.NumberTheory.Padics.PadicNumbers": "dbf403e24fbff90ced849ddbe6353860810e69ddd8c0cc7af3f4b1eb61ee0954",
+    "Mathlib.Topology.MetricSpace.Completion": "e0abedc5fa2a84e49e39e6008e9f274dd36431fc472206c453d07b49297337a6",
+    "Reimann277.PadicInteger": "b9528953f8045b5009ec90a0e7d305b4807d566fb2a50eb222fd24ff0d488f48",
+    "Reimann.TameSignedEmbeddings277": "3fd66f8a13aff48d00713431797d6f628c25abc54f4c7023f7c93ca2e483d588",
+    "Reimann.TameLimitRoots277": "cf5d2f76685ac0c2b3a7527dd65304d36462bc6502b0484e661782ba519abd57",
+    "Reimann.TameRootExhaustion277": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+    "Reimann.CyclicBoundary": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+    "Reimann.CyclotomicNorm": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Reimann277.FiniteAbsolute": "a164aee4207e1c4a3f06f34d1db852e2957e4979d4abc7771fc59f2d870555ae",
+    "Reimann277.FiniteRadii": "dfef236b68ce7dcc460599df6362cd156aa775d08deb4f8ca61729fd60f56c75",
+    "Mathlib.Algebra.Order.AbsoluteValue.Basic": "a304b96f13c00baa91c6b0b672177cf1eee3446bfa7c44b5ced7e1f4e9d9e7b6",
+    "Mathlib.Algebra.Order.Archimedean.Real.Basic": "6986ad382da2352fdcf72c581b569341d822ee395f0f68a5d9693354258f9308",
+    "Reimann.TameAdicDomain277": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+    "Reimann.TameTwist277": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+    "Reimann.ScalarCoinvariants": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+  },
+  "steps": {
+    "PrimeFactorization.Sign": {
+      "sha256": "447dc6ee0904533f0f28c99be2e676d3f13cf14c2dd7572322894d6eada20c82",
+      "line": 10,
+      "status": "checked"
+    },
+    "PrimeFactorization.O": {
+      "sha256": "80438beef428cd072509294a5127d234147c1e12d484b137dcc4db9881836cef",
+      "line": 11,
+      "status": "checked"
+    },
+    "PrimeFactorization.signedPrime": {
+      "sha256": "1c57ad3e8582207748ae55b63a67e1af535871de3f78f05c4bf8cc3924bfd737",
+      "line": 12,
+      "status": "checked"
+    },
+    "PrimeFactorization.signedIdeal": {
+      "sha256": "bf1c54523d6ee47b2bde5c1930657d2c4b171726058e22f2c3e826622195e196",
+      "line": 13,
+      "status": "checked"
+    },
+    "PrimeFactorization.principal": {
+      "sha256": "2b9a31fc2a8a8118e42a106a4449f03b3b2b698307c86c925709d123a4fa1a1e",
+      "line": 14,
+      "status": "checked"
+    },
+    "PrimeFactorization.signed_norm": {
+      "sha256": "158080a80a99e38dc769f1fa0e90af3032a343b755b6aa3173dce26c2be6e809",
+      "line": 16,
+      "status": "checked",
+      "checker_output": "<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePrimeFactorization277.signed_norm' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PrimeFactorization.principal_norm": {
+      "sha256": "7319ed6775accbe07020a3955cc1853476bd805c5cf6d0836c64337f6667d21f",
+      "line": 21,
+      "status": "checked",
+      "checker_output": "<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePrimeFactorization277.principal_norm' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PrimeFactorization.product_norm": {
+      "sha256": "ab01758bbf8ae8510298b3e60f8cfd768277b955ef59d0c3c5ee4f5a96775aa3",
+      "line": 25,
+      "status": "checked",
+      "checker_output": "<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePrimeFactorization277.product_norm' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PrimeFactorization.pairwise_coprime": {
+      "sha256": "08472e94a561c2d4be49653ef0f46efce779a6217f7b96437dea5252fb670af7",
+      "line": 29,
+      "status": "checked",
+      "checker_output": "<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePrimeFactorization277.pairwise_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PrimeFactorization.product_is_intersection": {
+      "sha256": "bcdb6c598de7fbffdc1d6df9f670cdba739066e93f0fca83e75ff9b4fa1a21f2",
+      "line": 32,
+      "status": "checked",
+      "checker_output": "<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePrimeFactorization277.product_is_intersection' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PrimeFactorization.principal_le_product": {
+      "sha256": "ab9b8e3492c33da9591d608145018ff5c7824b57430771d7b4b506b4b1b70c6b",
+      "line": 38,
+      "status": "checked",
+      "checker_output": "<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePrimeFactorization277.principal_le_product' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PrimeFactorization.prime_factorization_277": {
+      "sha256": "5ce9e55b028feab64ff4c164c18481122e13a964f049bbc4d5ca3b3c05a164b3",
+      "line": 45,
+      "status": "checked",
+      "checker_output": "<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePrimeFactorization277.prime_factorization_277' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PrimeFactorization.signed_dvd_iff": {
+      "sha256": "debb927711babb56b299f5ca7dfd46f5f4e2949655be33898e1b7a07dcb06432",
+      "line": 53,
+      "status": "checked",
+      "checker_output": "<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePrimeFactorization277.signed_dvd_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PrimeFactorization.multiplicity_one": {
+      "sha256": "b13a333f6d4d5edcd4ebc44b21f1c40f1f2aeb7fc4edcadce6958a56201d699a",
+      "line": 58,
+      "status": "checked",
+      "checker_output": "<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePrimeFactorization277.multiplicity_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PrimeFactorization.prime_over_277": {
+      "sha256": "6cd42afa4911c4b4a1e8fe98a2291e1c2383e82aedd6515215dfa8e7fe7cade6",
+      "line": 71,
+      "status": "checked",
+      "checker_output": "<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePrimeFactorization277.prime_over_277' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PrimeFactorization.complete": {
+      "sha256": "ae93f5a9df23cde76fbe24c7d5e9750c77da2ebb64acfb8065ed6ca15b27c7fb",
+      "line": 80,
+      "status": "checked",
+      "checker_output": "<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    }
+  }
+}

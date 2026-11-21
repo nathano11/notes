@@ -1,0 +1,75 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.Inertia": "2fd798730479b1e529f6a01be30c4a4b0aef428588625f481a839811a35cb739",
+    "Reimann277.SplitQuotient": "da1fc61725a62abcb6395a532199d0783d39ede7f152dc5dc781f06ab6e30245",
+    "Mathlib.Topology.Algebra.Group.Quotient": "da71e1e4b4c9a24918e9b56dc82da21597d5df79f9070cc2e5127b7925e4933b",
+    "Mathlib.Topology.Algebra.ContinuousMonoidHom": "2fd311acabbf5f50aa46547f23fc32f4e7359c2000034897357c8ec4fdef2bf8",
+    "Mathlib.GroupTheory.Commutator.Basic": "a3f5ea65a36bb722f0804b3c94e1f15c594c2a33fd6bbecded70678761d549ac",
+    "Mathlib.RingTheory.IntegralClosure.Algebra.Basic": "63ee00b21ee6547bedfcc8e86f86b0df4a65d9f1018c2e30425a0e2799710729",
+    "Mathlib.RingTheory.Ideal.Quotient.Basic": "2d3eae760cf3532861226b2b66521b9d57a97979c0df2d2dfffa0049b8843762",
+    "Reimann.TameUnramified277": "fded94df921fd77392dda052c165c6f4eac8bb0d39c7717deb30d07c2c2c3f25",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e"
+  },
+  "steps": {
+    "QuotientTransport.inertia_conjugate": {
+      "sha256": "3661dacaa9337d342e6b789caf31bc15374bdac88c1876af84920a6233839c01",
+      "line": 11,
+      "status": "checked",
+      "checker_output": "'Reimann.TameQuotientTransport277.inertia_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "QuotientTransport.maximal_conjugate": {
+      "sha256": "7511f9fa58425e45cdbe7965966dd766760d92ef91a4760fd187790f58c096e6",
+      "line": 18,
+      "status": "checked",
+      "checker_output": "'Reimann.TameQuotientTransport277.maximal_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "QuotientTransport.nonmem_conjugate": {
+      "sha256": "34fe7f54652d8a9ad714ea9b325e561c5924c531f132f8378daa8bbabdc343fb",
+      "line": 23,
+      "status": "checked",
+      "checker_output": "'Reimann.TameQuotientTransport277.nonmem_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "QuotientTransport.away_conjugate": {
+      "sha256": "5e774eff008323ea33d3dd5b65baf819f312c83e488431f1c67095e6bd88dc27",
+      "line": 28,
+      "status": "checked",
+      "checker_output": "'Reimann.TameQuotientTransport277.away_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "QuotientTransport.kernel_preserved": {
+      "sha256": "5e84076ee6f11318ed9b7261883263c49b5bc89aa00408f9f4b2b3028887767a",
+      "line": 38,
+      "status": "checked",
+      "checker_output": "'Reimann.TameQuotientTransport277.kernel_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "QuotientTransport.kernel_map_eq": {
+      "sha256": "c328e6fe30e026a9d80ab2d1b0efc95ad5e067b557b51ab1740fa1e3560c6ec2",
+      "line": 51,
+      "status": "checked",
+      "checker_output": "'Reimann.TameQuotientTransport277.kernel_map_eq' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "QuotientTransport.descendEquiv": {
+      "sha256": "9848e0725e2fea5b8d0042f7bb7f47e8f02b758db6adf0d0c306756e0314c57f",
+      "line": 62,
+      "status": "checked"
+    },
+    "QuotientTransport.descendEquiv_project": {
+      "sha256": "9db6259ade16edd86843b7ac8aaa5159da9e56fb06f1205f853bfc03cd696057",
+      "line": 67,
+      "status": "checked",
+      "checker_output": "'Reimann.TameQuotientTransport277.descendEquiv_project' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "QuotientTransport.descendEquiv_continuous": {
+      "sha256": "b6543a75465724ebea4ddd15ae1f5d85af2c5cdaa62d2e61d0c82bed6c9faec0",
+      "line": 71,
+      "status": "checked",
+      "checker_output": "'Reimann.TameQuotientTransport277.descendEquiv_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "QuotientTransport.complete": {
+      "sha256": "0b38aa2e5234b2eb32d1cfb109fb359a178099d4f5f861b29d9924de4b5b9610",
+      "line": 78,
+      "status": "checked"
+    }
+  }
+}

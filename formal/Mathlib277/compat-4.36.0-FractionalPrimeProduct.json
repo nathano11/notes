@@ -1,0 +1,61 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.IdealArtin": "f4dcbeb91e9ab113af195a6c925bc49ccf98c58f47ac16c522ba776de2ae0c96",
+    "Mathlib.RingTheory.DedekindDomain.Factorization": "c2697e4e2d4a786e4057477924519461f32db0483bda4ba7f99507267407f03e",
+    "Mathlib.RingTheory.ClassGroup.Basic": "29e58f2e7f805bdb7c2d5850a67b0f0fdd84893ebe12ed12cfa348ddb5c14c1c"
+  },
+  "steps": {
+    "FractionalPrimeProduct.finite_prime_support": {
+      "sha256": "ef5bc0f0aacf807ca58fe431344fd2d1489bfaeb150e54160ed18b123669814f",
+      "line": 12,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFractionalPrimeProduct277.finite_prime_support' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FractionalPrimeProduct.prime_power_mul": {
+      "sha256": "42cb8b0a1bd4992221303f9fc4b606905e54410eb03230c62026038c391d3e7f",
+      "line": 20,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFractionalPrimeProduct277.prime_power_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FractionalPrimeProduct.product": {
+      "sha256": "af16ba92a41bf3f02438a0e14268a230903f2a7bccf2d5e547491fda7c0a46a7",
+      "line": 27,
+      "status": "checked"
+    },
+    "FractionalPrimeProduct.product_one": {
+      "sha256": "f8f9a21f7d78ab108cfdf2b189917a0206c84f1e80ea4a0e27f72f5b699ae575",
+      "line": 30,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFractionalPrimeProduct277.product_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FractionalPrimeProduct.product_mul": {
+      "sha256": "e0cc08e2f1a695023874fd545da7c7ff6f85ff4aa92bd690cd5037e7c95bc745",
+      "line": 33,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFractionalPrimeProduct277.product_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FractionalPrimeProduct.symbol": {
+      "sha256": "6fd467f8e7fcc91e52ffb1feef552e1842676797d43db13bfc02f252f848d9c2",
+      "line": 39,
+      "status": "checked"
+    },
+    "FractionalPrimeProduct.integralPrime": {
+      "sha256": "11888cba91d0b81abc6329687c84381bf09e38fde85458b082f8f16122d66943",
+      "line": 44,
+      "status": "checked"
+    },
+    "FractionalPrimeProduct.symbol_prime": {
+      "sha256": "9edce8103250ee9a3bba11ed44a874362e8c4bf94caeb29e2dd24f3ae0250cc5",
+      "line": 48,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFractionalPrimeProduct277.symbol_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FractionalPrimeProduct.complete": {
+      "sha256": "b64c52fadade31e70d7112436def1c672b8fdefdebecc78593d06a7410cd22ce",
+      "line": 56,
+      "status": "checked"
+    }
+  }
+}

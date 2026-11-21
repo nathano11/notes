@@ -1,0 +1,240 @@
+{
+  "steps": {
+    "SignedMeasure256.row": {
+      "sha256": "699a3d80c43b43212491adccfc90333e3276f54d31f05d01d39b0b305446c58f",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedMeasure256.inverseResidue": {
+      "sha256": "5922d0ed82212f22b10bd2e48c2abf73b21eb95b74945a5a575b95885b76d8a1",
+      "status": "checked",
+      "line": 18,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedMeasure256.inverse_index": {
+      "sha256": "23d2def3d30c40579c4c15fd940be80363ecfbb6fff2392924a11137844a1e66",
+      "status": "checked",
+      "line": 22,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedMeasure256.inverse_index' does not depend on any axioms"
+    },
+    "SignedMeasure256.numerator": {
+      "sha256": "e982364a97634691f56907110c156fdeca6b303577609f5f9de290a71cef6912",
+      "status": "checked",
+      "line": 29,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedMeasure256.value": {
+      "sha256": "6de86cb3c3ad47e0366c0110b1cc60baf41aa079d829caf9f001e84aebd35e2e",
+      "status": "checked",
+      "line": 35,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedMeasure256.weight_three_arguments": {
+      "sha256": "eeca0f7a0cd05ca700f0fa6c1ddc07ced425b07d6615086b97989945617e6cb7",
+      "status": "checked",
+      "line": 37,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedMeasure256.weight_three_arguments' does not depend on any axioms"
+    },
+    "SignedMeasure256.signed_residues": {
+      "sha256": "8fec8dbbd0e5b8dd25496c568a2ebb8c55185da9c587541ba9bc9a63ccb9ae8f",
+      "status": "checked",
+      "line": 41,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedMeasure256.signed_residues' does not depend on any axioms"
+    },
+    "SignedMeasure256.equals_normalized_moments": {
+      "sha256": "67c4ed25ff5c2de3e0075af8e28adbdb0a2c7f78014fcdb3e4da861ca0df8985",
+      "status": "checked",
+      "line": 45,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedMeasure256.equals_normalized_moments' does not depend on any axioms"
+    },
+    "SignedMeasure256.row_length": {
+      "sha256": "ea67e6492814de6a73cb15f8d58afe6de93100ec6bcf5a5e8b4e0bec3affa67a",
+      "status": "checked",
+      "line": 54,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedMeasure256.row_length' does not depend on any axioms"
+    },
+    "SignedMeasure256.row_coefficients": {
+      "sha256": "865844112c88f68c7f61caa11fc471afdec15b7d09dc30cb0400c75047356170",
+      "status": "checked",
+      "line": 125,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedMeasure256.row_coefficients' depends on axioms: [propext]"
+    },
+    "SignedMeasure256.complete": {
+      "sha256": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+      "status": "checked",
+      "line": 130,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedMeasure256.signedIndices": {
+      "sha256": "0e930c5acdd6ee05864df31f8531c2f84402aa93128161472f0f77fd896bba5a",
+      "status": "checked",
+      "line": 57,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedMeasure256.signed_coverage": {
+      "sha256": "8fb5650473b3931f9ba391a98312e4721400a5d6201b07fb86d16af8d7cd245c",
+      "status": "checked",
+      "line": 62,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedMeasure256.signed_coverage' does not depend on any axioms"
+    },
+    "SignedMeasure256.character": {
+      "sha256": "5a30363668b44aeaa0f38b82095d40cf633bbe4c476a822c875d9ae1eecd19f2",
+      "status": "checked",
+      "line": 67,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedMeasure256.character_congr": {
+      "sha256": "5797104e6cc34c14d12d9cb7d6ca04260b80fed9bf7e53ab1ce4bb68449d54c1",
+      "status": "checked",
+      "line": 70,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedMeasure256.character_congr' depends on axioms: [propext]"
+    },
+    "SignedMeasure256.blockSum": {
+      "sha256": "a667d32ed45b4dd56753caf51b844304ca2d313c19daf0de5a047ac042e418c5",
+      "status": "checked",
+      "line": 75,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedMeasure256.block_shift": {
+      "sha256": "9db55a4f0699a625793b1532c109f0d1379c0fd5702a42e5c1a8bc5d9e7f682e",
+      "status": "checked",
+      "line": 79,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedMeasure256.block_shift' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedMeasure256.periodic_block": {
+      "sha256": "fb27c23979a83108e37bd445115e81cbd24c983f587eb699a8dc7997becad242",
+      "status": "checked",
+      "line": 87,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedMeasure256.periodic_block' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedMeasure256.translate_block": {
+      "sha256": "951518452731d1923e26d0ff7b498150360e8b813cff9ac1fb66a0363d444723",
+      "status": "checked",
+      "line": 93,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedMeasure256.translate_block' depends on axioms: [propext]"
+    },
+    "SignedMeasure256.mass": {
+      "sha256": "76d4cae1ed90cbbc0cacd9364abb1d8a90bd8c7813a32eb9f71af660c7e7e4b2",
+      "status": "checked",
+      "line": 100,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedMeasure256.mass_independent": {
+      "sha256": "570fde234a9894d7be98b778a563af70f3d07a9ba452ee3f3d658994faa5c1bb",
+      "status": "checked",
+      "line": 102,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedMeasure256.mass_independent' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedMeasure256.mass_zero": {
+      "sha256": "06ebd2bfc5312c792d7c0cbf8d981ce628162a3b4b6e0a22230e13e5fb8fd6c9",
+      "status": "checked",
+      "line": 117,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedMeasure256.mass_zero' depends on axioms: [propext, Quot.sound]"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

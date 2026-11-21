@@ -1,0 +1,261 @@
+{
+  "steps": {
+    "CyclicCocycle.exponent": {
+      "sha256": "e05efd60cae97a164759747ae35748d6585f6f182aa4bbe6f5e862f366a0c359",
+      "status": "checked",
+      "line": 8,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CyclicCocycle.Crossed": {
+      "sha256": "afbb47ffc8adc81925de0fda43d4d5cbfd9180df2a83cc6287beab915c9fa667",
+      "status": "checked",
+      "line": 13,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CyclicCocycle.generator_formula": {
+      "sha256": "847ecfd222cd9a0a11c8cd5653ade46f2006d718bb52f2aabbda7ace5f825259",
+      "status": "checked",
+      "line": 18,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.generator_formula' depends on axioms: [propext]"
+    },
+    "CyclicCocycle.generator_norm": {
+      "sha256": "aafb167a22725330aa06376a3f2ed1248841a19cc754b42e0cd953beadb9c29a",
+      "status": "checked",
+      "line": 27,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.generator_norm' depends on axioms: [propext]"
+    },
+    "CyclicCocycle.fromGenerator": {
+      "sha256": "fe80c7f20c88b23341db727d066fc05295aed87bd73a98a1710440e5d7061d01",
+      "status": "checked",
+      "line": 33,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CyclicCocycle.norm_multiple": {
+      "sha256": "ef4c4d20737ee8a5e8af0736aba1a7e172edac0220521c46be095d5f73533c7e",
+      "status": "checked",
+      "line": 35,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.norm_multiple' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicCocycle.reduce_exponent": {
+      "sha256": "3ae80fecd2087da311bb6483f0b8a44c9a83c276ee6095d55069fa448f91a4a8",
+      "status": "checked",
+      "line": 42,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.reduce_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicCocycle.fromGenerator_crossed": {
+      "sha256": "f0daa79b7be94291ac3f5b014c3d1ba42f734db3c92cdd778014840c89a2da5a",
+      "status": "checked",
+      "line": 49,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.fromGenerator_crossed' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicCocycle.fromGenerator_at_one": {
+      "sha256": "615845fe93a3db5ad9ed9785005d561ee02f5bc3157f977f10471324fe1dd1db",
+      "status": "checked",
+      "line": 63,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.fromGenerator_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicCocycle.reconstruct": {
+      "sha256": "aed5412e68c77d1a4816aa23d8ce6359a3cfd2af7f16dc41c0fdd38d3211aa77",
+      "status": "checked",
+      "line": 70,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.reconstruct' depends on axioms: [propext, Quot.sound]"
+    },
+    "CyclicCocycle.principal": {
+      "sha256": "84950c1d2d11218481deca9a3d047b6aa1f9541dfd6e756eb89e223e7444fb53",
+      "status": "checked",
+      "line": 77,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CyclicCocycle.principal_formula": {
+      "sha256": "88bc73a24d5792a9b8ff9c25f89f41aef7ad416c0a0a3ffb09ac4f0a69f4a29e",
+      "status": "checked",
+      "line": 79,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.principal_formula' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicCocycle.principal_norm": {
+      "sha256": "77de9de1b89b0ac4da6f632c85be639a34fd25f3ac2814b19a296977fd0960c1",
+      "status": "checked",
+      "line": 87,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.principal_norm' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicCocycle.principal_crossed": {
+      "sha256": "4b1b06b988a0c05b0be19d400470fa9d40b9f931bd5157684b9616de4be25973",
+      "status": "checked",
+      "line": 94,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.principal_crossed' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicCocycle.principal_at_one": {
+      "sha256": "427be41ed9ad3ece35a48b353740d744aa65b126bdb90dd7bc9275069ce29ba9",
+      "status": "checked",
+      "line": 100,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.principal_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicCocycle.difference_at": {
+      "sha256": "a1bca750ed4c3a3bc667c0210163d8af2f9c6f89e4bfe83ce1e79fd588d11703",
+      "status": "checked",
+      "line": 106,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.difference_at' depends on axioms: [propext, Quot.sound]"
+    },
+    "CyclicCocycle.differs_by_principal_iff": {
+      "sha256": "361ce5aeaa654d6b24f1a8516cdbbff15ece571a9c586714daab26f5d62f5657",
+      "status": "checked",
+      "line": 117,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.differs_by_principal_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicCocycle.action_on_full_cycles": {
+      "sha256": "ea905ac15374107616c03bf9b7309f5bf28dc276899aac9ffbb505b0bf88b407",
+      "status": "checked",
+      "line": 130,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.action_on_full_cycles' depends on axioms: [propext]"
+    },
+    "CyclicCocycle.action_reduce": {
+      "sha256": "033a0e369637ec5729ab2b00bf25e59cec696942d20c104891b0ddc4e1570fd4",
+      "status": "checked",
+      "line": 139,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.action_reduce' depends on axioms: [propext]"
+    },
+    "CyclicCocycle.FiniteCrossed": {
+      "sha256": "8a36cb2530f2b927b3531bd44b42d147a70d9db54b65e7708d2338c92e6d65a5",
+      "status": "checked",
+      "line": 145,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CyclicCocycle.finite_rule_of_crossed": {
+      "sha256": "fd602c97f8f590834a6027c99637f40b94c0c79f35b01a4a7f9071e5884f98ec",
+      "status": "checked",
+      "line": 150,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.finite_rule_of_crossed' depends on axioms: [propext]"
+    },
+    "CyclicCocycle.crossed_of_finite_rule": {
+      "sha256": "235fd02ed4c3a51c20a52c4a3696f6421083cc9a4828d69d1ca8cb8e0ec99720",
+      "status": "checked",
+      "line": 158,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.crossed_of_finite_rule' depends on axioms: [propext]"
+    },
+    "CyclicCocycle.finite_generator_iff": {
+      "sha256": "b7f5e3836f07e201cf2b853c5d29f72d9020eb74eeac91852670bccf89298d00",
+      "status": "checked",
+      "line": 174,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.finite_generator_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicCocycle.cyclotomic_action_closes": {
+      "sha256": "4835fcce8b82482c6d8073f7d3746f8d551baab09628d6c9e500901be787b5a5",
+      "status": "checked",
+      "line": 190,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.cyclotomic_action_closes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicCocycle.cyclotomic_cocycle_unique": {
+      "sha256": "468200d21a7c4e012e2b93c906a8b2aaa32c3d0286fe1f3b81ecaf3813a8a121",
+      "status": "checked",
+      "line": 197,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicCocycle.cyclotomic_cocycle_unique' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicCocycle.complete": {
+      "sha256": "11493229096eee8b430ad4d8271392a825681890c739117d307a7870cd4204a6",
+      "status": "checked",
+      "line": 206,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

@@ -1,0 +1,228 @@
+{
+  "steps": {
+    "DyadicLayers.companion": {
+      "sha256": "295ed1c6d356bd0d10002ed7075739012043af72815f4527b8a581fe64f79e0d",
+      "status": "checked",
+      "line": 19,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLayers.squareMatrix": {
+      "sha256": "80525942a11d13e1715627646bbcabc4050f8f1561844b547acef65555356d14",
+      "status": "checked",
+      "line": 22,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLayers.diagonalShift": {
+      "sha256": "c93a1da223aca19a1f89cb91e3e9a36377adb017af3dbcd7b29052e84dc16ffa",
+      "status": "checked",
+      "line": 27,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLayers.powerPair": {
+      "sha256": "541fff9ad6aae6e0c0bfca020c7f9bef95a22abd87833337e1472b684a024e90",
+      "status": "checked",
+      "line": 31,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLayers.congruentCompanion": {
+      "sha256": "3356b2d703f0fbce0170afd23665b760b0d78ed70852d636be4a80f4fb718c4c",
+      "status": "checked",
+      "line": 38,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLayers.congruentScalar": {
+      "sha256": "e914ebbb24aa513693f6a4d4bf8190ee0757fb9fb424b7dd5850be6639a18f0f",
+      "status": "checked",
+      "line": 42,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLayers.firstQuotient": {
+      "sha256": "3590ceee1cc1cdfd6fd5971ef7554a65d4572b7725626c6c497caf6caf46917d",
+      "status": "checked",
+      "line": 45,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLayers.first_square_normalization": {
+      "sha256": "36714879431aca0f44afb8a3e7ca6172cb63411418d45ebe12ee97f0d2a1d119",
+      "status": "checked",
+      "line": 52,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLayers.first_square_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLayers.first_quotient_odd": {
+      "sha256": "8c6e6099edd6fe19584609c3dd398a9d329a7efa3510bfb5b8c20f40c44fd02b",
+      "status": "checked",
+      "line": 61,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLayers.first_quotient_odd' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLayers.difference": {
+      "sha256": "44df45aa9d5e200b9469abd87139e5b745fa89fe1e11db3b62f788a04e9e449f",
+      "status": "checked",
+      "line": 66,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLayers.act_difference_of_shift": {
+      "sha256": "2366ac429e73a8dd200ca4c9bef8411ddc4b6bca6cfcdf1fb5030aa96d83a962",
+      "status": "checked",
+      "line": 69,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLayers.act_difference_of_shift' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLayers.first_square_image": {
+      "sha256": "5b96f219813541a66378cde4e9d8cbb5fab42155b2f5d39b52a2165c9910a4f4",
+      "status": "checked",
+      "line": 75,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLayers.first_square_image' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLayers.nextQuotient": {
+      "sha256": "2344992d212a05a27bad4594d145353d0fe17f5bbc8f307ed7410a16e8762105",
+      "status": "checked",
+      "line": 84,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLayers.double_normalization": {
+      "sha256": "872814dbe664b46d198608c14987ed992378fae65d644bd518001db6f42a2f04",
+      "status": "checked",
+      "line": 91,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLayers.double_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLayers.next_quotient_odd": {
+      "sha256": "b2c558ceba06bd4d67f29ef5ca71bc6469ff08dc5c0de0b1325f2bdb4f5cfe8e",
+      "status": "checked",
+      "line": 100,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLayers.next_quotient_odd' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLayers.nat_scale_product": {
+      "sha256": "210ebadb30d48fba4c55e212003a21298441a7a0dbc6d48f6a3dfdfab712c8b6",
+      "status": "checked",
+      "line": 104,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLayers.nat_scale_product' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLayers.scale_at_positive_layer": {
+      "sha256": "489d96ac453fc5d423179506cecee26ce39bd928a9cddc35032023a396de605b",
+      "status": "checked",
+      "line": 110,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLayers.scale_at_positive_layer' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLayers.positive_normalization": {
+      "sha256": "d8e8edeea07f7d839c9a5d8c07f06fba04eb539a57fcf9bf564614f1888d83ee",
+      "status": "checked",
+      "line": 116,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLayers.positive_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLayers.positive_layer_image": {
+      "sha256": "c0e03adba5a23003729a5dbff914b4388e6eef721b8089655e422b4bd2ed7a55",
+      "status": "checked",
+      "line": 140,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLayers.positive_layer_image' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLayers.positive_layer_image_of_residues": {
+      "sha256": "8bab0483ced65c5fc44f4084189eb8b641bf6f26a345a71493bcf8ec9c830624",
+      "status": "checked",
+      "line": 152,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLayers.positive_layer_image_of_residues' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLayers.complete": {
+      "sha256": "865f464a6f4dcda46926a0b1bb04ae193d0c7fc315f13f4bf980f57d00156113",
+      "status": "checked",
+      "line": 167,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

@@ -1,0 +1,205 @@
+{
+  "steps": {
+    "TameArithmetic277.OrderCoordinates": {
+      "sha256": "b4c955375b6ed3c0afbe275ee0c7a2a9198a4f3eaa10e6aee42912a3697207ac",
+      "status": "checked",
+      "line": 10,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameArithmetic277.evalAt": {
+      "sha256": "2fea93710ae9a76b61b9b437c9a10f5c34deab606ad1084832d940e13c374542",
+      "status": "checked",
+      "line": 12,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameArithmetic277.eval_congr": {
+      "sha256": "24299da9308fed92a1a945193fe6329e67f2a5c78a121a62da2a8d5166ab4a8b",
+      "status": "checked",
+      "line": 15,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameArithmetic277.eval_congr' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameArithmetic277.rootAt": {
+      "sha256": "1bc9c69c79ad81efa78311d00f3225c16c4454d543a5527785a3458abec568d1",
+      "status": "checked",
+      "line": 24,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameArithmetic277.rootAt_compatible": {
+      "sha256": "b3cded45cba1f0ef56a8c994ba6911a17a8477631bc45e52a566ccea77c8f29d",
+      "status": "checked",
+      "line": 27,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameArithmetic277.rootAt_compatible' does not depend on any axioms"
+    },
+    "TameArithmetic277.branchEval": {
+      "sha256": "23b3b493f92a84e1947a02e7bf0914cc52cb90de9b46fbc36403d13c4180b911",
+      "status": "checked",
+      "line": 34,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameArithmetic277.branchEval_compatible": {
+      "sha256": "1ebd6a24e356a4dbaf32516a4d5b6c143fd74c3fc5d8d8275f06e6c20955ded4",
+      "status": "checked",
+      "line": 37,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameArithmetic277.branchEval_compatible' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameArithmetic277.integerCoordinates": {
+      "sha256": "0784310b011603413b9115c1eb881580059704e1e5095f8d16457a18b8f7e070",
+      "status": "checked",
+      "line": 43,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameArithmetic277.branchEval_integer": {
+      "sha256": "0075e7bd291ca042e46c709905f916af9fc6360c0d67651e0e058dc677ea7374",
+      "status": "checked",
+      "line": 45,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameArithmetic277.branchEval_integer' depends on axioms: [propext]"
+    },
+    "TameArithmetic277.all_depths_first_residue": {
+      "sha256": "2b9e71df9a5132801f87631e2fa8928fe85bc7c95999a53a314a7c213c45840f",
+      "status": "checked",
+      "line": 49,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameArithmetic277.all_depths_first_residue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameArithmetic277.coordinate": {
+      "sha256": "2c99d0b312c867f70f8ee097f68e3793f45ea242917e916f593a058b3ce37939",
+      "status": "checked",
+      "line": 60,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameArithmetic277.first_roots": {
+      "sha256": "0d4290bdc128fc7fdae80ac59d5d84194dab700ee4b63d1fd1f0bc05ccd5322f",
+      "status": "checked",
+      "line": 64,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameArithmetic277.first_roots' does not depend on any axioms"
+    },
+    "TameArithmetic277.kernel_detects_signs": {
+      "sha256": "77a87583af860aca7437ed709f831175bafc0a85ee02ee32d6dd06df7bee85bd",
+      "status": "checked",
+      "line": 70,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameArithmetic277.kernel_detects_signs' depends on axioms: [propext]"
+    },
+    "TameArithmetic277.bridge": {
+      "sha256": "f3656f895181d08e692f8a16afe714ecda44e871818f154ff207eecf58ee735c",
+      "status": "checked",
+      "line": 77,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n'Reimann.TameArithmetic277.bridge' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameArithmetic277.finite_multiple_test": {
+      "sha256": "0991563bb4423d7563c76bc9be5fb958b86d66fb39a795ca4321720ecff833a6",
+      "status": "checked",
+      "line": 85,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n'Reimann.TameArithmetic277.finite_multiple_test' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameArithmetic277.same_prime_every_depth": {
+      "sha256": "793064fd49a05e64e0aaef22d8e0013b341d2a5b2c9e6e1bbc15ef5c48e9063c",
+      "status": "checked",
+      "line": 99,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n'Reimann.TameArithmetic277.same_prime_every_depth' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameArithmetic277.complete": {
+      "sha256": "48e0882aeffd38210c101bceab1e5aafefd3c877b7bafc39567fb2b0ad592b54",
+      "status": "checked",
+      "line": 110,
+      "local_sources": {
+        "Reimann/TameSplitting277.lean": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+        "Reimann/TameOrderReduction277.lean": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+        "Reimann/TameBiquadratic277.lean": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲\n<stdin>:82:68: warning: `if_false` has been deprecated: Use `ite_false` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲\n<stdin>:82:77: warning: `if_true` has been deprecated: Use `ite_true` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

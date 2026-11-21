@@ -1,0 +1,86 @@
+{
+  "steps": {
+    "CyclicBoundary.unit_bezout_power": {
+      "sha256": "f01998c474ac29180d08acc5ebc65765cdda7eb5ec1b2fc8b0ee1f65d655c0fe",
+      "status": "checked",
+      "line": 6,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicBoundary.unit_bezout_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicBoundary.cancel_unit_factor": {
+      "sha256": "82e4d75ea7528af68ac180d8888b9ccfa53134ad1f5e3220475e6c766e8d1dcc",
+      "status": "checked",
+      "line": 13,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicBoundary.cancel_unit_factor' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicBoundary.norm_kernel_gap": {
+      "sha256": "e974f47418c1db20074bf78fe352036aea8b66c9a2468393836ff9421455f4f1",
+      "status": "checked",
+      "line": 28,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicBoundary.norm_kernel_gap' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicBoundary.norm_kernel_at_depth": {
+      "sha256": "983d1f15de8ce19684e596c4e0f1869d815287285dbcd9b97b77c00921e9ad9c",
+      "status": "checked",
+      "line": 37,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicBoundary.norm_kernel_at_depth' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicBoundary.primitive_lift_form": {
+      "sha256": "83dda7ecc14860873e074d9a230d218d9e0032d75d61c8d37b05e2060ff703a0",
+      "status": "checked",
+      "line": 56,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicBoundary.primitive_lift_form' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicBoundary.primitive_lift_fixed": {
+      "sha256": "bdc7534135a6df76f0da6f2f406da39a35c76cbb848e9dd2e4e86d2f366d5e7d",
+      "status": "checked",
+      "line": 65,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicBoundary.primitive_lift_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicBoundary.subgroup_fixes_lift_iff": {
+      "sha256": "a7101d717d863560250523dac5e26ab64b14f38f6ca4c506d83f4650e1ff6690",
+      "status": "checked",
+      "line": 74,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CyclicBoundary.subgroup_fixes_lift_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclicBoundary.complete": {
+      "sha256": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+      "status": "checked",
+      "line": 84,
+      "local_sources": {
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

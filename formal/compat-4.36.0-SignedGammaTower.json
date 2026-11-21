@@ -1,0 +1,363 @@
+{
+  "steps": {
+    "SignedGammaTower.exponent": {
+      "sha256": "9d16f496fd84757d8a6c47227484b3b30c8325ecae7a062b943d41d8798b76f3",
+      "status": "checked",
+      "line": 9,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedGammaTower.exponent_cast": {
+      "sha256": "62bb70064013e5749d50a0e366c0cda8a3c3f80440e18757a70b705ddd38694f",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.exponent_cast' depends on axioms: [propext]"
+    },
+    "SignedGammaTower.representative": {
+      "sha256": "36876b25c855e5a97fe76d71963678cf928fec6b4f5be87ca3e2d318d162776e",
+      "status": "checked",
+      "line": 17,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedGammaTower.residue_iff_dvd": {
+      "sha256": "88d67bcf70126bfad9f12c8c740261ed3730170cd40f347fd02f308a4ff75bcc",
+      "status": "checked",
+      "line": 19,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.residue_iff_dvd' depends on axioms: [propext]"
+    },
+    "SignedGammaTower.exponent_lt": {
+      "sha256": "89976a08e503d46942b24451137167f75af24cd7d906e3b61cc5b9b0854796ed",
+      "status": "checked",
+      "line": 24,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.exponent_lt' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedGammaTower.neg_residues": {
+      "sha256": "4f88632a17523b656f8cce55602cf9d23e4e90463813be93258f65376a2d4c2b",
+      "status": "checked",
+      "line": 30,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.neg_residues' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedGammaTower.exponent_injective_mod": {
+      "sha256": "6e4b0985a629b9f14a7138e0cc54df95edae27071cb1d41def16f0bddc5e5cdd",
+      "status": "checked",
+      "line": 35,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.exponent_injective_mod' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedGammaTower.forward_power_iff": {
+      "sha256": "9b37e777a57b4ca98da18a5b708a85514208f3fa1cc299181403a157b5107d35",
+      "status": "checked",
+      "line": 39,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.forward_power_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedGammaTower.representative_lt": {
+      "sha256": "e9066542852d661a6ee84039ebffd1806d1c935cc34f298a1e23923babe35efd",
+      "status": "checked",
+      "line": 48,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.representative_lt' does not depend on any axioms"
+    },
+    "SignedGammaTower.representative_injective_mod": {
+      "sha256": "fe50177d44f466b7734cbdfede9bfe53706b8983dc84b6813eb092776324ee6b",
+      "status": "checked",
+      "line": 51,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.representative_injective_mod' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedGammaTower.exponent_reduce": {
+      "sha256": "64589f95e9a2ca6672d3e38a6781e81129000a5834b688f066c694bc5d564d40",
+      "status": "checked",
+      "line": 57,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.exponent_reduce' depends on axioms: [propext]"
+    },
+    "SignedGammaTower.representative_reduce": {
+      "sha256": "740071ecca0417da6775000dead57e3a62de0fcad5d4a4da26ea4144009ff16c",
+      "status": "checked",
+      "line": 62,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.representative_reduce' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedGammaTower.half_turn_distinct": {
+      "sha256": "53ae0e5d29bf95931f0e2a7a7c4cfd1c9a9913a559d6192fbc91552cb17a2aca",
+      "status": "checked",
+      "line": 68,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.half_turn_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedGammaTower.sibling_fibres": {
+      "sha256": "30517499cad88d72c952d1953539f4e9cda39627cf113c85725a85439132b662",
+      "status": "checked",
+      "line": 80,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.sibling_fibres' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedGammaTower.level256_representative": {
+      "sha256": "b3dc294bb258c359c2374b8ac5c9bc267e0302f280e8e7ce93f0197af693ccbc",
+      "status": "checked",
+      "line": 98,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.level256_representative' does not depend on any axioms"
+    },
+    "SignedGammaTower.exponent_inverse": {
+      "sha256": "7bdbf79313a42e28b2b9137dc37d1b2f259eb293473cca35ed85fd92a14a01c4",
+      "status": "checked",
+      "line": 103,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.exponent_inverse' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedGammaTower.representative_is_inverse": {
+      "sha256": "764299b527be37d7282cee69fb3851cfc830f784c470da6cb2a7e1395a42805f",
+      "status": "checked",
+      "line": 109,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.representative_is_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedGammaTower.exponent_involutive": {
+      "sha256": "98bd81442429a578e99bee323eddf55098b29947fcbc9f22fcfc6c93b2a34a7a",
+      "status": "checked",
+      "line": 117,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.exponent_involutive' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedGammaTower.four_dvd_modulus": {
+      "sha256": "7c46aebdecf2f75fb875d2914cc5642e0e46d7133fc7b5c975e4b9b55b8aebe6",
+      "status": "checked",
+      "line": 123,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.four_dvd_modulus' depends on axioms: [propext]"
+    },
+    "SignedGammaTower.positive_residue": {
+      "sha256": "2bb0e779449be73d7a7290cd22e1dd5d4aa554165973e194d464cd99c6bacac7",
+      "status": "checked",
+      "line": 127,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.positive_residue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedGammaTower.positive_class": {
+      "sha256": "30267fb3ee5fe4df8f8b82e84007269b2eb4e13ad27862b6bde7f9b5cf1a2194",
+      "status": "checked",
+      "line": 135,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.positive_class' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedGammaTower.signedRepresentative": {
+      "sha256": "826c441ed80c170b43951eb27aa03d3050d3562cb46b4cdf3fc662c724c7462f",
+      "status": "checked",
+      "line": 149,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedGammaTower.signed_unique_class": {
+      "sha256": "73e95fa95402addf5b135a1952b947fbef5dcc85593180a6d583be86e1e7e782",
+      "status": "checked",
+      "line": 153,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedGammaTower.signed_unique_class' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedGammaTower.complete": {
+      "sha256": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+      "status": "checked",
+      "line": 180,
+      "local_sources": {
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

@@ -1,0 +1,54 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "ReimannNative69.DyadicNativeClass69": "1338172fb189e7c708b4b39bf14dbbe4ba9ed5e169b2fa5d973b7f584d778848",
+    "ReimannNative69.DyadicClassNorm69": "a18a9cc5961d7b28591112853d0538db245f3457a44c8fd5a0d1e543e745e367",
+    "Mathlib.RingTheory.ClassGroup.Basic": "29e58f2e7f805bdb7c2d5850a67b0f0fdd84893ebe12ed12cfa348ddb5c14c1c",
+    "Mathlib.RingTheory.Ideal.Norm.RelNorm": "ab089ddb28036f7de16275aef60717c4524acd75ffeba72caeabd8957ccdefce",
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33",
+    "Mathlib.RingTheory.DedekindDomain.Factorization": "c2697e4e2d4a786e4057477924519461f32db0483bda4ba7f99507267407f03e"
+  },
+  "steps": {
+    "DyadicClassPrimeExt69.primeIdeal": {
+      "sha256": "d8ec12abb8f0f722dd187d6506de5797453e14131e53e05cb2198f6f7e089dfd",
+      "line": 12,
+      "status": "checked"
+    },
+    "DyadicClassPrimeExt69.integral_hom_ext_on_primes": {
+      "sha256": "00993ed3ce5d74da9c4766cd4200469a0acbb64298b9a04223cc0480555daccc",
+      "line": 15,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicClassPrimeExt69.integral_hom_ext_on_primes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicClassPrimeExt69.class_hom_ext_on_primes": {
+      "sha256": "2a0772a3eb6606d20315223678b328e7d5ce857f1ed10cad9896df11e5763bd8",
+      "line": 32,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicClassPrimeExt69.class_hom_ext_on_primes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicClassPrimeExt69.prime_class_mk": {
+      "sha256": "190eef1509b12ffc890dc90b47e131642a2de5486646ca6c6c1e8af49ef808a1",
+      "line": 41,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicClassPrimeExt69.prime_class_mk' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicClassPrimeExt69.class_hom_ext_on_primeUnit": {
+      "sha256": "c4aa9ee251396ef22230448ada450e8194252f561b85d1c9c512fb2756040218",
+      "line": 46,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicClassPrimeExt69.class_hom_ext_on_primeUnit' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicClassPrimeExt69.eq_numberField_norm_on_primes": {
+      "sha256": "22eb7ef5aba3857dd82cdfcd754943dc567f7a5d8c4dec63104eddf10d618ac0",
+      "line": 55,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicClassPrimeExt69.eq_numberField_norm_on_primes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicClassPrimeExt69.complete": {
+      "sha256": "5be2e3f68bf3c587d4de4f16d91d01c09ea74638b8bf08156f8250b4c1b4e838",
+      "line": 63,
+      "status": "checked"
+    }
+  }
+}

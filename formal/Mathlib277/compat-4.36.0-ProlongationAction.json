@@ -1,0 +1,49 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.AbsoluteFrobenius": "a92c2fe5d5f20aeb38bb40648804f9859d8a2f9e739ab798d2c97b242781f737",
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33",
+    "Mathlib.FieldTheory.Galois.Infinite": "fafd7393bb3ae8c704964fa1b3b00a91c9fc2590ff9e415f467a358c4635ccc0",
+    "Mathlib.Topology.Algebra.MulAction": "b11fe962d53e65cd5b3a00840b87794a3f3c536e24ccfa22f5a5a670884dbfad",
+    "Mathlib.RingTheory.Invariant.Defs": "a255bdd0c6d647e5609d2701d7e492b7a2268b6c7d9f55f4c252edba6d29b59a",
+    "Reimann277.Inertia": "2fd798730479b1e529f6a01be30c4a4b0aef428588625f481a839811a35cb739",
+    "Mathlib.FieldTheory.KrullTopology": "019859cfb2d63fa3066dbc97d5ebd9c2a5c75ed8f4482bc217647e6bb36f5409",
+    "Mathlib.Topology.Compactness.Compact": "bf6aab96d41fb5b43921540a09ea7481b80bd5f1ca32696077a272d6b3f90520",
+    "Mathlib.RingTheory.IntegralClosure.Algebra.Basic": "63ee00b21ee6547bedfcc8e86f86b0df4a65d9f1018c2e30425a0e2799710729",
+    "Mathlib.RingTheory.Ideal.Quotient.Basic": "2d3eae760cf3532861226b2b66521b9d57a97979c0df2d2dfffa0049b8843762",
+    "Reimann.TameUnramified277": "fded94df921fd77392dda052c165c6f4eac8bb0d39c7717deb30d07c2c2c3f25",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e"
+  },
+  "steps": {
+    "ProlongationAction.integers_invariant": {
+      "sha256": "abc24f377457d1e971c577a396f42629652650defbba5c11351a955778483b27",
+      "line": 14,
+      "status": "checked",
+      "checker_output": "'Reimann.TameProlongationAction277.integers_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ProlongationAction.integers_commute": {
+      "sha256": "42fb50edac219c818c19dcf2628a922c0fd7acc1dcc9e0f1505e54ec44957f3e",
+      "line": 22,
+      "status": "checked",
+      "checker_output": "'Reimann.TameProlongationAction277.integers_commute' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ProlongationAction.integers_continuous": {
+      "sha256": "369fa92e92a6057abdd13427228a5a5bffcbcb552a680329b1317f935f470625",
+      "line": 29,
+      "status": "checked",
+      "checker_output": "'Reimann.TameProlongationAction277.integers_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ProlongationAction.smul_is_conjugate": {
+      "sha256": "a19f195760062a8ddf5e3bc775b1cd6e12e7c28c9a765a810b727b7fd30d92bd",
+      "line": 35,
+      "status": "checked",
+      "checker_output": "'Reimann.TameProlongationAction277.smul_is_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ProlongationAction.complete": {
+      "sha256": "71f975ebde12bf3b6106a78872e18137268003304271a5db2057d0d99c8c6d5a",
+      "line": 40,
+      "status": "checked"
+    }
+  }
+}

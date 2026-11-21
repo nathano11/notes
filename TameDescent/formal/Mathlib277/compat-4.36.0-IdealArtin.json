@@ -1,0 +1,47 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.RingTheory.ClassGroup.Basic": "29e58f2e7f805bdb7c2d5850a67b0f0fdd84893ebe12ed12cfa348ddb5c14c1c"
+  },
+  "steps": {
+    "IdealArtin.InvertibleIdeals": {
+      "sha256": "69235033a23d76d7f35118bade60d1fe4bc2d89ce1293d4f55da9ab2c3a21588",
+      "line": 9,
+      "status": "checked"
+    },
+    "IdealArtin.IdealSymbol": {
+      "sha256": "9cd810197b8bd79512a45303207185a711fa4c0e95637b50b5e7d85a50b23de9",
+      "line": 14,
+      "status": "checked"
+    },
+    "IdealArtin.classToGalois": {
+      "sha256": "61609474724ca535781fd84c6a8ae848c0a8db89b700ce9732377e205a143322",
+      "line": 21,
+      "status": "checked"
+    },
+    "IdealArtin.classToGalois_mk": {
+      "sha256": "235c882e12a868525eacdf4d0e1b240d5941760b90c168fa6f1454d527423bfd",
+      "line": 25,
+      "status": "checked",
+      "checker_output": "'Reimann.TameIdealArtin277.classToGalois_mk' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "IdealArtin.galoisToClass_symbol": {
+      "sha256": "a601d8037772266e3945c934da7e345152b8c9ba4b5460c511e3353f151c3562",
+      "line": 29,
+      "status": "checked",
+      "checker_output": "'Reimann.TameIdealArtin277.galoisToClass_symbol' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "IdealArtin.principal_ideal_iff": {
+      "sha256": "9d169962aa0f26f9bf02e24b4b407a5a3edbcfef4ba0738312ec167fc9003a2c",
+      "line": 33,
+      "status": "checked",
+      "checker_output": "'Reimann.TameIdealArtin277.principal_ideal_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "IdealArtin.complete": {
+      "sha256": "f4dcbeb91e9ab113af195a6c925bc49ccf98c58f47ac16c522ba776de2ae0c96",
+      "line": 39,
+      "status": "checked"
+    }
+  }
+}

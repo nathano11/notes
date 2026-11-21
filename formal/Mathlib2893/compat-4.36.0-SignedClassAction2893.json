@@ -1,0 +1,88 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.RingTheory.ClassGroup.ExtendedHom": "51edede1a0e5b01d78572d9442974aebfb3452fb58eed9e675073bd25e08cadb",
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33",
+    "Mathlib.GroupTheory.Torsion": "078b637c7fad4ed17cc49d87acdb15cf4e60bd5f2014058cdba3a71f79b2411c"
+  },
+  "steps": {
+    "SignedClassAction2893.transport": {
+      "sha256": "32c8d7029c6a55ff414ee485a59e821257d9e38e915a706d662c2b90c578cebc",
+      "line": 16,
+      "status": "checked"
+    },
+    "SignedClassAction2893.transport_mk0": {
+      "sha256": "95832b7a0edda16d66c12666f25a89a7a4674812a95b29fb5d7ef6964c97de6e",
+      "line": 20,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassAction2893.transport_mk0' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassAction2893.twoClasses": {
+      "sha256": "30041714aa36c9f11866564685bcaf6d15e1a9e438f48a5dd0231e99bfd18173",
+      "line": 29,
+      "status": "checked"
+    },
+    "SignedClassAction2893.map_mem_two": {
+      "sha256": "422e1d878301a67e0b9c3705b0e5691a8ce3df9fb4d3bb735d16d7e9d54ec108",
+      "line": 33,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassAction2893.map_mem_two' depends on axioms: [propext]"
+    },
+    "SignedClassAction2893.primaryTransport": {
+      "sha256": "fa3e55267ffa107fd96e4cfb7ccbd86f0f11019dcef7af3370454bd73ee3b5b7",
+      "line": 40,
+      "status": "checked"
+    },
+    "SignedClassAction2893.forward": {
+      "sha256": "0a735b9492ddf2e1420d964d4996142baa64f65fe46d60497da4ad1d5cbfaab1",
+      "line": 48,
+      "status": "checked"
+    },
+    "SignedClassAction2893.primaryForward": {
+      "sha256": "545429017d8ff0b2bfb4d4a2f1e3635c4929c5ba9dce7e450c385806926c1893",
+      "line": 50,
+      "status": "checked"
+    },
+    "SignedClassAction2893.forward_on_classes": {
+      "sha256": "53c48082715c5656fa1ad66683994368a94647df9e1d0c5d61f99a92881f4d39",
+      "line": 52,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassAction2893.forward_on_classes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassAction2893.transport_identity": {
+      "sha256": "6e94e3559e0ceaf519c469d7a0ff4f9834a8cf6d804dc982c2648d9b4457e3cf",
+      "line": 55,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassAction2893.transport_identity' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassAction2893.transport_trans": {
+      "sha256": "767b861f9e300100f7912edb925ebca907cf45a3314ddb2b126182e38d70f3d7",
+      "line": 64,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassAction2893.transport_trans' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassAction2893.primaryForward_trans": {
+      "sha256": "e92c5210bc4696b49ce0d09833c826bf5f5fd862dccdca22fed42c47e72900d8",
+      "line": 78,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassAction2893.primaryForward_trans' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassAction2893.primaryAction": {
+      "sha256": "b414941fa93ab3548d40536941284583500bd3af39dcd4e912ca239034b668de",
+      "line": 83,
+      "status": "checked"
+    },
+    "SignedClassAction2893.primaryForward_period": {
+      "sha256": "5ea935faf3e37146ef8d5a857e13b2ddcabee954e09e965ae15744cb236a8fce",
+      "line": 91,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassAction2893.primaryForward_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassAction2893.complete": {
+      "sha256": "8f606a671578071814cd5ec8294aa770307d4360ea3314e980d1b24abe7c3d2c",
+      "line": 96,
+      "status": "checked"
+    }
+  }
+}

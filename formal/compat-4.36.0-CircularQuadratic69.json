@@ -1,0 +1,120 @@
+{
+  "steps": {
+    "CircularQuadratic69.Element": {
+      "sha256": "460456895cb726800cd6de9063c7cadc9c6134cbb88abdc6a102ca751e553069",
+      "status": "checked",
+      "line": 8,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularQuadratic69.product": {
+      "sha256": "81ca7ceb7c451677221812114a96139fbbdb6242dce06f06a24a8cdf47410403",
+      "status": "checked",
+      "line": 11,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularQuadratic69.conjugate": {
+      "sha256": "9d76f8341cab732ad61a2efd4994841c26e81e287d673655cc8767fb88d0e804",
+      "status": "checked",
+      "line": 14,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularQuadratic69.evaluate": {
+      "sha256": "82f3cad8e8cfb185c7e11dd3c60165c9441b9eefb03b5b5f47d6ebb6223f68bb",
+      "status": "checked",
+      "line": 16,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularQuadratic69.product_evaluation_error": {
+      "sha256": "1dfa0d89b61841cfaa8cbd4ee4ed29d44ee86a3187123991884ea4e0d2d5803f",
+      "status": "checked",
+      "line": 20,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadratic69.product_evaluation_error' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadratic69.reduce_product_at_root": {
+      "sha256": "4d7dfabca8a73488c5479a8ec791fdfe6506d5666ff59745a5120e8659a3cc5b",
+      "status": "checked",
+      "line": 26,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadratic69.reduce_product_at_root' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadratic69.evaluate_conjugate": {
+      "sha256": "f701d9adea741d8bea486a353233a8d296b5ce2e58cd1dff2bb2cf4161f5af0c",
+      "status": "checked",
+      "line": 32,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadratic69.evaluate_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadratic69.epsilon": {
+      "sha256": "316d1b3fbc64dad74929b836c836b2d98d5f2f188f51bc996c553a62584dee55",
+      "status": "checked",
+      "line": 38,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularQuadratic69.epsilon_conjugate": {
+      "sha256": "1793ec6d9233f996edff3c743af500d39f805cce747209795534fe953c890392",
+      "status": "checked",
+      "line": 40,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadratic69.epsilon_conjugate' does not depend on any axioms"
+    },
+    "CircularQuadratic69.epsilon_norm_one": {
+      "sha256": "353462a7b710f28695bbd6c1da79c4d0aa1b557e339d65a4552bb0c3cd6c5b03",
+      "status": "checked",
+      "line": 42,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadratic69.epsilon_norm_one' does not depend on any axioms"
+    },
+    "CircularQuadratic69.sqrt_discriminant_identity": {
+      "sha256": "733429ca18058a77c9f4387fa58f3ffc7e935e26289b8ccdf6927e6739dceae4",
+      "status": "checked",
+      "line": 46,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadratic69.sqrt_discriminant_identity' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadratic69.epsilon_sqrt_coordinate": {
+      "sha256": "ca4dcbd405bf25a8254c08e83e2b6ceca1dc473f0d3f3557f8d2d322de369a16",
+      "status": "checked",
+      "line": 49,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadratic69.epsilon_sqrt_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadratic69.auxiliary_root": {
+      "sha256": "a238089891d3892729721761d0622f4855837644d3ffe42223eeaba7794fdf65",
+      "status": "checked",
+      "line": 54,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadratic69.auxiliary_root' depends on axioms: [propext]"
+    },
+    "CircularQuadratic69.auxiliary_epsilon": {
+      "sha256": "076564c83067ebe0786653d8a4f2bce2f24890a6a57ee2d988877ad5fed3c2f1",
+      "status": "checked",
+      "line": 58,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadratic69.auxiliary_epsilon' does not depend on any axioms"
+    },
+    "CircularQuadratic69.split_roots": {
+      "sha256": "8a009949ac2cf3ae5a0d2dbe5789fe1216662f68177131b3d239c3020f771365",
+      "status": "checked",
+      "line": 62,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadratic69.split_roots' depends on axioms: [propext]"
+    },
+    "CircularQuadratic69.split_epsilon": {
+      "sha256": "08afc3dc56f3c982deeb6bc2d8d06ea1c3a24d909dabaf72a6b12779a1b9af87",
+      "status": "checked",
+      "line": 68,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadratic69.split_epsilon' does not depend on any axioms"
+    },
+    "CircularQuadratic69.complete": {
+      "sha256": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+      "status": "checked",
+      "line": 72,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

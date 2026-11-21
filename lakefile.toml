@@ -1,0 +1,6 @@
+name = "reimann_window"
+version = "0.1.0"
+defaultTargets = ["ReimannWindow"]
+
+[[lean_lib]]
+name = "ReimannWindow"

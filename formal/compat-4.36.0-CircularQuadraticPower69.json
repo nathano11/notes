@@ -1,0 +1,94 @@
+{
+  "steps": {
+    "CircularQuadraticPower69.evaluateAt": {
+      "sha256": "9f8fdbf88052fb3ae86093d1b24c19beedd79dd07abbd01def57d180cc4446e5",
+      "status": "checked",
+      "line": 9,
+      "local_sources": {
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularQuadraticPower69.evaluateAt_product": {
+      "sha256": "16e34fb87336eba18691b237ac5b8cad6c9670a528ecfeec26a2b19e355c654c",
+      "status": "checked",
+      "line": 12,
+      "local_sources": {
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadraticPower69.evaluateAt_product' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticPower69.orderPower": {
+      "sha256": "332993db6b5b594ea7cb545127dddae33a4db78f933013a6e5d74e1c8df735d8",
+      "status": "checked",
+      "line": 19,
+      "local_sources": {
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularQuadraticPower69.evaluateAt_power": {
+      "sha256": "6478e37e90f4f1a95ffb69c7e58a35e8348ee0b25827740690a22678a088b824",
+      "status": "checked",
+      "line": 23,
+      "local_sources": {
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadraticPower69.evaluateAt_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularQuadraticPower69.auxiliary_theta": {
+      "sha256": "9dd580c6778d2fec06e47cc5cf10aa09c580f2dfe15b4853ed01604ee838856b",
+      "status": "checked",
+      "line": 30,
+      "local_sources": {
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadraticPower69.auxiliary_theta' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularQuadraticPower69.auxiliary_values": {
+      "sha256": "25883c402cd97a246858e50b7110304618b25adfa6b45bcfe1734967f5b270ec",
+      "status": "checked",
+      "line": 32,
+      "local_sources": {
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadraticPower69.auxiliary_values' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularQuadraticPower69.one_more_power_of_inverse": {
+      "sha256": "98720d42715fe294e128cf57aa2d93b18ab6b70752ea53ea04b86c6dde136ad9",
+      "status": "checked",
+      "line": 38,
+      "local_sources": {
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadraticPower69.one_more_power_of_inverse' depends on axioms: [propext]"
+    },
+    "CircularQuadraticPower69.auxiliary_inverse": {
+      "sha256": "9c76491e36eda7c57ac76532a245e4c74b37f926dc775e686e0effb91d97f467",
+      "status": "checked",
+      "line": 46,
+      "local_sources": {
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularQuadraticPower69.auxiliary_inverse' depends on axioms: [propext]"
+    },
+    "CircularQuadraticPower69.complete": {
+      "sha256": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+      "status": "checked",
+      "line": 48,
+      "local_sources": {
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

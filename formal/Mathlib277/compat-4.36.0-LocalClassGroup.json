@@ -1,0 +1,79 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.RingTheory.ClassGroup.ExtendedHom": "51edede1a0e5b01d78572d9442974aebfb3452fb58eed9e675073bd25e08cadb",
+    "Mathlib.RingTheory.DedekindDomain.Dvr": "8030b04dddebb6ae7d537d929a6bd4036aa7a5cc9406cb00d4f683b72ca1dff8",
+    "Mathlib.RingTheory.Localization.Away.Basic": "bd126db89333d20da220104fd7d3d12ace6b7d7e9f49a072f7976297dcb9cf03",
+    "Mathlib.NumberTheory.ClassNumber.AdmissibleAbs": "6914e7bb1da3679dec96ae168b14e3946589a32173c19a0cefe3f810c3311f3c",
+    "Mathlib.NumberTheory.ClassNumber.Finite": "2e631e7e737c365dbd67c25c2dd35eade6c1244239822ab2af89f5a29d827af0",
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33"
+  },
+  "steps": {
+    "LocalClassGroup.extend_under": {
+      "sha256": "c92b62199eec70122a5af5f62a4108b34252070f7d68c40822aefce59611b3d9",
+      "line": 20,
+      "status": "checked",
+      "checker_output": "'Reimann.TameLocalClass277.extend_under' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalClassGroup.under_ne_zero": {
+      "sha256": "8baa8ed17e996ed1eee1f30fed683218de424170a0278f902afec82d7c999c70",
+      "line": 25,
+      "status": "checked",
+      "checker_output": "'Reimann.TameLocalClass277.under_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalClassGroup.contractIdeal": {
+      "sha256": "c8c15ef6d68c435410ee4b2788a1486c91ae2bd8675c39eaa5520cc5b06796fa",
+      "line": 36,
+      "status": "checked"
+    },
+    "LocalClassGroup.extend_contract": {
+      "sha256": "dca3970fe50afafc36acd133392a0ec7d471235d81820a9af7712638e43ddcc6",
+      "line": 40,
+      "status": "checked",
+      "checker_output": "'Reimann.TameLocalClass277.extend_contract' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalClassGroup.class_extend_contract": {
+      "sha256": "d8e8c13c47eda39f5cfcf5afbcd21baf2c80fd81c6bb400e3f1a3aafc2f17bfa",
+      "line": 45,
+      "status": "checked",
+      "checker_output": "'Reimann.TameLocalClass277.class_extend_contract' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalClassGroup.extendedHom_surjective": {
+      "sha256": "0007d502cf12bba3a707aa3028bfc7061d00e9db6610a8fbfadd055069d11951",
+      "line": 50,
+      "status": "checked",
+      "checker_output": "'Reimann.TameLocalClass277.extendedHom_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalClassGroup.localized_class_finite": {
+      "sha256": "6c518fa649e05e789e637023af026d9cf7944c0f453742a7e0d3b3ec376e06a6",
+      "line": 57,
+      "status": "checked",
+      "checker_output": "<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:60:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameLocalClass277.localized_class_finite' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalClassGroup.ring_integers_class_finite": {
+      "sha256": "2ad41d09fa7b01733ef0b919355321802377d223796ad0f932db79365b964e8a",
+      "line": 67,
+      "status": "checked",
+      "checker_output": "<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:60:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:69:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameLocalClass277.ring_integers_class_finite' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalClassGroup.powers_277_regular": {
+      "sha256": "c0e0ad4454fa40b834236b90b507e62714f70e6cc17a1117fdf42480590dda33",
+      "line": 73,
+      "status": "checked",
+      "checker_output": "<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:60:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:69:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameLocalClass277.powers_277_regular' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalClassGroup.class_finite_away_277": {
+      "sha256": "8eed0b20b7d5015753030f30df1ab8cc72f877c9b2742660f11c8543cb816adb",
+      "line": 78,
+      "status": "checked",
+      "checker_output": "<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:60:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:69:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameLocalClass277.class_finite_away_277' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "LocalClassGroup.complete": {
+      "sha256": "ba623995beb89f6a0969906f6418147a0d790fb4dfbc3536ce01b5422560bec2",
+      "line": 84,
+      "status": "checked",
+      "checker_output": "<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:60:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:69:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    }
+  }
+}

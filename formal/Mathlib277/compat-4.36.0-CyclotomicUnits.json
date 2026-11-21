@@ -1,0 +1,79 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.Data.ZMod.Basic": "ffcf1a81e7b8c84c22a19043b6339af62dbb65fc10003b0397afb88b69f924f5"
+  },
+  "steps": {
+    "CyclotomicUnits.modPrime": {
+      "sha256": "4ac9662d14e5aef9b2f066c2c8eaeac4381a9c25edc8e19d48d40f8158912eba",
+      "line": 5,
+      "status": "checked"
+    },
+    "CyclotomicUnits.modPrime_val": {
+      "sha256": "a0f5ce4fdd5916cc6fe4a4383ca5e32e9b2436ee9e57a0e627311dabcf766f82",
+      "line": 8,
+      "status": "checked",
+      "checker_output": "'Reimann.TameCyclotomicUnits277.modPrime_val' depends on axioms: [propext, Quot.sound]"
+    },
+    "CyclotomicUnits.int_difference_nondivisible": {
+      "sha256": "1b7b571d23ea1de88e3f95303373578e4af8c4fbb5152878dd15bfc20b20a2fe",
+      "line": 14,
+      "status": "checked",
+      "checker_output": "'Reimann.TameCyclotomicUnits277.int_difference_nondivisible' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicUnits.unit_of_nonzero_modPrime": {
+      "sha256": "5aba237d3b7278d6ebb46f0326f1d72a7141371ee646c2c490cfd3056e6f6e62",
+      "line": 21,
+      "status": "checked",
+      "checker_output": "'Reimann.TameCyclotomicUnits277.unit_of_nonzero_modPrime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicUnits.unit_difference": {
+      "sha256": "39b6d4f8053c96e26b64f1d802ed6feb0c863ac13a8ddb6493584952cb6117ff",
+      "line": 29,
+      "status": "checked",
+      "checker_output": "'Reimann.TameCyclotomicUnits277.unit_difference' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicUnits.five_period": {
+      "sha256": "cdc3402efbb70e922c50971a7886a9eb21f44b7d69c1fa8ebb44b01869615248",
+      "line": 34,
+      "status": "checked",
+      "checker_output": "'Reimann.TameCyclotomicUnits277.five_period' depends on axioms: [propext, Quot.sound]"
+    },
+    "CyclotomicUnits.five_first_period": {
+      "sha256": "986ca80cf5d29e8f0e9d05904925296e7ddf4ba8d174b8e1070c10ffba7b7375",
+      "line": 36,
+      "status": "checked",
+      "checker_output": "'Reimann.TameCyclotomicUnits277.five_first_period' depends on axioms: [propext, Quot.sound]"
+    },
+    "CyclotomicUnits.five_pow_ne_one": {
+      "sha256": "631c421a9d0a9420b711f0f162a3127b96df6498ae8b812b8043e0b189f7fb18",
+      "line": 38,
+      "status": "checked",
+      "checker_output": "'Reimann.TameCyclotomicUnits277.five_pow_ne_one' depends on axioms: [propext, Quot.sound]"
+    },
+    "CyclotomicUnits.inverse_five_ne_one": {
+      "sha256": "424b93a2d1dedc6f410892b3163be0434c87839956abced91a3059d27759a2e9",
+      "line": 49,
+      "status": "checked",
+      "checker_output": "'Reimann.TameCyclotomicUnits277.inverse_five_ne_one' depends on axioms: [propext, Quot.sound]"
+    },
+    "CyclotomicUnits.complete": {
+      "sha256": "6a142172eb86192d22919eb858782f96fcdfdf26308c8ed91720898b7737557f",
+      "line": 69,
+      "status": "checked"
+    },
+    "CyclotomicUnits.inverse_scalar_of_five": {
+      "sha256": "9e93d9ba9aa336e817caa5b98b7d3df678ebe4121f0b007f194a07d002748747",
+      "line": 57,
+      "status": "checked",
+      "checker_output": "'Reimann.TameCyclotomicUnits277.inverse_scalar_of_five' depends on axioms: [propext, Quot.sound]"
+    },
+    "CyclotomicUnits.inverse_scalar_power": {
+      "sha256": "eddc9fcb63fe801fd9c9e337846f1bda963ea043bdbe62397158aa4f6465c725",
+      "line": 65,
+      "status": "checked",
+      "checker_output": "'Reimann.TameCyclotomicUnits277.inverse_scalar_power' depends on axioms: [propext, Quot.sound]"
+    }
+  }
+}

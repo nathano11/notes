@@ -1,0 +1,223 @@
+{
+  "steps": {
+    "DyadicRestrictionTower69.Tower": {
+      "sha256": "389b72fa442a3dd805a114371737966903e987eeaadb63176ab008374ad406bb",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicRestrictionTower69.Branch": {
+      "sha256": "e5b145e4ec9cb324ee1cb33b8e3acdadd8f4cf1829a2d6722b20bc685ca041be",
+      "status": "checked",
+      "line": 17,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicRestrictionTower69.branch_bottom": {
+      "sha256": "aa80c61b40721a6e2916a7f70b605a5ee3d8ff92768538c3922f59f921f1b9ce",
+      "status": "checked",
+      "line": 21,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRestrictionTower69.branch_bottom' does not depend on any axioms"
+    },
+    "DyadicRestrictionTower69.branches_equal": {
+      "sha256": "63e7514f02068ba26cd2cc9e88a1812a9bf99a80b81f4f4910427efc91500f2c",
+      "status": "checked",
+      "line": 27,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRestrictionTower69.branches_equal' depends on axioms: [Quot.sound]"
+    },
+    "DyadicRestrictionTower69.unique_tower_place": {
+      "sha256": "b7a55b64c850b5c8d6aa911ab72d2ef1dce0a0b7c4f5affaddf5cf5b3afafc74",
+      "status": "checked",
+      "line": 35,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRestrictionTower69.unique_tower_place' depends on axioms: [Classical.choice, Quot.sound]"
+    },
+    "DyadicRestrictionTower69.finite_stabilizers_full": {
+      "sha256": "c4cb1811c0f859ec311dcc1b10d8975f247de2d6fcc5158b7b3da102f99a0702",
+      "status": "checked",
+      "line": 50,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRestrictionTower69.finite_stabilizers_full' does not depend on any axioms"
+    },
+    "DyadicRestrictionTower69.union_membership_fixed": {
+      "sha256": "c748464d4403284bb545e63956e9721619e1cd54acb725037bc253c5d9d078cc",
+      "status": "checked",
+      "line": 62,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRestrictionTower69.union_membership_fixed' does not depend on any axioms"
+    },
+    "DyadicRestrictionTower69.PlaceAction": {
+      "sha256": "146b410ed2f12c57c8adb4b5ef4e9e88655435af844f25342694c26b56ea41d7",
+      "status": "checked",
+      "line": 71,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicRestrictionTower69.correct_lift": {
+      "sha256": "6ef133afedc4360d5fbd48817ff2f4afe4818dbf42221a2a8f8bd6827909728b",
+      "status": "checked",
+      "line": 78,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRestrictionTower69.correct_lift' does not depend on any axioms"
+    },
+    "DyadicRestrictionTower69.decomposition_image_iff": {
+      "sha256": "872d0f5acee941323d29a6b37891e6c24636bb2996917ce2b83027d7d4884803",
+      "status": "checked",
+      "line": 88,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRestrictionTower69.decomposition_image_iff' does not depend on any axioms"
+    },
+    "DyadicRestrictionTower69.absolute_decomposition_full": {
+      "sha256": "a370c692308f52f33fe8554573e79be638b2808432f875e1d08ae331c9ba0941",
+      "status": "checked",
+      "line": 107,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicRestrictionTower69.absolute_decomposition_full' depends on axioms: [Quot.sound]"
+    },
+    "DyadicRestrictionTower69.stabilizer": {
+      "sha256": "1314502ab851a6bc1364ef14129b148bb489ee36fb8d6d70e8cf68610a27d818",
+      "status": "checked",
+      "line": 119,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicRestrictionTower69.restrictDecomposition": {
+      "sha256": "19ddb32c4b1e2ffbd2d782e57773d478e8e097b19d2f34a87824f9d4c5a62245",
+      "status": "checked",
+      "line": 133,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:138:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:138:18: warning: Variable name `h` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _h\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:139:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`"
+    },
+    "DyadicRestrictionTower69.same_restriction_iff_kernel": {
+      "sha256": "8c166c6eff59a96b8037a946c25e5fa21c5909496f890ed445dad5b8774c71eb",
+      "status": "checked",
+      "line": 141,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:138:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:138:18: warning: Variable name `h` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _h\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:139:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n'Reimann.DyadicRestrictionTower69.same_restriction_iff_kernel' does not depend on any axioms"
+    },
+    "DyadicRestrictionTower69.decomposition_quotient": {
+      "sha256": "e285fe7b99a37e4925d2ef6d844e0ae2aa9006cd8affa6dfa988e9c9765d29f2",
+      "status": "checked",
+      "line": 153,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:138:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:138:18: warning: Variable name `h` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _h\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:139:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n'Reimann.DyadicRestrictionTower69.decomposition_quotient' depends on axioms: [Classical.choice, Quot.sound]"
+    },
+    "DyadicRestrictionTower69.local_inflation_detects_principal": {
+      "sha256": "26da92287417f38377c87997f97bb864ac2364ea86916b0409ff9a62076f4de5",
+      "status": "checked",
+      "line": 180,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:138:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:138:18: warning: Variable name `h` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _h\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:139:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n'Reimann.DyadicRestrictionTower69.local_inflation_detects_principal' does not depend on any axioms"
+    },
+    "DyadicRestrictionTower69.PrimeChain": {
+      "sha256": "ff8b83a5ec749b333c5a480122317d77b4a08455e7fc614c41e069e5068ce2db",
+      "status": "checked",
+      "line": 197,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:138:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:138:18: warning: Variable name `h` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _h\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:139:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`"
+    },
+    "DyadicRestrictionTower69.unionPrime": {
+      "sha256": "044dfda5275ef7751b7fd2c47435556515cb62c63aeffae7a91985e95a70b389",
+      "status": "checked",
+      "line": 213,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:138:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:138:18: warning: Variable name `h` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _h\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:139:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`"
+    },
+    "DyadicRestrictionTower69.union_contracts": {
+      "sha256": "baf5b4b56eb90db1bf8f887a1f12bd9e0dd7a8370482497211f6ba4d89bd4313",
+      "status": "checked",
+      "line": 216,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:138:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:138:18: warning: Variable name `h` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _h\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:139:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n'Reimann.DyadicRestrictionTower69.union_contracts' depends on axioms: [propext]"
+    },
+    "DyadicRestrictionTower69.common_level": {
+      "sha256": "cbc250519805c19026b35b3120ca3f98447466e8f99f07ac8f1415c2aff9dfe0",
+      "status": "checked",
+      "line": 226,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:138:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:138:18: warning: Variable name `h` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _h\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:139:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n'Reimann.DyadicRestrictionTower69.common_level' depends on axioms: [propext]"
+    },
+    "DyadicRestrictionTower69.union_is_prime": {
+      "sha256": "845fa4b3312436d89c0b83819ca6cfae0686a097999bea90fb3e498a06fe540c",
+      "status": "checked",
+      "line": 232,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:138:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:138:18: warning: Variable name `h` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _h\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:139:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n'Reimann.DyadicRestrictionTower69.union_is_prime' depends on axioms: [propext]"
+    },
+    "DyadicRestrictionTower69.complete": {
+      "sha256": "1d40db0c738ea993d4729f35bd589053c88120d9e911d59a4d541ec84c1cc434",
+      "status": "checked",
+      "line": 252,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:138:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:138:18: warning: Variable name `h` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _h\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n<stdin>:139:16: warning: Variable name `g` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _g\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

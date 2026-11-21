@@ -1,0 +1,268 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Reimann.TameLimit277": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+    "Reimann.TameLocalOrders277": "7596b78ef21b0c5280340bd64566b0602408339c991da705e9cf24d97837dd18",
+    "Reimann.TameArithmetic277": "48e0882aeffd38210c101bceab1e5aafefd3c877b7bafc39567fb2b0ad592b54",
+    "Reimann.TameOrderCompletion277": "4f13588caa002782d7596a41dc4430d15f584506829b6e7cc3c5beb951f47cfd",
+    "Reimann.TamePrimePowers277": "9c5db0aad6d6d16ef27a54edf4fa99d8283bf17cc04157dc8955f41fc1adda6c",
+    "Reimann.TameOrderPrimes277": "847a93ca9be19999dca67c119cc95e685f21fd8f3956100065a73bc8b521336b",
+    "Reimann.TameFiber277": "7d07f4bd543ccecef281e086cbc1d023250657743c14eb5d5e5a0884442650d2",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.TameOrderReduction277": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6"
+  },
+  "steps": {
+    "PadicInteger.exponentResidue": {
+      "sha256": "45158515a9fc3065ca02b524b47f1cafa5612e5a91c1b74226dbded6a5304a94",
+      "line": 10,
+      "status": "checked"
+    },
+    "PadicInteger.exponentResidue_step": {
+      "sha256": "fc8666feff013ed8fdccc5147491d35cc794dae5987b965358a8e96b2e910926",
+      "line": 14,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicInteger277.exponentResidue_step' depends on axioms: [propext]"
+    },
+    "PadicInteger.modulus_natCast": {
+      "sha256": "b2c6bcefea1a7441e988f8e9e564edea0d8feb20f671589d945a827ec1899a5b",
+      "line": 20,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicInteger277.modulus_natCast' depends on axioms: [propext]"
+    },
+    "PadicInteger.cast_truncation_difference": {
+      "sha256": "796f5f1b61f5d58a4b404ea663ecd34e5950570aec2a9d1d30d864ad5c90b9d6",
+      "line": 23,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicInteger277.cast_truncation_difference' depends on axioms: [propext]"
+    },
+    "PadicInteger.prime277": {
+      "sha256": "4af67bfb0cd1f91394683177952a65a3855386d0fbaf1ca86c6890e7e0448772",
+      "line": 29,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicInteger277.prime277' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.fact277": {
+      "sha256": "0e92da3f1b05042f78947e8ac2850b3237b2aab47c509c117ca69c6c750213ed",
+      "line": 31,
+      "status": "checked"
+    },
+    "PadicInteger.realize": {
+      "sha256": "4a6d2c25fcc83f02d023fff3f52b6c0d46365fb8a20a9781efd28adfb68547c1",
+      "line": 34,
+      "status": "checked"
+    },
+    "PadicInteger.realize_reduction": {
+      "sha256": "11237f413fb5578d0aa340315bfd06addd2410201df12c729861baf1c3c4df6e",
+      "line": 38,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicInteger277.realize_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.approximation_step": {
+      "sha256": "0080f93f70e98383d2ee2a69edf3380441223b7abbc6d5e68399182e11c63653",
+      "line": 45,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicInteger277.approximation_step' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.read": {
+      "sha256": "c5117253e7458ee7de02988d06405d3813973c5fa4ebbb8a8954aff2755d9531",
+      "line": 50,
+      "status": "checked"
+    },
+    "PadicInteger.read_residue": {
+      "sha256": "fa28ce3e711094dc78cda5c66f2e9051662418e0768623071aa43be6e6081514",
+      "line": 53,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicInteger277.read_residue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.read_reduction": {
+      "sha256": "4f1e44a161aa9ce7c7c90881c17e63f4247ee942fc2fcf588b5aaacb2f072f40",
+      "line": 60,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicInteger277.read_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.ext_positive_reductions": {
+      "sha256": "abdcf061215bb0dfb699a299fb96b4ec1465c07c00c42566f446eef5dea46e7b",
+      "line": 65,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.ext_positive_reductions' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.realize_read": {
+      "sha256": "a755c3fe4ed6ff3fac3c5d968192d00fa9afb90d4a711f089326ff18c42b788b",
+      "line": 75,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.realize_read' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.cast_residue_iff": {
+      "sha256": "a529f7aed2d9abd8fdc86cb3651c7a4ad30edcf1eed0c63c664a8dc726f59ed8",
+      "line": 78,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.cast_residue_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.realize_injective": {
+      "sha256": "94110b262113dc1abcfbec9a92d8fc379b1d0c271a3631ccfadad7d75cfc6acc",
+      "line": 84,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.realize_injective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.norm_sub_le_iff_residue": {
+      "sha256": "aa86fcd34d5c4cd05dba8dd72333551b469fe143d7cd06aa8ad6c0d1b727905f",
+      "line": 93,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.norm_sub_le_iff_residue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.norm_sub_lt_one_iff_first_residue": {
+      "sha256": "ee60fa14036dc8d51e388865afedb33f2c983fd9476653c90d6f2ca01475e8b9",
+      "line": 100,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.norm_sub_lt_one_iff_first_residue' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "PadicInteger.read_realize": {
+      "sha256": "ec56445fa7d9473356a189f5f504e0f276ced1e4fa6463a6c433cc80abfad8e6",
+      "line": 108,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.read_realize' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.integerEquiv": {
+      "sha256": "2b37fba4dece21038370e8ec82a380e7c8d463bbb5dd0bb9cd8272b7f9fd0c26",
+      "line": 111,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "PadicInteger.cast_remainder": {
+      "sha256": "a14bc22a10be3d8cf50e10f1f9d4f51a61a7efe66fa115773828184e9d3d4459",
+      "line": 118,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.cast_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.realize_add": {
+      "sha256": "6e2694cac889d7d4756852a5104999ce76714f1e63cdab5fc8c6e64ba18c8433",
+      "line": 123,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.realize_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.realize_mul": {
+      "sha256": "a3d58a49867e4a826f4e525347e6d537795a559d2f66d814d6688af90e3d68a9",
+      "line": 131,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.realize_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.realize_neg": {
+      "sha256": "9cc82134463852e5cda9caefb75e36b3f94c641a905055836719e7a173921e92",
+      "line": 139,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.realize_neg' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.realize_ofInt": {
+      "sha256": "e6a984443d36d7f55ee4f7c4d0984636ccc3c6bd8bc81a27ce1a658259b0c92e",
+      "line": 147,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.realize_ofInt' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.integerAdd": {
+      "sha256": "502c1a5b0fadd7708da274e287ea3b655516bd52240f7051da179cad3baa35b0",
+      "line": 153,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "PadicInteger.integerMul": {
+      "sha256": "d6ec9ae33c76373b07cfa88efe560c6f6076a069e3949ea40190ed04d91c0b78",
+      "line": 154,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "PadicInteger.integerRingEquiv": {
+      "sha256": "d590e9258d0a8a233900933672c1e9dc2b15f3df779baa23122270129998d835",
+      "line": 157,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "PadicInteger.orderToPadic": {
+      "sha256": "e0514ab64dbc25fbc698d3fe07ae31ad5c5b74ae5060450e58be76b2a7b316fe",
+      "line": 165,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "PadicInteger.padicToOrder": {
+      "sha256": "8d4ff4de7699ebdc3954917f00cde66d8d35a7a0f87451d94ca39c8dc53d7b8a",
+      "line": 169,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "PadicInteger.padicToOrder_orderToPadic": {
+      "sha256": "1cdbdd9d292a1d9c2b80e6b4c04b956dbbaf435f1ab088a27b078a21769edff9",
+      "line": 172,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.padicToOrder_orderToPadic' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.orderToPadic_padicToOrder": {
+      "sha256": "9c4726987e8cc7d376fd1a47d6f2b3d565457941907c20d03763d8ceddc89144",
+      "line": 178,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.orderToPadic_padicToOrder' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.integralCompletionEquiv": {
+      "sha256": "ba689989af67515408ea249629924d9536ba71e386eb39ee1645898d0ed9cb42",
+      "line": 184,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "PadicInteger.orderToPadic_reduction": {
+      "sha256": "6618a3103d83e6e75692bee10eb5b30a2b81ba6bd39e339b4a6300b2d1490cc6",
+      "line": 190,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.orderToPadic_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.primeOperation": {
+      "sha256": "278e4ab0fa0d414b566b75d565fc6b7d2d0bb086dfecb8e52ebb53848406ff34",
+      "line": 196,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "PadicInteger.primeOperation_coordinates": {
+      "sha256": "60601736d10ff4964417d2a5ef9488ca79469f94eee837db1455e97dd6b642e0",
+      "line": 200,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.primeOperation_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.orderToPadic_add": {
+      "sha256": "c35eafaf551a94313b0ebc517e9e5f87405b92fbf9d380f299ee72ff484d9153",
+      "line": 208,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.orderToPadic_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.orderToPadic_mul": {
+      "sha256": "80b41b3888a9a616b888ef4d66e12d7f03c3d3886bcc74a8922656684887aedd",
+      "line": 214,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicInteger277.orderToPadic_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicInteger.primeAdd": {
+      "sha256": "fddb28530a38af90419fbab83ec86341f2ecbb7e17c938a2479b13489a6ad2b4",
+      "line": 220,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "PadicInteger.primeMul": {
+      "sha256": "4fcf1c7985043fff9f5221a810dda595a0c2a204733661cc2f6bee14a5bf768e",
+      "line": 223,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "PadicInteger.integralCompletionRingEquiv": {
+      "sha256": "07e24c75a9ca147f7b568840a33a0373870a4e8fea20e4beb3f0f9dc2275e395",
+      "line": 227,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "PadicInteger.complete": {
+      "sha256": "b9528953f8045b5009ec90a0e7d305b4807d566fb2a50eb222fd24ff0d488f48",
+      "line": 233,
+      "status": "checked",
+      "checker_output": "<stdin>:71:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.Basic.Real.Basic": "47e972d32100969f0c7f6dc5a413dac152d941c4e14fc9cbc2d4b43e9d05ef63",
+    "Mathlib.Tactic.NormNum": "480ebc7f2e8d9370016d90be1babe5c26d8bfa3f597e0fa8fcd718528133826c",
+    "Reimann277.Biquadratic": "1eecf3556b0b3cbf21ff1704cade538325a07227d454a3ade53283149eb974df",
+    "Mathlib.Algebra.Algebra.Hom": "cb23985743d69ab47c814e821ec7620d49ce642073d96ea0016b5f48fd5dd445",
+    "Mathlib.Algebra.Algebra.Rat": "27a6444a720f4100b0a93140231049882e266bacef7f4c6bb8c7a1374cc6561b",
+    "Mathlib.Algebra.Field.MinimalAxioms": "5a4f6a6ce4037663e35257965bd052a4fa36d040c7bc7ad7eed074e9dd1a2872",
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb",
+    "Reimann.TameEmbeddings277": "7c184751698ce48d191a56ef92f45ca365f177a4cab5a4f52c9c29bcee50b5c7",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e"
+  },
+  "steps": {
+    "BiquadraticReal.sqrtNegThree": {
+      "sha256": "e218f43799af930ba932376ec4475dda4a70f86be39e73171e72bf9147c3de2c",
+      "line": 9,
+      "status": "checked"
+    },
+    "BiquadraticReal.sqrtNegTwentyThree": {
+      "sha256": "a45e0fa45feef408e23d37d4920e36e80c5e48b5ea0ee081bd2007eb474b5ebb",
+      "line": 11,
+      "status": "checked"
+    },
+    "BiquadraticReal.radical_squares": {
+      "sha256": "29683238e3a68d17c88fea3a55040f4a2f8cad293089e0c2bab2872e90090791",
+      "line": 13,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.radical_squares' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BiquadraticReal.no_real_embedding": {
+      "sha256": "bc93ec4970a535f241fb6290d0c202ee56a9ab8320b611b06095b4191eac824a",
+      "line": 19,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.no_real_embedding' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BiquadraticReal.complete": {
+      "sha256": "a74e90feb809a047934a3b679a9bcfe158c3ff179d2050289c8bbeaffa63e716",
+      "line": 28,
+      "status": "checked"
+    }
+  }
+}

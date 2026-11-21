@@ -1,0 +1,107 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann2893.SignedNormLimit2893": "a10cba26cfa1331c567efc441d11cdd17fbb1106f62e3883a05b1453625bb703",
+    "Reimann.DyadicLattice": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+    "Mathlib.Algebra.Group.End": "2bf38d02278793ccb9df015507b867fe13124aecd8227deaf1039340308cfb7c",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Mathlib.Algebra.Group.Subgroup.Basic": "b202bd8e8dcc0a855b42a7ef27fa5423d5220ee25de604761ab7cc2b271776ec",
+    "Mathlib.Algebra.Group.Pi.Lemmas": "298132c4f280e0db1b30f54290063c03602f1e74e79d82643e238b344a9c0c40",
+    "Mathlib.Algebra.Group.Equiv.Basic": "5df99c494bce6b0a79db0e736c62f444000a41999c315185fd6abdde9ae933a0"
+  },
+  "steps": {
+    "SignedAdicAction2893.exponent": {
+      "sha256": "3d16b8eab75564902c34555a66d5ab80938b8e53cb7680bd3abd6a94f3ff3d6a",
+      "line": 11,
+      "status": "checked"
+    },
+    "SignedAdicAction2893.exponent_step": {
+      "sha256": "941f7d6cb8e09d587d831653da8495f6205f911b2ce6a1a33202cdf60701d19b",
+      "line": 15,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicAction2893.exponent_step' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedAdicAction2893.exponent_nat": {
+      "sha256": "3212b40f18fadb1fceb16656e116ef02d534be96dc5161420f896cfa4e187254",
+      "line": 22,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicAction2893.exponent_nat' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicAction2893.exponent_add": {
+      "sha256": "882d32f22747b1a46f647911ee86359a2f2a27ae6169008b6fac8c3fdaf0813b",
+      "line": 27,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicAction2893.exponent_add' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedAdicAction2893.iterate": {
+      "sha256": "f26123cd8694ba87453db647931bd89fb0535f1a78244c99b35da9ff69d71657",
+      "line": 34,
+      "status": "checked"
+    },
+    "SignedAdicAction2893.iterate_eq_pow_apply": {
+      "sha256": "5a8853bbf31ff8ff74703f4f4c7bee54055a358508361afa506f8c15d3345818",
+      "line": 38,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicAction2893.iterate_eq_pow_apply' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedAdicAction2893.iterate_add": {
+      "sha256": "841690ba0c653cd8f971498850a9a5b4830b03354f5099230397850c558047fa",
+      "line": 45,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicAction2893.iterate_add' depends on axioms: [Quot.sound]"
+    },
+    "SignedAdicAction2893.iterate_multiple": {
+      "sha256": "44f8e94850ab13a9aa1b7bdc07f91e992d03e4b64bdec8ddc0285f9f0b9bc19a",
+      "line": 51,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicAction2893.iterate_multiple' depends on axioms: [Quot.sound]"
+    },
+    "SignedAdicAction2893.iterate_mod": {
+      "sha256": "eea7ffbca820c08e873ea88ab6f4875dd3f0b362080ba8d494be758c176d2629",
+      "line": 57,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicAction2893.iterate_mod' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedAdicAction2893.iterate_natural": {
+      "sha256": "5c973e88cc95a4903295be9e78fc48dfb33a6427a4e8029edb892012c4b32523",
+      "line": 63,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicAction2893.iterate_natural' depends on axioms: [Quot.sound]"
+    },
+    "SignedAdicAction2893.exponent_compatible": {
+      "sha256": "68a18630c4404b21f987019881d9212008c0e2f3d5dd4be913cf555495517238",
+      "line": 76,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicAction2893.exponent_compatible' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedAdicAction2893.act": {
+      "sha256": "a9d7618b5491e1f66dbefc96cb9599a938310e1da82d7a1060302e52059e4a9f",
+      "line": 81,
+      "status": "checked"
+    },
+    "SignedAdicAction2893.act_nat": {
+      "sha256": "5a487236241f703b8fa95e2a73c7200197fba44d8bb4d2f023951a362dad4c31",
+      "line": 85,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicAction2893.act_nat' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicAction2893.act_one": {
+      "sha256": "a981e364ff2f84c8a4e3c5d5d19879300c63a3942e44e1ed77c958e651068569",
+      "line": 90,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicAction2893.act_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicAction2893.act_add": {
+      "sha256": "fae2fc9ba6f5caa8226cd06c29dd2f2b51d43d8d32c823d1c9f7ac691471d9fc",
+      "line": 94,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicAction2893.act_add' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedAdicAction2893.complete": {
+      "sha256": "3f1a48c2adf938697ff41155ad0129fde04ea8f5c0c3f6068714fa0ddaeb3a5a",
+      "line": 102,
+      "status": "checked"
+    }
+  }
+}

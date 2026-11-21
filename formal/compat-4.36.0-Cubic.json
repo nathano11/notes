@@ -1,0 +1,327 @@
+{
+  "steps": {
+    "Cubic.CubicCoordinates": {
+      "sha256": "b44462c1a7db5531809267e8873c43866c0b326136b219272838c5c038740fba",
+      "status": "checked",
+      "line": 15,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.add": {
+      "sha256": "1fb51b22ac9eb16c479edbed540468decc50e9dcbbb31f97509bbe9b5cf36d35",
+      "status": "checked",
+      "line": 21,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.sub": {
+      "sha256": "1a0dcf71c7deb7b5fc129b4d46c78e8337d84b198a220e1a17514ca3aa72e2a4",
+      "status": "checked",
+      "line": 24,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.mul": {
+      "sha256": "10474df3890b346b00a894e4310d097b6859a63f98a199a7b65f046e4c89c8e7",
+      "status": "checked",
+      "line": 28,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.xCoord": {
+      "sha256": "84d536b7f74bbd71833f44f34dc7a688129520c437f917470f993706112e189b",
+      "status": "checked",
+      "line": 35,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.xSq": {
+      "sha256": "41ebf688e2c7bd435d7b5c6da1b87576ba8fbed10dbfad4b4d7748f95160f7e4",
+      "status": "checked",
+      "line": 36,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.unitU": {
+      "sha256": "952d6945035bd93f160c91e57406d76f5d55578475f2cba92a5f01ff96b48f5c",
+      "status": "checked",
+      "line": 37,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.unitW": {
+      "sha256": "df1f98f151190d51be350dcba2c06c491afe2b1495391e8fc476a9f108ab5a0f",
+      "status": "checked",
+      "line": 38,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.relativeNorm": {
+      "sha256": "b35b2de15b1f5680f9c695578d04b843fd2a5e4c4eb6c7eb3de90194e871157f",
+      "status": "checked",
+      "line": 41,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.norm_remainder": {
+      "sha256": "66b734a6923c127c9dc3e6b3a0175897dc3e0fe8a46b7f0c52419a005d5c1a75",
+      "status": "checked",
+      "line": 45,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Cubic.norm_remainder' does not depend on any axioms"
+    },
+    "Cubic.resultant": {
+      "sha256": "2e0eb31c2a61d0efbe1182f63fd926975d0e35ab2cca4a982d0bd2b922e1f753",
+      "status": "checked",
+      "line": 49,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.absolute_norm_one": {
+      "sha256": "5568fde4461a1df2488fff760cd681719375bee6cbdccfdc20be9d7f4b49ac5d",
+      "status": "checked",
+      "line": 56,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Cubic.absolute_norm_one' does not depend on any axioms"
+    },
+    "Cubic.cubic_discriminant": {
+      "sha256": "cb6b797692e45fcaa6c3d8e9d34335cebb78f57d798ed428a8cf8182faed1804",
+      "status": "checked",
+      "line": 58,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Cubic.cubic_discriminant' does not depend on any axioms"
+    },
+    "Cubic.discriminant_factors_trial_division": {
+      "sha256": "cbead8500796f0ddb5de81d19b2e0e0778cb6162d41939a159747e6ebd835f46",
+      "status": "checked",
+      "line": 62,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Cubic.discriminant_factors_trial_division' does not depend on any axioms"
+    },
+    "Cubic.no_root_mod_five": {
+      "sha256": "e5010046577ed25d73fcfa555f6bad72c70025c1bd4ffc8eb7f4434de530595c",
+      "status": "checked",
+      "line": 68,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Cubic.no_root_mod_five' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Cubic.qAdd": {
+      "sha256": "7957fdf0497592ef6a26c7461aa80fe8f093b6265335a2ebd425d280a6ed0c44",
+      "status": "checked",
+      "line": 73,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.qMul": {
+      "sha256": "a67c49ff4f5debed972e1455d86979b55bdf47b9e8fadd3433ad81e98e02882b",
+      "status": "checked",
+      "line": 75,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.qEval": {
+      "sha256": "7a88c6af0329cc29a595ed109c6df48d44834dd6f4138a34354b862de34f9652",
+      "status": "checked",
+      "line": 78,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.etaAt": {
+      "sha256": "a51ef70c4f30b7ee70118bd4544ce64e1730cece1ec93ba8c80863c9876033f1",
+      "status": "checked",
+      "line": 81,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.localValues": {
+      "sha256": "056d7800c5e2aa526d2c87d5a654a0e3a08046b62042fe56874517e883a775f9",
+      "status": "checked",
+      "line": 85,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.unit_residues": {
+      "sha256": "1613375cacdd1ec4b339112f991588adce6e10f4e68c1299efc2ec1391d2fa4f",
+      "status": "checked",
+      "line": 88,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Cubic.unit_residues' does not depend on any axioms"
+    },
+    "Cubic.localNorm": {
+      "sha256": "58df85acce713da00420b4e0b82002c0aec78bf95dbebe46e4e2f822c41b7360",
+      "status": "checked",
+      "line": 90,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.norm_residues": {
+      "sha256": "b0cda3e1c65ae8ac6446eee095f636fc3a3768a04a789f44588a64217012ade1",
+      "status": "checked",
+      "line": 92,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Cubic.norm_residues' does not depend on any axioms"
+    },
+    "Cubic.norm_coordinates": {
+      "sha256": "9cb323eee1d57fdba219645efde17b38d4b651651480b0272763f54c3da100d6",
+      "status": "checked",
+      "line": 94,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Cubic.norm_coordinates' does not depend on any axioms"
+    },
+    "Cubic.norm_coordinate_minor": {
+      "sha256": "ae0c6a9bd4efa92a039404511eaf8a3f8bd8d02a07354c3669aa289cabddb6f0",
+      "status": "checked",
+      "line": 99,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Cubic.norm_coordinate_minor' does not depend on any axioms"
+    },
+    "Cubic.local_rows_independent": {
+      "sha256": "7cb84e3bb8f574ee89a7f07295bdff8610552bb353f7f2f87528d283377c5f8f",
+      "status": "checked",
+      "line": 102,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Cubic.local_rows_independent' does not depend on any axioms"
+    },
+    "Cubic.pellU": {
+      "sha256": "c2d0b4c624850c314e1ca296344ea2a11a2b453835d31eca9b00ba4674ef0b56",
+      "status": "checked",
+      "line": 108,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.pellV": {
+      "sha256": "f51d27143f922b58e0ad6c3bb03cb343ea996bfbd9a26c82ca1862a9f90156e0",
+      "status": "checked",
+      "line": 111,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.pell_certificate": {
+      "sha256": "1defb38bfd5e420b2fe1ce9bb4421cafcca035560938d603295d2fd519c83451",
+      "status": "checked",
+      "line": 114,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Cubic.pell_certificate' does not depend on any axioms"
+    },
+    "Cubic.split_unit_residues": {
+      "sha256": "ac30b0620d6a9b48bc465c618f7d1533d4bef405d11e424aae82ef232252c566",
+      "status": "checked",
+      "line": 117,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Cubic.split_unit_residues' does not depend on any axioms"
+    },
+    "Cubic.ReducedPair": {
+      "sha256": "eb7a263a3dc7d364d6d4557072b86bcef8e2b2830c08b51ee111d9e5679a3ed5",
+      "status": "checked",
+      "line": 121,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.isReduced": {
+      "sha256": "3f64bd8936588b9a13eb4fbc06b7ed0514670e4f67d482bba536c387937edcc4",
+      "status": "checked",
+      "line": 123,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.successor": {
+      "sha256": "6f825397b78798456cd27ed16d183dda7b84628276379c5ba5dab7256926ffdd",
+      "status": "checked",
+      "line": 128,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.verifyOrbit": {
+      "sha256": "6b4e23a82eaa566406627b20d16a881c061af2163f4d5bc1e7669827df0d395d",
+      "status": "checked",
+      "line": 134,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.reducedCount": {
+      "sha256": "8adbc8ea62f78b0ff45b23122bd3cc9e6b247a34ff111861c6c90a3a787a0dfd",
+      "status": "checked",
+      "line": 160,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.CycleData": {
+      "sha256": "7a3df5d58982e14cc33cb830a17cb0c0f43584f301768f17a5b0f7e7dd3372d7",
+      "status": "checked",
+      "line": 173,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.cycleData": {
+      "sha256": "9ee24abf254cdc693fb5cb07dc3a4240a7911cb0af686fbf0a00ea4a84c05bd3",
+      "status": "checked",
+      "line": 178,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.verifyCycles": {
+      "sha256": "5c5c555309941d67033822fe80530212656351eebddaec98db144dfba8843e9b",
+      "status": "checked",
+      "line": 188,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.certificateAt": {
+      "sha256": "a7b7686e4bca8584c5e76ca117afd8ce1f40bf6977e76dee947f91dadb2ac8a6",
+      "status": "checked",
+      "line": 198,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.guard_certificateAt_8": {
+      "sha256": "3f0f3321af2d2a2e7b485211166a8453fdb112ad9ccb0de2e7f3ff1b860763d0",
+      "status": "checked",
+      "line": 202,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.guard_certificateAt_57": {
+      "sha256": "55091b145eb16343d3efe6b31c179f316188c1af06f56cd2b5506af61407cc03",
+      "status": "checked",
+      "line": 203,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.guard_certificateAt_456": {
+      "sha256": "3c5b799c2eb57c084c93bee27d42ddc2fd3af3fb936c259f89cc2fa17b963dac",
+      "status": "checked",
+      "line": 204,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.guard_certificateAt_50613": {
+      "sha256": "cec659caa64ef88dbb641ab24756146678e36e59aa3e6d57f9f9aff1a085622a",
+      "status": "checked",
+      "line": 205,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.guard_certificateAt_320549": {
+      "sha256": "e704c929dc78bcee94476ab5d684d87cc9d526fbe8aea35d3f02ca6b970ac0e3",
+      "status": "checked",
+      "line": 206,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.guard_certificateAt_404904": {
+      "sha256": "12ead9b66e8a08ae94a8c6a06927e47c97bf638e34f84c7ea182ee30992f4fb7",
+      "status": "checked",
+      "line": 207,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.guard_certificateAt_2564392": {
+      "sha256": "1a433ab5123d2464406b2f7fdd4e9774b31687b2702354d9a30ea502ae110886",
+      "status": "checked",
+      "line": 208,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.complete": {
+      "sha256": "74d75c399394b9ccee07a7921401d8e893a8baf92069d1efc0447932385e4e91",
+      "status": "checked",
+      "line": 210,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.countEvenDenominators": {
+      "sha256": "71007f83807a6a688d1bde0a6db871fad56c9d78d4969d1ca4226b4ad0815229",
+      "status": "checked",
+      "line": 145,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.countReducedRows": {
+      "sha256": "e287a215f8344ae13668affa7bbe08590d67579be13e150fd888939cb5427c7e",
+      "status": "checked",
+      "line": 150,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Cubic.row_divisibility_necessity": {
+      "sha256": "eef24d039c75f8e18145229ba120d185bea5b1b034bfe2da414ad4a10d1acb46",
+      "status": "checked",
+      "line": 162,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Cubic.row_divisibility_necessity' depends on axioms: [propext]"
+    },
+    "Cubic.reduced_even_denominator": {
+      "sha256": "1ed7cf102464846b3366b04fbc73491ee77beaabdd9d503081456f105d92ac12",
+      "status": "checked",
+      "line": 165,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Cubic.reduced_even_denominator' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

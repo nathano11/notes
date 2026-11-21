@@ -1,0 +1,114 @@
+{
+  "steps": {
+    "TameFiber277.F": {
+      "sha256": "0d18820aea35f2d1292ac6a2a48fed2e36e2a6af9aafd7bc8f7becd18e48d807",
+      "status": "checked",
+      "line": 6,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameFiber277.Fiber": {
+      "sha256": "45c220d141d1438108e34cd5eff96ca65ca35a185325def69cee149fa5edadfe",
+      "status": "checked",
+      "line": 8,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameFiber277.field_unit": {
+      "sha256": "a1494671fc2edd487500c9455120f2f045f2ac2940e8efbe5450f37b82fd8f0d",
+      "status": "checked",
+      "line": 11,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameFiber277.field_unit' depends on axioms: [propext]"
+    },
+    "TameFiber277.field_prime": {
+      "sha256": "4c9c82008924609fba5c2896d42fb0e4b4e7f07ff056fc9ff6f36845f5dad395",
+      "status": "checked",
+      "line": 16,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameFiber277.field_prime' depends on axioms: [propext]"
+    },
+    "TameFiber277.IsPrime": {
+      "sha256": "58e487b17ac2f65f530ca87e413afeaf7f2513b4de231f55c9b1c18ffb2e2f63",
+      "status": "checked",
+      "line": 28,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameFiber277.kernel": {
+      "sha256": "bea6691c1c1352afd037bed7a47537255bd4a5529cd3c9e868b32cfbf4ff3fc3",
+      "status": "checked",
+      "line": 35,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameFiber277.kernel_prime": {
+      "sha256": "aaf42dcf3003e21335124875857cbdddad0d1f1826821aaf0f6416a8195c7a75",
+      "status": "checked",
+      "line": 37,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameFiber277.kernel_prime' depends on axioms: [propext]"
+    },
+    "TameFiber277.complement": {
+      "sha256": "84e45b4fd3b0d21f993aa6d1596832a62748c7a8ff2e621f8ee908c559ea1708",
+      "status": "checked",
+      "line": 50,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameFiber277.complements_product": {
+      "sha256": "be337cd13dfb539ef98e9d56f358a25e642f27cbd9e8cc40e1458186fe42efa1",
+      "status": "checked",
+      "line": 52,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameFiber277.complements_product' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameFiber277.some_complement": {
+      "sha256": "380fed73951dbdf576b93d35d255f17213347d0c3015e41196abc44997958f4d",
+      "status": "checked",
+      "line": 59,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameFiber277.some_complement' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameFiber277.complement_fixes": {
+      "sha256": "2bf1a8555b77d1ced2a4fd1b00e01875464a9baf5f5a3a2b15def64f079d66a0",
+      "status": "checked",
+      "line": 71,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameFiber277.complement_fixes' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameFiber277.nonvanishing_spans": {
+      "sha256": "3fa748c70500f09e867b7dc4b99949c730365725bbbeaf21ac92fe89ce7b8ce9",
+      "status": "checked",
+      "line": 80,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameFiber277.nonvanishing_spans' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameFiber277.prime_iff_coordinate": {
+      "sha256": "86a0acb18ef001be398d56c5d6896096a9a19ba837af04831fdc3b7e8cf1ae5a",
+      "status": "checked",
+      "line": 89,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameFiber277.prime_iff_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameFiber277.kernel_injective": {
+      "sha256": "058cde76327f3ec7a1e2970e870f1485327a3695d446584fb5854c7933194873",
+      "status": "checked",
+      "line": 107,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:112:33: warning: `simp` already closes the goal\n\nHint: Use `simp` instead of `simpa`:\n  [apply] simp [kernel, complement, Ne.symm eq] at hi\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\n'Reimann.TameFiber277.kernel_injective' depends on axioms: [propext]"
+    },
+    "TameFiber277.classify": {
+      "sha256": "04b610868ad11140567aa0cb322d9cbf004aca2f3f8f6ac11263aa4909dd2331",
+      "status": "checked",
+      "line": 116,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:112:33: warning: `simp` already closes the goal\n\nHint: Use `simp` instead of `simpa`:\n  [apply] simp [kernel, complement, Ne.symm eq] at hi\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\n'Reimann.TameFiber277.classify' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameFiber277.complete": {
+      "sha256": "7d07f4bd543ccecef281e086cbc1d023250657743c14eb5d5e5a0884442650d2",
+      "status": "checked",
+      "line": 125,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:112:33: warning: `simp` already closes the goal\n\nHint: Use `simp` instead of `simpa`:\n  [apply] simp [kernel, complement, Ne.symm eq] at hi\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

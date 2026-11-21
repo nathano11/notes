@@ -1,0 +1,349 @@
+{
+  "steps": {
+    "CircularRationalPeriod69.evaluate": {
+      "sha256": "7e88986cf569df7deb23e93c5a12f3a154ae07ed71827c89d5584ff556336068",
+      "status": "checked",
+      "line": 12,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularRationalPeriod69.cast_int": {
+      "sha256": "1ff6f0e515b342e26ea6ae1a5637e3384a3aa54187aecbdf121367a70dabbd4e",
+      "status": "checked",
+      "line": 15,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.cast_int' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.eval_scalar": {
+      "sha256": "65e55767fe30a1ce64419c808462c12b90d77693ae82da18fc0b5ea97b2a1596",
+      "status": "checked",
+      "line": 20,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.eval_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.eval_theta": {
+      "sha256": "b1506b7495dfdb84808b90fa2d366da89e391128b7dfb799efef62e70ebf078c",
+      "status": "checked",
+      "line": 27,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.eval_theta' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.eval_add": {
+      "sha256": "db8cc6236d4456a54c66ee0c4d2a09c2bf6cbbca89ccbc5f9d7a2411b2d9f891",
+      "status": "checked",
+      "line": 37,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.eval_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.eval_negative": {
+      "sha256": "ee98aa1dcaf4d6e2f2373979ee8497c6f63c1a7d29f5d0598d2dad30f390e799",
+      "status": "checked",
+      "line": 42,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.eval_negative' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.eval_mul": {
+      "sha256": "465a553fe463da520c679fcef2da05967db88388e0b5d89a4e48459fdc9aefbd",
+      "status": "checked",
+      "line": 47,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.eval_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.eval_zero": {
+      "sha256": "fffc854f1517b1278842be7bd1c3390f06a9a69905bd15d3dfbf1d64067750d8",
+      "status": "checked",
+      "line": 54,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.eval_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.eval_one": {
+      "sha256": "e9772315a17843c4808b40dd6ffbb9ed1d9df11c106c4450d3bc2a48d1c2f865",
+      "status": "checked",
+      "line": 58,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.eval_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.eval_zero_kernel": {
+      "sha256": "0530e2ef43f739c024008916345f3ec01d781663f6ce4b5401f48992a28d5608",
+      "status": "checked",
+      "line": 62,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.eval_zero_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.eval_injective": {
+      "sha256": "56628361cca7fabc2667e745d4253a25cde415787db7da68ca4086f257d4968d",
+      "status": "checked",
+      "line": 70,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.eval_injective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.primitive_period_injective": {
+      "sha256": "dbe662305880c32d39bcb2fe2cab42e7c887e41cdb28032cc5b02b403abb6e84",
+      "status": "checked",
+      "line": 78,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.primitive_period_injective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.basis_independent": {
+      "sha256": "4f4dcbfd7d22888f97a3ff4ac060fcbf9916d7718b937dfeb6acb6c4e757cad1",
+      "status": "checked",
+      "line": 84,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.basis_independent' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.ofIntegral": {
+      "sha256": "9f027046414ceed1f796dc40562381f963891603867a29d9bd10c9ebaa62f215",
+      "status": "checked",
+      "line": 89,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularRationalPeriod69.eval_integral": {
+      "sha256": "ee2d3a1713b1bfb64f39b5e2dd9cb608b5438472295350aadcc49b402f96c1b3",
+      "status": "checked",
+      "line": 91,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.eval_integral' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.primitive_epsilon_image": {
+      "sha256": "10eb014bdc3807269e59a6573c27856a8815081e7ca01a12904799ef5e38723a",
+      "status": "checked",
+      "line": 95,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.primitive_epsilon_image' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.eval_inverse": {
+      "sha256": "79e4226df70d1ec30e91c0c1e0d64f8e37963c0d3a7cd6b1f8669a60dafc4889",
+      "status": "checked",
+      "line": 104,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.eval_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.range_contains_scalars": {
+      "sha256": "2e874227f8c8d9594b5658c7e69e503d2405d1102883e5f6c8c540524646c3d3",
+      "status": "checked",
+      "line": 111,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.range_contains_scalars' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.range_contains_root": {
+      "sha256": "943f44c08d417fe49a3f75dea8a45914b31a2c35d8daa6ab06312828c8eaeb91",
+      "status": "checked",
+      "line": 114,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.range_contains_root' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.range_minimal": {
+      "sha256": "600424bb790c5e5d9f17cbb5ddcb1ed0c37bc57f4f2e78c19101dc770d776211",
+      "status": "checked",
+      "line": 117,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.range_minimal' does not depend on any axioms"
+    },
+    "CircularRationalPeriod69.primitive_conjugate_epsilon_image": {
+      "sha256": "f3125c46281b66405e58a52c60a5f228353eba7aacd8757cf5c1644568e9e7f2",
+      "status": "checked",
+      "line": 122,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.primitive_conjugate_epsilon_image' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "CircularRationalPeriod69.primitive_period_basis": {
+      "sha256": "e51078e1ff15b7150d4f7c10f25985075c8a5b173e6c179bd353ae0e5c8cebb5",
+      "status": "checked",
+      "line": 132,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularRationalPeriod69.primitive_period_basis' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRationalPeriod69.complete": {
+      "sha256": "f68822a569b9bbc1b7f328eba9cc7f9b2ce9d591b00c3c6199469243a0996c80",
+      "status": "checked",
+      "line": 141,
+      "local_sources": {
+        "Reimann/CircularRational69.lean": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/TameRationalField277.lean": "fe12adca2926bae50120ac45fc50c030c2077d88c7b314e71abb21c254d45530"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    }
+  },
+  "required_lean": "4.33.1",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+}

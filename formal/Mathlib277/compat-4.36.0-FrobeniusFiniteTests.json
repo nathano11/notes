@@ -1,0 +1,45 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.FrobeniusTower": "fea549741fb9256209bb1419917e35c048634c94dd68c0bd2f8049ab2f416f21",
+    "Reimann277.AbsoluteFrobenius": "a92c2fe5d5f20aeb38bb40648804f9859d8a2f9e739ab798d2c97b242781f737",
+    "Mathlib.FieldTheory.Galois.IsGaloisGroup": "7717bbdd194ebcf58c7c9454719ccee0e8ef28759cc6c28f50ec3e3012226069",
+    "Mathlib.RingTheory.Frobenius": "9302662fe77379ca31affd35c4b0e0c54b10129873bbdc6559f20d0d358da114",
+    "Reimann277.Inertia": "2fd798730479b1e529f6a01be30c4a4b0aef428588625f481a839811a35cb739",
+    "Mathlib.FieldTheory.KrullTopology": "019859cfb2d63fa3066dbc97d5ebd9c2a5c75ed8f4482bc217647e6bb36f5409",
+    "Mathlib.Topology.Compactness.Compact": "bf6aab96d41fb5b43921540a09ea7481b80bd5f1ca32696077a272d6b3f90520",
+    "Mathlib.RingTheory.IntegralClosure.Algebra.Basic": "63ee00b21ee6547bedfcc8e86f86b0df4a65d9f1018c2e30425a0e2799710729",
+    "Mathlib.RingTheory.Ideal.Quotient.Basic": "2d3eae760cf3532861226b2b66521b9d57a97979c0df2d2dfffa0049b8843762",
+    "Reimann.TameUnramified277": "fded94df921fd77392dda052c165c6f4eac8bb0d39c7717deb30d07c2c2c3f25",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33",
+    "Mathlib.FieldTheory.Galois.GaloisClosure": "428a07fdbacc7524201633fa4ece451928807d448e2f9c7c5de1348c043eff83"
+  },
+  "steps": {
+    "FrobeniusFiniteTests.finite_frobenius": {
+      "sha256": "7cadb1105c3c40a99339b6fac44dc683eee6f549b3164d365c242f1346a3f2f6",
+      "line": 13,
+      "status": "checked",
+      "checker_output": "<stdin>:16:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:18:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameFrobeniusFiniteTests277.finite_frobenius' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FrobeniusFiniteTests.lifted_stage": {
+      "sha256": "d87d87e62f994f827fcbc7e4b1cd3a3a74af701318fc61afd55cc8847fdd21fd",
+      "line": 26,
+      "status": "checked",
+      "checker_output": "<stdin>:16:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:18:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameFrobeniusFiniteTests277.lifted_stage' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FrobeniusFiniteTests.finite_tests": {
+      "sha256": "8bb425a3c6b5dd8c282459ff887e5e03b2b7a2cac4f1c3316924dc31a3e5f2fc",
+      "line": 39,
+      "status": "checked",
+      "checker_output": "<stdin>:16:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:18:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameFrobeniusFiniteTests277.finite_tests' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FrobeniusFiniteTests.complete": {
+      "sha256": "3fe3c2af21329ef9ca8aca5773d6f861bfba33c5106dd307b6f9fd23ed5e4949",
+      "line": 48,
+      "status": "checked",
+      "checker_output": "<stdin>:16:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:17:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:18:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    }
+  }
+}

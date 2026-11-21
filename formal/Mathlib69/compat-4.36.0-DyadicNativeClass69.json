@@ -1,0 +1,89 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.RingTheory.DedekindDomain.Factorization": "c2697e4e2d4a786e4057477924519461f32db0483bda4ba7f99507267407f03e",
+    "Mathlib.RingTheory.ClassGroup.Basic": "29e58f2e7f805bdb7c2d5850a67b0f0fdd84893ebe12ed12cfa348ddb5c14c1c"
+  },
+  "steps": {
+    "DyadicNativeClass69.divisor": {
+      "sha256": "bd8282b61ddfb8c480d0164af1d9f385f1b8c926991e69b761bd2f18def68a74",
+      "line": 15,
+      "status": "checked"
+    },
+    "DyadicNativeClass69.divisor_at": {
+      "sha256": "adb0201fb8da4449c3786bda03b55c44988406a8056a2dafd10c3d69dd69b45c",
+      "line": 20,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeClass69.divisor_at' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeClass69.divisor_one": {
+      "sha256": "8bc5fb9fa3d31db8aa9f21b2c8f1a08cfb466342a5cf992af7167f3a92530c4b",
+      "line": 23,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeClass69.divisor_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeClass69.divisor_mul": {
+      "sha256": "1d5645986ba3c718ff05706e78a2c84f4a164053a1554390ecdff2ba794a57d8",
+      "line": 27,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeClass69.divisor_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeClass69.idealSymbol": {
+      "sha256": "e556385ac2eac65bbedf32984e93e8af0a0659f4dff98d9d1217b218956efae1",
+      "line": 33,
+      "status": "checked"
+    },
+    "DyadicNativeClass69.divisor_prime": {
+      "sha256": "d9391b2717d990c9123e7c076dac793cad40ff842b239baec74765df7671abbf",
+      "line": 41,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeClass69.divisor_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeClass69.idealSymbol_prime": {
+      "sha256": "bdcd78c8aae86225c6a33a4cde9ac07eba0b522bac8aca1e4cd87c0910b6bc4b",
+      "line": 49,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeClass69.idealSymbol_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeClass69.class_artin": {
+      "sha256": "5eaeca3342d07ac49fffc816db7c5916b68fc30671ed2dec82027de9058c357f",
+      "line": 58,
+      "status": "checked"
+    },
+    "DyadicNativeClass69.class_artin_mk": {
+      "sha256": "5fe319968236d0dabcc7db16f3025890ace893bd7f3305cd286263451807b1ad",
+      "line": 64,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeClass69.class_artin_mk' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeClass69.primeUnit": {
+      "sha256": "592147c7fffd355d496174567d88c5be1ff01e5a7dbf976a3e2900c48aa4ee2e",
+      "line": 72,
+      "status": "checked"
+    },
+    "DyadicNativeClass69.idealSymbol_primeUnit": {
+      "sha256": "74a057fc15aa8edbba51c94060494f2d6124869467597d9cf9e97310c49374b9",
+      "line": 75,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeClass69.idealSymbol_primeUnit' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeClass69.symbol_natural": {
+      "sha256": "59f48eab1b8422760c636106b34ee29aa41e4c89d315c51175274a242b2a599b",
+      "line": 81,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeClass69.symbol_natural' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeClass69.fractional_norm_restriction": {
+      "sha256": "30030d11c0b14702e639dbaba6a7dfa479b1137a0a4c73f6ac68215c088e8166",
+      "line": 92,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeClass69.fractional_norm_restriction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeClass69.complete": {
+      "sha256": "1338172fb189e7c708b4b39bf14dbbe4ba9ed5e169b2fa5d973b7f584d778848",
+      "line": 101,
+      "status": "checked"
+    }
+  }
+}

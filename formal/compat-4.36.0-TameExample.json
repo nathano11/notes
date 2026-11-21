@@ -1,0 +1,154 @@
+{
+  "steps": {
+    "TameExample.discriminants": {
+      "sha256": "9dadfc8557d281402be171e17d9acd3eeba3d0ab734e9e07906a5b052193f641",
+      "status": "checked",
+      "line": 6,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameExample.discriminants' does not depend on any axioms"
+    },
+    "TameExample.states321": {
+      "sha256": "2600ad66e56f497c87860bbf0f7966824740ee9957cb0a9b40f6eaa0c7345d40",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameExample.states1509": {
+      "sha256": "fc647fcb2409dc5c791c48aad87a73f42397b91f5a090778fc225b951352671c",
+      "status": "checked",
+      "line": 16,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameExample.cycles321": {
+      "sha256": "701d68f86fcbc00626a230a0e12feddd6d69426eea0dbf2e1bd7dbd88c1f276b",
+      "status": "checked",
+      "line": 23,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameExample.cycles321' does not depend on any axioms"
+    },
+    "TameExample.cycles1509": {
+      "sha256": "a6ae15726f6c23333f37fa733e4e05669650af2ee7308d89fcc1ce4ae2b556b5",
+      "status": "checked",
+      "line": 29,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameExample.cycles1509' does not depend on any axioms"
+    },
+    "TameExample.box321": {
+      "sha256": "54dc65c2c22325be1cca34dea4d691c0d0fe0755f89a3aac02ca760af62de5cf",
+      "status": "checked",
+      "line": 39,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameExample.box321' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameExample.box1509": {
+      "sha256": "9e43eafb6cc6bf851dde4dc623d40bfd78ddbddeb82138bacb8fc6092c3f888e",
+      "status": "checked",
+      "line": 43,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameExample.box1509' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameExample.reduced_box_bounds": {
+      "sha256": "a4311e682c2dca5bb4278f062d345450bd78fd48e461d50de5a53d6861ae9b8e",
+      "status": "checked",
+      "line": 48,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameExample.reduced_box_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameExample.complete321": {
+      "sha256": "ede3ee27b285d43c67160eb0f046e48a67248087e6106648dded65e5e0b10d2d",
+      "status": "checked",
+      "line": 53,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameExample.complete321' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameExample.complete1509": {
+      "sha256": "7995f4ef6e3af952b995c4a51fd5620c12cde74c0a1131e3e1acb02873652aca",
+      "status": "checked",
+      "line": 62,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameExample.complete1509' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameExample.square_mod_three": {
+      "sha256": "e8098147c856242816de1e89634f1528212d2aa12aac1c59c9a8a9be9ff37e70",
+      "status": "checked",
+      "line": 71,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameExample.square_mod_three' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameExample.negative_norm_obstruction": {
+      "sha256": "e21b64d99cf2fcf3d76886dbbe63e0d991b80f09408c05399b3f5b45a95b0c76",
+      "status": "checked",
+      "line": 77,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameExample.negative_norm_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameExample.no_negative_units": {
+      "sha256": "b813067817867252c17362bf0a5379c6620f71ab6d9ee10e60efbd8853a5d244",
+      "status": "checked",
+      "line": 86,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameExample.no_negative_units' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameExample.prime_factors": {
+      "sha256": "6aee5bdcc73c061be10a52848d6c5be106a596d62b7fd6dd08a27795f82a643e",
+      "status": "checked",
+      "line": 92,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameExample.prime_factors' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameExample.complete": {
+      "sha256": "511fd22cd4b6ca8b2b6c7db4c8608900ac8897bd76a31f30d66d6e6ea263ee7c",
+      "status": "checked",
+      "line": 104,
+      "local_sources": {
+        "Reimann/Cubic.lean": "91858ab4d9151021f146f88063bf1d81c1f4b8b948269ea5dd3e2c53977dbebb"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

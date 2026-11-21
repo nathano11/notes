@@ -1,0 +1,151 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.Algebra.Algebra.Hom": "cb23985743d69ab47c814e821ec7620d49ce642073d96ea0016b5f48fd5dd445",
+    "Mathlib.Algebra.Algebra.Rat": "27a6444a720f4100b0a93140231049882e266bacef7f4c6bb8c7a1374cc6561b",
+    "Mathlib.Algebra.Field.MinimalAxioms": "5a4f6a6ce4037663e35257965bd052a4fa36d040c7bc7ad7eed074e9dd1a2872",
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb",
+    "Reimann.TameEmbeddings277": "7c184751698ce48d191a56ef92f45ca365f177a4cab5a4f52c9c29bcee50b5c7",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e"
+  },
+  "steps": {
+    "Biquadratic.Biquadratic": {
+      "sha256": "0c81e4914635dc77196beca726ccea9e17d35c69a8e2c6367368d3aab0e7a8bb",
+      "line": 13,
+      "status": "checked"
+    },
+    "Biquadratic.coord_injective": {
+      "sha256": "26720e5cd8dddeec99ecb24269e728f5917b1b164b5bfef98d475c2a87e21ae3",
+      "line": 17,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.coord_injective' does not depend on any axioms"
+    },
+    "Biquadratic.biquadAdd": {
+      "sha256": "613bb1b1df16dc720060a357b924e7349ff55a7f6fa9fadf6caecaabf5326145",
+      "line": 21,
+      "status": "checked"
+    },
+    "Biquadratic.biquadMul": {
+      "sha256": "2de325c98eab5a5ccab20bff410b0c362de782c3f55a042fa48c06afb5babe23",
+      "line": 22,
+      "status": "checked"
+    },
+    "Biquadratic.biquadNeg": {
+      "sha256": "19ea0edcea82fb0e5562532648fbb2b1a41390f4a45c35405d942a33610ee986",
+      "line": 23,
+      "status": "checked"
+    },
+    "Biquadratic.biquadInv": {
+      "sha256": "311c838f62a00652545bf09afd72a1153ffafed3458b2ae71a71da35608a0bd2",
+      "line": 24,
+      "status": "checked"
+    },
+    "Biquadratic.biquadZero": {
+      "sha256": "c04f1820123e182a8abfd3a41ea0b9ae47c770905ecaf3a654ad7ad291e1efa0",
+      "line": 25,
+      "status": "checked"
+    },
+    "Biquadratic.biquadOne": {
+      "sha256": "b1e3c221dbd424ec3ce639ed64e2ef6267773c5249725123b4b405cb59e8af24",
+      "line": 26,
+      "status": "checked"
+    },
+    "Biquadratic.zero_add_coord": {
+      "sha256": "387de570f33a311e6afd982bf5f01e22d95e3602dafdb92c62b4801ddf69d832",
+      "line": 28,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.zero_add_coord' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Biquadratic.neg_add_coord": {
+      "sha256": "af05ead1767e7cbcd75e5242699560787b09ea2cb030be3f61de403e8f5421b5",
+      "line": 32,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.neg_add_coord' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Biquadratic.one_mul_coord": {
+      "sha256": "c19f2b618ef5d5fb716ce804fe83d3fa58fa12639cfa541116754fcb93b95512",
+      "line": 36,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.one_mul_coord' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Biquadratic.mul_inv_coord": {
+      "sha256": "ee6607b7c155f321ddf1be1f7cf249fa9747ef172192ff7ffabe91f086001b55",
+      "line": 40,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.mul_inv_coord' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Biquadratic.inv_zero_coord": {
+      "sha256": "bbfb8adc9f48f65fbf82ee93df8a48cf4f14a0a8e7d335e0a23c899bd163371c",
+      "line": 43,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.inv_zero_coord' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Biquadratic.zero_ne_one_coord": {
+      "sha256": "28dfbaf6b4e92978985977fd84853bf864570fc1a835d769c404977c01baec71",
+      "line": 45,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.zero_ne_one_coord' depends on axioms: [propext, Quot.sound]"
+    },
+    "Biquadratic.biquadraticField": {
+      "sha256": "6d39bfa247827e2e8ad453fe3bf98bf10f7eec46c7516199cf37d1617d2d24f1",
+      "line": 47,
+      "status": "checked"
+    },
+    "Biquadratic.coefficientHom": {
+      "sha256": "178e4bde7eb515389cba1f56286b09ca55b88416289d3eb95531c5de47668aa3",
+      "line": 57,
+      "status": "checked"
+    },
+    "Biquadratic.coefficientHom_injective": {
+      "sha256": "ef14a96b1668e2650ed80be9c734917ab2e023aa7bba1ab9ce601b54894a19ae",
+      "line": 64,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.coefficientHom_injective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Biquadratic.biquadraticCharZero": {
+      "sha256": "9b07f933b08f2334b28e96431d67c33582166bcc6136d6d7a7af0097ee6117e5",
+      "line": 67,
+      "status": "checked"
+    },
+    "Biquadratic.coefficientHom_apply": {
+      "sha256": "e6ffea18d87dacd11bb2b16311b568fa4cbeeeb44246997787fa2b1dee754305",
+      "line": 71,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.coefficientHom_apply' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Biquadratic.coefficients": {
+      "sha256": "7c90ebb9a120ac64ecea37ef0714c28ceaac9d9d99600db67774b90a466c3648",
+      "line": 76,
+      "status": "checked"
+    },
+    "Biquadratic.toCoordinateMap": {
+      "sha256": "8485999a0db7345c41234461e763263a4b88884c83a056c9aad04b8054ddd1ef",
+      "line": 86,
+      "status": "checked"
+    },
+    "Biquadratic.toAlgHom": {
+      "sha256": "2c6c8a95c8d7531154baa02eb6c7361256db7fa3c0069a25cb0ccdadd42609ab",
+      "line": 92,
+      "status": "checked"
+    },
+    "Biquadratic.toAlgHom_toCoordinateMap": {
+      "sha256": "e3e5df3550627f7e2cf4429bcc41f08eea6b7bdad9440cd52786312b2538f18b",
+      "line": 100,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.toAlgHom_toCoordinateMap' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Biquadratic.toCoordinateMap_toAlgHom": {
+      "sha256": "646b51d12fcf6384bc92a95bc1c3f142791bf72b850df711f9327ae6d61f7543",
+      "line": 106,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.toCoordinateMap_toAlgHom' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Biquadratic.complete": {
+      "sha256": "1eecf3556b0b3cbf21ff1704cade538325a07227d454a3ade53283149eb974df",
+      "line": 110,
+      "status": "checked"
+    }
+  }
+}

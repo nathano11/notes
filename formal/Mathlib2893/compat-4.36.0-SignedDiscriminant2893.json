@@ -1,0 +1,141 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.NumberTheory.LegendreSymbol.JacobiSymbol": "babf72af96975373065ab58f36b11a16852d1379b80e3021d6e1929bae6afa20",
+    "Mathlib.NumberTheory.FundamentalDiscriminant": "0fefb39b30506af917e6d9d4a12ce0b837a4a76a253e317fdd2f6fa8d8d667e6",
+    "Reimann.SignedCommonNormalization": "5305d61ecbfe2f301d7d337ad357145ac5add2fd67ef6dd8e9ab8173fb5758eb",
+    "Reimann.SignedBernoulliPairing": "4911070a6de4cf07e23dbb4d13322a5cc1f684f20bcf674fd38ad00aa69b18d0",
+    "Reimann.SignedTowerRows": "20b4fa08e4e4a298065caa2f229562bfac189446f9da2223ac69421809af26d3",
+    "Reimann.DyadicGammaDistribution69": "3154381d6cf91109f56acb15b8338dadc6e27e0710f30bcc5e84efec408b6a12",
+    "Reimann.SignedGammaTower": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+    "Reimann.DyadicProgression69": "e048e6d1f3f1470b13b1280bff4b28ff200878afafad1465783a2ec9ba4da99b",
+    "Reimann.DyadicHalfPrecision": "bed557109063035c046ffe70b02293bcda9e715c06a2b608348cb3854d5e332a",
+    "Reimann.DyadicDistribution69": "2faaecdbb4ed62d3a57d766e82df67ba721b7f646b2406dff3a4a505a9fff33b",
+    "Reimann.SignedProjection": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f",
+    "Reimann.DyadicZeroValues": "0a919675f48954a60f6aa6d4bd7eefa37a0268cd82a0c156dc159378fa076542",
+    "Reimann.Dyadic": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.DyadicSeriesProjection": "8da6ddb4e48eb78d3c55faff85f76849d57aca8bb304e222ce95f407f7ffd78e",
+    "Reimann.DyadicStickelberger69": "62a15b9d5aa2e3bd61c8bfb942493fce8065d0620705abc3026d13b17dbccf34",
+    "Reimann.DyadicClass69": "a1ac151c3f3d6ad9eab75b5378221c5a8e39211fd346102b6fedf3e32fb2a416",
+    "Reimann.DyadicOrder": "e853c84ff8ad9867dcc02660834a2ea9cfe195367e8deac0141bcc06a4862eea",
+    "Reimann.DyadicMoments": "f56765804b0990a222f4c3b34e6144be5429acc70600861c32f9f903d041bcbf",
+    "Reimann.DyadicLayers": "865f464a6f4dcda46926a0b1bb04ae193d0c7fc315f13f4bf980f57d00156113",
+    "Reimann.DyadicBottom": "c281688bff7fc68650e6b038c5135fca45b794bf62cce5edcabfcb09f655f245",
+    "Reimann.DyadicLattice": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+    "Reimann.DyadicQuotient": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+    "Reimann.DyadicCyclotomicImage": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+    "Reimann.SignedMeasure256": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+    "Reimann.Character2893": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+    "Reimann.WeightClasses": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+    "Reimann.SampleSpacing": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+    "Reimann.SignedStickelberger": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+    "Reimann.SignedTowerMeasure": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+    "Reimann.SignedCompletedAction": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+    "Reimann.DyadicEulerFactor": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c"
+  },
+  "steps": {
+    "SignedDiscriminant2893.signed_euler_decode": {
+      "sha256": "f99b138add22e1a98dac531f251042769e07726263145b0ea2164db8c02a12b8",
+      "line": 11,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.signed_euler_decode' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedDiscriminant2893.euler_word": {
+      "sha256": "b87e095160248de37dd21cb0adcee53b3f8ab4743076a07984a897c3c51fe458",
+      "line": 24,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.euler_word' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedDiscriminant2893.quad_symbol_eq_jacobi": {
+      "sha256": "e7c12a5633bc56c83b7a40f23cca78b359e76dd4f8d9d8691a591c39c4d697bf",
+      "line": 34,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.quad_symbol_eq_jacobi' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedDiscriminant2893.even_character_eq_jacobi": {
+      "sha256": "dfcb73d85abb4ba3b49de9b29fa56c83d0fe299a355c26eb529b07a3b2722143",
+      "line": 41,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.even_character_eq_jacobi' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedDiscriminant2893.mod_four_character": {
+      "sha256": "d724806146242f7f9398fe62062fc1c19441be4a91b972afce51f064601d25b4",
+      "line": 49,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.mod_four_character' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedDiscriminant2893.radicand_symbol": {
+      "sha256": "d3e6b28369640f2b706222c0a08d9d16755fb6c5d90030daca603ee267cc8776",
+      "line": 54,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.radicand_symbol' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedDiscriminant2893.fundamental_discriminant": {
+      "sha256": "47285c284e8264aaf108096b13950ab162b9586b3813da1eb49600e9267ed874",
+      "line": 61,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.fundamental_discriminant' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedDiscriminant2893.kida_valuation_inputs": {
+      "sha256": "98beff4b10dac2926327772f418eeb8c7686e94125cc3f33688857c1d9337de1",
+      "line": 72,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.kida_valuation_inputs' depends on axioms: [propext]"
+    },
+    "SignedDiscriminant2893.signed_character_eq_jacobi": {
+      "sha256": "a11fe482cb4eca4e4e693ee909b929df839b0d6592ca9d98844f97d6d05e2d88",
+      "line": 79,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.signed_character_eq_jacobi' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedDiscriminant2893.even_zero": {
+      "sha256": "825c3931582a8ab3c7d7621aa2f7f705b884db011cf2c89d2d062e7a6db71212",
+      "line": 84,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.even_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedDiscriminant2893.integer_character": {
+      "sha256": "f3d25a59b7265d2242c44e7925181b5953a9bd5f1105e0bd580de632f518e891",
+      "line": 89,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.integer_character' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedDiscriminant2893.ramified_values": {
+      "sha256": "fd6b86489dcf365520693ac48c23d517ceb9458d0a458dbbdea2c69378260145",
+      "line": 95,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.ramified_values' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedDiscriminant2893.good_prime_square": {
+      "sha256": "995c269240a774875df9ee01a125290ea794484465da339fd10aab1450f29802",
+      "line": 106,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.good_prime_square' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedDiscriminant2893.odd_prime_nonsquare": {
+      "sha256": "db29826625eb975f6792159159f3ad304bafbceaae875689c0e9dfd3aad26374",
+      "line": 113,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.odd_prime_nonsquare' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedDiscriminant2893.two_prime_discriminant": {
+      "sha256": "ea24616c642a8db1e4f851562b16a431c0234ab22c8e4098540b1a960b8ebc66",
+      "line": 120,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.two_prime_discriminant' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedDiscriminant2893.character69_eq_jacobi": {
+      "sha256": "81296cc699ba2cca4ab2c78768d01b26b9d124c7fbd6eaf0d40488956b0e4e37",
+      "line": 129,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedDiscriminant2893.character69_eq_jacobi' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedDiscriminant2893.complete": {
+      "sha256": "c1fa8999e1f376185f9b48db561fc8ac7f5ff97491640bf33dd485bb7cc998f3",
+      "line": 139,
+      "status": "checked"
+    }
+  }
+}

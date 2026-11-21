@@ -1,0 +1,145 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.GroupTheory.Torsion": "078b637c7fad4ed17cc49d87acdb15cf4e60bd5f2014058cdba3a71f79b2411c",
+    "Reimann2893.SignedNativeScalar2893": "f9fdc0627368639744cca35d9daceca675a5a6da80bd299520efe69ce3530df2",
+    "Reimann2893.SignedNormLimit2893": "a10cba26cfa1331c567efc441d11cdd17fbb1106f62e3883a05b1453625bb703",
+    "Mathlib.Algebra.Group.Subgroup.Basic": "b202bd8e8dcc0a855b42a7ef27fa5423d5220ee25de604761ab7cc2b271776ec",
+    "Mathlib.Algebra.Group.Pi.Lemmas": "298132c4f280e0db1b30f54290063c03602f1e74e79d82643e238b344a9c0c40",
+    "Mathlib.Algebra.Group.Equiv.Basic": "5df99c494bce6b0a79db0e736c62f444000a41999c315185fd6abdde9ae933a0",
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Reimann.DyadicLattice": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e"
+  },
+  "steps": {
+    "SignedClassScalars2893.KilledByTwoPowers": {
+      "sha256": "ad07b096c6db1847d5ef5f8cc4b307a7a72cfe3e2099445ddd40c63713646635",
+      "line": 12,
+      "status": "checked"
+    },
+    "SignedClassScalars2893.power_cast": {
+      "sha256": "1cf5c91fc069950ea3977863c5d51db35030df7e7958a76209196d40042bc3fe",
+      "line": 14,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassScalars2893.power_cast' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassScalars2893.at_larger_precision": {
+      "sha256": "71f3cec310cea540f02cf56917b0944f82d9533d374c15a8b00ced1959ed7be0",
+      "line": 19,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassScalars2893.at_larger_precision' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassScalars2893.power": {
+      "sha256": "324186384f713f5b5b74cd40276f00e273611206909b8fad279fbfb0a865fdf5",
+      "line": 26,
+      "status": "checked"
+    },
+    "SignedClassScalars2893.power_at": {
+      "sha256": "a7b8a34dab25f9eb2eec1775e2fd3381e4a22a1bcec80dfa0ea3ddb96252dc4c",
+      "line": 29,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassScalars2893.power_at' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassScalars2893.power_from_reduction": {
+      "sha256": "dd39674b0ba5186abe84cb6a578cf467d953d6ebbf7b8dd15a5f94942b3e26d1",
+      "line": 34,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassScalars2893.power_from_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassScalars2893.killing_mono": {
+      "sha256": "7079856dec225844787052fefc00f203473a65cc6995ed395be540e29c4fc5e7",
+      "line": 40,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassScalars2893.killing_mono' depends on axioms: [propext]"
+    },
+    "SignedClassScalars2893.power_nat": {
+      "sha256": "41231dbec7ef772730f304e3eb626d73ad4fcad1ddb5d13eef74240bf8679684",
+      "line": 44,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassScalars2893.power_nat' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassScalars2893.power_group_one": {
+      "sha256": "13c79472b8227a12359a3ef72ff393d7b1dafb8e5fca2f60afc45b2ed7bbf110",
+      "line": 47,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassScalars2893.power_group_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassScalars2893.power_scalar_add": {
+      "sha256": "f4bdbe165baee619e78ecf2b00bb945f8cc8d757bf737a40af55f963991336b4",
+      "line": 50,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassScalars2893.power_scalar_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassScalars2893.power_scalar_mul": {
+      "sha256": "5df27640096bc1ac8fbe40923d8a83c2abca546b66e4bb8dc5a5861992de90bc",
+      "line": 58,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassScalars2893.power_scalar_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassScalars2893.power_group_mul": {
+      "sha256": "dd99405c85f48bf5e41f1284fa96a0062c3ef9eabc09452655ba61084cbca4dc",
+      "line": 68,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassScalars2893.power_group_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassScalars2893.map_power": {
+      "sha256": "fe1a6699053f84c906d5ef44d59f282135f0d5238b62515e11587956155ed3dc",
+      "line": 77,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassScalars2893.map_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassScalars2893.torsionModule": {
+      "sha256": "23a4f3d059420b893e5df85d93df20d2c31b41c8008ef978f2234ef99ddf86fa",
+      "line": 83,
+      "status": "checked"
+    },
+    "SignedClassScalars2893.Primary": {
+      "sha256": "d0bbf66d19f6d2711d1a0c83adbd7b0bf4d5dc7c1a688270fc9f6425ddaf54be",
+      "line": 96,
+      "status": "checked"
+    },
+    "SignedClassScalars2893.primary_killed": {
+      "sha256": "76978de1a69996c5da64fbe3a3a32d4ae74c68ff1e4761947890a4a7dcc0945a",
+      "line": 98,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassScalars2893.primary_killed' depends on axioms: [propext]"
+    },
+    "SignedClassScalars2893.primaryModule": {
+      "sha256": "c4ce3917441ff2c05d3919feac5817673f2429a704a73d58b5e89e7c644b587f",
+      "line": 103,
+      "status": "checked"
+    },
+    "SignedClassScalars2893.ClassLimit": {
+      "sha256": "024fd5a94c4e1cf15ef60a366d2a37323603b617222bbbeffdb9364a752551fd",
+      "line": 111,
+      "status": "checked"
+    },
+    "SignedClassScalars2893.limitPower": {
+      "sha256": "0e21b39af16c70fb75f041aec880ccf825c31c6c8d580c08ac8e3a6e8b6d999e",
+      "line": 114,
+      "status": "checked"
+    },
+    "SignedClassScalars2893.limitModule": {
+      "sha256": "bbf3d8c1a996c8c34965190194b0253a40385c94f3ac821e5ca7db3d8aa27759",
+      "line": 119,
+      "status": "checked"
+    },
+    "SignedClassScalars2893.scalar_at_level": {
+      "sha256": "bf32c4d052a594c7b9f3067a319aaac20bd62a8ca8437ad16aad243f7b59fc54",
+      "line": 138,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedClassScalars2893.scalar_at_level' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedClassScalars2893.limitForwardLinear": {
+      "sha256": "a9073d2d76f01a13ca26c7f2cc1e9b3418f63c18dcac0d24d6656de9c3eef160",
+      "line": 143,
+      "status": "checked"
+    },
+    "SignedClassScalars2893.complete": {
+      "sha256": "a581a11d19cfe692d12b88af7c58567bb0f878557a6dbd913f972de711c8a156",
+      "line": 155,
+      "status": "checked"
+    }
+  }
+}

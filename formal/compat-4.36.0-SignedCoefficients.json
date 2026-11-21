@@ -1,0 +1,134 @@
+{
+  "steps": {
+    "SignedCoefficients.weight_three_from_coefficients": {
+      "sha256": "82b254534fc585adf6029e0c8ac1923909fc738c517df3ac057c0c35b06a60ad",
+      "status": "checked",
+      "line": 10,
+      "local_sources": {
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedCoefficients.weight_three_from_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCoefficients.finite_quadratic_test": {
+      "sha256": "c2102cc303911b36bed28999f1e6479f117b7fa63ff5dbd9866e8c1e8a84de1f",
+      "status": "checked",
+      "line": 19,
+      "local_sources": {
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedCoefficients.finite_quadratic_test' depends on axioms: [propext]"
+    },
+    "SignedCoefficients.remainder_at_residues": {
+      "sha256": "12274ea835e238370407ce91737ee0426ceac4ba36af46f82062052f830e3ae1",
+      "status": "checked",
+      "line": 24,
+      "local_sources": {
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedCoefficients.remainder_at_residues' depends on axioms: [propext]"
+    },
+    "SignedCoefficients.coefficients_of_remainder": {
+      "sha256": "dd81f032cf2c1efb13a4e48bc1863ee402e18714354a6eb448ffdead5938c0e1",
+      "status": "checked",
+      "line": 34,
+      "local_sources": {
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedCoefficients.coefficients_of_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCoefficients.coefficients_of_cyclic_factor": {
+      "sha256": "48df6b84820ac6ac694270172f6dab749bf46744651f1e7ba3e0a06d625f5d96",
+      "status": "checked",
+      "line": 46,
+      "local_sources": {
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedCoefficients.coefficients_of_cyclic_factor' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCoefficients.weight_three_of_cyclic_factor": {
+      "sha256": "3705ac89b2ca4e98ecca0925dcdb97b2b9c7ab3024c4e9c20eac0439a67e2ba6",
+      "status": "checked",
+      "line": 51,
+      "local_sources": {
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedCoefficients.weight_three_of_cyclic_factor' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCoefficients.signed_difference_mod128": {
+      "sha256": "6e5b5eb07a8948750af031e92936287dbb2d1d9d21b553d01cdf5aa28cf1ba21",
+      "status": "checked",
+      "line": 58,
+      "local_sources": {
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedCoefficients.signed_difference_mod128' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCoefficients.complete": {
+      "sha256": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+      "status": "checked",
+      "line": 70,
+      "local_sources": {
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/SignedPreparation.lean": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

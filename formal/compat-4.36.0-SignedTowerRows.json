@@ -1,0 +1,313 @@
+{
+  "steps": {
+    "SignedTowerRows.Compatible": {
+      "sha256": "10ca61e6c28a22a9489a817355702df297f7e89f9b1bdeba1611644803b9c035",
+      "status": "checked",
+      "line": 12,
+      "local_sources": {
+        "Reimann/SignedStickelberger.lean": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+        "Reimann/SignedTowerMeasure.lean": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+        "Reimann/SignedGammaTower.lean": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+        "Reimann/SignedCompletedAction.lean": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/DyadicEulerFactor.lean": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedTowerRows.massAt": {
+      "sha256": "b46437207a809367b75b36aff9053d43e24ab17f44ef1993163ea0ae979e7e9b",
+      "status": "checked",
+      "line": 16,
+      "local_sources": {
+        "Reimann/SignedStickelberger.lean": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+        "Reimann/SignedTowerMeasure.lean": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+        "Reimann/SignedGammaTower.lean": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+        "Reimann/SignedCompletedAction.lean": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/DyadicEulerFactor.lean": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedTowerRows.mass_step": {
+      "sha256": "04bbc533041c8c35e0c08ed6179f4d9fe6b5ae2c1a2865ac86d198bf9da165b3",
+      "status": "checked",
+      "line": 19,
+      "local_sources": {
+        "Reimann/SignedStickelberger.lean": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+        "Reimann/SignedTowerMeasure.lean": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+        "Reimann/SignedGammaTower.lean": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+        "Reimann/SignedCompletedAction.lean": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/DyadicEulerFactor.lean": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTowerRows.mass_step' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTowerRows.total_point": {
+      "sha256": "d01ee6cf61267a5ae2872514a3119adbdc705cf093e18d3861ba946f6705a969",
+      "status": "checked",
+      "line": 42,
+      "local_sources": {
+        "Reimann/SignedStickelberger.lean": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+        "Reimann/SignedTowerMeasure.lean": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+        "Reimann/SignedGammaTower.lean": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+        "Reimann/SignedCompletedAction.lean": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/DyadicEulerFactor.lean": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTowerRows.total_point' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTowerRows.mass_six": {
+      "sha256": "e828f9d9ea16bc36fcbfd2bb580b7853e6a38b0856840dfe825b62242bba70f0",
+      "status": "checked",
+      "line": 52,
+      "local_sources": {
+        "Reimann/SignedStickelberger.lean": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+        "Reimann/SignedTowerMeasure.lean": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+        "Reimann/SignedGammaTower.lean": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+        "Reimann/SignedCompletedAction.lean": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/DyadicEulerFactor.lean": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:60:33: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.SignedTowerRows.mass_six' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTowerRows.mass_at_all_levels": {
+      "sha256": "bd95e10faf01f2eeaabd52ac7f33a1f9d4dec3073ccf3c9869f3514d08f78bdc",
+      "status": "checked",
+      "line": 62,
+      "local_sources": {
+        "Reimann/SignedStickelberger.lean": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+        "Reimann/SignedTowerMeasure.lean": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+        "Reimann/SignedGammaTower.lean": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+        "Reimann/SignedCompletedAction.lean": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/DyadicEulerFactor.lean": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:60:33: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.SignedTowerRows.mass_at_all_levels' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTowerRows.weight": {
+      "sha256": "ed8431a63ff84a344f95d11b08d3bc5f09520dba674a30c0d44a82f4f53de176",
+      "status": "checked",
+      "line": 69,
+      "local_sources": {
+        "Reimann/SignedStickelberger.lean": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+        "Reimann/SignedTowerMeasure.lean": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+        "Reimann/SignedGammaTower.lean": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+        "Reimann/SignedCompletedAction.lean": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/DyadicEulerFactor.lean": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:60:33: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲"
+    },
+    "SignedTowerRows.weight_compatible": {
+      "sha256": "9b6709de882ef466cd22dd91d4c89fb1889494e8e2c3f36647a098ade97638fb",
+      "status": "checked",
+      "line": 72,
+      "local_sources": {
+        "Reimann/SignedStickelberger.lean": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+        "Reimann/SignedTowerMeasure.lean": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+        "Reimann/SignedGammaTower.lean": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+        "Reimann/SignedCompletedAction.lean": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/DyadicEulerFactor.lean": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:60:33: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.SignedTowerRows.weight_compatible' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTowerRows.weight_six": {
+      "sha256": "096101c67f38f254043c31e4970c047b9a5d23c3fd713dd9748523243afddac3",
+      "status": "checked",
+      "line": 82,
+      "local_sources": {
+        "Reimann/SignedStickelberger.lean": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+        "Reimann/SignedTowerMeasure.lean": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+        "Reimann/SignedGammaTower.lean": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+        "Reimann/SignedCompletedAction.lean": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/DyadicEulerFactor.lean": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:60:33: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.SignedTowerRows.weight_six' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTowerRows.push_to_checked_row": {
+      "sha256": "ee697696bc3308893c8b50722f28e1403de4dd065b34862f204be73d3454a916",
+      "status": "checked",
+      "line": 88,
+      "local_sources": {
+        "Reimann/SignedStickelberger.lean": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+        "Reimann/SignedTowerMeasure.lean": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+        "Reimann/SignedGammaTower.lean": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+        "Reimann/SignedCompletedAction.lean": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/DyadicEulerFactor.lean": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:60:33: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.SignedTowerRows.push_to_checked_row' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTowerRows.asTower": {
+      "sha256": "4bb8f9e6d09caddbb6aac69a0a1958e4c227f2f630a6c6f49301f243442576d4",
+      "status": "checked",
+      "line": 93,
+      "local_sources": {
+        "Reimann/SignedStickelberger.lean": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+        "Reimann/SignedTowerMeasure.lean": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+        "Reimann/SignedGammaTower.lean": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+        "Reimann/SignedCompletedAction.lean": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/DyadicEulerFactor.lean": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:60:33: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲"
+    },
+    "SignedTowerRows.normalized_tower": {
+      "sha256": "7779b032e746269ed16686a6c205416b24e1aff41d5b8d1c39eda1f210fa7f3d",
+      "status": "checked",
+      "line": 102,
+      "local_sources": {
+        "Reimann/SignedStickelberger.lean": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+        "Reimann/SignedTowerMeasure.lean": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+        "Reimann/SignedGammaTower.lean": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+        "Reimann/SignedCompletedAction.lean": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/DyadicEulerFactor.lean": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:60:33: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲"
+    },
+    "SignedTowerRows.tower_coordinate": {
+      "sha256": "0bba754ea932e829598e491b3257bb792dfa03383ff944faf8c237fb50613fa8",
+      "status": "checked",
+      "line": 104,
+      "local_sources": {
+        "Reimann/SignedStickelberger.lean": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+        "Reimann/SignedTowerMeasure.lean": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+        "Reimann/SignedGammaTower.lean": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+        "Reimann/SignedCompletedAction.lean": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/DyadicEulerFactor.lean": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:60:33: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲\n'Reimann.SignedTowerRows.tower_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTowerRows.complete": {
+      "sha256": "20b4fa08e4e4a298065caa2f229562bfac189446f9da2223ac69421809af26d3",
+      "status": "checked",
+      "line": 109,
+      "local_sources": {
+        "Reimann/SignedStickelberger.lean": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+        "Reimann/SignedTowerMeasure.lean": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+        "Reimann/SignedGammaTower.lean": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+        "Reimann/SignedCompletedAction.lean": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+        "Reimann/DyadicCyclotomicImage.lean": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+        "Reimann/SignedMeasure256.lean": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/DyadicEulerFactor.lean": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "<stdin>:60:33: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead\n\nHint: Replace the deprecated name:\n  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

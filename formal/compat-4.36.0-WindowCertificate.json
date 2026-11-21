@@ -1,0 +1,116 @@
+{
+  "steps": {
+    "WindowCertificate.totalLength": {
+      "sha256": "a5024c9c716e286360aeb0295271a5a2c428c878d31ffdbf74f7b7d04937f440",
+      "status": "checked",
+      "line": 11,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "WindowCertificate.primePower_eq_weightProduct": {
+      "sha256": "d571004822abb57cdee117e3edbf5f936ed460cb0f88b2d92861525e115034be",
+      "status": "checked",
+      "line": 15,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WindowCertificate.primePower_eq_weightProduct' depends on axioms: [propext]"
+    },
+    "WindowCertificate.windowOrder": {
+      "sha256": "71eee719c9a4f607e714f6e00c942ea318ccb5ba2943245a74844879b6f94377",
+      "status": "checked",
+      "line": 25,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "WindowCertificate.windowOrder_cons": {
+      "sha256": "33fec7744fcc6cecf2047a3da74032b1b76d1da447ad876b772749869346fcab",
+      "status": "checked",
+      "line": 28,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WindowCertificate.windowOrder_cons' depends on axioms: [propext]"
+    },
+    "WindowCertificate.primePower_dvd_windowOrder": {
+      "sha256": "947fc36a547cb34de1911a5c335d0aa4bbfa9a235923159133483f334a0c9797",
+      "status": "checked",
+      "line": 32,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WindowCertificate.primePower_dvd_windowOrder' depends on axioms: [propext]"
+    },
+    "WindowCertificate.coprime_windowOrder": {
+      "sha256": "6e707d60432f3fc73a2a5ae7ee38cf6d467f6998718a12542a9c24b6ce42eac0",
+      "status": "checked",
+      "line": 43,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WindowCertificate.coprime_windowOrder' depends on axioms: [propext, Quot.sound]"
+    },
+    "WindowCertificate.windowOrder_dvd_iff": {
+      "sha256": "61fdbb32cfdc34ee77a742e7462cdbfecb720e63e00a80e8d69c596c6be8e951",
+      "status": "checked",
+      "line": 53,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WindowCertificate.windowOrder_dvd_iff' depends on axioms: [propext, Quot.sound]"
+    },
+    "WindowCertificate.windowOrder_pos": {
+      "sha256": "a1a2efc3d607f1512c335dd8b06365a6b817681980238fb99f069f87b4861ac2",
+      "status": "checked",
+      "line": 69,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WindowCertificate.windowOrder_pos' depends on axioms: [propext]"
+    },
+    "WindowCertificate.bounded_certificate_iff": {
+      "sha256": "976cc4d6d49e5a94337eb4d5d4532d13906cb2236ffa9d832c4ebe78e132d0bf",
+      "status": "checked",
+      "line": 79,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WindowCertificate.bounded_certificate_iff' depends on axioms: [propext, Quot.sound]"
+    },
+    "WindowCertificate.windowOrder_add": {
+      "sha256": "22cd11bc0d90861d5f3a73487d7ab5c4feebd6cba9bfe227b76663003cee3f0f",
+      "status": "checked",
+      "line": 89,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WindowCertificate.windowOrder_add' depends on axioms: [propext]"
+    },
+    "WindowCertificate.windowOrder_eq_product_by_weight": {
+      "sha256": "87326ce81c793aaca4265542f03ca16ea5687b9549a4faf238eb5cbb50fc0f66",
+      "status": "checked",
+      "line": 99,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WindowCertificate.windowOrder_eq_product_by_weight' depends on axioms: [propext]"
+    },
+    "WindowCertificate.windowOrder_residual": {
+      "sha256": "27f6732f75c27f47d533651508b66bdcde0d8ee42b3bb66a4cbdcdd7ad86613f",
+      "status": "checked",
+      "line": 115,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WindowCertificate.windowOrder_residual' depends on axioms: [propext, Quot.sound]"
+    },
+    "WindowCertificate.residual_budget_iff": {
+      "sha256": "c76d51851d3a160621de14b420b1e00b2917e598e9352cc5b5b6806146ee47db",
+      "status": "checked",
+      "line": 132,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WindowCertificate.residual_budget_iff' depends on axioms: [propext, Quot.sound]"
+    },
+    "WindowCertificate.arithmetic_window_budget_iff": {
+      "sha256": "f0c9367edb6bd0b074c76275565687c59d157f96aaf268c8d1592aa393063ded",
+      "status": "checked",
+      "line": 143,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WindowCertificate.arithmetic_window_budget_iff' depends on axioms: [propext, Quot.sound]"
+    },
+    "WindowCertificate.example_order_200": {
+      "sha256": "5484a1ea42ad8cf8801c4d29db8d1bd8742a9e7f8329261f232e999ad41b93d8",
+      "status": "checked",
+      "line": 150,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WindowCertificate.example_order_200' does not depend on any axioms"
+    },
+    "WindowCertificate.complete": {
+      "sha256": "6beb745aa8a81a9ba2ab7b02c2dff17d2e60d773064b96768b7e412c4fa4e8fa",
+      "status": "checked",
+      "line": 153,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

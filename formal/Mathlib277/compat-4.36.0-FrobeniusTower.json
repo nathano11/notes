@@ -1,0 +1,57 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.Inertia": "2fd798730479b1e529f6a01be30c4a4b0aef428588625f481a839811a35cb739",
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33",
+    "Mathlib.FieldTheory.Galois.GaloisClosure": "428a07fdbacc7524201633fa4ece451928807d448e2f9c7c5de1348c043eff83",
+    "Mathlib.RingTheory.IntegralClosure.Algebra.Basic": "63ee00b21ee6547bedfcc8e86f86b0df4a65d9f1018c2e30425a0e2799710729",
+    "Mathlib.RingTheory.Ideal.Quotient.Basic": "2d3eae760cf3532861226b2b66521b9d57a97979c0df2d2dfffa0049b8843762",
+    "Reimann.TameUnramified277": "fded94df921fd77392dda052c165c6f4eac8bb0d39c7717deb30d07c2c2c3f25",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e"
+  },
+  "steps": {
+    "FrobeniusTower.contracted_twice": {
+      "sha256": "b928cffb5d16cc0c7ae41ca681a28faba57a98a721950c7b095559ecf7312766",
+      "line": 11,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFrobeniusTower277.contracted_twice' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FrobeniusTower.finite_contraction_nonzero": {
+      "sha256": "f4c9aa06b518dadbdc8d0c427ec27b09f869a67835510258468cdc211f5d73e1",
+      "line": 15,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFrobeniusTower277.finite_contraction_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FrobeniusTower.finite_residue": {
+      "sha256": "98efeabecd456d44b3d941b6f0daebe6127bd50bc5790c94966466ba28af8f03",
+      "line": 22,
+      "status": "checked",
+      "checker_output": "<stdin>:24:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameFrobeniusTower277.finite_residue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FrobeniusTower.integral_preimage": {
+      "sha256": "a2e58fc98e6d758e6515f4d2bdd436cbf5726c74b424bc35fac91ac70c25383e",
+      "line": 28,
+      "status": "checked",
+      "checker_output": "<stdin>:24:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameFrobeniusTower277.integral_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FrobeniusTower.finite_set_preimages": {
+      "sha256": "e73111d086583dc860f18844419506b3e9d8fa4ff342937c3eea11abbc86ed75",
+      "line": 35,
+      "status": "checked",
+      "checker_output": "<stdin>:24:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameFrobeniusTower277.finite_set_preimages' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FrobeniusTower.restrict_act": {
+      "sha256": "76f3c84a4afc984bb4c4252a3b00c21418f11a60ae7dd7208b25717ab3d6f781",
+      "line": 43,
+      "status": "checked",
+      "checker_output": "<stdin>:24:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameFrobeniusTower277.restrict_act' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FrobeniusTower.complete": {
+      "sha256": "fea549741fb9256209bb1419917e35c048634c94dd68c0bd2f8049ab2f416f21",
+      "line": 49,
+      "status": "checked",
+      "checker_output": "<stdin>:24:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    }
+  }
+}

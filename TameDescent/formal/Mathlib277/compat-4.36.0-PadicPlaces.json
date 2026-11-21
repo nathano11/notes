@@ -1,0 +1,130 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.PadicEmbeddings": "9b170d977d243dd5ef8a465ef9a9bea343438cb0ea3bda092c8aed013ce2c9a8",
+    "Reimann277.Completion": "6cca8c54e06d14be2ed211ea4a1169ba4acdae1714e62bb4d94b8a7c2fd3a847",
+    "Reimann.TamePlaceRestriction277": "cf1ccc09ba9b61d840e4834dcc716e5ea57965a697fc54044a2489422cc114c8",
+    "Reimann.TameOrderFaithful277": "371738ead39dfaf6910c6fe1737e3a192e11812c07cf508fdd0b28ba0bb43d2f",
+    "Reimann.TameLocalOrders277": "7596b78ef21b0c5280340bd64566b0602408339c991da705e9cf24d97837dd18",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.TameArithmetic277": "48e0882aeffd38210c101bceab1e5aafefd3c877b7bafc39567fb2b0ad592b54",
+    "Reimann.TameOrderCompletion277": "4f13588caa002782d7596a41dc4430d15f584506829b6e7cc3c5beb951f47cfd",
+    "Reimann.TamePrimePowers277": "9c5db0aad6d6d16ef27a54edf4fa99d8283bf17cc04157dc8955f41fc1adda6c",
+    "Reimann.TameOrderPrimes277": "847a93ca9be19999dca67c119cc95e685f21fd8f3956100065a73bc8b521336b",
+    "Reimann.TameFiber277": "7d07f4bd543ccecef281e086cbc1d023250657743c14eb5d5e5a0884442650d2",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Reimann.TameOrderReduction277": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+    "Reimann.TameLimit277": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+    "Mathlib.NumberTheory.Padics.PadicNumbers": "dbf403e24fbff90ced849ddbe6353860810e69ddd8c0cc7af3f4b1eb61ee0954",
+    "Mathlib.Topology.MetricSpace.Completion": "e0abedc5fa2a84e49e39e6008e9f274dd36431fc472206c453d07b49297337a6",
+    "Reimann277.Biquadratic": "1eecf3556b0b3cbf21ff1704cade538325a07227d454a3ade53283149eb974df",
+    "Reimann277.PadicInteger": "b9528953f8045b5009ec90a0e7d305b4807d566fb2a50eb222fd24ff0d488f48",
+    "Reimann.TameSignedEmbeddings277": "3fd66f8a13aff48d00713431797d6f628c25abc54f4c7023f7c93ca2e483d588",
+    "Reimann.TameEmbeddings277": "7c184751698ce48d191a56ef92f45ca365f177a4cab5a4f52c9c29bcee50b5c7",
+    "Reimann.TameLimitRoots277": "cf5d2f76685ac0c2b3a7527dd65304d36462bc6502b0484e661782ba519abd57",
+    "Reimann.TameRootExhaustion277": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+    "Reimann.CyclicBoundary": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+    "Reimann.CyclotomicNorm": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Mathlib.Algebra.Algebra.Hom": "cb23985743d69ab47c814e821ec7620d49ce642073d96ea0016b5f48fd5dd445",
+    "Mathlib.Algebra.Algebra.Rat": "27a6444a720f4100b0a93140231049882e266bacef7f4c6bb8c7a1374cc6561b",
+    "Mathlib.Algebra.Field.MinimalAxioms": "5a4f6a6ce4037663e35257965bd052a4fa36d040c7bc7ad7eed074e9dd1a2872",
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb"
+  },
+  "steps": {
+    "PadicPlaces.fact277": {
+      "sha256": "07ee4465e9599bd5e93bf7f61f0ac928a9272e49b011556e183da07bb07f3895",
+      "line": 10,
+      "status": "checked"
+    },
+    "PadicPlaces.value": {
+      "sha256": "c147980f2e23b474399bec9f87b5f1f324ef9ce2aa0d96f0ce8ea71072f21b98",
+      "line": 12,
+      "status": "checked"
+    },
+    "PadicPlaces.value_int": {
+      "sha256": "728ddbd2bc980e3b7404f24c25deb2f3763595634fc01ceef62568916c022051",
+      "line": 14,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicPlaces277.value_int' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicPlaces.value_mul": {
+      "sha256": "b35d7a0e1bb4d313d5f6205840a99064a153fd623bff7c9b74d3728c2c3aae0d",
+      "line": 18,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicPlaces277.value_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicPlaces.value_add": {
+      "sha256": "676701e04b6b1b27c621b487495b47dcd4ab224e775253cf75d1b0fe8e33c31f",
+      "line": 22,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicPlaces277.value_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicPlaces.value_nonzero": {
+      "sha256": "e6d65915aab90c5fdd047f762890c818bbe2a88d30ecb701a8766354334b3251",
+      "line": 26,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicPlaces277.value_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicPlaces.integer_radii": {
+      "sha256": "2d98a154344d26a767fd3ec60a647ee1606a4539c23c60184e81641dfa2dbd9a",
+      "line": 30,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicPlaces277.integer_radii' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicPlaces.order": {
+      "sha256": "90b27027b5fee9724b9b0e4d143666f9d6b4120c15c05aa31d951d27dbff9a26",
+      "line": 39,
+      "status": "checked"
+    },
+    "PadicPlaces.center_eq": {
+      "sha256": "2940a6dafeb52f00f4f96ad3c2aeb3de73fb4487991e150418fb352d94e5c3be",
+      "line": 55,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicPlaces277.center_eq' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicPlaces.signs_order": {
+      "sha256": "c6a78f13e49aba13ecb940692c46b5ace55c3b5fe99bb64a8f593d39654cfade",
+      "line": 64,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicPlaces277.signs_order' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicPlaces.equiv": {
+      "sha256": "5d956abb1fae5f08beb04a27a9621f338ca31bf8292bfec8bee58190d66736ef",
+      "line": 67,
+      "status": "checked"
+    },
+    "PadicPlaces.normedAt": {
+      "sha256": "551fb8ff8e1219101f2edf3202da2547d48c6301c18d836506f79bb686c536da",
+      "line": 75,
+      "status": "checked"
+    },
+    "PadicPlaces.norm_comparison": {
+      "sha256": "374c116fb1aff2c57985557da0e400b5518e04551cefc02a78818591fbe635db",
+      "line": 78,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicPlaces277.norm_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicPlaces.embedding_isometry": {
+      "sha256": "7fe5456079e25ca6fddf50ee426a2a7da42e12a3e31a160ac5b8f10a773c4eec",
+      "line": 83,
+      "status": "checked",
+      "checker_output": "<stdin>:86:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicPlaces277.embedding_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicPlaces.completion_at": {
+      "sha256": "1f92c7bbcc5b135fc4ded7ccaf1e4151e612aea51c2c3b76ad038b2dfc293154",
+      "line": 92,
+      "status": "checked",
+      "checker_output": "<stdin>:86:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:98:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TamePadicPlaces277.completion_at' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicPlaces.complete": {
+      "sha256": "155937076b57c18e90a487cda215e61c346e3cff5dbece5297f6d10847088522",
+      "line": 102,
+      "status": "checked",
+      "checker_output": "<stdin>:86:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:98:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    }
+  }
+}

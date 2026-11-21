@@ -1,0 +1,222 @@
+{
+  "steps": {
+    "DyadicEven.involution_forces_half": {
+      "sha256": "8e6863150c2898f2db23c8caf70263c3ec1d2dea16728b41da44025ab256e03d",
+      "status": "checked",
+      "line": 14,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.involution_forces_half' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEven.orbit": {
+      "sha256": "0124f3e905c89dc1774f019db2351c44f31393026f75b55e5b8705b8527f2309",
+      "status": "checked",
+      "line": 39,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicEven.orbit_parity": {
+      "sha256": "9d1f0cf247331dcb788a88fc0bc79eb20b9bc6952573c807a1768c0f699400e9",
+      "status": "checked",
+      "line": 46,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.orbit_parity' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEven.surviving_character_equivariant": {
+      "sha256": "dc32a1bb8df29fec0c560b110fe29e56320d4045933033be396cdd5a01afce10",
+      "status": "checked",
+      "line": 59,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.surviving_character_equivariant' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEven.discrepancy_at_power": {
+      "sha256": "c8eb84c3870e5fe00751de179c4ecacfe828fe8d571d894050eeffe008aa61bb",
+      "status": "checked",
+      "line": 66,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.discrepancy_at_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEven.CommonPrimitive": {
+      "sha256": "e1152d9ff34b67a6ba2711b8d831a77f82f2d8a930de57784780363a810bd39c",
+      "status": "checked",
+      "line": 74,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicEven.twoPower_pos": {
+      "sha256": "124ca278c907a591c89a586cbf5544bd2cf15c884934ec953042dead50597dc8",
+      "status": "checked",
+      "line": 79,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.twoPower_pos' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicEven.sigma_obstruction": {
+      "sha256": "390f6f30ec69c3777d785d1053f24f6f9a97d7c40957834a2b7cc2cfae30202e",
+      "status": "checked",
+      "line": 85,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.sigma_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEven.procyclic_primitive": {
+      "sha256": "484f354f0380041955f4b8e6415becd47c57e05b51fb89857fd02d72124cbde8",
+      "status": "checked",
+      "line": 92,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.procyclic_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEven.common_primitive_iff": {
+      "sha256": "87c3d24ace7e762beb4eac30cf805b506df12f199715ce16b17eadacd9dea538",
+      "status": "checked",
+      "line": 98,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.common_primitive_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEven.positive_weight_factorization": {
+      "sha256": "fda504df8bd5e5c36cf7215a9b0de7283c8a7a071ee8013609c0986a65360c32",
+      "status": "checked",
+      "line": 104,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.positive_weight_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEven.cyclotomic_common_primitive": {
+      "sha256": "ce7252f608bc4701ebc91a088c8a8945d785e9f449b062e710a983c1571dbf6a",
+      "status": "checked",
+      "line": 119,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.cyclotomic_common_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEven.switchCoordinates": {
+      "sha256": "13de233d68bb9c4d25d4d15371b19e4286692b7d9b6a8b1d7d17294e367a99c5",
+      "status": "checked",
+      "line": 127,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicEven.switch_coordinates_exact": {
+      "sha256": "dffec1cb9fec6c04419430a85698a3232ea57c2fd1958fd1683c999586067bf5",
+      "status": "checked",
+      "line": 131,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.switch_coordinates_exact' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEven.orbit_preserves_X": {
+      "sha256": "d4a69291bfda729d771b37cbf99b8e74d323202443796768f1a93b8b7028dbce",
+      "status": "checked",
+      "line": 140,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.orbit_preserves_X' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEven.LocalConditions": {
+      "sha256": "d6f4917847b240826b90ec59004fb84b7916f68f7a42a218782aa4ba3721568a",
+      "status": "checked",
+      "line": 149,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicEven.even_local_conditions_iff": {
+      "sha256": "4c04884cb4808331fc2a82bc560430aee408869bbfb6e9c46647cd0d78556096",
+      "status": "checked",
+      "line": 161,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.even_local_conditions_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEven.even_solution_bijection": {
+      "sha256": "55a51c447e670ba87d4b2422b85e46a0ef8ee329cf597b942a18d69df2d60b3f",
+      "status": "checked",
+      "line": 180,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.even_solution_bijection' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEven.complete": {
+      "sha256": "1a6e915f1596c5e2b57bffcb0ec0b9edb1f25c855de1055206aa4f96d567d17a",
+      "status": "checked",
+      "line": 205,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicEven.discrepancy_by_layer": {
+      "sha256": "20bd3571e31f9837b9452aec9bb15ef2764a8d28a3352523d8aa6c4adc3f3bbd",
+      "status": "checked",
+      "line": 194,
+      "local_sources": {
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEven.discrepancy_by_layer' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

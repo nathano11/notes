@@ -1,0 +1,668 @@
+{
+  "steps": {
+    "DyadicCyclotomicRamification69.geometric_append": {
+      "sha256": "463c4762cbe2b59355e5f5c268d7b8b179dd177cab07a78eb2ccb645f76707a7",
+      "status": "checked",
+      "line": 13,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.geometric_append' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.geometric_blocks": {
+      "sha256": "dc73add5ecb8595ec1d4d7901f48c9dc344290560e673e9986587ff0fdf6abda",
+      "status": "checked",
+      "line": 21,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.geometric_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.geometric_period": {
+      "sha256": "e5ec4fb26ce2dfe1c1f8f9e3b4b2a40314c4e4c11b0e40d6838d4db5ea39f051",
+      "status": "checked",
+      "line": 29,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.geometric_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.geometric_one_mod_period": {
+      "sha256": "35f7249d92c8125483e3e4d73bd9966eeabff6c3835eb1935cfe599fdcb4e5c4",
+      "status": "checked",
+      "line": 34,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.geometric_one_mod_period' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.odd_geometric_unit": {
+      "sha256": "d400ac6c19dea36399e47e439fbe8782ffea4d2270a2afd4bd5c41bce2bfe925",
+      "status": "checked",
+      "line": 41,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.odd_geometric_unit' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.ramification_factor": {
+      "sha256": "6f1e34385fee980869101323cc5448ca84737fdc779f47dddd9111358bc6e6f6",
+      "status": "checked",
+      "line": 54,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.ramification_factor' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.principal_ideal_equality": {
+      "sha256": "56124a6ad49a4c7bb785e6fecd8794b78d27ba0db7cc32f53b2f09e5deee4a1e",
+      "status": "checked",
+      "line": 84,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.principal_ideal_equality' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.presentation": {
+      "sha256": "bfeb4f064e6e1141f8da1b83aaae128e6188cb34a4d3cd519dc8f195b268d2e2",
+      "status": "checked",
+      "line": 100,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicRamification69.Order": {
+      "sha256": "7af0cff31712c90ca5f2003158c650b58ff2dffa10482ddea4d50683e9be6a24",
+      "status": "checked",
+      "line": 106,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicRamification69.poly": {
+      "sha256": "95af8d6a1f1c60c16777000b6b612553760127a54800effe2a74c62eeec5f74d",
+      "status": "checked",
+      "line": 108,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicRamification69.atRoot": {
+      "sha256": "a3ee2973aba549286188df2293ac6c65b9139126962bcf4bbcfb64597dd7d2cb",
+      "status": "checked",
+      "line": 110,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicRamification69.order_ext": {
+      "sha256": "8bf01def3c6eacf3b107372397364a872eb1b6555f518c2dbde718b0cd1430e0",
+      "status": "checked",
+      "line": 113,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.order_ext' depends on axioms: [Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.add": {
+      "sha256": "5771c7bd9855326c9889a96757d5cfc09b180d4f9a46a031cc0d65b6d701bef9",
+      "status": "checked",
+      "line": 121,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicRamification69.mul": {
+      "sha256": "290fe910325abf02d163c329f944f30d0f0ece1a5eaa49abc08235013674ad65",
+      "status": "checked",
+      "line": 128,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicRamification69.atRoot_add": {
+      "sha256": "fe29d50cfb4315d76bb37d38717c3d4ac2807eac6d57892a5cc9d30571800774",
+      "status": "checked",
+      "line": 135,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.atRoot_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.atRoot_mul": {
+      "sha256": "e973ae3f15bbd603074572d07ab5558652ee61c959db55fa06420e13c8589575",
+      "status": "checked",
+      "line": 139,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.atRoot_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.atRoot_scalar": {
+      "sha256": "8e95012aa7afa77e58ca4c9b93b9ab9d38166b1fed6bf674ba7af06b1d46a4d8",
+      "status": "checked",
+      "line": 143,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.atRoot_scalar' depends on axioms: [propext]"
+    },
+    "DyadicCyclotomicRamification69.power": {
+      "sha256": "54fecd7b8bb59cdd7f00420c5743728c2515e65c7928df6120a79657540b6d7e",
+      "status": "checked",
+      "line": 148,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicRamification69.atRoot_power": {
+      "sha256": "9790aa28d4bcf79e1393f3e71940319f2f60e30c0412baf007c62d2b01ba53c2",
+      "status": "checked",
+      "line": 152,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.atRoot_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.orderRing": {
+      "sha256": "585f2b876f0436f3a1efe9a4e8820ab92564e48db1432da9c0ba55f08889c10a",
+      "status": "checked",
+      "line": 159,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicRamification69.zeta": {
+      "sha256": "27893daee325afa32370f3038b009e1e73a5babbe09f412b477a1e55568c59d1",
+      "status": "checked",
+      "line": 198,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicRamification69.atRoot_zeta": {
+      "sha256": "6da3ab35a7f6ffd12541f09a77d3f879127a0719b1a1dd016b25cf3634c8ce53",
+      "status": "checked",
+      "line": 200,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.atRoot_zeta' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.zeta_half_order": {
+      "sha256": "3c95e0a8d48a6e3218314bd02fe05ad34006aef221fce046a65c763e1bca0d04",
+      "status": "checked",
+      "line": 206,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.zeta_half_order' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.order_ramification": {
+      "sha256": "c5cbae3e77c8ab747e96ed83ad30f8646b8127e609d4b25123dd7accde0d2301",
+      "status": "checked",
+      "line": 213,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.order_ramification' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.residue": {
+      "sha256": "de4c19654d5d4130a38adb1bd8033a3b67fb4429454821cc422a4923c5bfff1d",
+      "status": "checked",
+      "line": 218,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicRamification69.residue_surjective": {
+      "sha256": "a07eba22ab99178d63a222f4a112dc3c207ece6eab797ce29588e4a8e245b152",
+      "status": "checked",
+      "line": 221,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.residue_surjective' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.difference": {
+      "sha256": "91171c680c7f3645b264f9e6acba9e9df1271f236ee174fe4433949fcf32942b",
+      "status": "checked",
+      "line": 226,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicRamification69.difference_identity": {
+      "sha256": "e2258a5678fc5503104b342dd8e4ba64a8579fa8f967960eb0cf01c6808b2d28",
+      "status": "checked",
+      "line": 230,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.difference_identity' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.translate_to_one": {
+      "sha256": "957afed506fa0773a19a82540001660c123c0c3a2d265e962a4e6f69474a1437",
+      "status": "checked",
+      "line": 240,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.translate_to_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.two_multiple": {
+      "sha256": "3d15dc0aca8f98d1d014442a66a9b95d0818365c78e06f5c8d22e3c003852b4b",
+      "status": "checked",
+      "line": 252,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.two_multiple' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.two_cosets": {
+      "sha256": "eaa8d0ee97eaca9c68215810e1219c782989d43946dda50f40880c7357712822",
+      "status": "checked",
+      "line": 259,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.two_cosets' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.residue_constants": {
+      "sha256": "0ced8108a596a0709432c9c309506bb11f14b75386b1848761d7688981450cb7",
+      "status": "checked",
+      "line": 287,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.residue_constants' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.kernel_is_uniformizer": {
+      "sha256": "b05f36aed07ef1ea15bc0ad8ff7b21527f18a28d19c47f32134d067163c665d2",
+      "status": "checked",
+      "line": 298,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.kernel_is_uniformizer' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.PrimeAboveTwo": {
+      "sha256": "8166844865ac6b23ede8041f961015ea86428e94e07990a490764d905cc55fc4",
+      "status": "checked",
+      "line": 313,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicRamification69.residue_prime": {
+      "sha256": "7930651cb911d3143183f4ce9f813794f129f7cf673ecfaa7b9fdf9f2df24c59",
+      "status": "checked",
+      "line": 321,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.residue_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.uniformizer_mem": {
+      "sha256": "64262825084dedfc3fe5beaa4b47e29c434043c5b953dd5fd6a63bf6b830da98",
+      "status": "checked",
+      "line": 338,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.uniformizer_mem' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.unique_prime": {
+      "sha256": "bac2f225c28bf300f397a61c7dcec3028364e7890064f6ace5c73d3645794d50",
+      "status": "checked",
+      "line": 356,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.unique_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.half_order_of_primitive": {
+      "sha256": "0dbfd1457ac9d86c48944841f68bea9db49f2e71866613f689c9e231c5a1a8aa",
+      "status": "checked",
+      "line": 372,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.half_order_of_primitive' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.lower_root": {
+      "sha256": "bab1bf9dff3beef38b0cbf969ed2c6cde90656fed676fe17a3e293ca6717a481",
+      "status": "checked",
+      "line": 380,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.lower_root' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.transition": {
+      "sha256": "31ade1d84980442ca1322e67826b211c6176c77d349ba456d065f6d5d1a8f7cc",
+      "status": "checked",
+      "line": 384,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicRamification69.residue_transition": {
+      "sha256": "c5d7904951571cfaf87ca48c305cd02228e7e62877cbfad30ab75c31fd308251",
+      "status": "checked",
+      "line": 386,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.residue_transition' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.compatible_primes": {
+      "sha256": "f3e188c23fc81bbd5c89142efb348c0fb23c134c29349548fb418bb6ac32384d",
+      "status": "checked",
+      "line": 401,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.compatible_primes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.integral_unit_polynomials": {
+      "sha256": "9ceabbe71838428b896806ac16dec9e3d684224f06178b9d2fdadd39be131fe6",
+      "status": "checked",
+      "line": 407,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.integral_unit_polynomials' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.generated_order_prime": {
+      "sha256": "c42ce940ec9601e466e9d30c878b5ffba7a2c12bde142ea7933ab4738f80e25f",
+      "status": "checked",
+      "line": 429,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicRamification69.generated_order_prime' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "DyadicCyclotomicRamification69.complete": {
+      "sha256": "242f81bc82b7304b4f5728d2b4df8f85cd144f71887f9591bc82178bcce88eea",
+      "status": "checked",
+      "line": 435,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/DyadicRealLayer.lean": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

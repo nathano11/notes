@@ -1,0 +1,201 @@
+{
+  "steps": {
+    "SignedProduct.product_as_difference_of_squares": {
+      "sha256": "76a1dbec224a2cb3a2ff4fefdd2a3d6e223fc5bfd324e137fd16a3753448a968",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProduct.product_as_difference_of_squares' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProduct.complete": {
+      "sha256": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+      "status": "checked",
+      "line": 176,
+      "local_sources": {
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedProduct.numerator_bezout": {
+      "sha256": "b1a3a9885f3e9da80795e890f1140364b29e31f0b7a90a6eb86ab8b49c0af2e6",
+      "status": "checked",
+      "line": 18,
+      "local_sources": {
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProduct.numerator_bezout' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProduct.common_divisor_iff": {
+      "sha256": "7b863eb0f93fbd91ff7759ecd0ffa6b08e86ea92a27ab3977fe4ffd1afc7108d",
+      "status": "checked",
+      "line": 24,
+      "local_sources": {
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProduct.common_divisor_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProduct.exactV_mul": {
+      "sha256": "51d46f5cb2db562874acb8d60c96c838ca4da41a4592a6f2f8fa085f6aab23e3",
+      "status": "checked",
+      "line": 51,
+      "local_sources": {
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProduct.exactV_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProduct.twoPower_dvd_iff": {
+      "sha256": "11f9c7f8d3884cbecfa7a5569980e39c7bf60129db0a0e79f0d2aa6646481a70",
+      "status": "checked",
+      "line": 60,
+      "local_sources": {
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProduct.twoPower_dvd_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProduct.exactV_unique": {
+      "sha256": "1673a005ee871af1adcd3167ceba8c042607584760232b97900bacb33c5f5833",
+      "status": "checked",
+      "line": 84,
+      "local_sources": {
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProduct.exactV_unique' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProduct.product_by_weight": {
+      "sha256": "8f3d7ec4683f2863667b3f9dba7761e33065318fb36bcba68227dde79aacb36c",
+      "status": "checked",
+      "line": 92,
+      "local_sources": {
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProduct.product_by_weight' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProduct.product_valuation_spectrum": {
+      "sha256": "a34bee856049c9729b8d68d60fce919f1b01563d92a391873201626dc6584307",
+      "status": "checked",
+      "line": 111,
+      "local_sources": {
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProduct.product_valuation_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProduct.order_from_product": {
+      "sha256": "1aff7f068d86c1f206d8ed8b8aeeeb8b79e004f867bba852cf8aa1707f8c025e",
+      "status": "checked",
+      "line": 129,
+      "local_sources": {
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProduct.order_from_product' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProduct.odd_divides_twice": {
+      "sha256": "c1f3d69f3b1c37838f5484bf252413f8e3001b379e288c9abbdc6b1191d5c9fd",
+      "status": "checked",
+      "line": 142,
+      "local_sources": {
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProduct.odd_divides_twice' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProduct.numerator_at_two": {
+      "sha256": "3a3fb12382299fe2cde7581b679aec40cb64a325f299bca05bc4bd827c081ebd",
+      "status": "checked",
+      "line": 151,
+      "local_sources": {
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProduct.numerator_at_two' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProduct.common_odd_divisor_iff": {
+      "sha256": "7dba9395d0a60f5bbba2dcaf0635fd7aceadc0b8fa464f70d67767daf19a761b",
+      "status": "checked",
+      "line": 158,
+      "local_sources": {
+        "Reimann/PairedOrders.lean": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b",
+        "Reimann/PairedSigns.lean": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedProduct.common_odd_divisor_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

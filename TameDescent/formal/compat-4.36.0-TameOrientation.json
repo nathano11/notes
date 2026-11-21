@@ -1,0 +1,41 @@
+{
+  "steps": {
+    "TameOrientation.dual_action": {
+      "sha256": "5e100cf03540b4d84651f880f0d0976389d0e76b7530309567755e50e6c74161",
+      "status": "checked",
+      "line": 7,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameOrientation.dual_action' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameOrientation.other_line_zero": {
+      "sha256": "c04437067554919047a678e8915651c6d34db8aa72e7848cf98819eee217f722",
+      "status": "checked",
+      "line": 18,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameOrientation.other_line_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameOrientation.weight_one_inverse": {
+      "sha256": "18ffcedc1af381dc0c9106605536cad49813b0bcf2e869d72d6953c6def86129",
+      "status": "checked",
+      "line": 26,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameOrientation.weight_one_inverse' depends on axioms: [propext]"
+    },
+    "TameOrientation.weight_one_dual": {
+      "sha256": "1f2df68c2fa5358f3e1fd01d86620fb9d7b806b6f98c2ecaac5cb5fb1a2094ce",
+      "status": "checked",
+      "line": 30,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameOrientation.weight_one_dual' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameOrientation.complete": {
+      "sha256": "0b0c8eecb3c7510ad8332316e9fc16bce0c2bded0ec02950c8812d4b412ef60b",
+      "status": "checked",
+      "line": 36,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

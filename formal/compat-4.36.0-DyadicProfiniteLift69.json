@@ -1,0 +1,95 @@
+{
+  "steps": {
+    "DyadicProfiniteLift69.finite_survivor": {
+      "sha256": "3f27dbbe41b69e984873a08ece1eaccdea3c759369a96f773afa081bd70699fc",
+      "status": "checked",
+      "line": 11,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicProfiniteLift69.finite_survivor' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicProfiniteLift69.Descends": {
+      "sha256": "18ef8e2c2b0392f0921ca224bf42c65f7e693b773fe9ac51526c34f20ee506eb",
+      "status": "checked",
+      "line": 31,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicProfiniteLift69.descend_trans": {
+      "sha256": "e547174520d2e279a167c3c7833b650560e188b975d1e5fd732dfba594a0c993",
+      "status": "checked",
+      "line": 37,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicProfiniteLift69.descend_trans' does not depend on any axioms"
+    },
+    "DyadicProfiniteLift69.ancestor_at": {
+      "sha256": "191f566080eaccbfa428518daa07cf137c424a8e288aa89c5aed4c9f42b32197",
+      "status": "checked",
+      "line": 44,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicProfiniteLift69.ancestor_at' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicProfiniteLift69.ancestor_mem": {
+      "sha256": "50787e9d547d4516ec246a001abccc9799d0709eba74a778afa4b9dcc05c745d",
+      "status": "checked",
+      "line": 56,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicProfiniteLift69.ancestor_mem' does not depend on any axioms"
+    },
+    "DyadicProfiniteLift69.Reaches": {
+      "sha256": "75e577d4bd94c0ab3838fda60c6b13e833e4dbce4eefc28d8e9e0f3e66ca8142",
+      "status": "checked",
+      "line": 63,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicProfiniteLift69.reaches_weaken": {
+      "sha256": "704538cf2de3475b49b0ff576eb8f6fc8bffef7f23282c79485e8908ede8ce1c",
+      "status": "checked",
+      "line": 67,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicProfiniteLift69.reaches_weaken' does not depend on any axioms"
+    },
+    "DyadicProfiniteLift69.first_child": {
+      "sha256": "9405403028da6ce56e04a0a3b89c45d3ba7628134d5839cf0003642e5b7590db",
+      "status": "checked",
+      "line": 73,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicProfiniteLift69.first_child' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicProfiniteLift69.root_survives": {
+      "sha256": "9cbe17be810811df44961018ef523328dde88ce829c33b49f0e6de96e58c1fff",
+      "status": "checked",
+      "line": 80,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicProfiniteLift69.root_survives' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicProfiniteLift69.surviving_child": {
+      "sha256": "5beac736e869aee1120e9946d0e956f5839ae28efd36831f49a4b2e4b35c8c15",
+      "status": "checked",
+      "line": 90,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicProfiniteLift69.surviving_child' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicProfiniteLift69.coherent_lifts": {
+      "sha256": "3b016cb4e94700476884e4e75eefe7371ab86db5b1d95b5b5365f25fd1b315fa",
+      "status": "checked",
+      "line": 105,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicProfiniteLift69.coherent_lifts' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicProfiniteLift69.prescribed_prime_lifts": {
+      "sha256": "f27e3bac0908a2d55937a4ffb359dd6683ed29cc24c61e0e28e4359d8ad0ab8e",
+      "status": "checked",
+      "line": 121,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicProfiniteLift69.prescribed_prime_lifts' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicProfiniteLift69.complete": {
+      "sha256": "e0648fa32440d9d62735f93668ee427d75878b2225bd2867fb6fcf8cbd6219e6",
+      "status": "checked",
+      "line": 143,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

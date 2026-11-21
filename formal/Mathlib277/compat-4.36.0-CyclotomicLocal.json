@@ -1,0 +1,274 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.AbsoluteDecomposition": "2097d8377c5c7459b1c5bc0fc16ebe4fec5847e5fd4d42d49b7a4c7fc62d015e",
+    "Reimann277.CyclotomicReduction": "dd25d98efd45c6ac5be439576866db9932c264d85ce4cb36a13fa2b8ec8069d6",
+    "Reimann277.CyclotomicRoots": "7fd154cc71d8b6a95ae46966cd027347b73abe0d2ccc3c52d445cdc9112184de",
+    "Mathlib.FieldTheory.Galois.Infinite": "fafd7393bb3ae8c704964fa1b3b00a91c9fc2590ff9e415f467a358c4635ccc0",
+    "Mathlib.NumberTheory.Cyclotomic.CyclotomicCharacter": "884abf82e78e5d2ee5411a67c913591cc309afca5b35ef3d53fd958aaf7b5837",
+    "Mathlib.Topology.Algebra.Group.Units": "391461914e60edcef38dadb7db8776c5fc36d3e43915fe0ea93ffbcba43fd4a7",
+    "Mathlib.Topology.Algebra.Group.ZPow": "cb68d6e276f157a861f1f8314612ed32ea28e271d6ce4d86f82d74924394b1bd",
+    "Mathlib.Topology.Instances.ZMod": "be5db6a7ac3268e4bff4e1efbd48b2ab13e7da12440e22930a2f3688660c7e4b",
+    "Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure": "5bee948d1b475ea3c1ed28dad07788cfdd23259aaaace34ab8d59ab07fbdef90",
+    "Mathlib.FieldTheory.Separable": "274c40c3dc56b66b9c8979e997ec57b0710402078a0189810fe6be7c50be4637",
+    "Mathlib.RingTheory.RootsOfUnity.EnoughRootsOfUnity": "ab5ce55bcd415154e61fe2217b355a51031ddb39d43015616a03c3fc9c4f4053",
+    "Reimann277.PadicInteger": "b9528953f8045b5009ec90a0e7d305b4807d566fb2a50eb222fd24ff0d488f48",
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Reimann.TameLimit277": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+    "Reimann.TameLocalOrders277": "7596b78ef21b0c5280340bd64566b0602408339c991da705e9cf24d97837dd18",
+    "Reimann.TameArithmetic277": "48e0882aeffd38210c101bceab1e5aafefd3c877b7bafc39567fb2b0ad592b54",
+    "Reimann.TameOrderCompletion277": "4f13588caa002782d7596a41dc4430d15f584506829b6e7cc3c5beb951f47cfd",
+    "Reimann.TamePrimePowers277": "9c5db0aad6d6d16ef27a54edf4fa99d8283bf17cc04157dc8955f41fc1adda6c",
+    "Reimann.TameOrderPrimes277": "847a93ca9be19999dca67c119cc95e685f21fd8f3956100065a73bc8b521336b",
+    "Reimann.TameFiber277": "7d07f4bd543ccecef281e086cbc1d023250657743c14eb5d5e5a0884442650d2",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.TameOrderReduction277": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+    "Reimann277.PadicEmbeddings": "9b170d977d243dd5ef8a465ef9a9bea343438cb0ea3bda092c8aed013ce2c9a8",
+    "Mathlib.FieldTheory.AbsoluteGaloisGroup": "e7746c2ccccbe078b0f2fa2e1ebe6016737f3a603542c2281d530f9ca0d96c20",
+    "Reimann277.Biquadratic": "1eecf3556b0b3cbf21ff1704cade538325a07227d454a3ade53283149eb974df",
+    "Reimann.TameSignedEmbeddings277": "3fd66f8a13aff48d00713431797d6f628c25abc54f4c7023f7c93ca2e483d588",
+    "Reimann.TameEmbeddings277": "7c184751698ce48d191a56ef92f45ca365f177a4cab5a4f52c9c29bcee50b5c7",
+    "Reimann.TameLimitRoots277": "cf5d2f76685ac0c2b3a7527dd65304d36462bc6502b0484e661782ba519abd57",
+    "Reimann.TameOrderFaithful277": "371738ead39dfaf6910c6fe1737e3a192e11812c07cf508fdd0b28ba0bb43d2f",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Reimann.TameRootExhaustion277": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+    "Reimann.CyclicBoundary": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+    "Reimann.CyclotomicNorm": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+    "Mathlib.Algebra.Algebra.Hom": "cb23985743d69ab47c814e821ec7620d49ce642073d96ea0016b5f48fd5dd445",
+    "Mathlib.Algebra.Algebra.Rat": "27a6444a720f4100b0a93140231049882e266bacef7f4c6bb8c7a1374cc6561b",
+    "Mathlib.Algebra.Field.MinimalAxioms": "5a4f6a6ce4037663e35257965bd052a4fa36d040c7bc7ad7eed074e9dd1a2872",
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb"
+  },
+  "steps": {
+    "CyclotomicLocal.fact277": {
+      "sha256": "19d36d626bb438d49b57623c7c714adeb91e56fa8c5ad0da67e6fd209aee269a",
+      "line": 15,
+      "status": "checked"
+    },
+    "CyclotomicLocal.Scalars": {
+      "sha256": "6a7e97aca102fa8c39c0073aa3aa4fed536e5d248ac49c0eeb841ebfca60a5ff",
+      "line": 17,
+      "status": "checked"
+    },
+    "CyclotomicLocal.fieldCharacter": {
+      "sha256": "e3580e33f307b320ae430491153b99c96dc26f5ccd9dde53d3e14e58e66b1a3e",
+      "line": 20,
+      "status": "checked"
+    },
+    "CyclotomicLocal.cyclotomic": {
+      "sha256": "d3926586e315246401078d6d0128012716bc414837ea20971c09f6f813223810",
+      "line": 26,
+      "status": "checked"
+    },
+    "CyclotomicLocal.enough_roots": {
+      "sha256": "64c802715914a9d1b71a8b1713058de4cf82865e3fe4bcb302316c114e3ffed8",
+      "line": 28,
+      "status": "checked",
+      "checker_output": "'Reimann.TameCyclotomicLocal277.enough_roots' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.reducedCharacter": {
+      "sha256": "c2bc476f724e3b6f4ab94f0f0c078f984a694e59e0ed8d914fb5389a18c97c5f",
+      "line": 31,
+      "status": "checked"
+    },
+    "CyclotomicLocal.finiteCyclotomic": {
+      "sha256": "2552d67738e564a7517bac8fbf2e937f31d53cd9eb9840bcbdd63422ea48e37b",
+      "line": 38,
+      "status": "checked"
+    },
+    "CyclotomicLocal.localFiniteCyclotomic": {
+      "sha256": "305af5495d18865d028439111d5225ad952bcf2e0dabc3e83ed15ecf4af0ecaf",
+      "line": 40,
+      "status": "checked"
+    },
+    "CyclotomicLocal.field_root_action": {
+      "sha256": "fc3bb8102b296ab8493e99d98fe07909d6fe8ab4f3600fdf5346634b316099ff",
+      "line": 42,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.field_root_action' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.root_action": {
+      "sha256": "dab778add2a60d43d8670af5ddf38ce79bbc097534a62dabcb43377e6f9a7674",
+      "line": 50,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.root_action' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.finiteCyclotomic_value_of_action": {
+      "sha256": "9ea90827e70be36ff3aa5d5e97cf02f1d0eeb53303b7910f30a1943945273fc6",
+      "line": 56,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.finiteCyclotomic_value_of_action' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "CyclotomicLocal.finiteTwist": {
+      "sha256": "3a68f0613c3e224ae9d15a841006c19afc4d15551f1a28435f7bde2dd7ef091b",
+      "line": 66,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "CyclotomicLocal.finiteTwist_apply": {
+      "sha256": "508e897dcd65c7740bccc5e195ef6d9e6466c3378c1ffaeb1f2a4854d8076a51",
+      "line": 72,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.finiteTwist_apply' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.globalKernel": {
+      "sha256": "e10e1001f7ba339fbf1439cb021d2d404f617b6efd9dafb5d6300dcf303b86fd",
+      "line": 75,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "CyclotomicLocal.mem_globalKernel_iff": {
+      "sha256": "8d1fd0f42aaf600308ba4bfa53a09500774be2a976f951f6530a3819da77269b",
+      "line": 77,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.mem_globalKernel_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.globalKernelNormal": {
+      "sha256": "13d16b2a8330ad4923340b04a67cfb858a6b372df7366e4ff416eea1ba39f90c",
+      "line": 80,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "CyclotomicLocal.globalKernel_open": {
+      "sha256": "8816e7e3c6d4e7458d25d30823ba46806e8850aa8ac09dc6b47762ed73c10821",
+      "line": 83,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.globalKernel_open' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.globalKernel_closed": {
+      "sha256": "ac439b0d457a995b155f6cfcadce52847dff7010b8940822c72b9852dc53d062",
+      "line": 86,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.globalKernel_closed' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.cutField": {
+      "sha256": "ba41424d36c66f79683255920924aede75bb66c3273b2ad37188a3f02fb33a00",
+      "line": 89,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "CyclotomicLocal.cutField_fixing": {
+      "sha256": "8bbb9005aaa84aaf9b193a34c2e7ebe0bb494dbb7aa0d3292564746c59dafddc",
+      "line": 92,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.cutField_fixing' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.cutField_finite_galois": {
+      "sha256": "a0d23741e09f5dfacebeecae9778b3b802773e2e06d9802126017f51c58924bd",
+      "line": 97,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.cutField_finite_galois' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.cutField_isAlgClosure": {
+      "sha256": "69be3e96d795fcd9db2fd2c86f2544ea4ee443af8fc9b2cd4be887e90ca66067",
+      "line": 103,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.cutField_isAlgClosure' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.kernelAutEquiv": {
+      "sha256": "edc8d2076af2d5f2c71d3b3a441a943541616be276a38384d8c48969acd8a0ce",
+      "line": 108,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "CyclotomicLocal.kernelAutEquiv_apply": {
+      "sha256": "b43291d7b7d8449a8ae65148010fab960c59a1a1edd5bf7de8437182c5fd8e43",
+      "line": 119,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.kernelAutEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.kernelAbsoluteEquiv": {
+      "sha256": "66d027edb77ac795ffbf26b52f5eae8a2e22bb0df28a01512deb76fd71cba83f",
+      "line": 123,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "CyclotomicLocal.restriction_finiteCyclotomic": {
+      "sha256": "fdeff3b9ce276870517cb35286d69075f46aec0c052a62de8d8f4ea555fca816",
+      "line": 130,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.restriction_finiteCyclotomic' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.local_twist_value": {
+      "sha256": "72c108524dfc0403143f948abe08ea2a5b73fdb46fc1e0d65e236051757267ea",
+      "line": 136,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.local_twist_value' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.localKernel": {
+      "sha256": "b60617986e7b424920ec1e7109a87d9261092c955911240b40663b0b9f24daf2",
+      "line": 140,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "CyclotomicLocal.mem_localKernel_iff": {
+      "sha256": "2a2c513581e8de84ad11b476464f0e1fe5f800440d8edadc042548b9646435c8",
+      "line": 143,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.mem_localKernel_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.localKernel_open": {
+      "sha256": "e7632f4ecbc4149d71a4dc3d99e5d8f5d0b34db80510dc214446f7226b2986a0",
+      "line": 146,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.localKernel_open' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.localKernel_intrinsic": {
+      "sha256": "d77701752664100788a74f4c9f47c66c894ccfe7b9c03269c8b4409595ec18d0",
+      "line": 150,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.localKernel_intrinsic' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.localKernel_same": {
+      "sha256": "7e51e636a01e040f0598f36639edbcea139241fa2cbc95ce5b627e4376196b5c",
+      "line": 154,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.localKernel_same' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.upstairsRestriction": {
+      "sha256": "0b27b0c7933b24085e8e035c1cec4cc8706766d08183b018ef07f1b4c6d8aa44",
+      "line": 159,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "CyclotomicLocal.upstairsRestriction_value": {
+      "sha256": "dd8349daec0420ddc43c0dbee38f06ae723c541133d6b6f0c49442faefe109bc",
+      "line": 165,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.upstairsRestriction_value' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.conjugatedRestriction": {
+      "sha256": "d848627b9bb1b58c7e475a3091cb2727a1536314515a2975733af62f33024cb5",
+      "line": 169,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "CyclotomicLocal.conjugatedRestriction_value": {
+      "sha256": "44c52d8868842f7286527f592abe48c98992db6340693d100e163cb1c9dd1618",
+      "line": 182,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.conjugatedRestriction_value' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.atPlaces": {
+      "sha256": "02f81bbd0e16fee07c5717930eee5e03ba9d382aebe0bb58f21e9914df5f9dec",
+      "line": 186,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "CyclotomicLocal.mem_atPlaces_iff": {
+      "sha256": "02798a8656f9db456ee4139dd2a229d338b5d704ddaedfd88612d01120b2bb2a",
+      "line": 189,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.mem_atPlaces_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicLocal.complete": {
+      "sha256": "ca140020b91eeac1575009c60e0384bef882f77dcca7fa9cf9c9179fb1357830",
+      "line": 193,
+      "status": "checked",
+      "checker_output": "<stdin>:45:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:59:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    }
+  }
+}

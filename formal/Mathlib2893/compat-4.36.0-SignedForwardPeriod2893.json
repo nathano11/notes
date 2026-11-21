@@ -1,0 +1,43 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann2893.SignedFieldLayers2893": "e5d1cec02d6adbf207557994b67a9e234dea14dc914ba1726c0dded18b86d735",
+    "Mathlib.Algebra.QuadraticAlgebra.Basic": "a290cb1668536c7e63cf0f109c82e9621e26d3e8fd3924fe46813c5846d21eea",
+    "Mathlib.Data.Rat.Sqrt": "43a8685ebc47faaf47a484b3714d9266dfcb7d99fc168c82dc7049d5a7ce2e2c",
+    "Mathlib.Tactic.Linarith": "93dc12bfc3fc322fc4ed054e013bdaba10b97da70f02f3eb2f177512e6a3f373",
+    "Mathlib.Tactic.NormNum": "480ebc7f2e8d9370016d90be1babe5c26d8bfa3f597e0fa8fcd718528133826c",
+    "Mathlib.Tactic.Ring": "a8692039dfd1a85e1a1f422f0f9d6ec69ccc4ba24e829b034f94c2e435e815f4"
+  },
+  "steps": {
+    "SignedForwardPeriod2893.pow_include": {
+      "sha256": "193aa41fe6d53b11b75e13ba8d8a9912157fae98769edb2ef044d3e713afae1b",
+      "line": 8,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardPeriod2893.pow_include' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardPeriod2893.root_fixed_or_negated": {
+      "sha256": "19b2e28f273f78574d1e5267e927635d5df1efb458ee20f65755b844e69822ac",
+      "line": 15,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardPeriod2893.root_fixed_or_negated' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardPeriod2893.quadratic_square_trivial": {
+      "sha256": "dbb7cdc0d83a432a9002f14ae3337dd514a794f341a5a034522d9ba5fcc59915",
+      "line": 21,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardPeriod2893.quadratic_square_trivial' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardPeriod2893.forward_period": {
+      "sha256": "ba4926a04de6edb3d40074f6d900f065d9f73a9f015a7a1ac46ce3ae2dd1c312",
+      "line": 33,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardPeriod2893.forward_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardPeriod2893.complete": {
+      "sha256": "138daf69aefd8ff1e39fe32fbe22a3c7e21ec8937a8098dcf42d161d3ac7986d",
+      "line": 42,
+      "status": "checked"
+    }
+  }
+}

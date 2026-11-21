@@ -1,0 +1,130 @@
+{
+  "steps": {
+    "FixedClassDescent.QuadraticMaps": {
+      "sha256": "3a1fcfba98d23c7e08ad3d19e2d26488cf5e6e0855c50d2fa123057899f919a5",
+      "status": "checked",
+      "line": 15,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      }
+    },
+    "FixedClassDescent.extend_fixed": {
+      "sha256": "2c2fba4c2cdf8986142c085ea04ba1e4027922f766de9defb6f22a85e92a9889",
+      "status": "checked",
+      "line": 23,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "checker_output": "'Reimann.FixedClassDescent.extend_fixed' does not depend on any axioms"
+    },
+    "FixedClassDescent.half_double": {
+      "sha256": "09c1dab88fcaebb28347b3d56b7c72b9a1993810b55ac88705b3fb183e12c4a0",
+      "status": "checked",
+      "line": 31,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "checker_output": "'Reimann.FixedClassDescent.half_double' depends on axioms: [propext, Quot.sound]"
+    },
+    "FixedClassDescent.fixedGroup": {
+      "sha256": "0432a6c3d76d253a5ab99bd8113fc29ab122eb85d4a1ce8edc2c92776d29e642",
+      "status": "checked",
+      "line": 40,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      }
+    },
+    "FixedClassDescent.extendToFixed": {
+      "sha256": "45a24a533c200fe0739dc766ab6fcaa526321f48a7927ab23f3fa14a6253bda5",
+      "status": "checked",
+      "line": 51,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      }
+    },
+    "FixedClassDescent.halfNorm": {
+      "sha256": "ca311a24e24351f5bf5905a174c8ccdbf788daf7df00f517fd946b213081bec4",
+      "status": "checked",
+      "line": 59,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      }
+    },
+    "FixedClassDescent.halfNorm_extend": {
+      "sha256": "a0b23113e53da93ca68d22100af9d59a9cb169038221cde5a46e2945e2aa28b0",
+      "status": "checked",
+      "line": 63,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "checker_output": "'Reimann.FixedClassDescent.halfNorm_extend' depends on axioms: [propext, Quot.sound]"
+    },
+    "FixedClassDescent.extend_halfNorm": {
+      "sha256": "3e20b9b51669ceeaf94e0c88851cfb27d344e56de44ebec662740ca5889fd6d9",
+      "status": "checked",
+      "line": 70,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "checker_output": "'Reimann.FixedClassDescent.extend_halfNorm' depends on axioms: [propext, Quot.sound]"
+    },
+    "FixedClassDescent.fixedClassBijection": {
+      "sha256": "902fe560bd788fa77fd6cb40bf15bb2a099062bb892b6f6f1029573508eef2be",
+      "status": "checked",
+      "line": 79,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      }
+    },
+    "FixedClassDescent.halfNormHom": {
+      "sha256": "9f5ffb50dd548677645a8273f67caf598c06f79a83258c52ed81e783894daf6b",
+      "status": "checked",
+      "line": 91,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      }
+    },
+    "FixedClassDescent.odd_power_exponent": {
+      "sha256": "bb00ff9c622b48123924acaeb48a15208aed7e34d8c0731d519c2aebec8d7aa6",
+      "status": "checked",
+      "line": 112,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "checker_output": "'Reimann.FixedClassDescent.odd_power_exponent' depends on axioms: [propext, Quot.sound]"
+    },
+    "FixedClassDescent.fixedClassIsoAtOddPower": {
+      "sha256": "0ccf9d3f71ae1819a9fe1579dd005442d065a354b4e564c62f9a877ee39731d2",
+      "status": "checked",
+      "line": 120,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.FixedClassDescent.fixedClassIsoAtOddPower' depends on axioms: [propext, Quot.sound]"
+    },
+    "FixedClassDescent.complete": {
+      "sha256": "9a297e4403c6e30c8dc563a21cfc9c2e803677f061cffeb574d0fd387dd5f978",
+      "status": "checked",
+      "line": 135,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

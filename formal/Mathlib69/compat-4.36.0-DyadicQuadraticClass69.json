@@ -1,0 +1,94 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.Algebra.QuadraticAlgebra.Int": "d57ee01e3b2455e947f1b1530acac99fa1f92eb0d9cae7d13af9635f24262ae3",
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33",
+    "Mathlib.RingTheory.Ideal.Operations": "3c1ceedafcfb54bef94dc0ce3ee19ce1320a817e24516209f50ba9fc2ecef6c0"
+  },
+  "steps": {
+    "DyadicQuadraticClass69.Order": {
+      "sha256": "7d9ed1ef8f03255e06363ecac5b927c5e9431d791619bceddf6c38c9d99d16f8",
+      "line": 10,
+      "status": "checked"
+    },
+    "DyadicQuadraticClass69.Field69": {
+      "sha256": "af130bba6a768b7797812a7a82895ebb9d0fcad66fe47fb714fd93809a57b03d",
+      "line": 11,
+      "status": "checked"
+    },
+    "DyadicQuadraticClass69.rat_discriminant_nonsquare": {
+      "sha256": "9fcd39a9a0c1fb5bd44b71d21b81c2a186c0f5e858225cbb9a01d509d12e662d",
+      "line": 13,
+      "status": "checked"
+    },
+    "DyadicQuadraticClass69.number_field": {
+      "sha256": "4835d35dacc658ec53fa7b899422bf690141a8e9c7cb7d5fda3ded2e3239ca0e",
+      "line": 19,
+      "status": "checked"
+    },
+    "DyadicQuadraticClass69.fundamental_discriminant": {
+      "sha256": "8b447652fd7cb678ae2dd116201727fe68bcb769bce408f0a7df06af5a86bc9d",
+      "line": 21,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicQuadraticClass69.fundamental_discriminant' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicQuadraticClass69.ring_of_integers": {
+      "sha256": "50249c21068b5055a3767646dbee25d69e6fddcd4d4d8d26101404e74c93138a",
+      "line": 31,
+      "status": "checked"
+    },
+    "DyadicQuadraticClass69.s": {
+      "sha256": "7ff926cea1869638c697c95c41e096751feccd1893980767d9a5290e9921fc1f",
+      "line": 35,
+      "status": "checked"
+    },
+    "DyadicQuadraticClass69.s_squared": {
+      "sha256": "45a59442660bd18f12d49ab4e7f22031416822f3e4111fcef0cd976ed4c88d22",
+      "line": 37,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicQuadraticClass69.s_squared' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicQuadraticClass69.common_generator_product": {
+      "sha256": "76181ad5d110ce762b24e0d19340ac208b320832911843136ebf0fb620f3cb8c",
+      "line": 47,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicQuadraticClass69.common_generator_product' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicQuadraticClass69.primeIdeal": {
+      "sha256": "165c13e9caf0dc989f44df2f51a5841073245d4be1dd12e1fc6f93cbbd0506e8",
+      "line": 77,
+      "status": "checked"
+    },
+    "DyadicQuadraticClass69.primeIdeal_shift": {
+      "sha256": "94605a2990b2fe8dceb3e802ea5d4e3918f955b1472196203b7802ff69b5915e",
+      "line": 80,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicQuadraticClass69.primeIdeal_shift' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicQuadraticClass69.primeIdeal_mul_of_coprime": {
+      "sha256": "e6e87c3361e451caf18a7e8df5490c4fbf91be728054dc92f49ceda5edccaa86",
+      "line": 86,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicQuadraticClass69.primeIdeal_mul_of_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicQuadraticClass69.primeIdeal_norm_generator": {
+      "sha256": "ea32ec3503b167cf913bc196927abfa2877acb45094eacb8c35392c3e9909e67",
+      "line": 92,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicQuadraticClass69.primeIdeal_norm_generator' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicQuadraticClass69.factor_minus_one": {
+      "sha256": "bdcdc17cb0a127d8e26e1b6f4b0e7d1dd3c3b61621c982f10f2147c90d54e717",
+      "line": 108,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicQuadraticClass69.factor_minus_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicQuadraticClass69.factor_plus_six": {
+      "sha256": "a95ee2d5584aeee7ab404e026fd3f138e4ecc62a10854caeb019558c721533ac",
+      "line": 115,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicQuadraticClass69.factor_plus_six' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    }
+  }
+}

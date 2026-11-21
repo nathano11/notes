@@ -1,0 +1,90 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.PadicEmbeddings": "9b170d977d243dd5ef8a465ef9a9bea343438cb0ea3bda092c8aed013ce2c9a8",
+    "Mathlib.FieldTheory.AbsoluteGaloisGroup": "e7746c2ccccbe078b0f2fa2e1ebe6016737f3a603542c2281d530f9ca0d96c20",
+    "Reimann277.Biquadratic": "1eecf3556b0b3cbf21ff1704cade538325a07227d454a3ade53283149eb974df",
+    "Reimann277.PadicInteger": "b9528953f8045b5009ec90a0e7d305b4807d566fb2a50eb222fd24ff0d488f48",
+    "Reimann.TameSignedEmbeddings277": "3fd66f8a13aff48d00713431797d6f628c25abc54f4c7023f7c93ca2e483d588",
+    "Reimann.TameEmbeddings277": "7c184751698ce48d191a56ef92f45ca365f177a4cab5a4f52c9c29bcee50b5c7",
+    "Reimann.TameLimitRoots277": "cf5d2f76685ac0c2b3a7527dd65304d36462bc6502b0484e661782ba519abd57",
+    "Reimann.TameOrderFaithful277": "371738ead39dfaf6910c6fe1737e3a192e11812c07cf508fdd0b28ba0bb43d2f",
+    "Reimann.TameLocalOrders277": "7596b78ef21b0c5280340bd64566b0602408339c991da705e9cf24d97837dd18",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.TameArithmetic277": "48e0882aeffd38210c101bceab1e5aafefd3c877b7bafc39567fb2b0ad592b54",
+    "Reimann.TameOrderCompletion277": "4f13588caa002782d7596a41dc4430d15f584506829b6e7cc3c5beb951f47cfd",
+    "Reimann.TamePrimePowers277": "9c5db0aad6d6d16ef27a54edf4fa99d8283bf17cc04157dc8955f41fc1adda6c",
+    "Reimann.TameOrderPrimes277": "847a93ca9be19999dca67c119cc95e685f21fd8f3956100065a73bc8b521336b",
+    "Reimann.TameFiber277": "7d07f4bd543ccecef281e086cbc1d023250657743c14eb5d5e5a0884442650d2",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Reimann.TameOrderReduction277": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+    "Reimann.TameLimit277": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+    "Reimann.TameRootExhaustion277": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+    "Reimann.CyclicBoundary": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+    "Reimann.CyclotomicNorm": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Mathlib.Algebra.Algebra.Hom": "cb23985743d69ab47c814e821ec7620d49ce642073d96ea0016b5f48fd5dd445",
+    "Mathlib.Algebra.Algebra.Rat": "27a6444a720f4100b0a93140231049882e266bacef7f4c6bb8c7a1374cc6561b",
+    "Mathlib.Algebra.Field.MinimalAxioms": "5a4f6a6ce4037663e35257965bd052a4fa36d040c7bc7ad7eed074e9dd1a2872",
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb"
+  },
+  "steps": {
+    "AbsoluteDecomposition.absolutePrime": {
+      "sha256": "5209ca81efea79fa15dd4885d788f2ee4787f1bd80fbff9ab1f840c4748673c3",
+      "line": 8,
+      "status": "checked"
+    },
+    "AbsoluteDecomposition.Global": {
+      "sha256": "b2907676c6789bf629ec448a7bccbf8334eec76e62182e50c30123fa4194eeff",
+      "line": 10,
+      "status": "checked"
+    },
+    "AbsoluteDecomposition.Local": {
+      "sha256": "6cc53d97882ebbfd43ffd7bfbb82282b166103cd58b508f421b232683cb734ad",
+      "line": 12,
+      "status": "checked"
+    },
+    "AbsoluteDecomposition.asAut": {
+      "sha256": "c81463fe6d1897dcd30c9ec6ab814a49f2c155f3549c2b7bae85b72b608ffa19",
+      "line": 14,
+      "status": "checked"
+    },
+    "AbsoluteDecomposition.restriction": {
+      "sha256": "7a104a0dca99861ea657907bc78f1fd94a71dee95c1f06ab4aadc80cffd4af31",
+      "line": 19,
+      "status": "checked"
+    },
+    "AbsoluteDecomposition.closureEmbedding": {
+      "sha256": "c8c4e414b51a28036b24a6e9a0609e14eda04973b6bcbc8ed5e9881ce022a199",
+      "line": 23,
+      "status": "checked"
+    },
+    "AbsoluteDecomposition.closureEmbedding_on_base": {
+      "sha256": "eb3ec82c0b9046107c45d8a7591f2b0f1e471355d79faf70b0ef58d61aab834b",
+      "line": 28,
+      "status": "checked",
+      "checker_output": "<stdin>:31:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.closureEmbedding_on_base' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "AbsoluteDecomposition.restriction_commutes": {
+      "sha256": "b5c0d8a43b256fc713bbb9758652b89e1040df3c16f484acf7399bad8fcf958b",
+      "line": 35,
+      "status": "checked",
+      "checker_output": "<stdin>:31:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:37:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:39:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.restriction_commutes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "AbsoluteDecomposition.restriction_root_action": {
+      "sha256": "e3f67095a6488f856021a7fb63e979eb8dac97be1a97dbebd30d6b022e2b7cba",
+      "line": 42,
+      "status": "checked",
+      "checker_output": "<stdin>:31:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:37:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:39:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameCyclotomicLocal277.restriction_root_action' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "AbsoluteDecomposition.complete": {
+      "sha256": "ba6a327ca53b4fda0bdcd1ff1b02be024ac0edc3df530d978166e951a83cbfb1",
+      "line": 51,
+      "status": "checked",
+      "checker_output": "<stdin>:31:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:37:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:39:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    }
+  }
+}

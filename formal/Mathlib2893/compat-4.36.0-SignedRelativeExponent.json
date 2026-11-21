@@ -1,0 +1,122 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.Data.Nat.ModEq": "43dc14da74d3b50da8146d08ad5457f9e231669c33edcf96a953ede1e02fe8e0",
+    "Mathlib.Data.Nat.Prime.Basic": "97f74d2c77f1627b741d988f9d08a0ee27fd2f4f36a84e68fa7da07898f91f92",
+    "Reimann.SignedCommonNormalization": "5305d61ecbfe2f301d7d337ad357145ac5add2fd67ef6dd8e9ab8173fb5758eb",
+    "Reimann.SignedBernoulliPairing": "4911070a6de4cf07e23dbb4d13322a5cc1f684f20bcf674fd38ad00aa69b18d0",
+    "Reimann.SignedTowerRows": "20b4fa08e4e4a298065caa2f229562bfac189446f9da2223ac69421809af26d3",
+    "Reimann.DyadicGammaDistribution69": "3154381d6cf91109f56acb15b8338dadc6e27e0710f30bcc5e84efec408b6a12",
+    "Reimann.SignedGammaTower": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+    "Reimann.DyadicProgression69": "e048e6d1f3f1470b13b1280bff4b28ff200878afafad1465783a2ec9ba4da99b",
+    "Reimann.DyadicHalfPrecision": "bed557109063035c046ffe70b02293bcda9e715c06a2b608348cb3854d5e332a",
+    "Reimann.DyadicDistribution69": "2faaecdbb4ed62d3a57d766e82df67ba721b7f646b2406dff3a4a505a9fff33b",
+    "Reimann.SignedProjection": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f",
+    "Reimann.DyadicZeroValues": "0a919675f48954a60f6aa6d4bd7eefa37a0268cd82a0c156dc159378fa076542",
+    "Reimann.Dyadic": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.DyadicSeriesProjection": "8da6ddb4e48eb78d3c55faff85f76849d57aca8bb304e222ce95f407f7ffd78e",
+    "Reimann.DyadicStickelberger69": "62a15b9d5aa2e3bd61c8bfb942493fce8065d0620705abc3026d13b17dbccf34",
+    "Reimann.DyadicClass69": "a1ac151c3f3d6ad9eab75b5378221c5a8e39211fd346102b6fedf3e32fb2a416",
+    "Reimann.DyadicOrder": "e853c84ff8ad9867dcc02660834a2ea9cfe195367e8deac0141bcc06a4862eea",
+    "Reimann.DyadicMoments": "f56765804b0990a222f4c3b34e6144be5429acc70600861c32f9f903d041bcbf",
+    "Reimann.DyadicLayers": "865f464a6f4dcda46926a0b1bb04ae193d0c7fc315f13f4bf980f57d00156113",
+    "Reimann.DyadicBottom": "c281688bff7fc68650e6b038c5135fca45b794bf62cce5edcabfcb09f655f245",
+    "Reimann.DyadicLattice": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+    "Reimann.DyadicQuotient": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+    "Reimann.DyadicCyclotomicImage": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+    "Reimann.SignedMeasure256": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+    "Reimann.Character2893": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+    "Reimann.WeightClasses": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+    "Reimann.SampleSpacing": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+    "Reimann.SignedStickelberger": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+    "Reimann.SignedTowerMeasure": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+    "Reimann.SignedCompletedAction": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+    "Reimann.DyadicEulerFactor": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c"
+  },
+  "steps": {
+    "SignedRelativeExponent.odd_coprime_dyadic": {
+      "sha256": "0de2d533533adf0a46f376a588865c08ef76c113eae8efeda9e47f565ac54d03",
+      "line": 9,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedRelativeExponent.odd_coprime_dyadic' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedRelativeExponent.relativeExponent": {
+      "sha256": "d5dcd0723f352141499391a5b2ffa33290550c22273818607227ee5fa0f2e5ef",
+      "line": 12,
+      "status": "checked"
+    },
+    "SignedRelativeExponent.exponent_congruences": {
+      "sha256": "86518ab0f5f3ea7294d1bda6e47d01fa63ed0b6abf979e98104faa927737abe6",
+      "line": 15,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedRelativeExponent.exponent_congruences' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedRelativeExponent.exponent_bound": {
+      "sha256": "640a0e02508d6ff8f1c00ddd5b0a7507f6351c0b8ed1e25340228191722ddf3a",
+      "line": 19,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedRelativeExponent.exponent_bound' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedRelativeExponent.fixes_conductor": {
+      "sha256": "44f74f98a747c93a8509bbdada239f1f08cb99721230490c0a6e1a98456a4466",
+      "line": 23,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedRelativeExponent.fixes_conductor' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedRelativeExponent.exponent_is_unit": {
+      "sha256": "4fb2e4367ceb10d53daf083b01d91b3cf21410e24e87d06d9a745036b2580432",
+      "line": 29,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedRelativeExponent.exponent_is_unit' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedRelativeExponent.exponent_unique": {
+      "sha256": "c08443476ab0e86841140482e724a28c9303f5772d868fc4fb43efe7995231a3",
+      "line": 40,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedRelativeExponent.exponent_unique' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedRelativeExponent.exponent_restricts": {
+      "sha256": "1d08b6a77d0534312e4db65ea0ebd2158d5c08f278afe17c9c27c33d9ad522b9",
+      "line": 47,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedRelativeExponent.exponent_restricts' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedRelativeExponent.character_at_five": {
+      "sha256": "141317d4a12c2285818ce0305b7a2c170c506cbb82d987c50106d6a9b29ce582",
+      "line": 56,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedRelativeExponent.character_at_five' does not depend on any axioms"
+    },
+    "SignedRelativeExponent.character69_at_five": {
+      "sha256": "5be005152b6b4c3947d8c8d4ec861c24dda86c669f4d229b3da7895d4736e732",
+      "line": 58,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedRelativeExponent.character69_at_five' does not depend on any axioms"
+    },
+    "SignedRelativeExponent.relative_lift_character": {
+      "sha256": "beb3a749c85814eb6568918eca9e6673777b9a2f337e1bf549121aeacb8c9b84",
+      "line": 61,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedRelativeExponent.relative_lift_character' depends on axioms: [propext]"
+    },
+    "SignedRelativeExponent.relative_lift_256": {
+      "sha256": "deb1f95a31e9002e78913e7239ae368bf479102640e726c926d9a827514819a3",
+      "line": 76,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedRelativeExponent.relative_lift_256' depends on axioms: [propext]"
+    },
+    "SignedRelativeExponent.conductor_examples_256": {
+      "sha256": "81b94aefed44552fda5946ef1d7b8e4b4778a130dbf21c3d3a64f662c3f2bfb8",
+      "line": 80,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedRelativeExponent.conductor_examples_256' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedRelativeExponent.complete": {
+      "sha256": "c2c815c8b4166ff71cc2dadc510b7f940d391495203c267b8036ca21a87804fc",
+      "line": 84,
+      "status": "checked"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.RingTheory.Frobenius": "9302662fe77379ca31affd35c4b0e0c54b10129873bbdc6559f20d0d358da114",
+    "Mathlib.RingTheory.Ideal.Norm.RelNorm": "ab089ddb28036f7de16275aef60717c4524acd75ffeba72caeabd8957ccdefce"
+  },
+  "steps": {
+    "DyadicNativeFrob69.frobenius_at_contracted_prime": {
+      "sha256": "1183b4f81cf292a5a2fe349b634750e8660b0d2bfdbf6653b3414d2b9d508134",
+      "line": 13,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.frobenius_at_contracted_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeFrob69.finite_above_of_finite_quotients": {
+      "sha256": "cc6d316fe1bffd36dd55a4a727418ae77d846687dff440eda4cc1b035993e1e2",
+      "line": 21,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.finite_above_of_finite_quotients' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeFrob69.exists_common_frobenius": {
+      "sha256": "527f8acd921120f25a64969669e08f7a53d095cf74d43be585c7cca177bf0d12",
+      "line": 29,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.exists_common_frobenius' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeFrob69.primeFrobenius": {
+      "sha256": "b76ed58f5a769a5cb06b8a3cac8a618f6028ee36e8b4e22c6438d5848cad07a5",
+      "line": 40,
+      "status": "checked"
+    },
+    "DyadicNativeFrob69.prime_residue_power": {
+      "sha256": "12c26b9061d8b4dd3bd5df81cdff896f7a47ec81b70c4f4bb3c2587b8f0da598",
+      "line": 45,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.prime_residue_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeFrob69.primeFrobenius_eq": {
+      "sha256": "318c30de7c55c4feba17d10533c9156767347f43cc392506630ec4b5e36c224d",
+      "line": 57,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.primeFrobenius_eq' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeFrob69.power_residue": {
+      "sha256": "1c0970cc7527aad80084305934b0e381acc9e063873fa733af3ad42987bd90ad",
+      "line": 67,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.power_residue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeFrob69.eq_of_residue_actions": {
+      "sha256": "32c020304bdc4e0dfd1198872e465b70d32fb8a7be2d90eace7dc11717523355",
+      "line": 79,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.eq_of_residue_actions' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicNativeFrob69.restriction_of_arithmetic_frobenius": {
+      "sha256": "d24560e8f02f9d552ed6640acfc96add18ab3b0bbacb6350dde8ecc79d592808",
+      "line": 89,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.restriction_of_arithmetic_frobenius' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "DyadicNativeFrob69.finite_above_of_finite_base": {
+      "sha256": "968b5543862f8e6a4135647b370c60609fbc993f8e8ba6716c022b521b0928af",
+      "line": 116,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.finite_above_of_finite_base' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeFrob69.lies_over_contracted_prime": {
+      "sha256": "235d0d6d00709483018dcdb68370ecea6bac56b0d6a0b2ac7a9e650ccfba9a75",
+      "line": 130,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.lies_over_contracted_prime' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicNativeFrob69.norm_and_restriction": {
+      "sha256": "0b6d0889c1bf8ec84c0539fa1c876bb4726c7cd8deca3b243d630b98ce3faf39",
+      "line": 143,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.norm_and_restriction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeFrob69.heightOneFrobenius": {
+      "sha256": "c645b54c6a4bfb32ccfec1c01663724aea239a46981a5652920db7cb6bc2cc6b",
+      "line": 168,
+      "status": "checked"
+    },
+    "DyadicNativeFrob69.heightOneFrobenius_eq": {
+      "sha256": "0dc54c9d258dfd62f637fce3fb39a50b202e1012b4644d0e0fc0e0f055efd625",
+      "line": 175,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.heightOneFrobenius_eq' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeFrob69.numberFieldFrobenius": {
+      "sha256": "d13ad39fcb307df9f4a35c38eb652c4dbf70a829f4370868b49b616ae6ec934f",
+      "line": 186,
+      "status": "checked"
+    },
+    "DyadicNativeFrob69.numberFieldFrobenius_residue": {
+      "sha256": "053aa83f71cc4e6c70546db4ea6711f2817c7fd20ad6d2f54feb20fae9e73ee3",
+      "line": 194,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.numberFieldFrobenius_residue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeFrob69.numberFieldRestriction": {
+      "sha256": "eb5d7cac5d20e5d341953788f27be40129b57d9e087e355f7339922804c0ce91",
+      "line": 213,
+      "status": "checked"
+    },
+    "DyadicNativeFrob69.numberField_prime_norm_transition": {
+      "sha256": "1265c6f307c4ccd22e10fd2df9fe91f784a46173064fdebe213be6a6be6a4a46",
+      "line": 218,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.numberField_prime_norm_transition' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "DyadicNativeFrob69.numberField_inertia_eq_bot_iff": {
+      "sha256": "1b518f4ff554891894e78a8a4243363776e79a3f1c97168d3f0fc37c2ad16dc7",
+      "line": 255,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.numberField_inertia_eq_bot_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeFrob69.numberFieldPrimeBelow": {
+      "sha256": "278bcaeb8ea7c0511beb3bb53d19d58da77947e55c5ccef4e42181a89b3fcdf5",
+      "line": 269,
+      "status": "checked"
+    },
+    "DyadicNativeFrob69.numberField_prime_norm_of_unramified": {
+      "sha256": "fe716713f182f31a9df80c732fc597983f7e265f2fb05ac024e630118097222d",
+      "line": 286,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeFrob69.numberField_prime_norm_of_unramified' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "DyadicNativeFrob69.complete": {
+      "sha256": "36b74f127df22042117d38f716a434968547e16d5927d8a9b790be65fac2bde4",
+      "line": 318,
+      "status": "checked"
+    }
+  }
+}

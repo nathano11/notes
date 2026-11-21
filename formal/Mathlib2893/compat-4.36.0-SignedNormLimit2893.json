@@ -1,0 +1,54 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.Algebra.Group.Subgroup.Basic": "b202bd8e8dcc0a855b42a7ef27fa5423d5220ee25de604761ab7cc2b271776ec",
+    "Mathlib.Algebra.Group.Pi.Lemmas": "298132c4f280e0db1b30f54290063c03602f1e74e79d82643e238b344a9c0c40",
+    "Mathlib.Algebra.Group.Equiv.Basic": "5df99c494bce6b0a79db0e736c62f444000a41999c315185fd6abdde9ae933a0"
+  },
+  "steps": {
+    "SignedNormLimit2893.coherent": {
+      "sha256": "702f262d8e4ac5f8fa2c308d80e9640b22207b15a7246337d69ac7dd99a68d1a",
+      "line": 11,
+      "status": "checked"
+    },
+    "SignedNormLimit2893.projection": {
+      "sha256": "48e016dc80c07f8729bbe5b2493a02c25324f0fe6b4951337577ecee002c8412",
+      "line": 17,
+      "status": "checked"
+    },
+    "SignedNormLimit2893.projection_norm": {
+      "sha256": "283fa0c4dbbfc98b80e4d6f3210941a2b001d4fe9dc6bebd6b3788302cc8bb5a",
+      "line": 22,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNormLimit2893.projection_norm' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedNormLimit2893.lift": {
+      "sha256": "f0b10af1805967e725eb53e8079ced118bd9627779eb9fbeff5b26fbe2bdb42d",
+      "line": 26,
+      "status": "checked"
+    },
+    "SignedNormLimit2893.lift_unique": {
+      "sha256": "8ebafc2bb02c4e907490563f47d0ffd386b80bad78cb355ef09b49975cc75c5f",
+      "line": 32,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNormLimit2893.lift_unique' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedNormLimit2893.forward": {
+      "sha256": "48865953a3993ea8810e2ca99035e9f11d1e97e8200b16654000ee49c13d29e0",
+      "line": 38,
+      "status": "checked"
+    },
+    "SignedNormLimit2893.forward_at_level": {
+      "sha256": "abeef473218aa311d1768162091877b24b778627a4299790f2cfdf039e441cca",
+      "line": 49,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNormLimit2893.forward_at_level' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedNormLimit2893.complete": {
+      "sha256": "a10cba26cfa1331c567efc441d11cdd17fbb1106f62e3883a05b1453625bb703",
+      "line": 53,
+      "status": "checked"
+    }
+  }
+}

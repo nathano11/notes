@@ -1,0 +1,247 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.Algebra.Polynomial.Degree.Units": "698b167bec0b2b9d65f15aabdec82eb8ed877a75c7958f74291d79b70dc8ed8b",
+    "Mathlib.Algebra.Polynomial.Eval.Defs": "5d2057eb7c61bb52c0d7eed81127e9c9b7ac854adef84550bc8a0b3cb68ab760",
+    "Mathlib.RingTheory.Ideal.Maximal": "6e2c0783bb6c9032c8b9ad35434c975d66d088cdd17b70e077bf0ebbfc02cd94",
+    "Mathlib.RingTheory.Ideal.Quotient.Basic": "2d3eae760cf3532861226b2b66521b9d57a97979c0df2d2dfffa0049b8843762",
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb",
+    "Mathlib.Algebra.CharP.Basic": "1ee2c7e626c87567baae872374ce4e8e21b0462619059b918ab3a43c19cd0476",
+    "Reimann.CircularOrder69": "6f5576e2dff90df26e459a56b90fa9aa12d512944328511c00bbc254a7e59c34",
+    "Reimann.CircularNormIdentification69": "5e3555960b70215432e0e47f076d081ae427d4887bd013f580521ff09837e636",
+    "Reimann.CircularFieldNorm69": "e506e4113b959f1117cef472eb012b2fca5e5cb59d1987a5d9a11407b7d0ddea",
+    "Reimann.CircularRelativeGalois69": "18010dae8d6fd3f213a42f2d9fca54d4cce3424e0a6cd0790e877ca85c0508d4",
+    "Reimann.CircularGalois69": "bc6b390c7b57478a0ee298038bc1f1237b468c368d58cc94a0c5019f695cc7ed",
+    "Reimann.CircularPowerSubstitution69": "22d7f9b85db22c09568761654442eaba7a991dbfe2011d1e20a88640bcca8ed8",
+    "Reimann.CircularRootOrbit69": "51218dc73fd5b4dd7876000c99d6ebbc92654d8bbd1dd1b8b785141b3f42c809",
+    "Reimann.CircularAmbient69": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+    "Reimann.CircularBasis69": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+    "Reimann.CircularKernel69": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+    "Reimann.CircularPrimitive69": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+    "Reimann.CircularPolynomial69": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.CircularFactor69": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+    "Reimann.CircularBasisData69": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+    "Reimann.CircularQuadratic69": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+    "Reimann.CircularReduction69": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+    "Reimann.CircularNonpower69": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+    "Reimann.CircularSubstitution69": "151917fa387b29139dde3a14e9dcf7dd368d5642268ba225dc388bc3bc3524fa",
+    "Reimann.CircularPolynomialField69": "179642452aaf230e8d1d08038692fd5adeab9667ee827ac24d6eb56348f1b5d7",
+    "Reimann.CircularFieldReduction69": "423714a90c79c1deacc3688054774052de70a7dee0ac20c70655e329ab742fc4",
+    "Reimann.CircularIndependence69": "3dbb2717347857c0edb3291029c008daaadb05367c3849be72ca2b22b3753320",
+    "Reimann.CircularIntegralNormal69": "8eba6177716a6ce39708eb156d6205f6c7ed495a37c04b13770968079962385a",
+    "Reimann.CircularHorner69": "7540049658edfa48b4040d0aba2e704ecd7a9ad0b4044c7753957215ca0e942b",
+    "Reimann.CircularIrreducible69": "a316b55d80159b7265e9a72f4b17fd88f86b6f2a0c22c7d23bc54a793faf48f3",
+    "Reimann.CircularLeastRelation69": "6c9fdb5bc98ea97f81af2a93b56ae04d214288607d6208766c5950622bfae217",
+    "Reimann.CircularNormalForm69": "3c1864f3705762bb811d17ff68df499845c8974ffbd4336ff6d7c6a3b34a9e9a",
+    "Reimann.CircularRelationEval69": "27078762be301dec3dec34af7ae8a15030c81968bd53cc0ed9fecd69827838b5",
+    "Reimann.CircularMonomial69": "3f08e7fee74d8fab61391a6a561244ab881781b4690f94425fab7e3b82b8dd2a",
+    "Reimann.CircularConvolution69": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+    "Reimann.CircularGauss69": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+    "Reimann.CircularAbsolute69": "2b2d7c9d7eed85083ee9784bff476ccf998f226438ce5709c240583752fe3dd5",
+    "Reimann.CircularPrimeDivisor69": "06a84f95ab3fea5452caff59f24160df03a1724535aaea7d19d752926b60cc44",
+    "Reimann.CircularEisenstein69": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+    "Reimann.CircularNormAction69": "38a2899adcd18d5c5de56e9acd7c19d612ad19ee702ab3a591d51d69d4aef28f",
+    "Reimann.CircularFieldBasis69": "df443352e25031116f2b0ede3da6df4d585b2008c817b04836faab67c8adca8c",
+    "Reimann.CircularMultiplication69": "b5e1ebaa2fb9e0390d6152f954f1f9bf1f4ad4dad2e2c3803f125e9b1ed1c752",
+    "Reimann.CircularNormTransport69": "c7728d2d158c3b6fa695899039460a5aa569ed2128dfabe9c250a495d48b6900",
+    "Reimann.CircularNorm69": "4dee9babdd3dd198aa8c57c3f87a41025fbf03fa0bb586ed8959510fc0d77c58",
+    "Reimann.CircularFiniteSum69": "dfd30be403ef65e97f16e582394d058288ec98b6090b38c93edf89b557b88a62",
+    "Reimann.CircularRelativeBasis69": "8ab08406284772440826940b74d390f8b3dc4e85675ed40d923a582054f5631d",
+    "Reimann.CircularRationalPeriod69": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+    "Reimann.CircularRational69": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+  },
+  "steps": {
+    "ConcreteQuotient69.rationalGrindRing": {
+      "sha256": "41416ec33e0407742b07663263ab9e13311ec3b37900cd3fc8d68bc6ef3233a6",
+      "line": 18,
+      "status": "checked"
+    },
+    "ConcreteQuotient69.map_horner": {
+      "sha256": "8085fa0efc28bc991b6e557f88faafba3b937c0dd7cad4d8947e2404a0eb876b",
+      "line": 20,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.map_horner' depends on axioms: [propext, Quot.sound]"
+    },
+    "ConcreteQuotient69.definingPolynomial": {
+      "sha256": "13d2a73db0c40112b275776bdd03a47f90d3d3ad2899adb2b04ce1f5983ab0fd",
+      "line": 26,
+      "status": "checked"
+    },
+    "ConcreteQuotient69.evaluate_defining": {
+      "sha256": "4e2fc591d54d85f892e1ff0c76684d40e39450ebc0ed037fbaf93517cb087cf6",
+      "line": 28,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.evaluate_defining' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.defining_values_differ": {
+      "sha256": "847fbe67c1f80ac0c542143c16313808b4982ddd86ba6edf122224a0a8bc3cd9",
+      "line": 34,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.defining_values_differ' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.defining_nonunit": {
+      "sha256": "7f3f48f2bd22d87be6f7455b7fe9f9270e105b0079b08a7539d6496b0fcadfe6",
+      "line": 38,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.defining_nonunit' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.defining_ideal_proper": {
+      "sha256": "1bb064c896416ae5e683b3e9ce5bc8eea095e37d64cab66618de266d45ecf000",
+      "line": 49,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.defining_ideal_proper' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.maximal_ideal_exists": {
+      "sha256": "676d88225ca677fa4adbb2247cdfca489c0f3837bd6f131e587bcf4448e59dcb",
+      "line": 52,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.maximal_ideal_exists' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.chosenIdeal": {
+      "sha256": "3ebcdae762ff59d8986ea41e1764cbd7502b219b1fd77aa4025b20da94391dab",
+      "line": 57,
+      "status": "checked"
+    },
+    "ConcreteQuotient69.chosen_maximal": {
+      "sha256": "c3706ea7effc5f3fefd8a23533def99287eba66df35b5713313a8cf654ec9f6b",
+      "line": 59,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.chosen_maximal' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.defining_mem": {
+      "sha256": "032dae43ab85c01c99759095e775fb44ebe3e629ddacd6faa81a7c06af82f04b",
+      "line": 61,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.defining_mem' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.K": {
+      "sha256": "87c10564005d5b2d5d534ee07a34b11cd768c9086f6f460c334d9e6766c85e38",
+      "line": 63,
+      "status": "checked"
+    },
+    "ConcreteQuotient69.residueField": {
+      "sha256": "fb4b48cd13e7fc25c476faed68645edee600242340b51c324228c378733f47a1",
+      "line": 65,
+      "status": "checked"
+    },
+    "ConcreteQuotient69.quotientMap": {
+      "sha256": "1c6cbfd20d7030d3e1f39d209af60b07e1a1f588928c1b4bb18f48a1c02044c8",
+      "line": 71,
+      "status": "checked"
+    },
+    "ConcreteQuotient69.rationalEmbedding": {
+      "sha256": "a3cf4b88f9a4a76eebfe12482b165f6931a2da44af587cd9a42660657f6e408a",
+      "line": 73,
+      "status": "checked"
+    },
+    "ConcreteQuotient69.rational_embedding_injective": {
+      "sha256": "23c006b761f1751771d48aecd9a97aac8f4331d66bf7c569b432995207b5f6fe",
+      "line": 75,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.rational_embedding_injective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.characteristicZero": {
+      "sha256": "b8511826416583bc9259325ab37ba2fc52721a463a7b38aa39fb6f0634c78575",
+      "line": 83,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.characteristicZero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.ζ": {
+      "sha256": "fd00e29689d252e8de82593cc40c0e812196b0d7cf2ad528e801283d5f7cc7e6",
+      "line": 92,
+      "status": "checked"
+    },
+    "ConcreteQuotient69.rationals_agree": {
+      "sha256": "d4fe8a49c96854cd73b5ad3f6bd277f6be7090762c6715c4025387dc06753e91",
+      "line": 94,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.rationals_agree' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.monomial_generated": {
+      "sha256": "abcc99097155bffe6baa42c931b7ca53adf962e27377dad7e47788f210f8be91",
+      "line": 101,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.monomial_generated' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.polynomial_generated": {
+      "sha256": "e06c1869f77dcbfcfb67e5a7421c050d9b439097b26387934381c21f66b85a70",
+      "line": 109,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.polynomial_generated' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.all_generated": {
+      "sha256": "e47be14091afea26876229f5f6fa064f830d0d0b3d6a102f296585e1fa92680a",
+      "line": 116,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.all_generated' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.generator_vanishes": {
+      "sha256": "7b475cf9b45b43dd0cc3e6b62d65b49756477018cb2bf77e9fa3caa2ead0711a",
+      "line": 120,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.generator_vanishes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.generator_orders": {
+      "sha256": "947eba380753d3ed6f3b986beca147412b6b9ea58a5be204469d0e4bc3b09c5b",
+      "line": 124,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.generator_orders' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.generator_pow_69": {
+      "sha256": "7ca53bf1c4e658d8e3faa37acacb79dff747d1d304f7e9da672ef85b9531905c",
+      "line": 127,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.generator_pow_69' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.generator_pow_23_ne_one": {
+      "sha256": "3f5c4f7ed0e14ed80efb958c220173db442793fb92997015294fe4de052a9a77",
+      "line": 129,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.generator_pow_23_ne_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.generator_pow_three_ne_one": {
+      "sha256": "13d650c72bb677414b13a890c91703f3b3a7b620431f2153b6c1881804d08e40",
+      "line": 131,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.generator_pow_three_ne_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.generator_primitive": {
+      "sha256": "83856197cb2b57df1a5ed38de263c612c5544d5b5026abe453cda96b04f8d10e",
+      "line": 133,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.generator_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.positive_product_eq_relative_norm": {
+      "sha256": "1fc09ea4f1173b328ee70f807937db341148ecb6ef4de525ed2dc87698279dc7",
+      "line": 136,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.positive_product_eq_relative_norm' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "ConcreteQuotient69.relative_norm_value": {
+      "sha256": "b61b4546c0d4a64a83b66fd79548aa59ffa0b1d518ecc7d69798cc9e353987f1",
+      "line": 143,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.relative_norm_value' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.labelled_period": {
+      "sha256": "e12da56c64449b2c2763ea34ba98b55bdea210c6648cbd94c71022ef5d2f8d38",
+      "line": 148,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.labelled_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.positive_coordinate": {
+      "sha256": "26c96096e393b75e2ba943954c9f6ddf95c33a2046d594d3111e6f650dd4ac45",
+      "line": 151,
+      "status": "checked",
+      "checker_output": "'Reimann.ConcreteQuotient69.positive_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ConcreteQuotient69.complete": {
+      "sha256": "e9d2617b17bcb8dd71982f8105fe2338df14e77ae1e9307cc54d251a48a4ceaa",
+      "line": 156,
+      "status": "checked"
+    }
+  }
+}

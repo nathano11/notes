@@ -1,0 +1,348 @@
+{
+  "steps": {
+    "CircularRootOrbit69.order_witnesses": {
+      "sha256": "784b8e4aa711a3157c8ca09553145dce8efd0011b16878ce31db971bb2187c98",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.order_witnesses' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularRootOrbit69.nonzero_power_ne_one": {
+      "sha256": "358101f1bdf65ef7ad5956a2094f4eaff746b684a0b82005f75670dddb9eec0f",
+      "status": "checked",
+      "line": 15,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.nonzero_power_ne_one' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularRootOrbit69.power_injective": {
+      "sha256": "4c9401c8e44c99675604bed086e63b20779f86dea7e96bb9a0b042a8b48e349e",
+      "status": "checked",
+      "line": 26,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.power_injective' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularRootOrbit69.nonunit_power_witness": {
+      "sha256": "d3490853ca793e3cd7120b7963d8df9782d95db756f42879ce38ab29d3c1441d",
+      "status": "checked",
+      "line": 44,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.nonunit_power_witness' does not depend on any axioms"
+    },
+    "CircularRootOrbit69.primitive_exponent_is_unit": {
+      "sha256": "cd77ee59c186522a6ec7e2bde80df86c6342cc5abf9b052f678df2710cfc662e",
+      "status": "checked",
+      "line": 47,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.primitive_exponent_is_unit' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRootOrbit69.geometric_eq_basisSum": {
+      "sha256": "bab8924b298b0123c4790f1041d71986be8f15af946ddc6adc52d0de742dd9f2",
+      "status": "checked",
+      "line": 58,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.geometric_eq_basisSum' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRootOrbit69.root_geometric_zero": {
+      "sha256": "6a512f124d6e9a6cf7848b5edd51fa9ee250465ffea1668e4f5fb690694ca38d",
+      "status": "checked",
+      "line": 68,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.root_geometric_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRootOrbit69.power_root": {
+      "sha256": "b1f4d71822f3b9a7f2c4aea284148f3171547150dd78a2c93f5ea87e6c8f12f0",
+      "status": "checked",
+      "line": 76,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.power_root' depends on axioms: [propext]"
+    },
+    "CircularRootOrbit69.product_root": {
+      "sha256": "0add2b577a0defa99afce5330f5d5446a78c7b474468ef7535673d1efd30b8c8",
+      "status": "checked",
+      "line": 80,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.product_root' depends on axioms: [propext]"
+    },
+    "CircularRootOrbit69.power_of_product_one": {
+      "sha256": "44616f3b00230340b89ee8d82c8a474bc0760a1a778bf893a57e8f21622ba8f7",
+      "status": "checked",
+      "line": 84,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.power_of_product_one' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularRootOrbit69.sum_ones": {
+      "sha256": "9a0cd72dca0ace03e641f29504e2a8f33f5ce378903f8ca87a7fb77d571a9695",
+      "status": "checked",
+      "line": 92,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.sum_ones' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRootOrbit69.swap_power_exponents": {
+      "sha256": "b1ecf4764c5c0f69adc6836a3fdd88e8ad77e903635b5a6de50dc19558cfe05d",
+      "status": "checked",
+      "line": 98,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.swap_power_exponents' depends on axioms: [propext]"
+    },
+    "CircularRootOrbit69.frequency_sum": {
+      "sha256": "6a02d979879431f4100bffb2de311c4c5d86402c672812e7c77d44682fe5bb87",
+      "status": "checked",
+      "line": 102,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.frequency_sum' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRootOrbit69.all_frequency_sum": {
+      "sha256": "b3e8daf6b08892a1b3070c7559bff6f3b6768da30a04101988f800b35d6b4136",
+      "status": "checked",
+      "line": 115,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.all_frequency_sum' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRootOrbit69.root_exhaustion": {
+      "sha256": "6b94227d1c5f53fc619cf85c9c28f046c924b09333e25aa76c9e7653cd7cd0b8",
+      "status": "checked",
+      "line": 121,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.root_exhaustion' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRootOrbit69.root_label_unique": {
+      "sha256": "f73152c88d97110e0a6ba390d0f245585494ab794310b885cc79e0319a4702f2",
+      "status": "checked",
+      "line": 135,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.root_label_unique' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRootOrbit69.primitive_root_label": {
+      "sha256": "9639781347c08a5268786ea77949bf02101c77b285088fa295cc7abeafe93c47",
+      "status": "checked",
+      "line": 141,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularRootOrbit69.primitive_root_label' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularRootOrbit69.complete": {
+      "sha256": "51218dc73fd5b4dd7876000c99d6ebbc92654d8bbd1dd1b8b785141b3f42c809",
+      "status": "checked",
+      "line": 149,
+      "local_sources": {
+        "Reimann/CircularAmbient69.lean": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+        "Reimann/CircularBasis69.lean": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+        "Reimann/CircularKernel69.lean": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularFactor69.lean": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+        "Reimann/CircularBasisData69.lean": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

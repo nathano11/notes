@@ -1,0 +1,215 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb",
+    "Mathlib.Algebra.CharP.Basic": "1ee2c7e626c87567baae872374ce4e8e21b0462619059b918ab3a43c19cd0476",
+    "Mathlib.Algebra.Group.Subgroup.Lattice": "3141b7ae9c446d60f307ec7de94ff3cf3689624478542266bb9608807d1e16f9",
+    "Mathlib.Algebra.Ring.Subring.Basic": "caf373944435b533d40a6a2aa32cb46abbf1afe8af12cb075c532f551cfdb8ea",
+    "Mathlib.RingTheory.IntegralClosure.IsIntegral.Defs": "bf00b5178db12c0b5a0e4f81a1d6009a7b6954b5805b954f86c90783fb2beda0",
+    "Mathlib.Algebra.Polynomial.Degree.Operations": "5318586e256b42782f6df6696f01827a89713c8abfeee6ba23f213bbbb8ee019",
+    "Mathlib.Algebra.Polynomial.Eval.Defs": "5d2057eb7c61bb52c0d7eed81127e9c9b7ac854adef84550bc8a0b3cb68ab760",
+    "Reimann.CircularSinnott69": "04586e0dc74c6d5f9aa90b29f532d0bd72c4d4680ca2ebe60a315fa1de206825",
+    "Reimann.CircularRelativeGalois69": "18010dae8d6fd3f213a42f2d9fca54d4cce3424e0a6cd0790e877ca85c0508d4",
+    "Reimann.CircularRealUnit69": "dc9de8146b13e808eba70fef8fda105dca5f495245deb635f8e3e1c4adaf1835",
+    "Reimann.CircularCosets69": "cd732e15ba2a95d41a85dba9cb09e50b7a194d080d4287396e190896d1781edf",
+    "Reimann.CircularCosetData69": "2849f469e51121fad47b1b5f4070ba7589ed5dc04ce7de94c12cf3c93ef824b7",
+    "Reimann.CircularKernel69": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+    "Reimann.CircularPrimitive69": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+    "Reimann.CircularPolynomial69": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.CircularNormAction69": "38a2899adcd18d5c5de56e9acd7c19d612ad19ee702ab3a591d51d69d4aef28f",
+    "Reimann.CircularFieldNorm69": "e506e4113b959f1117cef472eb012b2fca5e5cb59d1987a5d9a11407b7d0ddea",
+    "Reimann.CircularPolynomialField69": "179642452aaf230e8d1d08038692fd5adeab9667ee827ac24d6eb56348f1b5d7",
+    "Reimann.CircularFieldBasis69": "df443352e25031116f2b0ede3da6df4d585b2008c817b04836faab67c8adca8c",
+    "Reimann.CircularMultiplication69": "b5e1ebaa2fb9e0390d6152f954f1f9bf1f4ad4dad2e2c3803f125e9b1ed1c752",
+    "Reimann.CircularNormTransport69": "c7728d2d158c3b6fa695899039460a5aa569ed2128dfabe9c250a495d48b6900",
+    "Reimann.CircularNorm69": "4dee9babdd3dd198aa8c57c3f87a41025fbf03fa0bb586ed8959510fc0d77c58",
+    "Reimann.CircularFactor69": "9e1a511daebd83bdf1a60394af2ac0a4b2febde7b539298f0308f276e4a0bbac",
+    "Reimann.CircularQuadratic69": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663",
+    "Reimann.CircularIndependence69": "3dbb2717347857c0edb3291029c008daaadb05367c3849be72ca2b22b3753320",
+    "Reimann.CircularFiniteSum69": "dfd30be403ef65e97f16e582394d058288ec98b6090b38c93edf89b557b88a62",
+    "Reimann.CircularRelativeBasis69": "8ab08406284772440826940b74d390f8b3dc4e85675ed40d923a582054f5631d",
+    "Reimann.CircularRationalPeriod69": "940485ce70836c2093fa01f648fb9099599482e6f749726bb321ae75df20d602",
+    "Reimann.CircularBasis69": "380f3ea00c55627debccf831989caeeeafd4caedaff6929b89dd18c9b3fc696c",
+    "Reimann.CircularBasisData69": "68afa3ccef78e71fdffc11b81c50996adfc1b8fb7d701cf47d763d8155d3b6bd",
+    "Reimann.CircularRational69": "07d697c21b667c8ec04da4f4f75769242c89385e109c54c14c69ccb9c2bc78db",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Reimann.CircularRelationEval69": "27078762be301dec3dec34af7ae8a15030c81968bd53cc0ed9fecd69827838b5",
+    "Reimann.CircularMonomial69": "3f08e7fee74d8fab61391a6a561244ab881781b4690f94425fab7e3b82b8dd2a",
+    "Reimann.CircularConvolution69": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+    "Reimann.CircularHorner69": "7540049658edfa48b4040d0aba2e704ecd7a9ad0b4044c7753957215ca0e942b",
+    "Reimann.CircularIrreducible69": "a316b55d80159b7265e9a72f4b17fd88f86b6f2a0c22c7d23bc54a793faf48f3",
+    "Reimann.CircularLeastRelation69": "6c9fdb5bc98ea97f81af2a93b56ae04d214288607d6208766c5950622bfae217",
+    "Reimann.CircularNormalForm69": "3c1864f3705762bb811d17ff68df499845c8974ffbd4336ff6d7c6a3b34a9e9a",
+    "Reimann.CircularGauss69": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+    "Reimann.CircularAbsolute69": "2b2d7c9d7eed85083ee9784bff476ccf998f226438ce5709c240583752fe3dd5",
+    "Reimann.CircularPrimeDivisor69": "06a84f95ab3fea5452caff59f24160df03a1724535aaea7d19d752926b60cc44",
+    "Reimann.CircularEisenstein69": "ecec8f5eaa063438afffaae66c05a4ebdb96926d3489b5fd51438d0bd92ab1e8",
+    "Reimann.CircularGalois69": "bc6b390c7b57478a0ee298038bc1f1237b468c368d58cc94a0c5019f695cc7ed",
+    "Reimann.CircularPowerSubstitution69": "22d7f9b85db22c09568761654442eaba7a991dbfe2011d1e20a88640bcca8ed8",
+    "Reimann.CircularRootOrbit69": "51218dc73fd5b4dd7876000c99d6ebbc92654d8bbd1dd1b8b785141b3f42c809",
+    "Reimann.CircularAmbient69": "b6464192373852b473e89ed7ed130f56c65cc9e92f8835ba6cef2084b3d48e13",
+    "Reimann.CircularReduction69": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+    "Reimann.CircularNonpower69": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+    "Reimann.CircularSubstitution69": "151917fa387b29139dde3a14e9dcf7dd368d5642268ba225dc388bc3bc3524fa",
+    "Reimann.CircularFieldReduction69": "423714a90c79c1deacc3688054774052de70a7dee0ac20c70655e329ab742fc4",
+    "Reimann.CircularIntegralNormal69": "8eba6177716a6ce39708eb156d6205f6c7ed495a37c04b13770968079962385a"
+  },
+  "steps": {
+    "CircularSubgroup69.normGenerators": {
+      "sha256": "29d294220d764e19290483acb514eaec4ef0356cef0ffd179cb95f01e9a30b15",
+      "line": 24,
+      "status": "checked"
+    },
+    "CircularSubgroup69.conductorNumbers": {
+      "sha256": "7ccd925bc15fd141fa86bfb3512fb5a742cb17f4693553936684a4e9aa6cff68",
+      "line": 28,
+      "status": "checked"
+    },
+    "CircularSubgroup69.conductorNumbers_le": {
+      "sha256": "9aa4e03c1a953474a8fa4a63ac9d6b09886835a57cb4108cbbbbc7f7763d6cb2",
+      "line": 31,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.conductorNumbers_le' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularSubgroup69.circularUnits": {
+      "sha256": "604e3f582964b65898beba732778b327063c6bd934e6da86c27e9f7fcb870130",
+      "line": 39,
+      "status": "checked"
+    },
+    "CircularSubgroup69.circularUnits_mem": {
+      "sha256": "a836590a1450e2b4ff1f2de2d25094ab3e181c945607fbe86ca5efee2f5c10e5",
+      "line": 42,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.circularUnits_mem' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularSubgroup69.quadraticOrder": {
+      "sha256": "23d55a506155a39085c4b23d4d408591f8aaf444884cbeca27b805f123726a09",
+      "line": 45,
+      "status": "checked"
+    },
+    "CircularSubgroup69.quadraticOrder_le": {
+      "sha256": "142490f12e975d9a9542a2a807ab9e6bba47a4256954815817b9f5d9e74518dd",
+      "line": 47,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.quadraticOrder_le' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularSubgroup69.quadraticOrder_mem": {
+      "sha256": "f50fd9a741f21360e7e4db78d2dd2d0776ea58dd53f9cea8c1c7c7af6ef8a1e9",
+      "line": 52,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.quadraticOrder_mem' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularSubgroup69.inverse_mem_order": {
+      "sha256": "961965e6c4dcd797effb073ea060e2866f414847dddb5d9f10f3773bd1359955",
+      "line": 55,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.inverse_mem_order' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularSubgroup69.integralUnit": {
+      "sha256": "cba0323cc67ad8c4888cefeab44da217140f07a3a41c6442dd60aafb6313f872",
+      "line": 58,
+      "status": "checked"
+    },
+    "CircularSubgroup69.integralUnit_value": {
+      "sha256": "c6f5ae00fc7db7429210cbfa0d915e8a690f4b6147abcc40eedd6764ec468f17",
+      "line": 64,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.integralUnit_value' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularSubgroup69.integralUnit_inverse_value": {
+      "sha256": "2dbd759ed1b5ee7603e434f69cb4030a508a3c563f8b1b853d3d73640cd30eaf",
+      "line": 67,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.integralUnit_inverse_value' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularSubgroup69.fold_units_mem": {
+      "sha256": "5664425c54ffc5933e9348ebc61caf3f5785d1b9d5a8d8a0cde73b2c2523ed48",
+      "line": 72,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.fold_units_mem' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularSubgroup69.positive_mem_numbers": {
+      "sha256": "bf5c0cc68966c4fea469dbd4a98b51d563de5612229cbbf267f02d22d29da09a",
+      "line": 94,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.positive_mem_numbers' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularSubgroup69.positive_and_inverse_in_subgroup": {
+      "sha256": "a4946329585db07ea5ceeaf71094643ae9cd69c8b80be531f9a3fb033377894f",
+      "line": 105,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.positive_and_inverse_in_subgroup' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularSubgroup69.positive_and_inverse_in_quadratic_order": {
+      "sha256": "2b99078a27cca565d9279bc3b7027a1b8b845ebf23306470c5914f078b526b7a",
+      "line": 120,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.positive_and_inverse_in_quadratic_order' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "CircularSubgroup69.unitPolynomial": {
+      "sha256": "8f34fc898fec8c6e33c3af3108ef62c1961c5d2a4cd3ae5003c375c4a8889b80",
+      "line": 134,
+      "status": "checked"
+    },
+    "CircularSubgroup69.unitPolynomial_tail_degree": {
+      "sha256": "f2abb042e78dbfbe2235f40b445e163736258ca057c24cd65be144612d1644b6",
+      "line": 136,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.unitPolynomial_tail_degree' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularSubgroup69.unitPolynomial_monic": {
+      "sha256": "61452fbc3830b9822080738f6ba020110bb189ee1685ab3199da0689de014c96",
+      "line": 141,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.unitPolynomial_monic' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularSubgroup69.integral_of_quadratic": {
+      "sha256": "2045e4763ef2e124a2fb0d43df7da1c099bce7fbd5f2ce642dde79544ac6a5e2",
+      "line": 148,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.integral_of_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularSubgroup69.positive_and_inverse_integral": {
+      "sha256": "2be361af76ae5941f8c1cb978bc078e6b075b4f0f6a0598d5ebbfe9bbbcfa092",
+      "line": 155,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.positive_and_inverse_integral' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularSubgroup69.positive_and_inverse_in_integers": {
+      "sha256": "494591a07bf2cda171753b971aaf933fcea1f2128f3df9c7370c4fc086b8e501",
+      "line": 164,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.positive_and_inverse_in_integers' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularSubgroup69.realIntegerOrder": {
+      "sha256": "fdbfc028189f7bc43e98d40197941a0ae496bb58227a80527fec757c1a51826a",
+      "line": 181,
+      "status": "checked"
+    },
+    "CircularSubgroup69.realIntegerOrder_mem": {
+      "sha256": "16d5364ba625b9df1e1780082a58c8e197b7da91fb1bf7373336fa9e931b950a",
+      "line": 184,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.realIntegerOrder_mem' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularSubgroup69.realIntegerOrder_eq_of_spec": {
+      "sha256": "cb011079aaa5b327a390faf98bd46f91bfa47b42b492decf871669573ce5f131",
+      "line": 189,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.realIntegerOrder_eq_of_spec' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularSubgroup69.positive_and_inverse_in_real_integer_order": {
+      "sha256": "d6e2dc92e646278d54766b4f42ccdeb6b5d54864c5503fc0cbd72703f7a96276",
+      "line": 201,
+      "status": "checked",
+      "checker_output": "'Reimann.CircularSubgroup69.positive_and_inverse_in_real_integer_order' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "CircularSubgroup69.complete": {
+      "sha256": "71c695ca0c34658b326303245953996b18b5b4421c3de53f6d4a61eec9c917ff",
+      "line": 210,
+      "status": "checked"
+    }
+  }
+}

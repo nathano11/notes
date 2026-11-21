@@ -1,0 +1,150 @@
+{
+  "steps": {
+    "DyadicLattice.Scalar": {
+      "sha256": "7d2d3a7c00f5ea149c1974a311322f214a1f2a7e83fd09d92fe1ec9739efe81a",
+      "status": "checked",
+      "line": 10,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLattice.scalar_ext": {
+      "sha256": "be885cc8240c67c53d45a2e02f05f58ae2b36d0887bc280fcb87440d682d5dea",
+      "status": "checked",
+      "line": 14,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLattice.scalar_ext' depends on axioms: [Quot.sound]"
+    },
+    "DyadicLattice.add": {
+      "sha256": "ec058806bdb7348b36f394e0499d360aaba6939c5a9abed1296927e0a766d63d",
+      "status": "checked",
+      "line": 19,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLattice.neg": {
+      "sha256": "cee051715a9cf4c3ab08d7f64728745606545fb52e7ee3a8810a67fcb2ac55d4",
+      "status": "checked",
+      "line": 23,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLattice.mul": {
+      "sha256": "b0308112f5a563ec76d0148137d0e073c76aa06d12ffaf7155f66ec762c7af98",
+      "status": "checked",
+      "line": 27,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLattice.inverse_precision": {
+      "sha256": "22525a6013c1168cb382212c635d4a0a82729699949d8534e813231cd08eb154",
+      "status": "checked",
+      "line": 32,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLattice.inverse_precision' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLattice.unit_at_precision": {
+      "sha256": "dcc76cd499bcfd1a2ffbf81283f70ee0f6b00cff7cda13217324d67418c60530",
+      "status": "checked",
+      "line": 43,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLattice.unit_at_precision' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLattice.odd_residue": {
+      "sha256": "45c29eeeaecf7e60d1310625b8780d244f94fc85e7a71ee548d13ef9adb1e941",
+      "status": "checked",
+      "line": 56,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLattice.odd_residue' depends on axioms: [propext]"
+    },
+    "DyadicLattice.inverse_unique": {
+      "sha256": "d274da904fad72bad6b095606fc137d665a2bcb2c338df64476be10be9a5a5ce",
+      "status": "checked",
+      "line": 61,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLattice.inverse_unique' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLattice.odd_scalar_inverse": {
+      "sha256": "4facf2b4807fd16411545567f80b3b6436d695208e0d7cdc5e8431fb39e05a1e",
+      "status": "checked",
+      "line": 70,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLattice.odd_scalar_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLattice.Matrix": {
+      "sha256": "c477b95d46d67fdf617ec2014300bc065fed99fcad75545b42602f17f4bdf581",
+      "status": "checked",
+      "line": 82,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLattice.det": {
+      "sha256": "6cefc382388c2e762435244c2abf684f5831c9ec6414986718bac3ca833058c0",
+      "status": "checked",
+      "line": 88,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLattice.act": {
+      "sha256": "8362791cd5c34d6499fb821de77c2704eda84de158cadc999c14f271a2e881d0",
+      "status": "checked",
+      "line": 90,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLattice.adjugate": {
+      "sha256": "fc6322f1991e7a16d2f036f813930955da0829e2ec6ed9cfc8e0a66c8c9e5aea",
+      "status": "checked",
+      "line": 93,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLattice.scaleVector": {
+      "sha256": "bb33c83a49a3726caf7702ff60dc0a53b710bd406be3a7a8989e9dec7a2a2cd6",
+      "status": "checked",
+      "line": 95,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLattice.act_adjugate": {
+      "sha256": "d1e796c05f3897fb8b784552b81ff363000e64fcb9abe8adb6669f73ab0e7fe2",
+      "status": "checked",
+      "line": 98,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLattice.act_adjugate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLattice.odd_det_surjective": {
+      "sha256": "83179664c39d7d07de93f4dc7a534b3c06424a547db8fd36200a46ed02394d89",
+      "status": "checked",
+      "line": 105,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLattice.odd_det_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLattice.scaled_matrix_image": {
+      "sha256": "18a2a8b4fd35de5520d85a098a58c7eb7bcb7d91795b783563c576dada6adaee",
+      "status": "checked",
+      "line": 116,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLattice.scaled_matrix_image' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLattice.natScalar": {
+      "sha256": "a1450f0d7639a60c9a603a4a534766c5980e33c5c228cc3a0c77bb919742ea0f",
+      "status": "checked",
+      "line": 126,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicLattice.unipotent_det_odd": {
+      "sha256": "1c62f414bea8dda9c45178279d0b7f8ff71c9b39379d9fbc59fc61b5c0b8a46a",
+      "status": "checked",
+      "line": 132,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLattice.unipotent_det_odd' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicLattice.normalized_image": {
+      "sha256": "eb975435cc87c2462fca448ef91b2250233e23188a1fb2e255e543d2ea07665f",
+      "status": "checked",
+      "line": 137,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicLattice.normalized_image' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicLattice.complete": {
+      "sha256": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+      "status": "checked",
+      "line": 144,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

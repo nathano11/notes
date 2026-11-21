@@ -1,0 +1,419 @@
+{
+  "steps": {
+    "TameTraceLattice277.genProduct": {
+      "sha256": "72b657cf5c0f4fc911cdb88b11b9ef0ece6ec050c43df140aa3e385ec8932995",
+      "status": "checked",
+      "line": 7,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.regularTrace": {
+      "sha256": "c1a5b31f5e9a1c28b9a081363d5a94d92bb50f380e84c3586047bf89356f23b4",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.trace_one": {
+      "sha256": "49a456015de58753e427d951a4ea95a1f51fa318c1259140126b70ad16dd09ac",
+      "status": "checked",
+      "line": 14,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.trace_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.trace_X": {
+      "sha256": "908a859c263d6f8ac11abe84b6a5fd240cd2a9d0d669c0311d0f65cbe03a659f",
+      "status": "checked",
+      "line": 18,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.trace_X' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.trace_Y": {
+      "sha256": "f0d29e24da5f7e5b9dba83ca02b492fe9116dfe5589d77a0b5ce61deafc1a898",
+      "status": "checked",
+      "line": 23,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.trace_Y' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.trace_XY": {
+      "sha256": "32f600a037b2c7fbc4e80978b72bb56a599fa476f0929ba72287a6211d902a11",
+      "status": "checked",
+      "line": 28,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.trace_XY' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.IsInteger": {
+      "sha256": "8c9d445b56a5b544fe62c6918795e66281a8e562b8d12a6bd55943145b71fd5a",
+      "status": "checked",
+      "line": 33,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.InOrder": {
+      "sha256": "bd95e729165a57536c4de9c0eb4cc25e253eaf0f7d6e7bda14132330b2e875cf",
+      "status": "checked",
+      "line": 35,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.scalar_mul_coords": {
+      "sha256": "9baeb9232d5b6d2adcd61bb73932ba842aeacabcfcb7af1f6c3d7970b2b6e42e",
+      "status": "checked",
+      "line": 38,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.scalar_mul_coords' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.IntegralTraces": {
+      "sha256": "4c877265301e03abadbb1e5d2fdd5110c0a38bdc7e8cd9c2e1cabd5b5a619979",
+      "status": "checked",
+      "line": 42,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.trace_clears_276": {
+      "sha256": "38fdd2259219175ffd466265d6ce9b737a3e13f0ab4a95756456db79f65ee812",
+      "status": "checked",
+      "line": 48,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.trace_clears_276' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.order_int_scale": {
+      "sha256": "ea095f620250baa819aae7a60a2fa71c8b13ad718865cbca4a14483619ce3939",
+      "status": "checked",
+      "line": 58,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.order_int_scale' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.order_traces": {
+      "sha256": "abd4a1027bc411ace982f7b5cb489723f2d504ed45d5f1b858f587090a00c337",
+      "status": "checked",
+      "line": 64,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.order_traces' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.bezout_power": {
+      "sha256": "f02088b6e57959c5508598833c61639b323dfc6fbb09eced238e598b0a617b7b",
+      "status": "checked",
+      "line": 70,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.bezout_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.denominator_unit": {
+      "sha256": "6726623d56fcaed34585705fdcf6b03f8f75f216d4b2dbf72cf7d7ba5d210112",
+      "status": "checked",
+      "line": 79,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.denominator_unit' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.Localized": {
+      "sha256": "c745b71a274e232faea195930ca57c06df4d7e0a61d8c2773084b7e988a39f6d",
+      "status": "checked",
+      "line": 84,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.scale_twice": {
+      "sha256": "aac90c7c9e5bbeb05a969cfaf08465fca7698341bf9be75bb045de69466802bb",
+      "status": "checked",
+      "line": 87,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.scale_twice' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.localized_lattice_iff": {
+      "sha256": "2812634bee922131a3d95a5b34b3fd9c2714aefa85c38b5d9e59304af6d69756",
+      "status": "checked",
+      "line": 94,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.localized_lattice_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.M4": {
+      "sha256": "21b7abb5dd916ebe6ca3ebb2e57bfe418c9bd6cc34faf6b218498ee0acb6e112",
+      "status": "checked",
+      "line": 107,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.sum4": {
+      "sha256": "054902d8dde6df4be5600ca0e0f1073d55fade648d65a5e1858363a51498e2e7",
+      "status": "checked",
+      "line": 109,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.matrixMul": {
+      "sha256": "a00f372ff3b065e96b88be0fac7d1ac31a74eaf25ce0e68d6e07d9651e20373f",
+      "status": "checked",
+      "line": 111,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.matrixTrace": {
+      "sha256": "11f5586ed167d02df0a0ffd581488ffc7ad49e0eea5e3010d4227a636d6823e7",
+      "status": "checked",
+      "line": 113,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.matrix_swap": {
+      "sha256": "fe31809c79e5115d35c677017291937d92b1c067880a95733db8e1d98c7f3d61",
+      "status": "checked",
+      "line": 115,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.matrix_swap' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.matrix_assoc": {
+      "sha256": "3cdb03e7b5d0021c7ea3a54acb101232e11adc5baef6893ab9c9743bbbcd7223",
+      "status": "checked",
+      "line": 119,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.matrix_assoc' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.matrixOne": {
+      "sha256": "2f7943fc8a43f392c039e813ab07c6e071053e3ac7989ae8dd1453deab2bf814",
+      "status": "checked",
+      "line": 124,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.fin_four": {
+      "sha256": "625dc15168dbab7d4b40667ddde7ac2968e12ab4e874e968d1230c231a176293",
+      "status": "checked",
+      "line": 126,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.fin_four' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameTraceLattice277.matrix_id_right": {
+      "sha256": "82315e007a451bad43c504f483701ab386b24dba484d6343a428b8c003f39481",
+      "status": "checked",
+      "line": 131,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.matrix_id_right' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.matrix_id_left": {
+      "sha256": "28c37493c5d74a1d9717d9eeee41cfcdb658e2a35a5e67ef987f27fd9734f544",
+      "status": "checked",
+      "line": 135,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.matrix_id_left' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.coordinate": {
+      "sha256": "531281fa9934df4d1f730283af5ac152daea94c5f81832f95045de5352886733",
+      "status": "checked",
+      "line": 139,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.standardBasis": {
+      "sha256": "aad1b8456c910f97556523316f2947fc303f11a5c47c199770d7b3c0f4cda927",
+      "status": "checked",
+      "line": 146,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.regMatrix": {
+      "sha256": "4d218a85eafeb4f3cd3a308b852cf0054d9ee047ceaafaceff7b230b4c23e8aa",
+      "status": "checked",
+      "line": 153,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.regMatrix_trace": {
+      "sha256": "343f7ee2aacf436483dc250b20933a9576ece9377abc70c45cef5700e57bde4f",
+      "status": "checked",
+      "line": 156,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.regMatrix_trace' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.column": {
+      "sha256": "494662389790209557c38e96fadc6999e74924f898176cce54448ac5b9dfdd04",
+      "status": "checked",
+      "line": 158,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.regular_on_column": {
+      "sha256": "27a836ba8f5206e343449fa1ba84dcb4625fd455325d48ecf720527278cbbbcb",
+      "status": "checked",
+      "line": 160,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.regular_on_column' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.intMatrix": {
+      "sha256": "d94ff6b59b11e485624361449254f06cae97c57af41bc8acfe022cadae6d81e7",
+      "status": "checked",
+      "line": 166,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.integral_matrix_trace": {
+      "sha256": "91a27dd194ed5e107c10d13330b986cf9e578bcf6ecb3ecabdfb32ba33c18434",
+      "status": "checked",
+      "line": 168,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.integral_matrix_trace' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.stable_trace": {
+      "sha256": "541a86a70abdec5c39cdd98ed69ccb1f9eba1c1b1c7a7a42182fdd199015663c",
+      "status": "checked",
+      "line": 175,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.stable_trace' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.OrderBasis": {
+      "sha256": "4f3324077733fa7427f1f25a66fd9afb3e2a26720f3503e276c7ce3b30770435",
+      "status": "checked",
+      "line": 198,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameTraceLattice277.orderBasis_trace": {
+      "sha256": "61f0534fd934e82f328b1853d7b082707775a568dced024d1db3e1addc8f9f09",
+      "status": "checked",
+      "line": 209,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.orderBasis_trace' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.radicals_in_order": {
+      "sha256": "9c722e1b637c659d9a9f7e489f90bef577bef1fbc719c95aa06cfa6e58e8e54f",
+      "status": "checked",
+      "line": 214,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.radicals_in_order' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.orderBasis_traces": {
+      "sha256": "40000f7a40ce7eea9137cc97307b98d84e3994ded1e8506bf4619b8224de476b",
+      "status": "checked",
+      "line": 220,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.orderBasis_traces' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.full_order_localization": {
+      "sha256": "a2ea4da078c497c3b4d8c9109408cff94b3b6cabfe7762ff33b44c0351f94b4c",
+      "status": "checked",
+      "line": 229,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameTraceLattice277.full_order_localization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameTraceLattice277.complete": {
+      "sha256": "e937721bf1de66955ada54ae38293ca285f2defd7d5307b3b2f23096cdd91e4d",
+      "status": "checked",
+      "line": 233,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

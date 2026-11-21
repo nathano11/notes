@@ -1,0 +1,180 @@
+{
+  "steps": {
+    "TameClassField.ArtinQuotient": {
+      "sha256": "889ca5ba22b168321abe4101914e24c7927c1f8b1972b623e157ac55cd4cd54b",
+      "status": "checked",
+      "line": 9,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameClassField.KillsKernel": {
+      "sha256": "2a80e2fa25bc8a62952f6615b33e833ea0b082a5d22dedb4dbe45569156e93d9",
+      "status": "checked",
+      "line": 15,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameClassField.constant_on_fibers": {
+      "sha256": "96085def488a08974bd7746039070297a1aeec3619c85bd22ce5298d92e1c956",
+      "status": "checked",
+      "line": 18,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameClassField.constant_on_fibers' does not depend on any axioms"
+    },
+    "TameClassField.representative": {
+      "sha256": "7283c7490737ab0c7c4165b93862f6a0e02152d3749fa693ccdbb2a12cd1c4ab",
+      "status": "checked",
+      "line": 25,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameClassField.representative_projects": {
+      "sha256": "32aceac6a82596d5eba8fbe6b8ed37adcdc0d1d882d925189d6f9f16f1cf92ed",
+      "status": "checked",
+      "line": 28,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameClassField.representative_projects' depends on axioms: [Classical.choice]"
+    },
+    "TameClassField.descend": {
+      "sha256": "4f63e3e22c690f5d0ecd4afa9a04eaad7f140cd366841fdb258b6cf3b9b9b32e",
+      "status": "checked",
+      "line": 31,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameClassField.descend_projects": {
+      "sha256": "78b7fac53a3f3cfe5b9ae1d8904b5034fc1247350010e582365c0da6b83918b7",
+      "status": "checked",
+      "line": 45,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameClassField.descend_projects' depends on axioms: [Classical.choice]"
+    },
+    "TameClassField.descent_unique": {
+      "sha256": "7de31829bd2dad08cca572687746791b2cfdd04e5dd7efce8f62d4e2918684d2",
+      "status": "checked",
+      "line": 49,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameClassField.descent_unique' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameClassField.factor_iff_kills_kernel": {
+      "sha256": "ff17a2aed63737853a0ff8ce43665b05d9ac9452089984a6797a87075447ac97",
+      "status": "checked",
+      "line": 59,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameClassField.factor_iff_kills_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameClassField.descended_equivariance": {
+      "sha256": "2075c75e00f30280cc316aeda1c1278a40852412a04da6290ec5ffa9fbe4d814",
+      "status": "checked",
+      "line": 70,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameClassField.descended_equivariance' depends on axioms: [Classical.choice]"
+    },
+    "TameClassField.residueGroup": {
+      "sha256": "ebaeaadcd249dc7c89701720ce00a77fd114317a92ca153028b80781d625a792",
+      "status": "checked",
+      "line": 79,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameClassField.unit_difference_fixed_zero": {
+      "sha256": "9d7698f700f054f4486548328c1d809edcc70255d86d78287638f3368a07cd0f",
+      "status": "checked",
+      "line": 89,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameClassField.unit_difference_fixed_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameClassField.kills_fixed_prime": {
+      "sha256": "a2b090f58cf807e6b9dd25020511bc767903f650bc7bb1b146f1b8c6ecf177e7",
+      "status": "checked",
+      "line": 98,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameClassField.kills_fixed_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameClassField.Generated": {
+      "sha256": "08c89fba975df6b6292b4716f70421858b3903c2d763e24d8ad4e1b9acf4eedb",
+      "status": "checked",
+      "line": 108,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameClassField.kills_generated": {
+      "sha256": "16bae08f6878b5d9beb60f10b2431bd8dea2f51198df2a8f22a43934ab61386d",
+      "status": "checked",
+      "line": 114,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameClassField.kills_generated' does not depend on any axioms"
+    },
+    "TameClassField.kills_tame_class_kernel": {
+      "sha256": "9e233b00f5cae46f0514a406987fc19af3b113479a3b88a479164d0f156aa5a7",
+      "status": "checked",
+      "line": 125,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameClassField.kills_tame_class_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameClassField.ordinary_to_S_unique": {
+      "sha256": "d751e8ce97b00180570a352c7a1b7c854adccf943242e43d99bce0815af76972",
+      "status": "checked",
+      "line": 140,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameClassField.ordinary_to_S_unique' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameClassField.complete": {
+      "sha256": "a8bd2e982e8a88ac318acac2d6812a9c0ee7ab6fd8f93961c450413acd9f99ca",
+      "status": "checked",
+      "line": 149,
+      "local_sources": {
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

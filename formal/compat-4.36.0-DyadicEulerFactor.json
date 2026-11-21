@@ -1,0 +1,439 @@
+{
+  "steps": {
+    "DyadicEulerFactor.conductor": {
+      "sha256": "9b14225a84e708ae7405b2534304c54d5a9f21b3b74e12407bc1efa689eb952e",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicEulerFactor.quadraticCharacter": {
+      "sha256": "5efba4a43b5dbfdbf35f4ee22a60fc67a96e57997123498ca840a98dbd53436c",
+      "status": "checked",
+      "line": 14,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicEulerFactor.character_at_two": {
+      "sha256": "ea15300d9999ac4f3aaeb96e90d18fe7c6c9169ac0e6aa799ffb90bc307c94b8",
+      "status": "checked",
+      "line": 17,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.character_at_two' does not depend on any axioms"
+    },
+    "DyadicEulerFactor.bernoulli_distribution_two": {
+      "sha256": "c7fbd74c9422cd3acb243504e9b72c75603bcf59d276ecefb5664adadc341ddb",
+      "status": "checked",
+      "line": 22,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.bernoulli_distribution_two' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.bernoulli_at_double": {
+      "sha256": "76c82a227dcfc8f0c107c6e4125eeca23fa574f0718ad861d2c0ce8d977cf90e",
+      "status": "checked",
+      "line": 29,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.bernoulli_at_double' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.doubling_at_both_primes": {
+      "sha256": "a1ee15b962d787dfb0f653d0157c7ffb2bc8ef501b91b2b1f9080061584764d7",
+      "status": "checked",
+      "line": 39,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.doubling_at_both_primes' does not depend on any axioms"
+    },
+    "DyadicEulerFactor.quadSymbol_of_congruent": {
+      "sha256": "de2cbd34e5b3cc20afd6b5096f3ba2618b9abc8b681d3f5e95276d302524a21d",
+      "status": "checked",
+      "line": 45,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.quadSymbol_of_congruent' does not depend on any axioms"
+    },
+    "DyadicEulerFactor.double_residue": {
+      "sha256": "8bed1e90007f3662a1255aeaadcb83dbcfbb4e7e9bd2d31d295ada594a644994",
+      "status": "checked",
+      "line": 50,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.double_residue' depends on axioms: [propext]"
+    },
+    "DyadicEulerFactor.character_double": {
+      "sha256": "4bec67b9663792032a853f83f67e2640652892b191911b4db04e992160137966",
+      "status": "checked",
+      "line": 54,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.character_double' depends on axioms: [propext]"
+    },
+    "DyadicEulerFactor.character_period": {
+      "sha256": "d8eed8634891e4af9f1ba643ae2c608795871b24d6b0890aba54cdee522a4e1c",
+      "status": "checked",
+      "line": 63,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.character_period' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicEulerFactor.removed_even_contribution": {
+      "sha256": "ab3812da4bf263c60505b3eb42878743c8081c41378e2e8361427eaf15d9ec3f",
+      "status": "checked",
+      "line": 72,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.removed_even_contribution' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.sumBelow": {
+      "sha256": "7c360f6ee2b9f9130203affc598d025c33c8459394922d28eaad525c5c640469",
+      "status": "checked",
+      "line": 90,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicEulerFactor.sumBelow_linear": {
+      "sha256": "2445daa083018b2159f3d07a0e6da8b6ea2a4569396cc0aafaa8319fd6deb9ad",
+      "status": "checked",
+      "line": 94,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.sumBelow_linear' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.sumBelow_add": {
+      "sha256": "60a649d633fc864dc8cfe84ba56720d16460e5e1b0bda1c46fbea321ed5d6d4f",
+      "status": "checked",
+      "line": 100,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.sumBelow_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.sumBelow_even_odd": {
+      "sha256": "442bc85a21baba1bed46f1aee710390cb8d5292a581c01df2c431dfb971c266c",
+      "status": "checked",
+      "line": 106,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.sumBelow_even_odd' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.sumBelow_scale": {
+      "sha256": "ef192e17fe480f60987ae410847585728ce895dcc0ab8a8e77e415ae1194e03a",
+      "status": "checked",
+      "line": 115,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.sumBelow_scale' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.sumBelow_pointwise_add": {
+      "sha256": "9d2badd2e4a07bfa0074d4e40008e4c77d9c2024031a2e68eaeb244778b6f311",
+      "status": "checked",
+      "line": 119,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.sumBelow_pointwise_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.reindex_odd_sum": {
+      "sha256": "f312fd426f3bc0806eb46e5e95e96d98eaf7b8c12c48de109bede0b113a796d0",
+      "status": "checked",
+      "line": 124,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.reindex_odd_sum' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.summand": {
+      "sha256": "0a71603e5fe6d115ad1aae851b2ed546a5a153afbce64ce4babb33292c8f4f63",
+      "status": "checked",
+      "line": 136,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicEulerFactor.primitiveRaw": {
+      "sha256": "0cb786be59b9d476447464173892052799a598c1da322397bf1bb1e9c3e1c60e",
+      "status": "checked",
+      "line": 139,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicEulerFactor.oddRaw": {
+      "sha256": "dd4c4c0456dcaba4ba0a41ffc810c3321d797d190c7f410a8b9c6a8d3b794c4f",
+      "status": "checked",
+      "line": 143,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicEulerFactor.depletion_at_twice_conductor": {
+      "sha256": "3553f42ff4ca7727b485e1238ea7bbe08c53f00f0914b5392e45d2e065171fd7",
+      "status": "checked",
+      "line": 146,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.depletion_at_twice_conductor' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.character_period_multiple": {
+      "sha256": "e7d3681c1641251a9a4508013f5d2da9105c3fab101553a05c3c0c1b72eb6435",
+      "status": "checked",
+      "line": 162,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.character_period_multiple' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicEulerFactor.oddRaw_double_period": {
+      "sha256": "954a9a20852abaf9e3a2644a8725a1df80478efb40e9cd6a22addcf57ded9181",
+      "status": "checked",
+      "line": 171,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.oddRaw_double_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.depletion_at_common_period": {
+      "sha256": "de6b65963d5ed224c5c16e707708aa8e63479b96c2d4b009e432c8b8d95f7a6a",
+      "status": "checked",
+      "line": 189,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.depletion_at_common_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.blockSums": {
+      "sha256": "3c8731e9c1aeec1c2cc42596f2dadd03d39b13787d3788b58a6cdc9f0da6d8b8",
+      "status": "checked",
+      "line": 206,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicEulerFactor.blockSums_succ": {
+      "sha256": "7f042a421796430baed84f37a3f624a17a3f75b7dfd7724f64ac3a16c6ad34c8",
+      "status": "checked",
+      "line": 209,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.blockSums_succ' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicEulerFactor.untwisted_block_step": {
+      "sha256": "2dd1f23e20759a636cefbb294f8cef07635ced9b1fd652d09a27982f9240a02e",
+      "status": "checked",
+      "line": 215,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.untwisted_block_step' does not depend on any axioms"
+    },
+    "DyadicEulerFactor.sumBelow_four_next": {
+      "sha256": "c0b4f68865f69ea65f0e8f90e6835d82b087abcaa6bb9ca8a37d34f33bace770",
+      "status": "checked",
+      "line": 223,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.sumBelow_four_next' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicEulerFactor.untwisted_partial_sums": {
+      "sha256": "9ba5ef80b14a99336c13ec8790ce4a42b82602fbf5747d1b99b24ed49fe42210",
+      "status": "checked",
+      "line": 229,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.untwisted_partial_sums' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicEulerFactor.executable_odd_sums": {
+      "sha256": "6d7c976bcd5719f45bd60e67d7b319bb6da458f09f7b6ebad580930c4b9f2738",
+      "status": "checked",
+      "line": 245,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.executable_odd_sums' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicEulerFactor.raw_euler_factors": {
+      "sha256": "1c4c044ab2629056dcf6350964a3cdf408b06d710d8339bf4fd632301629f3bb",
+      "status": "checked",
+      "line": 252,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.raw_euler_factors' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.primitive_raw_table": {
+      "sha256": "1608d1ad20a77d2c34d685a5fcba3bf2533c3a1c300a5f4bb8361314742a91e6",
+      "status": "checked",
+      "line": 262,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.primitive_raw_table' does not depend on any axioms"
+    },
+    "DyadicEulerFactor.normalized_primitive_moments": {
+      "sha256": "e346cea5836ac334480276e9ff9cdafe9870a55704533c870e27c65bb9143109",
+      "status": "checked",
+      "line": 267,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.normalized_primitive_moments' does not depend on any axioms"
+    },
+    "DyadicEulerFactor.normalized_euler_factors": {
+      "sha256": "ce1d3480a020e453a46a369415e1e32b98b555f350c2dc6f5f109608883c8603",
+      "status": "checked",
+      "line": 275,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.normalized_euler_factors' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.depleted_values_from_primitive": {
+      "sha256": "d04ee25d0cb04da37dab1c7eae5f2f80a996941042267177c0c380b3aed63d55",
+      "status": "checked",
+      "line": 283,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.depleted_values_from_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicEulerFactor.complete": {
+      "sha256": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+      "status": "checked",
+      "line": 334,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicEulerFactor.proper_divisors": {
+      "sha256": "3e26bdaf75b0b4d7b413b4357883702b73ff0c2c73c70e673de04748a7247be0",
+      "status": "checked",
+      "line": 293,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.proper_divisors' depends on axioms: [propext]"
+    },
+    "DyadicEulerFactor.incompatible_unit_residues": {
+      "sha256": "4e207a2fe868309def85770e7b1e3afe2863548636bc8886e44dfa3d2dca5e80",
+      "status": "checked",
+      "line": 299,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.incompatible_unit_residues' does not depend on any axioms"
+    },
+    "DyadicEulerFactor.no_descent_to_proper_divisor": {
+      "sha256": "c775b2611d1a9c2883f50aeb4d5471a76d9b1e62d172aef6a8bed31f13113a10",
+      "status": "checked",
+      "line": 307,
+      "local_sources": {
+        "Reimann/Character2893.lean": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicEulerFactor.no_descent_to_proper_divisor' depends on axioms: [propext, Quot.sound]"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

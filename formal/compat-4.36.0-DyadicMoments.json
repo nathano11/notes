@@ -1,0 +1,104 @@
+{
+  "steps": {
+    "DyadicMoments.realMoments": {
+      "sha256": "5093b0c103b309f9377906c0c0b0686f6a627e469293d7c9827870b08c73f0d6",
+      "status": "checked",
+      "line": 20,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicMoments.normalized_real_moments_3_23": {
+      "sha256": "5a19582de6208705a6f9bdd97f27ac98f573db35ba114550ac22de4298a40417",
+      "status": "checked",
+      "line": 25,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicMoments.normalized_real_moments_3_23' does not depend on any axioms"
+    },
+    "DyadicMoments.inverse_five_arguments": {
+      "sha256": "0d4e7b95fc9812aa54e58c0eb6a9b9b893982cc4db8f8f28b24ccb903153ceb6",
+      "status": "checked",
+      "line": 31,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicMoments.inverse_five_arguments' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicMoments.unit_scaled_moment_residues": {
+      "sha256": "f0adcedfee99e59f53e0c3e534cd50659ca91434527e7652da0b80f4198ab907",
+      "status": "checked",
+      "line": 36,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicMoments.unit_scaled_moment_residues' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicMoments.quadraticSample": {
+      "sha256": "382d6c37d9446cc7c9f494f74ace28215e5073d6421d9b7d7a9ba364d8a282ef",
+      "status": "checked",
+      "line": 43,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicMoments.sample_is_companion_determinant": {
+      "sha256": "dc243aba5c57bc9ba874f2c9c6216fc3c47e4cdc06c3a4a33c9895401c291343",
+      "status": "checked",
+      "line": 46,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicMoments.sample_is_companion_determinant' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicMoments.sample_reduce_argument": {
+      "sha256": "d9658c405d7ac3664ce74c546dbee78d2dd12d736f2b04e1b5f30ac31abbd082",
+      "status": "checked",
+      "line": 53,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicMoments.sample_reduce_argument' depends on axioms: [propext]"
+    },
+    "DyadicMoments.coefficients_of_two_residues": {
+      "sha256": "c0395bf485a6d1ecc6a3134f39b431bb594b01bbe4a6fd298396f76b989af4af",
+      "status": "checked",
+      "line": 62,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicMoments.coefficients_of_two_residues' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicMoments.coefficient_residues_of_mizusawa_samples": {
+      "sha256": "74da1dac504e092b89aa3e669b958e25df571495c9277d5111f005c70c06c6ff",
+      "status": "checked",
+      "line": 74,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicMoments.coefficient_residues_of_mizusawa_samples' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "DyadicMoments.complete": {
+      "sha256": "f56765804b0990a222f4c3b34e6144be5429acc70600861c32f9f903d041bcbf",
+      "status": "checked",
+      "line": 85,
+      "local_sources": {
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

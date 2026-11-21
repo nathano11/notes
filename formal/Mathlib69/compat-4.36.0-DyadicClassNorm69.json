@@ -1,0 +1,84 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.RingTheory.ClassGroup.Basic": "29e58f2e7f805bdb7c2d5850a67b0f0fdd84893ebe12ed12cfa348ddb5c14c1c",
+    "Mathlib.RingTheory.Ideal.Norm.RelNorm": "ab089ddb28036f7de16275aef60717c4524acd75ffeba72caeabd8957ccdefce",
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33"
+  },
+  "steps": {
+    "DyadicClassNorm69.idealNorm": {
+      "sha256": "026b57d7c7cf62d6d2915771ecda688ad10fa9052f30a8bd1ed67836c2d5d8c8",
+      "line": 14,
+      "status": "checked"
+    },
+    "DyadicClassNorm69.norm_preserves_class": {
+      "sha256": "6a9ecaee71ca59af971e8e0d9ef03f3f647fe758e3bb41f803822acb287dbf7c",
+      "line": 21,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicClassNorm69.norm_preserves_class' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicClassNorm69.onClass": {
+      "sha256": "1c94376fab566f9d28255d993b129b05b567fcb573ab96eb1f21d0ec6a7d88cb",
+      "line": 30,
+      "status": "checked"
+    },
+    "DyadicClassNorm69.onClass_mk0": {
+      "sha256": "72ec7aead421eb4f6cd129f4317e8c53f3f4aa07dab0b561b53dc285bfc168fa",
+      "line": 33,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicClassNorm69.onClass_mk0' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicClassNorm69.classNorm": {
+      "sha256": "37667aa5b1239fc59f8abceaea9ebc2fbe2a461cef2eb3a78d4197918c4363a6",
+      "line": 37,
+      "status": "checked"
+    },
+    "DyadicClassNorm69.classNorm_mk0": {
+      "sha256": "37002d7d6a14d50641207f995c7df16790eb8909114b75df189e0a1fa75f97cb",
+      "line": 47,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicClassNorm69.classNorm_mk0' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicClassNorm69.classNorm_tower": {
+      "sha256": "aa9f21043a89faf209642fc7e9bc698a2e678f93ff34c0d9e4ea03d0dd996231",
+      "line": 50,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicClassNorm69.classNorm_tower' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicClassNorm69.numberField_norm": {
+      "sha256": "f9f808fa94d0e9f5c360ac26b96080a2d3cfeed03348496c852740ebdb47db1f",
+      "line": 60,
+      "status": "checked"
+    },
+    "DyadicClassNorm69.numberField_norm_mk0": {
+      "sha256": "de7fc21e39c9f33672c940de0924cb9f08aca5b428f8363bf612f0578eab3fac",
+      "line": 64,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicClassNorm69.numberField_norm_mk0' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicClassNorm69.numberField_norm_tower": {
+      "sha256": "1239028c03b338f22b931d2b7696fb2be18cc2d726799e2fc23aac6a99102365",
+      "line": 69,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicClassNorm69.numberField_norm_tower' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicClassNorm69.classNorm_prime": {
+      "sha256": "c80dae46976377f3f7a0174628d517b266caee59403848fc8af453c75c9e0ad2",
+      "line": 78,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicClassNorm69.classNorm_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicClassNorm69.numberField_norm_prime": {
+      "sha256": "a85c527b37174ce408aa17a76955ed917c7bbb58755587e36f24d9c721f15d28",
+      "line": 84,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicClassNorm69.numberField_norm_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicClassNorm69.complete": {
+      "sha256": "a18a9cc5961d7b28591112853d0538db245f3457a44c8fd5a0d1e543e745e367",
+      "line": 90,
+      "status": "checked"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "pin": "leanprover/lean4:v4.33.1",
+  "checked_version": "4.36.0",
+  "passed": [
+    {
+      "theorem": "ReimannWindow.DyadicChecks.eulerFactors",
+      "sha256": "26fa2a9b60e822e169a1eeb330dd9983590ec38d7c209b35b185cbce8aad1a1f"
+    },
+    {
+      "theorem": "ReimannWindow.DyadicChecks.conductor69Moments",
+      "sha256": "87e3d3e8188bcf100a549ee25701a53443ca328ec5a236474d7fc24f577842dd"
+    },
+    {
+      "theorem": "ReimannWindow.DyadicChecks.conductor552Moments",
+      "sha256": "10b2901c1fdb2280e36968c4940de2f8cd6ccdd707befad03b966ce14d5588ee"
+    },
+    {
+      "theorem": "ReimannWindow.DyadicChecks.normalized69",
+      "sha256": "54bd3290d00932f637853533593d18cf625028843c87d72e15af656bfdc84a24"
+    },
+    {
+      "theorem": "ReimannWindow.DyadicChecks.normalized552",
+      "sha256": "bf052137ea141f99fbc7d4fffa96ad792f15d700be995890c8b49115f12aafb7"
+    },
+    {
+      "theorem": "ReimannWindow.DyadicChecks.normalizedResidues",
+      "sha256": "e5ec4cc0e070b194b7ad6d8f7011748d1ccba2b3a9ec206b403185ec55a9cc83"
+    }
+  ],
+  "next": null,
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "paused_after": "normalizedResidues"
+}

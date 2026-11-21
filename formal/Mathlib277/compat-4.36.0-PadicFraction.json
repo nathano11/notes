@@ -1,0 +1,141 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.PadicInteger": "b9528953f8045b5009ec90a0e7d305b4807d566fb2a50eb222fd24ff0d488f48",
+    "Reimann.TameFractionTarget277": "8d04f2c6fe57fd4c439e9871dbe0788422a949e63db01d479f22524a66d7ff98",
+    "Reimann.TameFractionCompletion277": "53e0512ad1d2817f7a63cbd9ab9b0b35248717a47270a25d2142ca3fb8a1ea58",
+    "Reimann.TameOrderCompletion277": "4f13588caa002782d7596a41dc4430d15f584506829b6e7cc3c5beb951f47cfd",
+    "Reimann.TameAdicDomain277": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+    "Reimann.TameLimit277": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+    "Reimann.TameTwist277": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+    "Reimann.TameRootExhaustion277": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Reimann.CyclicBoundary": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+    "Reimann.CyclotomicNorm": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.ScalarCoinvariants": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed",
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Reimann.TameLocalOrders277": "7596b78ef21b0c5280340bd64566b0602408339c991da705e9cf24d97837dd18",
+    "Reimann.TameArithmetic277": "48e0882aeffd38210c101bceab1e5aafefd3c877b7bafc39567fb2b0ad592b54",
+    "Reimann.TamePrimePowers277": "9c5db0aad6d6d16ef27a54edf4fa99d8283bf17cc04157dc8955f41fc1adda6c",
+    "Reimann.TameOrderPrimes277": "847a93ca9be19999dca67c119cc95e685f21fd8f3956100065a73bc8b521336b",
+    "Reimann.TameFiber277": "7d07f4bd543ccecef281e086cbc1d023250657743c14eb5d5e5a0884442650d2",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameOrderReduction277": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6"
+  },
+  "steps": {
+    "PadicFraction.prime277": {
+      "sha256": "570b466d0d62f3d3ef77919db731bd7c6ad05e8f51840fee002c1239fcde1a45",
+      "line": 9,
+      "status": "checked"
+    },
+    "PadicFraction.integralMap": {
+      "sha256": "374df9d5b9b5288e3bcfc445a8af2baa0af8fb4101fadbbced6e00be331cb4d7",
+      "line": 12,
+      "status": "checked"
+    },
+    "PadicFraction.integralMap_ofInt": {
+      "sha256": "4c0a2e7b8c64477f7513ecdcf29bab15805948d4bb46a93a7f42b9ea4b63d508",
+      "line": 19,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicFraction277.integralMap_ofInt' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicFraction.integralMap_read": {
+      "sha256": "157c24060ec0c232f6a6783c74b351f5caef5f24a45a6f572e13278547fe7344",
+      "line": 23,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicFraction277.integralMap_read' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicFraction.read_denominator_ne_zero": {
+      "sha256": "c79effcd1ce37c48dc2d582443b0cf5ab9fd2250a3fe3276b864c77248405823",
+      "line": 27,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicFraction277.read_denominator_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicFraction.standard_ratio": {
+      "sha256": "073d793b7f966ede5cd1ce03d01e5ef2904d6a2375393d4ab6026b9801c1696a",
+      "line": 36,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicFraction277.standard_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicFraction.integralMap_spans": {
+      "sha256": "e200bec039ef94ede3e457589ac3d2f7e695bad77dcc436012146118b85af653",
+      "line": 42,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicFraction277.integralMap_spans' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicFraction.realizeFraction": {
+      "sha256": "7b903eeec4a3a6e9f4ea0fd4fd3d6ffee295ff0e6d71e0f8f365f3093b093097",
+      "line": 48,
+      "status": "checked"
+    },
+    "PadicFraction.realizeFraction_injective": {
+      "sha256": "0fc4f75104629d26e996334c0ddb39c816f1367252c28b7f99d37e2855886ddb",
+      "line": 51,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicFraction277.realizeFraction_injective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicFraction.realizeFraction_surjective": {
+      "sha256": "4b028674700d48d0a41fd428b84e9df204d1dba59cb97f605ac0c9c8e23f385a",
+      "line": 54,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicFraction277.realizeFraction_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicFraction.fractionEquiv": {
+      "sha256": "e551654328017f22bad5848ca0813d5d9bc4aa4d8ca9d2fc0422a006dbe00094",
+      "line": 57,
+      "status": "checked"
+    },
+    "PadicFraction.realize_add": {
+      "sha256": "1012a1ca8ed8df3361b8060f2cb8979ba8e2712e4c94b0c618d80a159ad44eeb",
+      "line": 60,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicFraction277.realize_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicFraction.realize_mul": {
+      "sha256": "2d4894d773a63846f407c1cbd0abbda8d2f4943f15de385133f36798ff1cb1a4",
+      "line": 64,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicFraction277.realize_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicFraction.realize_rational": {
+      "sha256": "d55f7e2ea8d9b49c1d08d41ec8f2c178e5f5414d8d30427151eace327ec4da48",
+      "line": 68,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicFraction277.realize_rational' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicFraction.ratioAddition": {
+      "sha256": "0ddbd3d09dc3147fd216fd07a7b0bfdb5d84b6592e4b77c74461a034047872cb",
+      "line": 72,
+      "status": "checked"
+    },
+    "PadicFraction.ratioMultiplication": {
+      "sha256": "455417d241ec4393efe49f9829f9ba431c12eafc6007024de2ef57fe51aa849f",
+      "line": 73,
+      "status": "checked"
+    },
+    "PadicFraction.fractionRingEquiv": {
+      "sha256": "9906999a729c034e1e715f414fe36fa2b28201e549d69785056fd4ef24c66a4c",
+      "line": 76,
+      "status": "checked"
+    },
+    "PadicFraction.fractionRealization": {
+      "sha256": "358e233fd5a491a8f5bd248699dc5adaf72dece056b08c53f880adb0cefcfd29",
+      "line": 81,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicFraction277.fractionRealization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicFraction.padic_target_realization": {
+      "sha256": "137ec53850c2c8c4cbca029ca0a2cb485df1f1b72fbadadcb39b8fdbd1d0f86c",
+      "line": 97,
+      "status": "checked",
+      "checker_output": "'Reimann.TameArithmetic277.padic_target_realization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicFraction.complete": {
+      "sha256": "c9fa9e5ecba003c3c1153a606579da142a1842493c2829389f3eebf21d981e0b",
+      "line": 111,
+      "status": "checked"
+    }
+  }
+}

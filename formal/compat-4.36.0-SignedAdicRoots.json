@@ -1,0 +1,116 @@
+{
+  "steps": {
+    "SignedAdicRoots.undo_rescaling": {
+      "sha256": "b2a1f4d877756fee4291ddc92e8711ce21d686d816e77bc9b44d2644130142d1",
+      "status": "checked",
+      "line": 9,
+      "local_sources": {
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedAdicRoots.undo_rescaling' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicRoots.even_root": {
+      "sha256": "ac568aefc47de7bf28b06e38211a5fa427d2fabe372fa279443ab726147da8d3",
+      "status": "checked",
+      "line": 21,
+      "local_sources": {
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedAdicRoots.even_root' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicRoots.scaled_factors": {
+      "sha256": "bcb7da3665d4f049ddaab417dff1dcfc4a028ed564efe831b637c58d8543647b",
+      "status": "checked",
+      "line": 35,
+      "local_sources": {
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedAdicRoots.scaled_factors' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicRoots.monic_factors": {
+      "sha256": "ee4b1318c486a6a62ff45a5ffa5e62c1c835d07b5e6590053c17c9f9c949e14b",
+      "status": "checked",
+      "line": 49,
+      "local_sources": {
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedAdicRoots.monic_factors' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicRoots.homogeneous_factorization": {
+      "sha256": "0015f31c25fac9032b13413f7a339a37302b1c3a1e0219146c7dfcc6fe06df13",
+      "status": "checked",
+      "line": 61,
+      "local_sources": {
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedAdicRoots.homogeneous_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicRoots.scaled_labels_four": {
+      "sha256": "234f76c5a696cae13a44d962cae7b8885a85c95bf27ee5dbbc6bb7cd182f1c22",
+      "status": "checked",
+      "line": 73,
+      "local_sources": {
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedAdicRoots.scaled_labels_four' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedAdicRoots.doubled_labels_eight": {
+      "sha256": "54980210dfd3fb84e45c0462ba063ff7e5c37e733641605662737b307108180a",
+      "status": "checked",
+      "line": 76,
+      "local_sources": {
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedAdicRoots.doubled_labels_eight' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedAdicRoots.factor_from_scaled_vieta": {
+      "sha256": "1bf22a90834bc674b5d83f9751acabb25605e0d2f979924f674b08a0ede36d71",
+      "status": "checked",
+      "line": 79,
+      "local_sources": {
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedAdicRoots.factor_from_scaled_vieta' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicRoots.labelled_scalar_factorization": {
+      "sha256": "026d87ca4730990d160e6f8fbdb2ed67c1a2332ac9552027d6ee5f728e0b6a42",
+      "status": "checked",
+      "line": 89,
+      "local_sources": {
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedAdicRoots.labelled_scalar_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicRoots.complete": {
+      "sha256": "93af86da62be4183a31e9911329a24af3616deb8663802c5ee243658b3909a86",
+      "status": "checked",
+      "line": 115,
+      "local_sources": {
+        "Reimann/DyadicSplitRoot.lean": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

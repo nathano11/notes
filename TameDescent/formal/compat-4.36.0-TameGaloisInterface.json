@@ -1,0 +1,108 @@
+{
+  "steps": {
+    "TameGaloisInterface.ContinuousOnKernel": {
+      "sha256": "3893bed7ac7b6484e835462edd1c5c4e31d75ae3553485bf190c6b55ffd6cbbe",
+      "status": "checked",
+      "line": 9,
+      "local_sources": {
+        "Reimann/TameContinuity.lean": "0277af0f7f4de202444b4b4e16ef89e21cddb50c5f844ffe5c56d90c636dbfea",
+        "Reimann/TameStrictInterface.lean": "01755cb25faa87952e16e9761a45e20592e2fed565b19e10306b344a34ca42c3",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameLocal.lean": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19",
+        "Reimann/TameClassField.lean": "a8bd2e982e8a88ac318acac2d6812a9c0ee7ab6fd8f93961c450413acd9f99ca",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameGaloisInterface.pullback_continuous": {
+      "sha256": "1e86fb95339dd552d63773cf82f969c384591ca7c2227a36959cca3a9b5ba59a",
+      "status": "checked",
+      "line": 14,
+      "local_sources": {
+        "Reimann/TameContinuity.lean": "0277af0f7f4de202444b4b4e16ef89e21cddb50c5f844ffe5c56d90c636dbfea",
+        "Reimann/TameStrictInterface.lean": "01755cb25faa87952e16e9761a45e20592e2fed565b19e10306b344a34ca42c3",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameLocal.lean": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19",
+        "Reimann/TameClassField.lean": "a8bd2e982e8a88ac318acac2d6812a9c0ee7ab6fd8f93961c450413acd9f99ca",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameGaloisInterface.pullback_continuous' depends on axioms: [Quot.sound]"
+    },
+    "TameGaloisInterface.ContinuousArtinInput": {
+      "sha256": "d5f05f77f97ec080c70562fc786fbac52e4fbdf93640248cd7d7c7fb09b48011",
+      "status": "checked",
+      "line": 32,
+      "local_sources": {
+        "Reimann/TameContinuity.lean": "0277af0f7f4de202444b4b4e16ef89e21cddb50c5f844ffe5c56d90c636dbfea",
+        "Reimann/TameStrictInterface.lean": "01755cb25faa87952e16e9761a45e20592e2fed565b19e10306b344a34ca42c3",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameLocal.lean": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19",
+        "Reimann/TameClassField.lean": "a8bd2e982e8a88ac318acac2d6812a9c0ee7ab6fd8f93961c450413acd9f99ca",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameGaloisInterface.artin": {
+      "sha256": "11107e7aebe07a4c6b87c0bf9318e4f8bcb1b3a46e76067297db578161a5d91f",
+      "status": "checked",
+      "line": 46,
+      "local_sources": {
+        "Reimann/TameContinuity.lean": "0277af0f7f4de202444b4b4e16ef89e21cddb50c5f844ffe5c56d90c636dbfea",
+        "Reimann/TameStrictInterface.lean": "01755cb25faa87952e16e9761a45e20592e2fed565b19e10306b344a34ca42c3",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameLocal.lean": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19",
+        "Reimann/TameClassField.lean": "a8bd2e982e8a88ac318acac2d6812a9c0ee7ab6fd8f93961c450413acd9f99ca",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameGaloisInterface.admissible_iff_continuous": {
+      "sha256": "ae7731499567434065b29401c3565ca63495d077b7eb8e8ea9c1fe6b0080bffb",
+      "status": "checked",
+      "line": 60,
+      "local_sources": {
+        "Reimann/TameContinuity.lean": "0277af0f7f4de202444b4b4e16ef89e21cddb50c5f844ffe5c56d90c636dbfea",
+        "Reimann/TameStrictInterface.lean": "01755cb25faa87952e16e9761a45e20592e2fed565b19e10306b344a34ca42c3",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameLocal.lean": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19",
+        "Reimann/TameClassField.lean": "a8bd2e982e8a88ac318acac2d6812a9c0ee7ab6fd8f93961c450413acd9f99ca",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameGaloisInterface.admissible_iff_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameGaloisInterface.continuous_strict_class_correspondence": {
+      "sha256": "a4fe3ac61a6c0d70e4ddc0aff42409ef280d82c5cf9aee69b85a098d8d6e10e6",
+      "status": "checked",
+      "line": 70,
+      "local_sources": {
+        "Reimann/TameContinuity.lean": "0277af0f7f4de202444b4b4e16ef89e21cddb50c5f844ffe5c56d90c636dbfea",
+        "Reimann/TameStrictInterface.lean": "01755cb25faa87952e16e9761a45e20592e2fed565b19e10306b344a34ca42c3",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameLocal.lean": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19",
+        "Reimann/TameClassField.lean": "a8bd2e982e8a88ac318acac2d6812a9c0ee7ab6fd8f93961c450413acd9f99ca",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameGaloisInterface.continuous_strict_class_correspondence' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "TameGaloisInterface.complete": {
+      "sha256": "f027410085b059be74186a07bb7edb0210f0315ba979056ecc3c4b40662c507e",
+      "status": "checked",
+      "line": 83,
+      "local_sources": {
+        "Reimann/TameContinuity.lean": "0277af0f7f4de202444b4b4e16ef89e21cddb50c5f844ffe5c56d90c636dbfea",
+        "Reimann/TameStrictInterface.lean": "01755cb25faa87952e16e9761a45e20592e2fed565b19e10306b344a34ca42c3",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameLocal.lean": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19",
+        "Reimann/TameClassField.lean": "a8bd2e982e8a88ac318acac2d6812a9c0ee7ab6fd8f93961c450413acd9f99ca",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

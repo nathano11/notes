@@ -1,0 +1,132 @@
+{
+  "steps": {
+    "DyadicArtinResidueNorm69.sum_mem": {
+      "sha256": "1bda609e1a94b07c895dcbe1ab39c9ffbff66513144ee1d151e567b7313b5251",
+      "status": "checked",
+      "line": 10,
+      "local_sources": {
+        "Reimann/DyadicArtinFrobenius69.lean": "4ef17a99f087182bc18807405b2ca7e27cf8741a5e7efe0480807ee1b67b94e8",
+        "Reimann/DyadicArtinCommutator69.lean": "fd7c36fa224bb8ff1872749a36b049ba1e512a4b77d4f8b3d9186d6d14a1319d",
+        "Reimann/DyadicLocal.lean": "fce54b7b129fa1d38371c59fad512b9de5c35f067e6dffd58ad12a3f3dd6afca",
+        "Reimann/DyadicPlaceProduct.lean": "279b896de7562bede642ad803c0d50264c8b92e5bfd81c6159f723f23599219c",
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3",
+        "Reimann/TameLocal.lean": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicArtinResidueNorm69.sum_mem' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicArtinResidueNorm69.pow_respects_prime": {
+      "sha256": "0f1a91128a4447eb363c1f4519a9468087d10e7772a51593c34ba14659d1ca9f",
+      "status": "checked",
+      "line": 14,
+      "local_sources": {
+        "Reimann/DyadicArtinFrobenius69.lean": "4ef17a99f087182bc18807405b2ca7e27cf8741a5e7efe0480807ee1b67b94e8",
+        "Reimann/DyadicArtinCommutator69.lean": "fd7c36fa224bb8ff1872749a36b049ba1e512a4b77d4f8b3d9186d6d14a1319d",
+        "Reimann/DyadicLocal.lean": "fce54b7b129fa1d38371c59fad512b9de5c35f067e6dffd58ad12a3f3dd6afca",
+        "Reimann/DyadicPlaceProduct.lean": "279b896de7562bede642ad803c0d50264c8b92e5bfd81c6159f723f23599219c",
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3",
+        "Reimann/TameLocal.lean": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicArtinResidueNorm69.pow_respects_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicArtinResidueNorm69.iterate_power": {
+      "sha256": "00b4668428f232c18c1e20cb3b86d839fee3b27be820f45f47aa38b4cbe6145a",
+      "status": "checked",
+      "line": 26,
+      "local_sources": {
+        "Reimann/DyadicArtinFrobenius69.lean": "4ef17a99f087182bc18807405b2ca7e27cf8741a5e7efe0480807ee1b67b94e8",
+        "Reimann/DyadicArtinCommutator69.lean": "fd7c36fa224bb8ff1872749a36b049ba1e512a4b77d4f8b3d9186d6d14a1319d",
+        "Reimann/DyadicLocal.lean": "fce54b7b129fa1d38371c59fad512b9de5c35f067e6dffd58ad12a3f3dd6afca",
+        "Reimann/DyadicPlaceProduct.lean": "279b896de7562bede642ad803c0d50264c8b92e5bfd81c6159f723f23599219c",
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3",
+        "Reimann/TameLocal.lean": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicArtinResidueNorm69.iterate_power' depends on axioms: [propext]"
+    },
+    "DyadicArtinResidueNorm69.frobenius_power": {
+      "sha256": "6db1b225244f75362d7791573fd7fd1d620e6ce16199a22364b9b96f69be3eea",
+      "status": "checked",
+      "line": 31,
+      "local_sources": {
+        "Reimann/DyadicArtinFrobenius69.lean": "4ef17a99f087182bc18807405b2ca7e27cf8741a5e7efe0480807ee1b67b94e8",
+        "Reimann/DyadicArtinCommutator69.lean": "fd7c36fa224bb8ff1872749a36b049ba1e512a4b77d4f8b3d9186d6d14a1319d",
+        "Reimann/DyadicLocal.lean": "fce54b7b129fa1d38371c59fad512b9de5c35f067e6dffd58ad12a3f3dd6afca",
+        "Reimann/DyadicPlaceProduct.lean": "279b896de7562bede642ad803c0d50264c8b92e5bfd81c6159f723f23599219c",
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3",
+        "Reimann/TameLocal.lean": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicArtinResidueNorm69.frobenius_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicArtinResidueNorm69.restrict_frobenius": {
+      "sha256": "fcdb80d2186bae6c8233cb5fc99a8bc24d04cef2f83c6bf1c86a8718401ba497",
+      "status": "checked",
+      "line": 55,
+      "local_sources": {
+        "Reimann/DyadicArtinFrobenius69.lean": "4ef17a99f087182bc18807405b2ca7e27cf8741a5e7efe0480807ee1b67b94e8",
+        "Reimann/DyadicArtinCommutator69.lean": "fd7c36fa224bb8ff1872749a36b049ba1e512a4b77d4f8b3d9186d6d14a1319d",
+        "Reimann/DyadicLocal.lean": "fce54b7b129fa1d38371c59fad512b9de5c35f067e6dffd58ad12a3f3dd6afca",
+        "Reimann/DyadicPlaceProduct.lean": "279b896de7562bede642ad803c0d50264c8b92e5bfd81c6159f723f23599219c",
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3",
+        "Reimann/TameLocal.lean": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicArtinResidueNorm69.restrict_frobenius' depends on axioms: [propext]"
+    },
+    "DyadicArtinResidueNorm69.frobenius_norm_at_prime": {
+      "sha256": "9331b82acaa53112eed994fb92f055b4fc85d40526ccb802e035ac4cdd3d9671",
+      "status": "checked",
+      "line": 72,
+      "local_sources": {
+        "Reimann/DyadicArtinFrobenius69.lean": "4ef17a99f087182bc18807405b2ca7e27cf8741a5e7efe0480807ee1b67b94e8",
+        "Reimann/DyadicArtinCommutator69.lean": "fd7c36fa224bb8ff1872749a36b049ba1e512a4b77d4f8b3d9186d6d14a1319d",
+        "Reimann/DyadicLocal.lean": "fce54b7b129fa1d38371c59fad512b9de5c35f067e6dffd58ad12a3f3dd6afca",
+        "Reimann/DyadicPlaceProduct.lean": "279b896de7562bede642ad803c0d50264c8b92e5bfd81c6159f723f23599219c",
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3",
+        "Reimann/TameLocal.lean": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicArtinResidueNorm69.frobenius_norm_at_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicArtinResidueNorm69.complete": {
+      "sha256": "b14615ea6e08a5f937abd7c6f15be180d0d1ba31f6a8e759ae10da5dcbfd56c4",
+      "status": "checked",
+      "line": 85,
+      "local_sources": {
+        "Reimann/DyadicArtinFrobenius69.lean": "4ef17a99f087182bc18807405b2ca7e27cf8741a5e7efe0480807ee1b67b94e8",
+        "Reimann/DyadicArtinCommutator69.lean": "fd7c36fa224bb8ff1872749a36b049ba1e512a4b77d4f8b3d9186d6d14a1319d",
+        "Reimann/DyadicLocal.lean": "fce54b7b129fa1d38371c59fad512b9de5c35f067e6dffd58ad12a3f3dd6afca",
+        "Reimann/DyadicPlaceProduct.lean": "279b896de7562bede642ad803c0d50264c8b92e5bfd81c6159f723f23599219c",
+        "Reimann/DyadicLift.lean": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+        "Reimann/TameRestriction.lean": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+        "Reimann/TameCoefficients.lean": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+        "Reimann/Transfer.lean": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3",
+        "Reimann/TameLocal.lean": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

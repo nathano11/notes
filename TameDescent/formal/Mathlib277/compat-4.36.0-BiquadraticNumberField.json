@@ -1,0 +1,60 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33",
+    "Mathlib.LinearAlgebra.Dimension.Constructions": "ddb3ce6891ef7453182bdbba8b9fa73c892f71dd0907ad2cf02a2e67c41fbcfd",
+    "Reimann277.BiquadraticReal": "a74e90feb809a047934a3b679a9bcfe158c3ff179d2050289c8bbeaffa63e716",
+    "Mathlib.Basic.Real.Basic": "47e972d32100969f0c7f6dc5a413dac152d941c4e14fc9cbc2d4b43e9d05ef63",
+    "Mathlib.Tactic.NormNum": "480ebc7f2e8d9370016d90be1babe5c26d8bfa3f597e0fa8fcd718528133826c",
+    "Reimann277.Biquadratic": "1eecf3556b0b3cbf21ff1704cade538325a07227d454a3ade53283149eb974df",
+    "Mathlib.Algebra.Algebra.Hom": "cb23985743d69ab47c814e821ec7620d49ce642073d96ea0016b5f48fd5dd445",
+    "Mathlib.Algebra.Algebra.Rat": "27a6444a720f4100b0a93140231049882e266bacef7f4c6bb8c7a1374cc6561b",
+    "Mathlib.Algebra.Field.MinimalAxioms": "5a4f6a6ce4037663e35257965bd052a4fa36d040c7bc7ad7eed074e9dd1a2872",
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb",
+    "Reimann.TameEmbeddings277": "7c184751698ce48d191a56ef92f45ca365f177a4cab5a4f52c9c29bcee50b5c7",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e"
+  },
+  "steps": {
+    "BiquadraticNumberField.coordinateLinearEquiv": {
+      "sha256": "bcfbf641cd5b63e841b7cbf9025bc3c5536b5f0ca4bae607750e2188413621a6",
+      "line": 11,
+      "status": "checked"
+    },
+    "BiquadraticNumberField.biquadraticFiniteDimensional": {
+      "sha256": "c09b108c01640f97527818f6f40f942d265dc2a68905674d97df165820babc01",
+      "line": 23,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.biquadraticFiniteDimensional' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "BiquadraticNumberField.biquadraticNumberField": {
+      "sha256": "17a130f9981bc332877d0c5f9a8c6bb66478c2e83d7e9b9c2a4ff72496f1eaee",
+      "line": 26,
+      "status": "checked"
+    },
+    "BiquadraticNumberField.biquadratic_degree": {
+      "sha256": "a40e2be95862a8ca15c927a61b3e6ecb13bbe6d7c9594e4874fdb2a5d1524241",
+      "line": 30,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.biquadratic_degree' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BiquadraticNumberField.rational_expansion": {
+      "sha256": "9f0a130f375b7d7c812fc2d4cd9b3823f70568f58e03f674972932197589104c",
+      "line": 34,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.rational_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BiquadraticNumberField.adjoin_radicals": {
+      "sha256": "b0a94c6c58174a11170929a36992101a54ec8a1581e69930b0646201e93bd231",
+      "line": 42,
+      "status": "checked",
+      "checker_output": "'Reimann.TameBiquadraticField277.adjoin_radicals' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "BiquadraticNumberField.complete": {
+      "sha256": "9ed61f06c082da74c91725d648b3a6fae5680fa00197bd4e3168e3c3e8c59604",
+      "line": 54,
+      "status": "checked"
+    }
+  }
+}

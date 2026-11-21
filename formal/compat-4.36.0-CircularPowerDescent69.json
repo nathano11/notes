@@ -1,0 +1,90 @@
+{
+  "steps": {
+    "CircularPowerDescent69.nonpower_of_specialization": {
+      "sha256": "4abefab2c56e804f542546cdde541e95df5b53003ede10ffc3e4c9a3222d97f9",
+      "status": "checked",
+      "line": 12,
+      "local_sources": {
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPowerDescent69.nonpower_of_specialization' does not depend on any axioms"
+    },
+    "CircularPowerDescent69.quadratic_units_not_powers": {
+      "sha256": "b0ffd443ee407130e0dbb6d2c8bd5fbbbfd602a1ee0fb0ac3a1ecc859644c18a",
+      "status": "checked",
+      "line": 18,
+      "local_sources": {
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPowerDescent69.quadratic_units_not_powers' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPowerDescent69.signed_classes_not_powers": {
+      "sha256": "539f8968c93290e4b991a2f92617dafe112a103d0f2c8a6e1d5607109edfb758",
+      "status": "checked",
+      "line": 35,
+      "local_sources": {
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPowerDescent69.signed_classes_not_powers' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPowerDescent69.degree276_residue_not_power": {
+      "sha256": "02b38177cb8c463586c1241381dc42bffa0642f0cdcc0fcc3142d02d808219c2",
+      "status": "checked",
+      "line": 48,
+      "local_sources": {
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPowerDescent69.degree276_residue_not_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPowerDescent69.degree276_norm_obstruction": {
+      "sha256": "f8749dea431aecdad95960902d1df2fa4caaeb7299e8947767bcf21dbcd2548c",
+      "status": "checked",
+      "line": 55,
+      "local_sources": {
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPowerDescent69.degree276_norm_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPowerDescent69.complete": {
+      "sha256": "b4933180a26d73bd3fa55c5f1d1d20b3334b4fd97afe6a70fea7b37e31991c9f",
+      "status": "checked",
+      "line": 63,
+      "local_sources": {
+        "Reimann/CircularNonpower69.lean": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+        "Reimann/CircularQuadraticPower69.lean": "aa0776f38c69d78626987ab85b0d20539d42102a19cfa95fbe2b26ea84711589",
+        "Reimann/CircularReduction69.lean": "e3ae17037fa2281b5cfb9e4d5713ee8f18da9fdc12f4dd44ad33303442b3d239",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+        "Reimann/CircularQuadratic69.lean": "710dcd214cb92b34c7b812cd209a9f7e7b02aa9dbd697a527ed0be3a87433663"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

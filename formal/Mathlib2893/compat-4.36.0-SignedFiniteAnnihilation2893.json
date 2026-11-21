@@ -1,0 +1,193 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann2893.SignedCyclicCriterion2893": "a604a1f95240a07e070c5e04c4a5aa2d79393690aa8636d83270f90991f48a9c",
+    "Reimann2893.SignedRationalCharacteristic2893": "2ab6820f6734a38d6f13b42cccd35609b968718415808ee905ed913f4de23827",
+    "Reimann2893.SignedClassScalars2893": "a581a11d19cfe692d12b88af7c58567bb0f878557a6dbd913f972de711c8a156",
+    "Mathlib.GroupTheory.Torsion": "078b637c7fad4ed17cc49d87acdb15cf4e60bd5f2014058cdba3a71f79b2411c",
+    "Reimann2893.SignedNativeScalar2893": "f9fdc0627368639744cca35d9daceca675a5a6da80bd299520efe69ce3530df2",
+    "Reimann2893.SignedNormLimit2893": "a10cba26cfa1331c567efc441d11cdd17fbb1106f62e3883a05b1453625bb703",
+    "Mathlib.Algebra.Group.Subgroup.Basic": "b202bd8e8dcc0a855b42a7ef27fa5423d5220ee25de604761ab7cc2b271776ec",
+    "Mathlib.Algebra.Group.Pi.Lemmas": "298132c4f280e0db1b30f54290063c03602f1e74e79d82643e238b344a9c0c40",
+    "Mathlib.Algebra.Group.Equiv.Basic": "5df99c494bce6b0a79db0e736c62f444000a41999c315185fd6abdde9ae933a0",
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Reimann.DyadicLattice": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann2893.SignedNativeSeries2893": "4f50852817033dec1a969e91da926dedd89f23ad18b12becf9cf1f9d84fd646d",
+    "Mathlib.LinearAlgebra.Charpoly.Basic": "51ab70de31a9e2500e4ae4cc0254f01bdeb6e8bc9fba7e15baf0872287585df6",
+    "Mathlib.LinearAlgebra.TensorProduct.Tower": "4348cbb6597887921ac1d82566a2e2cad870c9df389126ca3800be0630cbd99e",
+    "Mathlib.RingTheory.PowerSeries.Basic": "a85cb40f4d98c15cf043b17a590b9c72d85d8995dc34c47978e096212f9dd893",
+    "Mathlib.Algebra.BigOperators.NatAntidiagonal": "5eb48cd74b1dc1b430e6a2b55284b22e864734bea1b05eb427d33da9e5cd1cc0",
+    "Reimann.SignedStickelbergerCandidate": "745ac4c7d09ef56c5ee6933252c48a0fd19fccc38b6c4a63a2823fb0f48e5bcf",
+    "Reimann.DyadicOneSided69": "7a13ea4a017da8b17373952da3d7991857ecdbdd78fdba83871ef8a083ce15b8",
+    "Reimann.DyadicMahler69": "650977a81bb44e440b4f2db79adda963cec372e9279b349c7bb69246c20424e8",
+    "Reimann.SignedTaylorScalar": "801dfd3d99a5b4705b11e56ba98f12da934597f85725f024ed126738f9e7a09f",
+    "Reimann.DyadicGammaDistribution69": "3154381d6cf91109f56acb15b8338dadc6e27e0710f30bcc5e84efec408b6a12",
+    "Reimann.SignedGammaTower": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+    "Reimann.DyadicProgression69": "e048e6d1f3f1470b13b1280bff4b28ff200878afafad1465783a2ec9ba4da99b",
+    "Reimann.DyadicHalfPrecision": "bed557109063035c046ffe70b02293bcda9e715c06a2b608348cb3854d5e332a",
+    "Reimann.DyadicDistribution69": "2faaecdbb4ed62d3a57d766e82df67ba721b7f646b2406dff3a4a505a9fff33b",
+    "Reimann.SignedProjection": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f",
+    "Reimann.DyadicZeroValues": "0a919675f48954a60f6aa6d4bd7eefa37a0268cd82a0c156dc159378fa076542",
+    "Reimann.Dyadic": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+    "Reimann.DyadicSeriesProjection": "8da6ddb4e48eb78d3c55faff85f76849d57aca8bb304e222ce95f407f7ffd78e",
+    "Reimann.DyadicStickelberger69": "62a15b9d5aa2e3bd61c8bfb942493fce8065d0620705abc3026d13b17dbccf34",
+    "Reimann.DyadicClass69": "a1ac151c3f3d6ad9eab75b5378221c5a8e39211fd346102b6fedf3e32fb2a416",
+    "Reimann.DyadicOrder": "e853c84ff8ad9867dcc02660834a2ea9cfe195367e8deac0141bcc06a4862eea",
+    "Reimann.DyadicMoments": "f56765804b0990a222f4c3b34e6144be5429acc70600861c32f9f903d041bcbf",
+    "Reimann.DyadicLayers": "865f464a6f4dcda46926a0b1bb04ae193d0c7fc315f13f4bf980f57d00156113",
+    "Reimann.DyadicBottom": "c281688bff7fc68650e6b038c5135fca45b794bf62cce5edcabfcb09f655f245",
+    "Reimann.DyadicQuotient": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+    "Reimann.DyadicCyclotomicImage": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+    "Reimann.SignedMeasure256": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+    "Reimann.Character2893": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+    "Reimann.WeightClasses": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+    "Reimann.SampleSpacing": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+    "Reimann.SignedTaylor": "98243200ad22f4a1cee247ac6ad75e3ca87172a96f0757bd8ce81403e38ab9d9",
+    "Reimann.CoinvariantSupport": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+    "Reimann.SignedNormalizationComparison": "b76dfd37306cbfc9c4021ef006ab6747c7aea9df6f65fa69cb040bb1353a5670",
+    "Reimann.SignedOrientationWitness": "29c2db256c07802bef6f84bc4ea8020bc7e1fa2682a0757424bd185a03689448",
+    "Reimann.SignedTowerRows": "20b4fa08e4e4a298065caa2f229562bfac189446f9da2223ac69421809af26d3",
+    "Reimann.SignedStickelberger": "1071140e0c209459fe84d7234e3ce1d533f423b1ac61d6a49b8f378ca5a08015",
+    "Reimann.SignedTowerMeasure": "e8a4660cd2b147281074f6dcd13b52948d9de0667d371c2d6977c17339611df5",
+    "Reimann.SignedCompletedAction": "4d94d2e2c27d44f442319cca1638b6e2d181cbfde6b14b8b23bb6962c7c7a1da",
+    "Reimann.DyadicEulerFactor": "a3f390e24fdffc41ea262b25d784bd9aebbf14214987ed004641c1eb3dd17e8c",
+    "Reimann.SignedArithmeticProjection": "61dfea395b1db7e0a2a72aeca8bb857d1a98b17408c24981515b8ba3203ee659",
+    "Reimann.SignedCommonNormalization": "5305d61ecbfe2f301d7d337ad357145ac5add2fd67ef6dd8e9ab8173fb5758eb",
+    "Reimann.SignedNormalizationPrecision": "e476fbd9d6aa98e768818b065e1508b09419082270614f538ae5848665ecfc18",
+    "Reimann.SignedBernoulliPairing": "4911070a6de4cf07e23dbb4d13322a5cc1f684f20bcf674fd38ad00aa69b18d0",
+    "Reimann.SignedCoefficients": "139d08ed36f92663ad024393459a93860e32eb8bb37c92c3070507629f601088",
+    "Reimann.SignedCyclicFactor": "4bbedefcb9758bf8624fe56a31dab2763a388cdc8a81aa1d444296d1a145bfc4",
+    "Reimann.SignedCanonicalProjection": "1dd35edcf493fc4a5d675b6a0d66f628e838db51367511ea1146e9653a6d4cb3",
+    "Reimann.SignedAnalyticDegree": "d783c5dcef78297ff8a83e83d4635c37f7aa706e4ebe8c53daf270167572cd4c",
+    "Reimann.SignedAnalyticPreparation": "91a78e62b5fcac4e4ce669eb35a01de87b70f13ae7fa8ff392de1ff19b480305",
+    "Reimann.SignedSeriesUnit": "60e61a283926b46224d029f4c5f43b6f3d419766341ae27da318b2e2cad66212",
+    "Reimann.SignedResidueRoots": "70f6bdd999a47149ca79854b6a4619884ff5205f1f58fc2ebba4b537b8acdde2",
+    "Reimann.SignedAdicProduct": "27cb3891fbfed3b9d90a5a6fac4fc0a086918b9d05874f267cd8f59599466119",
+    "Reimann.SignedProduct": "3c5b0618b72285edeeda9b927e209ff912167c5496e0e84e9e1d07ddb36276e1",
+    "Reimann.PairedSigns": "91f88f356cb545caf1d5818c4ca5be1133f59ba4d985a62a01856684372f1da9",
+    "Reimann.SignedPreparation": "86c921d1f99b68b80ffe660fdd841b7f28dc3057582a4c5be56113b80f5f6d09",
+    "Reimann.PairedOrders": "e1f5f44a991bf2767d284271b213be46804cef68aa1d611925127d05cf275b6b",
+    "Reimann.SignedAdicRoots": "93af86da62be4183a31e9911329a24af3616deb8663802c5ee243658b3909a86",
+    "Reimann.DyadicSplitRoot": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+    "Reimann.SignedQuadraticLift": "f4f7c45ad6eb5d52c634d35d689d0796dc66cbeea3b6c4d96dc622add2c45ee9",
+    "Reimann.SignedRowDescent": "3a2de20079458892892b07bd5e5b86642c349bf3597242a0dd83d0102ad08377",
+    "Reimann.SignedMeasure": "c20c20bf01b0cf9470e826ceb56524a9185aa31679e24005ce37831e32592a5e",
+    "Reimann.SignedPascalAction": "b3bbfa7604414a6743d115dad0066b7680fd38b4f6d1570db66f9dfbab17a313",
+    "Reimann.SignedSeriesMap": "78b82678ac2ecb9f52cbd6f595bb9031dc7e98b2c9396251639c62eeb8866db9",
+    "Reimann.SignedCyclicAction": "4042bf8487f90c3c020a46e0ed6a0d68d2e010761838e3bb90e031724f9178b2",
+    "Mathlib.LinearAlgebra.Charpoly.ToMatrix": "7815b2568744d8f836ce3c56d874bf37374621198f69072d358fe8ab6874da70",
+    "Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff": "6162b422fdac57c1eae7a7b180bbd182f1055d5d867554f086053aa0665edb98"
+  },
+  "steps": {
+    "SignedFiniteAnnihilation2893.delta": {
+      "sha256": "543a6814a8e29ee3d81dab8a26bb1dcfa0f1932e30656775a0aaaab556b8ca24",
+      "line": 14,
+      "status": "checked"
+    },
+    "SignedFiniteAnnihilation2893.residual": {
+      "sha256": "f766ac1af12012af9e4983bff83e24001c89e616b9923c12d141229450465d91",
+      "line": 16,
+      "status": "checked"
+    },
+    "SignedFiniteAnnihilation2893.oneTensor": {
+      "sha256": "06358a868a91f276f73355b7f998995419eaefb49813ea177dfc3e94ec617bca",
+      "line": 19,
+      "status": "checked"
+    },
+    "SignedFiniteAnnihilation2893.torsion_tmul": {
+      "sha256": "a7736946be4af054f78f237a6fe83d4f11a5cf955d21db71c21548b50657a835",
+      "line": 22,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedFiniteAnnihilation2893.torsion_tmul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedFiniteAnnihilation2893.augmentation_oneTensor": {
+      "sha256": "a8fd51125a56e9fcf8801d53eecbdc851abd730a6495d10d7f7e2b0b5ff5105c",
+      "line": 30,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedFiniteAnnihilation2893.augmentation_oneTensor' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedFiniteAnnihilation2893.oneTensor_smul": {
+      "sha256": "f0660199ab07dfe98e01450cadd9d5fb5251dc25276993390845e3420374800b",
+      "line": 35,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedFiniteAnnihilation2893.oneTensor_smul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedFiniteAnnihilation2893.rational_relation": {
+      "sha256": "6264d88a284dbe40a00cb8097d618df04536ee0871b58cbce48ccb40ed0bdfe3",
+      "line": 40,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedFiniteAnnihilation2893.rational_relation' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedFiniteAnnihilation2893.torsion_of_coordinates": {
+      "sha256": "06877b6cf77e1ddd783b5920604eb4ccc935c3510b34a02e0b2aed07853be586",
+      "line": 50,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedFiniteAnnihilation2893.torsion_of_coordinates' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedFiniteAnnihilation2893.ideal_from_finite_coordinates": {
+      "sha256": "16227e33fadd6671cd00514a687044eab049c6f860286d47a352aea6604751c4",
+      "line": 59,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedFiniteAnnihilation2893.ideal_from_finite_coordinates' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "SignedFiniteAnnihilation2893.localDelta": {
+      "sha256": "205d4d25d8591e3df715982f1040b22df2a8545b5816f5d361080ad4aab5e167",
+      "line": 79,
+      "status": "checked"
+    },
+    "SignedFiniteAnnihilation2893.localResidual": {
+      "sha256": "fad33d1921a30d6172a7b8d7a99f205eb34affaa71f88f9f67d97820e06fe7dd",
+      "line": 81,
+      "status": "checked"
+    },
+    "SignedFiniteAnnihilation2893.localDelta_exponent": {
+      "sha256": "68cb8bce474d0dcfdf7cb7a211050515dc73bf5287ca386d36f807e91821e4c5",
+      "line": 84,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedFiniteAnnihilation2893.localDelta_exponent' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedFiniteAnnihilation2893.delta_coordinate": {
+      "sha256": "102681624dc85b721dbacd1a148df3212e342ab199badae00b65a8936d1e326e",
+      "line": 93,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedFiniteAnnihilation2893.delta_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedFiniteAnnihilation2893.residual_coordinate": {
+      "sha256": "606af5e5e433fd83ecdcaf5406dfe61ab9b6556eb1ed5a22133fb4e0e61497a6",
+      "line": 96,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedFiniteAnnihilation2893.residual_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedFiniteAnnihilation2893.ideal_from_local_powers": {
+      "sha256": "9511f3a7d9194e67f1c346002726e37fc4ddd15541af1084254c8c4507179b46",
+      "line": 109,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedFiniteAnnihilation2893.ideal_from_local_powers' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "SignedFiniteAnnihilation2893.complete": {
+      "sha256": "7ef68965c039853db2626cf65807be52c00b71502f02515cbe8af8004f75965a",
+      "line": 180,
+      "status": "checked"
+    },
+    "SignedFiniteAnnihilation2893.oneTensor_zero_iff": {
+      "sha256": "01e24117727780d08c01575da7e56473741357d452665d7580732790a4ae4109",
+      "line": 133,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedFiniteAnnihilation2893.oneTensor_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedFiniteAnnihilation2893.oneTensor_zero_iff_coordinates": {
+      "sha256": "06a2d86a3cfbf3c7a0fc50f4a2c8a4ec209fc706b5b857b4e729e8b167e7a57b",
+      "line": 160,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedFiniteAnnihilation2893.oneTensor_zero_iff_coordinates' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "SignedFiniteAnnihilation2893.rational_relation_iff_coordinates": {
+      "sha256": "5a58de1c5ae6b79b3368891cebe1e449f8492a8f2ccfd3ba94f0028561b0edc8",
+      "line": 169,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedFiniteAnnihilation2893.rational_relation_iff_coordinates' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    }
+  }
+}

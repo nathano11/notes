@@ -1,0 +1,155 @@
+{
+  "steps": {
+    "TameLocal.Cocycle": {
+      "sha256": "fbc125e2520ff583bde9ea90cc295086f84c92c22ff24252c796f516d253894d",
+      "status": "checked",
+      "line": 6,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameLocal.Principal": {
+      "sha256": "b823d518ed72fd3db3bea8ac2d1510e5c0586e3ded63399fc4e7657f0133ccca",
+      "status": "checked",
+      "line": 9,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameLocal.VanishesOnKernel": {
+      "sha256": "b9f8ad5817d039a82f31c5b23ddb7f942cccb6ec7368aa04820d194c37f69057",
+      "status": "checked",
+      "line": 12,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameLocal.principal_vanishes_on_kernel": {
+      "sha256": "7b141e435bc2df69c68810b7a0460ed50de415fd7b06f417d26950d3515d123b",
+      "status": "checked",
+      "line": 15,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.principal_vanishes_on_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.swap_yields_cross_relation": {
+      "sha256": "304b7f4d97cc4aaeea1d22bcf70011bf473031dae0c7811fe9265a61f98d86bb",
+      "status": "checked",
+      "line": 23,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.swap_yields_cross_relation' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.primitive_from_cross_relation": {
+      "sha256": "7a97c691bfb02c41d59d1993eb16d6706a6dcc11bff78386ce4c5d1189c01d95",
+      "status": "checked",
+      "line": 32,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.primitive_from_cross_relation' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.principal_of_swaps": {
+      "sha256": "259796968c82d8f2f6eab1591447a32a36e837b434a1d369d5d00f0281858bc9",
+      "status": "checked",
+      "line": 42,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.principal_of_swaps' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.ScalarAction": {
+      "sha256": "8579d0ff34bf0c9a5b58cce3102c9f1a8c3f2364b4e8f516b3a850538024855b",
+      "status": "checked",
+      "line": 49,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameLocal.action_swap": {
+      "sha256": "f47cab0867761b7fb2c4d3abc0ddb46cfb50b3d77e8801106797fc7f78d8217c",
+      "status": "checked",
+      "line": 52,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.action_swap' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.scalar_inverse_of_left_inverse": {
+      "sha256": "590c3fc13856d4b262df043642a3c6353d33ee7dbf8c8b3d971adabd713f4e0a",
+      "status": "checked",
+      "line": 58,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.scalar_inverse_of_left_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.cancel_unit_factor": {
+      "sha256": "387510b7a8d900699cc8de13b6db5cb698c6ca01867065bb62950b8b11a27326",
+      "status": "checked",
+      "line": 66,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.cancel_unit_factor' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.quotient_in_kernel": {
+      "sha256": "12b916c41dd63d6f81d6f14477364721a503cad4d9f1edbdc5be61a8028b1289",
+      "status": "checked",
+      "line": 75,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.quotient_in_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.equal_across_kernel": {
+      "sha256": "6ea4f81b8214426a0400c2a0b6408e7b33c4ca7d7db85b975a9bf311845b818f",
+      "status": "checked",
+      "line": 84,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.equal_across_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.cocycle_constant_on_scalar_fibers": {
+      "sha256": "f9798e452d078f3cba96f858f6d46a7941727043f62983bf97989a43f310a9e1",
+      "status": "checked",
+      "line": 93,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.cocycle_constant_on_scalar_fibers' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.primitive_from_kernel": {
+      "sha256": "49fc976a7e15b40d26367b1d97644fae079f47306f78af952aa34c293083276e",
+      "status": "checked",
+      "line": 103,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.primitive_from_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.principal_iff_vanishes_on_kernel": {
+      "sha256": "ea5315c08acaa5fcb557f273fd4c69393f4913ecae33a0476b26e18a6d7edef4",
+      "status": "checked",
+      "line": 112,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.principal_iff_vanishes_on_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.swapCommutator": {
+      "sha256": "042aedd0549d6850db040d5510a31e302b96c0bf1624796cfc4be389229464cf",
+      "status": "checked",
+      "line": 120,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameLocal.swapCommutator_factor": {
+      "sha256": "a39e7373eab8d4e62d6ab9d3de058d18a0d8132be3cc16abe1373a6f76a720c1",
+      "status": "checked",
+      "line": 123,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.swapCommutator_factor' does not depend on any axioms"
+    },
+    "TameLocal.swapCommutator_in_kernel": {
+      "sha256": "8e3d60bbc09a8b9c014633cb6c7baf90e938a41e83a0e4b60fa66b6727c70b22",
+      "status": "checked",
+      "line": 129,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.swapCommutator_in_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.cocycle_swap_of_commutator_zero": {
+      "sha256": "f74c35ca5ec9691b31933d9ddea51dc7e29468961087af7eea97c7eacb8aec5e",
+      "status": "checked",
+      "line": 138,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.cocycle_swap_of_commutator_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.principal_iff_vanishes_on_swapCommutators": {
+      "sha256": "8b0209a92ddaad3025b30858bd2952217f45ee9c029241b3b462b3b218e5c47d",
+      "status": "checked",
+      "line": 150,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameLocal.principal_iff_vanishes_on_swapCommutators' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameLocal.complete": {
+      "sha256": "18aa9a2f58a0a545d979ced38027aafcd7abc73b484069f0bb8038648ba9b335",
+      "status": "checked",
+      "line": 167,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

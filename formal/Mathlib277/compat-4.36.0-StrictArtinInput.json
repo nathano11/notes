@@ -1,0 +1,138 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.IdealAction": "303e047cb8a178bb64076f3bedf3fb315b70937d327b00d2cd417da78c56f018",
+    "Reimann277.StrictLocalInput": "0e24fc2cb29df812aa5c21c71dc1df452f81851716701031c04ccf3e212d423e",
+    "Reimann277.CyclotomicLocal": "ddc7101435b7ffc8ded3372c43e789b73a70b88f30e7d68329f5986029440986",
+    "Reimann.TameAdicDomain277": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+    "Reimann.TameGaloisInterface": "f027410085b059be74186a07bb7edb0210f0315ba979056ecc3c4b40662c507e",
+    "Reimann.TameContinuity": "0277af0f7f4de202444b4b4e16ef89e21cddb50c5f844ffe5c56d90c636dbfea",
+    "Reimann.TameStrictInterface": "01755cb25faa87952e16e9761a45e20592e2fed565b19e10306b344a34ca42c3",
+    "Reimann.TameRestriction": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+    "Reimann.TameLocal": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19",
+    "Reimann.TameClassField": "a8bd2e982e8a88ac318acac2d6812a9c0ee7ab6fd8f93961c450413acd9f99ca",
+    "Reimann.Transfer": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.TameLimit277": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+    "Reimann.TameTwist277": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+    "Reimann.TameRootExhaustion277": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Reimann.CyclicBoundary": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+    "Reimann.CyclotomicNorm": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+    "Reimann.ScalarCoinvariants": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed",
+    "Reimann277.AbsoluteDecomposition": "2097d8377c5c7459b1c5bc0fc16ebe4fec5847e5fd4d42d49b7a4c7fc62d015e",
+    "Reimann277.CyclotomicReduction": "dd25d98efd45c6ac5be439576866db9932c264d85ce4cb36a13fa2b8ec8069d6",
+    "Reimann277.CyclotomicRoots": "7fd154cc71d8b6a95ae46966cd027347b73abe0d2ccc3c52d445cdc9112184de",
+    "Mathlib.FieldTheory.Galois.Infinite": "fafd7393bb3ae8c704964fa1b3b00a91c9fc2590ff9e415f467a358c4635ccc0",
+    "Mathlib.NumberTheory.Cyclotomic.CyclotomicCharacter": "884abf82e78e5d2ee5411a67c913591cc309afca5b35ef3d53fd958aaf7b5837",
+    "Mathlib.Topology.Algebra.Group.Units": "391461914e60edcef38dadb7db8776c5fc36d3e43915fe0ea93ffbcba43fd4a7",
+    "Mathlib.Topology.Algebra.Group.ZPow": "cb68d6e276f157a861f1f8314612ed32ea28e271d6ce4d86f82d74924394b1bd",
+    "Mathlib.Topology.Instances.ZMod": "be5db6a7ac3268e4bff4e1efbd48b2ab13e7da12440e22930a2f3688660c7e4b",
+    "Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure": "5bee948d1b475ea3c1ed28dad07788cfdd23259aaaace34ab8d59ab07fbdef90",
+    "Mathlib.FieldTheory.Separable": "274c40c3dc56b66b9c8979e997ec57b0710402078a0189810fe6be7c50be4637",
+    "Mathlib.RingTheory.RootsOfUnity.EnoughRootsOfUnity": "ab5ce55bcd415154e61fe2217b355a51031ddb39d43015616a03c3fc9c4f4053",
+    "Reimann277.PadicInteger": "b9528953f8045b5009ec90a0e7d305b4807d566fb2a50eb222fd24ff0d488f48",
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Reimann.TameLocalOrders277": "7596b78ef21b0c5280340bd64566b0602408339c991da705e9cf24d97837dd18",
+    "Reimann.TameArithmetic277": "48e0882aeffd38210c101bceab1e5aafefd3c877b7bafc39567fb2b0ad592b54",
+    "Reimann.TameOrderCompletion277": "4f13588caa002782d7596a41dc4430d15f584506829b6e7cc3c5beb951f47cfd",
+    "Reimann.TamePrimePowers277": "9c5db0aad6d6d16ef27a54edf4fa99d8283bf17cc04157dc8955f41fc1adda6c",
+    "Reimann.TameOrderPrimes277": "847a93ca9be19999dca67c119cc95e685f21fd8f3956100065a73bc8b521336b",
+    "Reimann.TameFiber277": "7d07f4bd543ccecef281e086cbc1d023250657743c14eb5d5e5a0884442650d2",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameOrderReduction277": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+    "Reimann277.PadicEmbeddings": "9b170d977d243dd5ef8a465ef9a9bea343438cb0ea3bda092c8aed013ce2c9a8",
+    "Mathlib.FieldTheory.AbsoluteGaloisGroup": "e7746c2ccccbe078b0f2fa2e1ebe6016737f3a603542c2281d530f9ca0d96c20",
+    "Reimann277.Biquadratic": "1eecf3556b0b3cbf21ff1704cade538325a07227d454a3ade53283149eb974df",
+    "Reimann.TameSignedEmbeddings277": "3fd66f8a13aff48d00713431797d6f628c25abc54f4c7023f7c93ca2e483d588",
+    "Reimann.TameEmbeddings277": "7c184751698ce48d191a56ef92f45ca365f177a4cab5a4f52c9c29bcee50b5c7",
+    "Reimann.TameLimitRoots277": "cf5d2f76685ac0c2b3a7527dd65304d36462bc6502b0484e661782ba519abd57",
+    "Reimann.TameOrderFaithful277": "371738ead39dfaf6910c6fe1737e3a192e11812c07cf508fdd0b28ba0bb43d2f",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Mathlib.Algebra.Algebra.Hom": "cb23985743d69ab47c814e821ec7620d49ce642073d96ea0016b5f48fd5dd445",
+    "Mathlib.Algebra.Algebra.Rat": "27a6444a720f4100b0a93140231049882e266bacef7f4c6bb8c7a1374cc6561b",
+    "Mathlib.Algebra.Field.MinimalAxioms": "5a4f6a6ce4037663e35257965bd052a4fa36d040c7bc7ad7eed074e9dd1a2872",
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb",
+    "Reimann277.ArtinBasic": "94ce9823adc0121e31049bd3f082f68fdc587973ab2fc6234dd9b882143bab8b",
+    "Mathlib.RingTheory.ClassGroup.ExtendedHom": "51edede1a0e5b01d78572d9442974aebfb3452fb58eed9e675073bd25e08cadb",
+    "Reimann277.CyclotomicInertia": "7583fbcfc2cd6ae8389e46035b021026dc48b90370a2fc1adfb8d46301ef91de",
+    "Reimann277.BiquadraticNumberField": "9ed61f06c082da74c91725d648b3a6fae5680fa00197bd4e3168e3c3e8c59604",
+    "Reimann277.SplitQuotient": "da1fc61725a62abcb6395a532199d0783d39ede7f152dc5dc781f06ab6e30245",
+    "Reimann277.Inertia": "2fd798730479b1e529f6a01be30c4a4b0aef428588625f481a839811a35cb739",
+    "Reimann277.IdealArtin": "f4dcbeb91e9ab113af195a6c925bc49ccf98c58f47ac16c522ba776de2ae0c96",
+    "Mathlib.FieldTheory.Galois.Basic": "dd235d93256d0c152d28399aa38437ad8b6a911d1fc85e516091df91c951d065",
+    "Mathlib.RingTheory.ClassGroup.Basic": "29e58f2e7f805bdb7c2d5850a67b0f0fdd84893ebe12ed12cfa348ddb5c14c1c",
+    "Mathlib.RingTheory.Localization.Away.Basic": "bd126db89333d20da220104fd7d3d12ace6b7d7e9f49a072f7976297dcb9cf03",
+    "Mathlib.RingTheory.IntegralClosure.Algebra.Basic": "63ee00b21ee6547bedfcc8e86f86b0df4a65d9f1018c2e30425a0e2799710729",
+    "Mathlib.RingTheory.Ideal.Quotient.Basic": "2d3eae760cf3532861226b2b66521b9d57a97979c0df2d2dfffa0049b8843762",
+    "Reimann.TameUnramified277": "fded94df921fd77392dda052c165c6f4eac8bb0d39c7717deb30d07c2c2c3f25",
+    "Mathlib.Topology.Algebra.Group.Quotient": "da71e1e4b4c9a24918e9b56dc82da21597d5df79f9070cc2e5127b7925e4933b",
+    "Mathlib.Topology.Algebra.ContinuousMonoidHom": "2fd311acabbf5f50aa46547f23fc32f4e7359c2000034897357c8ec4fdef2bf8",
+    "Mathlib.GroupTheory.Commutator.Basic": "a3f5ea65a36bb722f0804b3c94e1f15c594c2a33fd6bbecded70678761d549ac",
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33",
+    "Mathlib.LinearAlgebra.Dimension.Constructions": "ddb3ce6891ef7453182bdbba8b9fa73c892f71dd0907ad2cf02a2e67c41fbcfd",
+    "Reimann277.BiquadraticReal": "a74e90feb809a047934a3b679a9bcfe158c3ff179d2050289c8bbeaffa63e716",
+    "Mathlib.Basic.Real.Basic": "47e972d32100969f0c7f6dc5a413dac152d941c4e14fc9cbc2d4b43e9d05ef63",
+    "Mathlib.Tactic.NormNum": "480ebc7f2e8d9370016d90be1babe5c26d8bfa3f597e0fa8fcd718528133826c"
+  },
+  "steps": {
+    "StrictArtinInput.Target": {
+      "sha256": "4d7dcdaba93a5f1b9eeacdbf642f61238b8f0123d404f31650e48a112bbd65a7",
+      "line": 8,
+      "status": "checked"
+    },
+    "StrictArtinInput.residue_eq_of_difference": {
+      "sha256": "1dea4b8802ad44a30990da8e5d81de237803f2c4e9ae9071f013c80a514e98a4",
+      "line": 10,
+      "status": "checked",
+      "checker_output": "'Reimann.TameStrictArtin277.residue_eq_of_difference' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "StrictArtinInput.residue_additive": {
+      "sha256": "457e6e9e7079d092a2a355f6af4a0bb58d79ccb3deb0b721e5cba18f73aa85c1",
+      "line": 15,
+      "status": "checked",
+      "checker_output": "'Reimann.TameStrictArtin277.residue_additive' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "StrictArtinInput.residue_one": {
+      "sha256": "d09a0580849541f7f6e3ad86ce4fdc88dfc2eada700c66cb5a67e9506a57ab44",
+      "line": 22,
+      "status": "checked",
+      "checker_output": "'Reimann.TameStrictArtin277.residue_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "StrictArtinInput.kernelCharacter": {
+      "sha256": "7feb90fbb8ea90b7c3c03993e750eb633df8dde25174490c33133be632782a32",
+      "line": 29,
+      "status": "checked"
+    },
+    "StrictArtinInput.kernelCharacter_one_iff": {
+      "sha256": "0fd3833260898de1de2685206e8f3319f75261e21691a5c6184cc9412c907ef0",
+      "line": 37,
+      "status": "checked",
+      "checker_output": "'Reimann.TameStrictArtin277.kernelCharacter_one_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "StrictArtinInput.kernelCharacter_twist": {
+      "sha256": "1325ccebf799a36a9ec8cbb66675638a723183da38584ed14e2d08c0cb067bd7",
+      "line": 42,
+      "status": "checked",
+      "checker_output": "'Reimann.TameStrictArtin277.kernelCharacter_twist' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "StrictArtinInput.ideal_character_twist": {
+      "sha256": "dace778de3f7e4522e00353f167f097f61b3ea4a9b65a8d60308e88083992cd0",
+      "line": 51,
+      "status": "checked",
+      "checker_output": "'Reimann.TameStrictArtin277.ideal_character_twist' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "StrictArtinInput.strict_class_character_of_witness": {
+      "sha256": "717be247b0638cc7167e89ab9698074c4817a83ab49997911f0934efe12a465d",
+      "line": 65,
+      "status": "checked",
+      "checker_output": "'Reimann.TameStrictArtin277.strict_class_character_of_witness' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "StrictArtinInput.complete": {
+      "sha256": "96a5a68284e325e1a57fba6b5f21d952bce803c0c390d98b55653c8cd616d4ec",
+      "line": 81,
+      "status": "checked"
+    }
+  }
+}

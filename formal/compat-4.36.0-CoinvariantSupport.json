@@ -1,0 +1,206 @@
+{
+  "steps": {
+    "CoinvariantSupport.surjective_iterate": {
+      "sha256": "2de0d6b7a33dadd410a83a6b92a2b0e35f5fb22314895911a6fba7623afc66d0",
+      "status": "checked",
+      "line": 6,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.surjective_iterate' does not depend on any axioms"
+    },
+    "CoinvariantSupport.surjective_nilpotent_iff": {
+      "sha256": "80cdd6c4ac6721a57e61d6631e905bdb3489274bf9162296c18eb8cfe5b43798",
+      "status": "checked",
+      "line": 17,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.surjective_nilpotent_iff' does not depend on any axioms"
+    },
+    "CoinvariantSupport.sub_map_zero": {
+      "sha256": "41de9940e91ba7010f7f65241c38948d46b5d59adc8f5d6e8d7bb397c4db44f5",
+      "status": "checked",
+      "line": 27,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.sub_map_zero' does not depend on any axioms"
+    },
+    "CoinvariantSupport.imageSetoid": {
+      "sha256": "d23aa745a10a1dd1eae84ad08919474432157de119d70409e96d16cedecc5fb3",
+      "status": "checked",
+      "line": 33,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CoinvariantSupport.quotient_trivial_iff_surjective": {
+      "sha256": "1bda5c7bafe49c6ff1fd3a72e2d027a09802d29563da0e0722ae4c1641283ee1",
+      "status": "checked",
+      "line": 49,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.quotient_trivial_iff_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CoinvariantSupport.nilpotent_cokernel_trivial_iff": {
+      "sha256": "a197dd7c9f61169204d658fbc0ba55f64be32092d357a9cca6d39a00972988d6",
+      "status": "checked",
+      "line": 68,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.nilpotent_cokernel_trivial_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CoinvariantSupport.augmentation_sub": {
+      "sha256": "99839fd6d41f30e388eb4bcd573e674f967dba4ed349276e4786104d1b78faed",
+      "status": "checked",
+      "line": 77,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.augmentation_sub' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CoinvariantSupport.augmentation_cube": {
+      "sha256": "7f0510bd200903ab79e29a579026791476bbc65df8cef17f269b3ed69cb99dbb",
+      "status": "checked",
+      "line": 85,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.augmentation_cube' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CoinvariantSupport.augmentation_cube_zero": {
+      "sha256": "b50c6dfd8093ed347844bb3104dfd501e7000ec068de0848620103eea32039d7",
+      "status": "checked",
+      "line": 92,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.augmentation_cube_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CoinvariantSupport.cyclic_three_coinvariants_trivial_iff": {
+      "sha256": "0cb08d696723519a4ad7a6531c4d40d0a897b06259216a3fcb49e8a38b4588c7",
+      "status": "checked",
+      "line": 100,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.cyclic_three_coinvariants_trivial_iff' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "CoinvariantSupport.binomial": {
+      "sha256": "180cdc0c383f989b33dff4892f76059e0745509924cd881e3260f56df68c02f8",
+      "status": "checked",
+      "line": 108,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CoinvariantSupport.binomial_zero_column": {
+      "sha256": "664fbe77fc7eb5ffff4ed307f77d2dbf1cecf6ffbe185f0fbe19b98ddac6e8df",
+      "status": "checked",
+      "line": 114,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.binomial_zero_column' does not depend on any axioms"
+    },
+    "CoinvariantSupport.binomial_above": {
+      "sha256": "e4bd74ae84685e5d43d5a3f390a8d021374ccdcf5a40216b8bbca390372a7567",
+      "status": "checked",
+      "line": 117,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.binomial_above' depends on axioms: [propext, Quot.sound]"
+    },
+    "CoinvariantSupport.binomial_diag": {
+      "sha256": "5d5b4e757d5d5df6cd692daf5d8f3b496b43ad9094568c9fed3fba4a5d582ead",
+      "status": "checked",
+      "line": 126,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.binomial_diag' depends on axioms: [propext, Quot.sound]"
+    },
+    "CoinvariantSupport.binomial_marked": {
+      "sha256": "5a657a3371790c2949eb97f45069187c4db1d2f3544e11c6240353e801ce107f",
+      "status": "checked",
+      "line": 132,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.binomial_marked' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CoinvariantSupport.prime_dvd_middle": {
+      "sha256": "b0df2d596e16e76abc594031919f7cccd94197c9bedc5c09e5e359168fe2392b",
+      "status": "checked",
+      "line": 152,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.prime_dvd_middle' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CoinvariantSupport.rowSum": {
+      "sha256": "fc37a1803d1cbe37890ba9cc7d6ac44a520cf6aee4125c94072d4e386b1120bd",
+      "status": "checked",
+      "line": 166,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CoinvariantSupport.rowSum_add": {
+      "sha256": "76cee96cfc935e0443f66b06ab8e2fa61c290d19ee712277e006c3cf8d5fe13b",
+      "status": "checked",
+      "line": 170,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.rowSum_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CoinvariantSupport.rowSum_pascal": {
+      "sha256": "2ecfd3932914d72f28fb1f229dd23b1f208eddc2c7a357089dfb71de7a4b7970",
+      "status": "checked",
+      "line": 178,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.rowSum_pascal' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CoinvariantSupport.rowSum_next": {
+      "sha256": "e34accfddcf70b9bc4ab0b865ae26d2a04b93912913031097b9b0aaf74e796b1",
+      "status": "checked",
+      "line": 192,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.rowSum_next' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CoinvariantSupport.repeat_shift": {
+      "sha256": "74c71355c7f7323accc833c87b6a4d8a5fab82abd9af5bf39d7c38361df8e3b9",
+      "status": "checked",
+      "line": 201,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.repeat_shift' does not depend on any axioms"
+    },
+    "CoinvariantSupport.augmentation_commutes": {
+      "sha256": "f1adc518d8e30d48ef4eac113c9e5ee4fc4f16ef0ae7dabbbebbb9eea652e632",
+      "status": "checked",
+      "line": 207,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.augmentation_commutes' depends on axioms: [propext]"
+    },
+    "CoinvariantSupport.operator_binomial": {
+      "sha256": "5834a47c4ab6f3a6ef68d0dbeb7de2fccfe59a5eac4a6ba2cf716dc045571a29",
+      "status": "checked",
+      "line": 214,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.operator_binomial' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CoinvariantSupport.characteristic_kills_multiple": {
+      "sha256": "275553c80f69fddd3f546cd7fe4eb576b4b9609d48a9da1d50060ce1b440f3c0",
+      "status": "checked",
+      "line": 227,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.characteristic_kills_multiple' depends on axioms: [propext]"
+    },
+    "CoinvariantSupport.prime_prefix": {
+      "sha256": "f391d55eb6405b7263ebd76f2f2cc5870c9ca4367cfa124354372503b5d7d541",
+      "status": "checked",
+      "line": 234,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.prime_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CoinvariantSupport.prime_row_endpoints": {
+      "sha256": "96e163e9122da0cd015f4025da2b59e2bcd67a221f9cdf2d7f35f3521b509912",
+      "status": "checked",
+      "line": 245,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.prime_row_endpoints' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CoinvariantSupport.augmentation_prime_zero": {
+      "sha256": "7a1747dea70119a44e7420d3126b5ffaab4092c369178faa5cba463c20efb63d",
+      "status": "checked",
+      "line": 258,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.augmentation_prime_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CoinvariantSupport.cyclic_prime_coinvariants_trivial_iff": {
+      "sha256": "4345594171785179d77151b6de1c521788ae889aaf7408b32ea023e2e6a21622",
+      "status": "checked",
+      "line": 270,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CoinvariantSupport.cyclic_prime_coinvariants_trivial_iff' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "CoinvariantSupport.complete": {
+      "sha256": "b8624966cd14369a73c7364485391d4e57ba5c6a0f72e9465910481fcb568baa",
+      "status": "checked",
+      "line": 278,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

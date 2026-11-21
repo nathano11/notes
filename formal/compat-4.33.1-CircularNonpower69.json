@@ -1,0 +1,143 @@
+{
+  "steps": {
+    "CircularNonpower69.binaryExponent": {
+      "sha256": "218b8d2d379e5e9f69e630e0cd8385ad8019a69131f20258f8818e03eb092c9a",
+      "status": "checked",
+      "line": 13,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularNonpower69.binaryResidue": {
+      "sha256": "a1bc53ee8bb700adb54ad78f403801ed0108222e562a5fa840817c3a37f77ec7",
+      "status": "checked",
+      "line": 17,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularNonpower69.binaryResidue_correct": {
+      "sha256": "1b54cf2bdafb2a291676eb657a6c26d317e5b6869a7a9ee12b7c44ab7c4c083a",
+      "status": "checked",
+      "line": 23,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.binaryResidue_correct' depends on axioms: [propext]"
+    },
+    "CircularNonpower69.fermatBits": {
+      "sha256": "de4142858ec632b611309f414d1cb362c6f97873f3364b0b9f49575828226e9e",
+      "status": "checked",
+      "line": 32,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularNonpower69.fermat_exponent": {
+      "sha256": "55ca0d30fbda98f77d654c13506f47eb7c97a9a01081da09a1d3f121e5b1a8c6",
+      "status": "checked",
+      "line": 36,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.fermat_exponent' does not depend on any axioms"
+    },
+    "CircularNonpower69.small_fermat_table": {
+      "sha256": "09363a027be981a24c484455cb2a67eec5e07fe0ec4b61e0976a1ed1b8f538d0",
+      "status": "checked",
+      "line": 38,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.small_fermat_table' does not depend on any axioms"
+    },
+    "CircularNonpower69.small_fermat": {
+      "sha256": "fb49f0afdfd58e9c9fab4466f40db7c6fbe42f042d6f968ed9c7629040c7890b",
+      "status": "checked",
+      "line": 42,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.small_fermat' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularNonpower69.small_nondivisor": {
+      "sha256": "be111f81c148995016f612a069c8686e4e706f2948afd62a9ebbd68dadbb05cb",
+      "status": "checked",
+      "line": 50,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.small_nondivisor' does not depend on any axioms"
+    },
+    "CircularNonpower69.quotient_bound": {
+      "sha256": "1b04375f5577410db787852cedaf27dbc3cace1490363902013dd09db3b5a435",
+      "status": "checked",
+      "line": 53,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.quotient_bound' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularNonpower69.remainder_positive": {
+      "sha256": "377700475711adddf6e744dd78c6e534f44cbc39b6cc91fa0ea6ff4cb9ac6ec7",
+      "status": "checked",
+      "line": 58,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.remainder_positive' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularNonpower69.descent_remainder_bounds": {
+      "sha256": "81382a20304dda0d41fe4c6776232aaf77f2c877812fc5ab5bd0bb8cd2c4bd0a",
+      "status": "checked",
+      "line": 75,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.descent_remainder_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularNonpower69.descent_product": {
+      "sha256": "4c1384b088a30b727768ef81f3d718c6867f0fb298fa882062433649d4b85a94",
+      "status": "checked",
+      "line": 81,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.descent_product' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularNonpower69.descend_fermat": {
+      "sha256": "2b3450cdbc25542ff5e1fbbb7ac7f9795a6ce494d0dc7dbfa9e736d59c1c8413",
+      "status": "checked",
+      "line": 88,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.descend_fermat' depends on axioms: [propext]"
+    },
+    "CircularNonpower69.fermat_for_nonzero": {
+      "sha256": "a9867545d0ad93d124e58f5066f3861a1d02341496e7a589e9c74e0e868cda3d",
+      "status": "checked",
+      "line": 100,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.fermat_for_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularNonpower69.projected_power_is_one": {
+      "sha256": "7249796ef30b6cec4913ba7d88b26e8dfcbedccab7ad23b4c78e8be2abb48237",
+      "status": "checked",
+      "line": 113,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.projected_power_is_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularNonpower69.signed_projections": {
+      "sha256": "90b8cd37d1e41d9c790e7281c0f2a529af7d356735d5011b542b97fff4b5e656",
+      "status": "checked",
+      "line": 123,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.signed_projections' does not depend on any axioms"
+    },
+    "CircularNonpower69.signed_nonpowers_nat": {
+      "sha256": "6409afea71856d3994ecde0fb980ed1d0c651aeac3c19927d0423d8a623323a3",
+      "status": "checked",
+      "line": 127,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.signed_nonpowers_nat' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularNonpower69.fin_power_residue": {
+      "sha256": "e79b5ec3692c5660adb0858072704b765a862500fe60a69619eb7bb05cfacb51",
+      "status": "checked",
+      "line": 141,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.fin_power_residue' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularNonpower69.signed_nonpowers": {
+      "sha256": "26204b671c884ed9d82b9aa7e4895e7fd9ddfae47d39f0d0c0abc4fca4c33367",
+      "status": "checked",
+      "line": 148,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularNonpower69.signed_nonpowers' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularNonpower69.complete": {
+      "sha256": "615dd1c9e77cc968205d54675a9ee2d04e3207bc0f8273d3013a16c772b25066",
+      "status": "checked",
+      "line": 161,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    }
+  },
+  "required_lean": "4.33.1",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+}

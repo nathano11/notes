@@ -1,0 +1,222 @@
+{
+  "steps": {
+    "OddDescent.InverseMaps": {
+      "sha256": "53c794f8a822d894bc7d2f8b03b162587cd6b43381d559b5002395455c960dab",
+      "status": "checked",
+      "line": 16,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "OddDescent.DescentInputs": {
+      "sha256": "8f760f8dfbc064dfbf4283ccae21ba1b5ebe35b25d5d752273815e69abe29bf7",
+      "status": "checked",
+      "line": 24,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "OddDescent.equal_fibers": {
+      "sha256": "ffb75b9696c7d9ccf8a5bdf54c7caffd2cf062d04da40458d2f0d6f1cb69fb31",
+      "status": "checked",
+      "line": 50,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.DescentInputs.equal_fibers' does not depend on any axioms"
+    },
+    "OddDescent.strict_iff_split": {
+      "sha256": "b7298f28be7655b8e8341d65439b9795d59158ac5c95e6ecc361fc9975ef0a12",
+      "status": "checked",
+      "line": 54,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.DescentInputs.strict_iff_split' does not depend on any axioms"
+    },
+    "OddDescent.split_lifts": {
+      "sha256": "85346a8ed79f21b4eea3be2e487703395973c2e373b905c7950cb85bb801c3e4",
+      "status": "checked",
+      "line": 64,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.DescentInputs.split_lifts' does not depend on any axioms"
+    },
+    "OddDescent.strictCorrespondence": {
+      "sha256": "732d606d6b52c8c9644052b2efb700e59146abe5150015d50da628e5544760fd",
+      "status": "checked",
+      "line": 72,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "OddDescent.exceptional_cyclic_index": {
+      "sha256": "75fa70b2aedd98b1fa7eccf0f8685d0635070cd3e3db44548af1baa8d78528d9",
+      "status": "checked",
+      "line": 99,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.exceptional_cyclic_index' depends on axioms: [propext, Quot.sound]"
+    },
+    "OddDescent.reflection_kernel": {
+      "sha256": "cb4b6f37506eecb0f2d647d526cbda6c4b2775d7efc852da054a8afb5bffc738",
+      "status": "checked",
+      "line": 121,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.reflection_kernel' does not depend on any axioms"
+    },
+    "OddDescent.injective_of_difference_kernel": {
+      "sha256": "a4e9217cb317268825c9f5a58574f0a428583be715ff54007cb501cdb3cc6d2b",
+      "status": "checked",
+      "line": 140,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.injective_of_difference_kernel' does not depend on any axioms"
+    },
+    "OddDescent.iterate": {
+      "sha256": "31fb309bfe821eaaad3171921bc4b341e6b2d054f7fb4fdd3c6aba6bff4a6bf3",
+      "status": "checked",
+      "line": 150,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "OddDescent.reflected_weight": {
+      "sha256": "31154fec57a7f8cc69b8c021aa3c75661ec242161b61a799fdcc6b66a0133e9f",
+      "status": "checked",
+      "line": 156,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.reflected_weight' does not depend on any axioms"
+    },
+    "OddDescent.reflected_conjugation": {
+      "sha256": "928a1b3a2c7a2f86da7236942bb228449a44fa51c4d085e2533b2a8f755d1a41",
+      "status": "checked",
+      "line": 162,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.reflected_conjugation' does not depend on any axioms"
+    },
+    "OddDescent.iterate_add": {
+      "sha256": "fe90d420f4222265de73e358e3e9406ad4ce3de3c2ea6053f70871bb8e0d3f74",
+      "status": "checked",
+      "line": 166,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.iterate_add' does not depend on any axioms"
+    },
+    "OddDescent.iterate_add_periods": {
+      "sha256": "44bf88f222cae412ec2552ef510e30abb0dd54e5ddbdffcddf245a4dafb6e29b",
+      "status": "checked",
+      "line": 172,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.iterate_add_periods' does not depend on any axioms"
+    },
+    "OddDescent.iterate_mod_period": {
+      "sha256": "af306e55f44bd0cef26cb160ce63fa45739fa36dc0ef1698841a460ebffb0a29",
+      "status": "checked",
+      "line": 180,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.iterate_mod_period' depends on axioms: [propext]"
+    },
+    "OddDescent.congruent_weights": {
+      "sha256": "ddd444ae132ea84d3852869bb73ae2fba3145f11b1e5637d47ca655d501f6249",
+      "status": "checked",
+      "line": 188,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.congruent_weights' depends on axioms: [propext]"
+    },
+    "OddDescent.large_prime_weight": {
+      "sha256": "3588286c36c63f045ef51299386dab807e09277d4fd4c214b5c6c769672d8635",
+      "status": "checked",
+      "line": 197,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.large_prime_weight' depends on axioms: [propext, Quot.sound]"
+    },
+    "OddDescent.prefixCost": {
+      "sha256": "7e5c2678bf7d614a4806a10828e76825986f5c72168dbce61bbcffa4a0bca17b",
+      "status": "checked",
+      "line": 206,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "OddDescent.prefixCost_add": {
+      "sha256": "2d2f94a74766e6ff67caaa46ab922ad409d594d1c63c451da31f62da1c2ce865",
+      "status": "checked",
+      "line": 210,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.prefixCost_add' does not depend on any axioms"
+    },
+    "OddDescent.prefixCost_mono": {
+      "sha256": "c3c1cc43e6f5f22b17bf72a8799f1425c2939eeb86049a58fd9de46ddd147809",
+      "status": "checked",
+      "line": 219,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.prefixCost_mono' depends on axioms: [propext, Quot.sound]"
+    },
+    "OddDescent.periodic_shift": {
+      "sha256": "54aeb4a57433f921f683a489eb4931aa59c663628dcc40f76de734e62f74ce59",
+      "status": "checked",
+      "line": 226,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.periodic_shift' depends on axioms: [propext, Quot.sound]"
+    },
+    "OddDescent.complete_block_cost": {
+      "sha256": "9a06da7b6dccacb62029beeb2be097e73432f2e58a520341a8707aa0142b1eb7",
+      "status": "checked",
+      "line": 234,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.complete_block_cost' depends on axioms: [propext, Quot.sound]"
+    },
+    "OddDescent.weight_window_cost": {
+      "sha256": "97247eda8cef4237a9a7d6af260f676cca1bdcb82366ab77044d5c4aa5668b70",
+      "status": "checked",
+      "line": 246,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.weight_window_cost' depends on axioms: [propext, Quot.sound]"
+    },
+    "OddDescent.cappedLength": {
+      "sha256": "c386708c29d4a5b30881ad1e8470e1a4a45c4206b405ddb99ebec72d62ed86a9",
+      "status": "checked",
+      "line": 259,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "OddDescent.width": {
+      "sha256": "c5c8e42e440d6ef7c87ea270f3da0b0f73d1d9a7f321063fdaab3bef43e6bf69",
+      "status": "checked",
+      "line": 264,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "OddDescent.capped_succ": {
+      "sha256": "33bb58d2d66b220960e371b85ff32052f8feba6425db58d4f736c3ba1781312f",
+      "status": "checked",
+      "line": 268,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.capped_succ' depends on axioms: [propext, Quot.sound]"
+    },
+    "OddDescent.multiplicity": {
+      "sha256": "966803d2f99eaff4747921b49ccde97ac570f4691ab3523fed85a78fee2c55ac",
+      "status": "checked",
+      "line": 285,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "OddDescent.width_drop": {
+      "sha256": "4d520af04ec2a2ab12ecf83ec8ee1d29f3ce7986df1bcf3c3adb39906f15ac3e",
+      "status": "checked",
+      "line": 289,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.width_drop' depends on axioms: [propext, Quot.sound]"
+    },
+    "OddDescent.equal_multiplicity_from_caps": {
+      "sha256": "5f230fb4c7273179aa7a155317dfbc825eac34500977d6e652e796a7c6fdb3da",
+      "status": "checked",
+      "line": 307,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.equal_multiplicity_from_caps' depends on axioms: [propext, Quot.sound]"
+    },
+    "OddDescent.width_zero_iff": {
+      "sha256": "b114aba595ca0ddd7944837896969afa1684ded294e6325b068880e14d7483ce",
+      "status": "checked",
+      "line": 320,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.width_zero_iff' depends on axioms: [propext, Quot.sound]"
+    },
+    "OddDescent.plateau_iff": {
+      "sha256": "4c82f01ae8a49fcff35c3325ab83a79927ddff4c152563321e58eb48408a1125",
+      "status": "checked",
+      "line": 343,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.OddDescent.plateau_iff' depends on axioms: [propext, Quot.sound]"
+    },
+    "OddDescent.complete": {
+      "sha256": "25eb8d653649c15cb616dd726437c1f3afad6c62ec36745fddf1a0bdda5f55a8",
+      "status": "checked",
+      "line": 352,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

@@ -1,0 +1,56 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.NumberTheory.Padics.PadicNumbers": "dbf403e24fbff90ced849ddbe6353860810e69ddd8c0cc7af3f4b1eb61ee0954",
+    "Mathlib.Tactic.NormNum": "480ebc7f2e8d9370016d90be1babe5c26d8bfa3f597e0fa8fcd718528133826c",
+    "Reimann277.FiniteRadii": "dfef236b68ce7dcc460599df6362cd156aa775d08deb4f8ca61729fd60f56c75",
+    "Mathlib.Algebra.Order.AbsoluteValue.Basic": "a304b96f13c00baa91c6b0b672177cf1eee3446bfa7c44b5ced7e1f4e9d9e7b6",
+    "Mathlib.Algebra.Order.Archimedean.Real.Basic": "6986ad382da2352fdcf72c581b569341d822ee395f0f68a5d9693354258f9308",
+    "Reimann.TameAdicDomain277": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+    "Reimann.TameLimit277": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+    "Reimann.TameTwist277": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+    "Reimann.TameRootExhaustion277": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Reimann.CyclicBoundary": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+    "Reimann.CyclotomicNorm": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.ScalarCoinvariants": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+  },
+  "steps": {
+    "FiniteAbsolute.prime277": {
+      "sha256": "d9d64d1e0336166d1779b7f613023c855708d20355621bc0b70726780cbc152c",
+      "line": 7,
+      "status": "checked"
+    },
+    "FiniteAbsolute.norm_prime": {
+      "sha256": "8fb861e15b6e4a254554ac8b7c03327d7744ee163ce2f6d8739761eafb6a3490",
+      "line": 9,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFiniteAbsolute277.norm_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FiniteAbsolute.strict_comparison": {
+      "sha256": "a0710308f73034d7884e73651317c12f651c6762d79b42c6a350c123c7466566",
+      "line": 17,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFiniteAbsolute277.strict_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FiniteAbsolute.normalize_prime": {
+      "sha256": "363d435c35cfd5fb1f92311e64bf47f585dc41cbc900e1cbf1471ebecf68e1a9",
+      "line": 20,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFiniteAbsolute277.normalize_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FiniteAbsolute.normalized_absolute_value": {
+      "sha256": "58fcef9947a72045d1349dd0a930efc534b3f29234a3cc3a2e31780a20e8c3b1",
+      "line": 43,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFiniteAbsolute277.normalized_absolute_value' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "FiniteAbsolute.complete": {
+      "sha256": "a164aee4207e1c4a3f06f34d1db852e2957e4979d4abc7771fc59f2d870555ae",
+      "line": 60,
+      "status": "checked"
+    }
+  }
+}

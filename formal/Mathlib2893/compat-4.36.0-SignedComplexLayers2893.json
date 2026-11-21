@@ -1,0 +1,101 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann2893.SignedCyclotomicEmbedding2893": "d758e498a530f7b1142d4a91774df8ce7ce84d49b499e0658bcce00d29125109",
+    "Reimann.SignedGammaTower": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+    "Mathlib.RingTheory.RootsOfUnity.Complex": "c7447dacef5e9fc301813a6abec5843e8aa65ff71a60b3f2a7fa66162d8f71cc",
+    "Reimann.DyadicCyclotomicImage": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+    "Reimann.SignedMeasure256": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+    "Reimann.Character2893": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+    "Reimann.Dyadic": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.WeightClasses": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+    "Reimann.SampleSpacing": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+    "Reimann2893.SignedFieldLayers2893": "e5d1cec02d6adbf207557994b67a9e234dea14dc914ba1726c0dded18b86d735",
+    "Reimann2893.SignedCyclotomicTrace2893": "9b471c290fee3cf718e78a914efb3bd5a546d5e11a7f0d9b66f07886a5d441c8",
+    "Mathlib.Algebra.Field.Subfield.Basic": "ac7c78c8af9b69eb70d080d74e8459723237a2e0d9880931e4511a3c2267bc81",
+    "Mathlib.Tactic.FieldSimp": "976875a59edb69c0d2f58e092b94e312a5b8d2176dac9eff3eeb7553c52693a1",
+    "Mathlib.Tactic.Ring": "a8692039dfd1a85e1a1f422f0f9d6ec69ccc4ba24e829b034f94c2e435e815f4",
+    "Mathlib.Algebra.QuadraticAlgebra.Basic": "a290cb1668536c7e63cf0f109c82e9621e26d3e8fd3924fe46813c5846d21eea",
+    "Mathlib.Data.Rat.Sqrt": "43a8685ebc47faaf47a484b3714d9266dfcb7d99fc168c82dc7049d5a7ce2e2c",
+    "Mathlib.Tactic.Linarith": "93dc12bfc3fc322fc4ed054e013bdaba10b97da70f02f3eb2f177512e6a3f373",
+    "Mathlib.Tactic.NormNum": "480ebc7f2e8d9370016d90be1babe5c26d8bfa3f597e0fa8fcd718528133826c"
+  },
+  "steps": {
+    "SignedComplexLayers2893.zeta": {
+      "sha256": "0ba503319d0e33bc7cc930dc23b014edc992d2d67efceb260d66352dbc50df4c",
+      "line": 11,
+      "status": "checked"
+    },
+    "SignedComplexLayers2893.primitive": {
+      "sha256": "9ef969614ec60576f8b55cff8de8ad4db254f12aaa903fb70c5298259b0b3b6d",
+      "line": 14,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedComplexLayers2893.primitive' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedComplexLayers2893.zeta_initial": {
+      "sha256": "ac0b6702e5985aad2da969f51628f3350651818c12434856e7a7e3d9d22194ab",
+      "line": 18,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedComplexLayers2893.zeta_initial' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedComplexLayers2893.zeta_square": {
+      "sha256": "940459a22a395af3f377dd98a30129e12c9904e50f8f425b6fa95135ee83345e",
+      "line": 23,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedComplexLayers2893.zeta_square' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedComplexLayers2893.imaginaryRadical": {
+      "sha256": "30cebf3005e16e4867751df4036b062230d269b3562f95b10a4a0ee1b8419e1c",
+      "line": 30,
+      "status": "checked"
+    },
+    "SignedComplexLayers2893.imaginaryRadical_sq": {
+      "sha256": "f05c209af07d4390f75b8181db7dc545c3914a2fc90b848196193f09481c1d1a",
+      "line": 32,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedComplexLayers2893.imaginaryRadical_sq' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedComplexLayers2893.complexRoots": {
+      "sha256": "9e05690562043fb6bb23635c3f7630052427061dc7a60c1bf948325de3da6baa",
+      "line": 37,
+      "status": "checked"
+    },
+    "SignedComplexLayers2893.layer_is_cyclotomic": {
+      "sha256": "d5596c4c22bcde42ce25cb17b8bf5317ea46bb057394db03f4a57c537b3b32d3",
+      "line": 46,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedComplexLayers2893.layer_is_cyclotomic' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedComplexLayers2893.forward_is_cyclotomic": {
+      "sha256": "a0c710c9ea489ba5416b0200445693bf2bfe9d9c188219bef9841f5900acc369",
+      "line": 52,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedComplexLayers2893.forward_is_cyclotomic' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedComplexLayers2893.powers_on_trace": {
+      "sha256": "d6772176a296f48fe119a674e8ba125b8959797c017dc538d15f46e5949a7b88",
+      "line": 56,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedComplexLayers2893.powers_on_trace' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedComplexLayers2893.power_mod_order": {
+      "sha256": "0f413f70379a0bff44b5344e5517533c74500cb2e3f906d8f630740c665a8150",
+      "line": 67,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedComplexLayers2893.power_mod_order' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedComplexLayers2893.inverse_fibres_on_forward_root": {
+      "sha256": "cc7652acbe77d1e1c36423076ab76ced69ba889f6bdef9eb6c979707e86d6f60",
+      "line": 76,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedComplexLayers2893.inverse_fibres_on_forward_root' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "SignedComplexLayers2893.complete": {
+      "sha256": "bb7b6e57585b07ec504b1c1c2208b0a32ae38853485594dac4f4768f145cf52e",
+      "line": 89,
+      "status": "checked"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Reimann.DyadicLattice": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e"
+  },
+  "steps": {
+    "SignedNativeScalar2893.appr_mod": {
+      "sha256": "e7560f757f396903253c8b046184533afa490dd87d4532168b2a110df212a53f",
+      "line": 9,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNativeScalar2893.appr_mod' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedNativeScalar2893.read": {
+      "sha256": "0bf0c8cfd2fdaa9e6ef996671daf23cb92bf947d8469441cf241dcbc06cf4bf2",
+      "line": 16,
+      "status": "checked"
+    },
+    "SignedNativeScalar2893.read_reduction": {
+      "sha256": "d4275ccf22ae0d18c0d19f24e157ea79a374945c03f327e5a2177e8d9f330985",
+      "line": 23,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNativeScalar2893.read_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedNativeScalar2893.word_ext": {
+      "sha256": "2044cc29f84984dd8c876f56b438410b620bd21523f7ef3c9aae0ef12cd7bcb5",
+      "line": 29,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNativeScalar2893.word_ext' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedNativeScalar2893.word_add": {
+      "sha256": "5efcac77b01bcc2871df975787e20e4f9a68b81e3c0d3399a8dd05d0745b55e7",
+      "line": 35,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNativeScalar2893.word_add' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedNativeScalar2893.word_mul": {
+      "sha256": "32bf3f6db833b293453d8e38097c40e12bfb33558206eab45f992cc1bf4b5b5f",
+      "line": 39,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNativeScalar2893.word_mul' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedNativeScalar2893.read_add": {
+      "sha256": "d13555aa008612ea97d7ff0ccca85bf085ca026626f2672c7b59c68e11e9d346",
+      "line": 43,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNativeScalar2893.read_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedNativeScalar2893.read_mul": {
+      "sha256": "6c83b7afc56a779fa6370a1659a57f7798bc7c33c6366767cb8568da06f93c60",
+      "line": 50,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNativeScalar2893.read_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedNativeScalar2893.read_nat": {
+      "sha256": "fb5e86d5fad2e1d6788be377d40c401f808fcf2844b0c5b56a00c348d00b3c29",
+      "line": 57,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNativeScalar2893.read_nat' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedNativeScalar2893.liftDigit": {
+      "sha256": "558849618d4a39fbffc948f93bf1b3d804079bc771b1b4068b5062a557e7d9ef",
+      "line": 64,
+      "status": "checked"
+    },
+    "SignedNativeScalar2893.liftDigit_step": {
+      "sha256": "934b55d8a7dd065555eb1569f50b6f4d71597b1605b09dc051dca7bf596b57af",
+      "line": 68,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNativeScalar2893.liftDigit_step' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedNativeScalar2893.realize": {
+      "sha256": "3465183f79314e067ecbb1e23a46012ed02fe83c87c92b5603805e83a93514b8",
+      "line": 83,
+      "status": "checked"
+    },
+    "SignedNativeScalar2893.realize_reduction": {
+      "sha256": "2520254f3682c7145e9c5a6f9feb41ea84d963529396d21f8a875929a40b417e",
+      "line": 87,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNativeScalar2893.realize_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedNativeScalar2893.read_realize": {
+      "sha256": "a34603ea69a7e399eea447c4e222e5021ed4a92e17b6c180e3af8956d76bb5c7",
+      "line": 92,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNativeScalar2893.read_realize' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedNativeScalar2893.realize_read": {
+      "sha256": "d69b3b993da59e124035b591bc4f5a754c2a59388436e99d40a52cb94309ef89",
+      "line": 98,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedNativeScalar2893.realize_read' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedNativeScalar2893.complete": {
+      "sha256": "f9fdc0627368639744cca35d9daceca675a5a6da80bd299520efe69ce3530df2",
+      "line": 107,
+      "status": "checked"
+    }
+  }
+}

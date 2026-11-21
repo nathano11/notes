@@ -1,0 +1,154 @@
+{
+  "steps": {
+    "DyadicCyclotomicSpan69.Subfield": {
+      "sha256": "21cebe906311862c6e6978c8ec009a9cd42bd565e83a2fc8cf44b31bc83f6cdf",
+      "status": "checked",
+      "line": 11,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicSpan69.Generated": {
+      "sha256": "e36958109b45095e38f22d37bec4c20e347fe01cfa36a95f00510af749fe79fc",
+      "status": "checked",
+      "line": 21,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicSpan69.horner": {
+      "sha256": "b1fbd6df888ceb7cc61cd081dea023cfd2f370ca31f8a06e9cd6274d8ee2e560",
+      "status": "checked",
+      "line": 29,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicSpan69.Bounded": {
+      "sha256": "6659095be1d43f201dab184494f89dec27df5f8ae6ab3dbb4d48dd98c4b69088",
+      "status": "checked",
+      "line": 34,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicSpan69.addPoly": {
+      "sha256": "c9d4d0abbb4a2d4ccfd3ebb917f41d88a64a1a66189ff55d9c33d1488286ed67",
+      "status": "checked",
+      "line": 37,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicSpan69.addPoly_spec": {
+      "sha256": "49408d58eb7c1a5ecb8329530db231efdfaafec0f9473a832da72815959afee4",
+      "status": "checked",
+      "line": 42,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.addPoly_spec' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicSpan69.bounded_add": {
+      "sha256": "04e0eddc760c216ac751110b30f2daf942e3c2bd27080987aea8dfb6953fe095",
+      "status": "checked",
+      "line": 63,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.bounded_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicSpan69.horner_scale": {
+      "sha256": "8f5980d612b0de359c3fb1ae72754a26d84831937bef9c42e2b16ee6f1f87deb",
+      "status": "checked",
+      "line": 70,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.horner_scale' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicSpan69.bounded_scale": {
+      "sha256": "ddafc4885a7d4d9357d962c589bd355823cef6b52d7d5b01479f67ce2790cee1",
+      "status": "checked",
+      "line": 76,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.bounded_scale' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicSpan69.power_in_shifted_basis": {
+      "sha256": "54f00c1140c57ec58651ed51441902931811da39648e2b65e37ad5cfff36bc41",
+      "status": "checked",
+      "line": 86,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.power_in_shifted_basis' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicSpan69.subfield_pow": {
+      "sha256": "3a1c6a94d0d9ed5e94b0e0badad4e27d0f1523028c97f39368a227b1f1bf918b",
+      "status": "checked",
+      "line": 100,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.subfield_pow' does not depend on any axioms"
+    },
+    "DyadicCyclotomicSpan69.reduce_power": {
+      "sha256": "e8adf9a86eca0cf1763f11c6492c5aa6a1d6f1e230af8717f5a919a211e2d05d",
+      "status": "checked",
+      "line": 106,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.reduce_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicSpan69.bounded_power": {
+      "sha256": "d24f68c3a251fa1aa6370114d5decf3dabf36d99991fdbf105e78872338802ce",
+      "status": "checked",
+      "line": 116,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.bounded_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicSpan69.PolynomialValue": {
+      "sha256": "257ba401ab1d5f2ac64de2de61d47d939cdfb85c6d8847528ea5a9616b2f346f",
+      "status": "checked",
+      "line": 125,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicSpan69.polynomial_scale": {
+      "sha256": "17e04e66e6cda2be9eb0000b7869c2f52047cf58fc47dbf37069ee6c3903819a",
+      "status": "checked",
+      "line": 130,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.polynomial_scale' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicSpan69.polynomial_product": {
+      "sha256": "d11e8060df49723d9374c6fa8894b7f15ff4c507bdfe8dbda20661126c4ac47f",
+      "status": "checked",
+      "line": 141,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.polynomial_product' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicSpan69.polynomial_value_bounded": {
+      "sha256": "d7768dba109e19be1eb7c627df418725713df9b6f6b4e830af1d6e1a8e87ac8c",
+      "status": "checked",
+      "line": 150,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.polynomial_value_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicSpan69.generated_fraction": {
+      "sha256": "8856af30426eea5f8ac894088bab87ee007eeb6f678ad62da9029e4a5d3112da",
+      "status": "checked",
+      "line": 170,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.generated_fraction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicSpan69.cyclotomic_normal_form": {
+      "sha256": "95e9f83a11805641995aae20b02bf31b48251de4ad580d037e3d38d8cfa92f6a",
+      "status": "checked",
+      "line": 203,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.cyclotomic_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicSpan69.generated_subfield": {
+      "sha256": "bde137d75701a75460a3aba78e055bd0142a50a50dd28b64d851fcd8a2846c7c",
+      "status": "checked",
+      "line": 219,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.generated_subfield' does not depend on any axioms"
+    },
+    "DyadicCyclotomicSpan69.generated_iff_least": {
+      "sha256": "0da92ac96639bce989ea3c84b503d32d46f7330684eed04a534b1fcbd34f61d3",
+      "status": "checked",
+      "line": 229,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicSpan69.generated_iff_least' does not depend on any axioms"
+    },
+    "DyadicCyclotomicSpan69.complete": {
+      "sha256": "5f0ade04ffc0c5fcafd3d47882318201f5fcd05f8f7c1c96befe26df8336e531",
+      "status": "checked",
+      "line": 243,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

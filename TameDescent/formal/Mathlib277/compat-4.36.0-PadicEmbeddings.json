@@ -1,0 +1,154 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.Biquadratic": "1eecf3556b0b3cbf21ff1704cade538325a07227d454a3ade53283149eb974df",
+    "Reimann277.PadicInteger": "b9528953f8045b5009ec90a0e7d305b4807d566fb2a50eb222fd24ff0d488f48",
+    "Reimann.TameSignedEmbeddings277": "3fd66f8a13aff48d00713431797d6f628c25abc54f4c7023f7c93ca2e483d588",
+    "Reimann.TameEmbeddings277": "7c184751698ce48d191a56ef92f45ca365f177a4cab5a4f52c9c29bcee50b5c7",
+    "Reimann.TameLimitRoots277": "cf5d2f76685ac0c2b3a7527dd65304d36462bc6502b0484e661782ba519abd57",
+    "Reimann.TameOrderFaithful277": "371738ead39dfaf6910c6fe1737e3a192e11812c07cf508fdd0b28ba0bb43d2f",
+    "Reimann.TameLocalOrders277": "7596b78ef21b0c5280340bd64566b0602408339c991da705e9cf24d97837dd18",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.TameArithmetic277": "48e0882aeffd38210c101bceab1e5aafefd3c877b7bafc39567fb2b0ad592b54",
+    "Reimann.TameOrderCompletion277": "4f13588caa002782d7596a41dc4430d15f584506829b6e7cc3c5beb951f47cfd",
+    "Reimann.TamePrimePowers277": "9c5db0aad6d6d16ef27a54edf4fa99d8283bf17cc04157dc8955f41fc1adda6c",
+    "Reimann.TameOrderPrimes277": "847a93ca9be19999dca67c119cc95e685f21fd8f3956100065a73bc8b521336b",
+    "Reimann.TameFiber277": "7d07f4bd543ccecef281e086cbc1d023250657743c14eb5d5e5a0884442650d2",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Reimann.TameOrderReduction277": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+    "Reimann.TameLimit277": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+    "Reimann.TameRootExhaustion277": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+    "Reimann.CyclicBoundary": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+    "Reimann.CyclotomicNorm": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Mathlib.Algebra.Algebra.Hom": "cb23985743d69ab47c814e821ec7620d49ce642073d96ea0016b5f48fd5dd445",
+    "Mathlib.Algebra.Algebra.Rat": "27a6444a720f4100b0a93140231049882e266bacef7f4c6bb8c7a1374cc6561b",
+    "Mathlib.Algebra.Field.MinimalAxioms": "5a4f6a6ce4037663e35257965bd052a4fa36d040c7bc7ad7eed074e9dd1a2872",
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb"
+  },
+  "steps": {
+    "PadicEmbeddings.fact277": {
+      "sha256": "36ab9d98f7d2fd0f19580080dc6bb04c683baab0fb73188e6f992b3495884300",
+      "line": 10,
+      "status": "checked"
+    },
+    "PadicEmbeddings.includeInteger": {
+      "sha256": "109b816f6f01eae2f04e518ce2423b38a891c93d703b59f68b7eba9a29b6a929",
+      "line": 14,
+      "status": "checked"
+    },
+    "PadicEmbeddings.includeInteger_ofInt": {
+      "sha256": "de9ddcde0f9e61d8d4039df135ac5615cbe48c188b21d501825ae64885535cc6",
+      "line": 17,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.includeInteger_ofInt' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.includeInteger_add": {
+      "sha256": "0c57b1afa8765fc70f9580a864c35df19d52bfd1bb89f86fa5d8e5b4edac82a0",
+      "line": 22,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.includeInteger_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.includeInteger_mul": {
+      "sha256": "247e447c83919e88eac1e4fecf648e8dfbdbf607666a6a9d9d952a957b0b1742",
+      "line": 26,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.includeInteger_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.includeInteger_neg": {
+      "sha256": "a62f065331616668a74f5c12ef4c6df30766ee99731d0c9c0212ee7288e09222",
+      "line": 30,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.includeInteger_neg' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.integralMap": {
+      "sha256": "dad3ef0e6d8f8d7134e583f1331fdbaec89c8cf0bfe31e73fbaa17656631d212",
+      "line": 33,
+      "status": "checked"
+    },
+    "PadicEmbeddings.embedding": {
+      "sha256": "468d79d1c13209535f65c9eeeef6bad0fe78e2cc7f299c86e2a3a7af9f009593",
+      "line": 38,
+      "status": "checked"
+    },
+    "PadicEmbeddings.embedding_on_generators": {
+      "sha256": "431684879a88f678609859cc367eb65ee6e53894d085801c4c4deebf84439741",
+      "line": 41,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.embedding_on_generators' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.embedding_on_integral_order": {
+      "sha256": "a8a25f47fd099c5b96cc4c67a749f73d6802ee3e965dde936901a9e1b5df6315",
+      "line": 46,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.embedding_on_integral_order' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.embedding_injective": {
+      "sha256": "1db127d80b9592e81a6fae9a0984e5784575ca95863e9777eb1f3e7fdfbc449f",
+      "line": 51,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.embedding_injective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.distinct_branches": {
+      "sha256": "3cca5e53186f7031e752dfa356b6db691276fce4ae47c578c43e4c06f46a1982",
+      "line": 54,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.distinct_branches' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.all_embeddings": {
+      "sha256": "28ad6a8c47e882750a4f14f902b7443319b7e8effb0554e5f2266a567b2b639f",
+      "line": 59,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.all_embeddings' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.four_padic_embeddings": {
+      "sha256": "4b7c212382089958c14535ada0bf5fc6c7a8cdd7aec249d2e17820107aec3abd",
+      "line": 66,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.four_padic_embeddings' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.embedding_dense": {
+      "sha256": "cee96844fbc80a4ab65df70ad40432942aee8c360cc7301fdeb2d5d9c5481c7d",
+      "line": 71,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.embedding_dense' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.norm_le_iff_prime_power": {
+      "sha256": "de21847cae9f587d8760cc012c3bd908e88aae8fed7393f603b42643218eb95b",
+      "line": 80,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.norm_le_iff_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.norm_lt_one_iff_prime": {
+      "sha256": "9c3e1242f540cc9627861623e594e9f7d4232cf42c1a0459a79042a6c7a05038",
+      "line": 97,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.norm_lt_one_iff_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.scalarExtension": {
+      "sha256": "2ba26841acead2546c8101b615700255e9602f587ead445e6774fac916c8976a",
+      "line": 114,
+      "status": "checked"
+    },
+    "PadicEmbeddings.factor_through_padic": {
+      "sha256": "eea87f341c716416e0238ea898d059bf6719dfe34b34db6fd54901a529664f2a",
+      "line": 124,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.factor_through_padic' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.surjective_of_closed_dense": {
+      "sha256": "afc7dcb9b8b0a0fb493210e102e6c57af542d72e41982e34718b2dc4a30d9fd7",
+      "line": 142,
+      "status": "checked",
+      "checker_output": "'Reimann.TamePadicEmbeddings277.surjective_of_closed_dense' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "PadicEmbeddings.complete": {
+      "sha256": "9b170d977d243dd5ef8a465ef9a9bea343438cb0ea3bda092c8aed013ce2c9a8",
+      "line": 152,
+      "status": "checked"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann2893.SignedNormLimit2893": "a10cba26cfa1331c567efc441d11cdd17fbb1106f62e3883a05b1453625bb703",
+    "Mathlib.Topology.Connected.TotallyDisconnected": "d9bb2c09cd85931923740a82349a91f947f51f2695144dd4f21b7aa943c2738e",
+    "Mathlib.Topology.Compactness.Compact": "bf6aab96d41fb5b43921540a09ea7481b80bd5f1ca32696077a272d6b3f90520",
+    "Mathlib.Topology.Separation.Basic": "8f5be55077ae69f81c078740f1fb0aaf19f355c957c093e73623a0f2c06abd91",
+    "Mathlib.Topology.Algebra.Group.Subgroup": "96e3bea99cb883cff6fc3b2e58b0c0a0522c36a55cd10f5d353652b4cd0d077a",
+    "Mathlib.Topology.Instances.Nat": "59b03db0a2ab8534e83c4e4531f25f1678761be19035fecff50a7465b1f1a8f7",
+    "Reimann2893.SignedAdicAction2893": "3f1a48c2adf938697ff41155ad0129fde04ea8f5c0c3f6068714fa0ddaeb3a5a",
+    "Reimann2893.SignedNativeScalar2893": "f9fdc0627368639744cca35d9daceca675a5a6da80bd299520efe69ce3530df2",
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Reimann.DyadicLattice": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Mathlib.Algebra.Group.End": "2bf38d02278793ccb9df015507b867fe13124aecd8227deaf1039340308cfb7c",
+    "Mathlib.Algebra.Group.Subgroup.Basic": "b202bd8e8dcc0a855b42a7ef27fa5423d5220ee25de604761ab7cc2b271776ec",
+    "Mathlib.Algebra.Group.Pi.Lemmas": "298132c4f280e0db1b30f54290063c03602f1e74e79d82643e238b344a9c0c40",
+    "Mathlib.Algebra.Group.Equiv.Basic": "5df99c494bce6b0a79db0e736c62f444000a41999c315185fd6abdde9ae933a0"
+  },
+  "steps": {
+    "SignedProfiniteLimit2893.closed_coherent": {
+      "sha256": "2aff78a9fdfc46ca610e3828f3bbba64bfad7402e383b1877b7660a7ef4a31b1",
+      "line": 18,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedProfiniteLimit2893.closed_coherent' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProfiniteLimit2893.profinite_limit": {
+      "sha256": "5e1ef4af41fb2ed01716f94157a37196957a728872de676e1343c5fd55a22c97",
+      "line": 31,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedProfiniteLimit2893.profinite_limit' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProfiniteLimit2893.continuous_projection": {
+      "sha256": "ec3ca936a791056bf9b59e1c9e68434cbd2b1eab2adaf8832bb7a01dc6805849",
+      "line": 35,
+      "status": "checked",
+      "checker_output": "<stdin>:35:0: warning: automatically included section variable(s) unused in theorem `Reimann.SignedProfiniteLimit2893.continuous_projection`:\n  [∀ (n : ℕ), DiscreteTopology (G n)]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [∀ (n : ℕ), DiscreteTopology (G n)] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.SignedProfiniteLimit2893.continuous_projection' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProfiniteLimit2893.continuous_forward": {
+      "sha256": "071f02aa9dfda51270b55d290b72a9b64b339149f17c80ee5bee4be248a31c21",
+      "line": 39,
+      "status": "checked",
+      "checker_output": "<stdin>:35:0: warning: automatically included section variable(s) unused in theorem `Reimann.SignedProfiniteLimit2893.continuous_projection`:\n  [∀ (n : ℕ), DiscreteTopology (G n)]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [∀ (n : ℕ), DiscreteTopology (G n)] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.SignedProfiniteLimit2893.continuous_forward' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProfiniteLimit2893.topological_group": {
+      "sha256": "95d94a54099b48b629a4705387554d58efc9809fb8f817e585f8509044fc5b61",
+      "line": 47,
+      "status": "checked",
+      "checker_output": "<stdin>:35:0: warning: automatically included section variable(s) unused in theorem `Reimann.SignedProfiniteLimit2893.continuous_projection`:\n  [∀ (n : ℕ), DiscreteTopology (G n)]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [∀ (n : ℕ), DiscreteTopology (G n)] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.SignedProfiniteLimit2893.topological_group' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProfiniteLimit2893.exponent_eq_of_dist": {
+      "sha256": "6478378c9409a1c994374db400f706f98068c1c79db96b08e203780f23ab02a6",
+      "line": 51,
+      "status": "checked",
+      "checker_output": "<stdin>:35:0: warning: automatically included section variable(s) unused in theorem `Reimann.SignedProfiniteLimit2893.continuous_projection`:\n  [∀ (n : ℕ), DiscreteTopology (G n)]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [∀ (n : ℕ), DiscreteTopology (G n)] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.SignedProfiniteLimit2893.exponent_eq_of_dist' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProfiniteLimit2893.continuous_exponent": {
+      "sha256": "3dfbaee1ccdf46150fd740adb88707e77605b41f53e4e4ead0cafbee9c68a89a",
+      "line": 66,
+      "status": "checked",
+      "checker_output": "<stdin>:35:0: warning: automatically included section variable(s) unused in theorem `Reimann.SignedProfiniteLimit2893.continuous_projection`:\n  [∀ (n : ℕ), DiscreteTopology (G n)]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [∀ (n : ℕ), DiscreteTopology (G n)] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.SignedProfiniteLimit2893.continuous_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProfiniteLimit2893.continuous_adic_action": {
+      "sha256": "881a654500633bd739aeaffcde275fe5b247ba070eaf13d9b3c5eafc4fd438c7",
+      "line": 79,
+      "status": "checked",
+      "checker_output": "<stdin>:35:0: warning: automatically included section variable(s) unused in theorem `Reimann.SignedProfiniteLimit2893.continuous_projection`:\n  [∀ (n : ℕ), DiscreteTopology (G n)]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [∀ (n : ℕ), DiscreteTopology (G n)] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.SignedProfiniteLimit2893.continuous_adic_action' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedProfiniteLimit2893.complete": {
+      "sha256": "86643c08075036c6d48d4b336cd30ce22af13e224e67e29826c586bc112c990b",
+      "line": 92,
+      "status": "checked",
+      "checker_output": "<stdin>:35:0: warning: automatically included section variable(s) unused in theorem `Reimann.SignedProfiniteLimit2893.continuous_projection`:\n  [∀ (n : ℕ), DiscreteTopology (G n)]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [∀ (n : ℕ), DiscreteTopology (G n)] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`"
+    }
+  }
+}

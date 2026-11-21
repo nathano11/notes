@@ -1,0 +1,76 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.RingTheory.Ideal.Prime": "7d6cd8c9f31143dd875ab2df1cbb099149b39a96910a4053814162475c46fdd4",
+    "Mathlib.Algebra.Ring.Subring.Basic": "caf373944435b533d40a6a2aa32cb46abbf1afe8af12cb075c532f551cfdb8ea"
+  },
+  "steps": {
+    "DyadicNativePrime69.contraction": {
+      "sha256": "c3bf9dbe62befee4ac98ffcae1d68a80c54c54e846dcb3b7bc967e9aee51382e",
+      "line": 10,
+      "status": "checked"
+    },
+    "DyadicNativePrime69.mem_contraction": {
+      "sha256": "7e2df83c6d8374005162e8fc683cc573fb161b7efa3ddf9c7c6b07921c9d81e8",
+      "line": 16,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativePrime69.mem_contraction' depends on axioms: [propext]"
+    },
+    "DyadicNativePrime69.prime_contraction": {
+      "sha256": "afd287e52a9ffe50c8e825a542d64c4fe05a5390fd049dc01d1a3f71f6ffec3d",
+      "line": 20,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativePrime69.prime_contraction' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicNativePrime69.contraction_comp": {
+      "sha256": "98d12ee2a1929b210c40ac7b862bc77338369e696322c52577a11318e38ce411",
+      "line": 29,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativePrime69.contraction_comp' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicNativePrime69.stageOrder": {
+      "sha256": "b94696a80598fcfca3aef577bbe110551291747d8f8c9e9461dcfee727d07448",
+      "line": 33,
+      "status": "checked"
+    },
+    "DyadicNativePrime69.stageInclusion": {
+      "sha256": "3ecfb53f84d81c5af727d8385ffd27528f5d39d9ba0721cf25d7aa28136f46df",
+      "line": 35,
+      "status": "checked"
+    },
+    "DyadicNativePrime69.stagePrime": {
+      "sha256": "88c2d4242ac8cad513a80b3299f30ba0e7c461716d98637c0185765addea9373",
+      "line": 38,
+      "status": "checked"
+    },
+    "DyadicNativePrime69.stagePrime_isPrime": {
+      "sha256": "7d5378a10205eae5e875c1f3121c331cb9e9b57e6154ad2d975542aa102ded26",
+      "line": 41,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativePrime69.stagePrime_isPrime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativePrime69.enlarge": {
+      "sha256": "a5eaf64d6d22d8a1e505abd823061e879ee21c2273b9200d46e583889e39424d",
+      "line": 44,
+      "status": "checked"
+    },
+    "DyadicNativePrime69.adjacent_contraction": {
+      "sha256": "819f0068cdf867e7363305a4d1945521954cabc2c71632ff6fabbe8bd8566859",
+      "line": 47,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativePrime69.adjacent_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativePrime69.exhausts_prime": {
+      "sha256": "f353700f93afa3668a85869831e72d321bb1f86dd742d68922af6387ab308f40",
+      "line": 53,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativePrime69.exhausts_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativePrime69.complete": {
+      "sha256": "8939a31d64129d93f84456af64ba001f938915471b113ccadd6984847a640574",
+      "line": 64,
+      "status": "checked"
+    }
+  }
+}

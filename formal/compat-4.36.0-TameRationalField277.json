@@ -1,0 +1,293 @@
+{
+  "steps": {
+    "TameRationalField277.rational_numerator": {
+      "sha256": "683ea16642b9548c2edd31c3a3cc3b640fc941fe5a48626f7a559c359dd2cba6",
+      "status": "checked",
+      "line": 5,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.rational_numerator' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.clear_square_denominator": {
+      "sha256": "67daa6ebcb1a5acd335612ba40a8e28614a1637b05483481dd68213c55354b6b",
+      "status": "checked",
+      "line": 18,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.clear_square_denominator' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.three_dvd_of_square": {
+      "sha256": "368e61dc89290c4685b73b542eaff227d556ea7145011337be6d38439aa17db1",
+      "status": "checked",
+      "line": 27,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.three_dvd_of_square' depends on axioms: [propext, Quot.sound]"
+    },
+    "TameRationalField277.both_divisible_by_three": {
+      "sha256": "e8577b04093d2c51faf8b10fd8962e6f63309ad761ad7f1a75f969719c4b26d7",
+      "status": "checked",
+      "line": 37,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.both_divisible_by_three' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.no_rat_square_ratio": {
+      "sha256": "b1437a7633f3e36c2bee8dc11c20f0ae31219c6dda79640bbea2e90751ae1646",
+      "status": "checked",
+      "line": 44,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.no_rat_square_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.square_nonnegative": {
+      "sha256": "005406081483c745d38febc9ead266fb3525a1b33e023c17b8784db520e9e1b2",
+      "status": "checked",
+      "line": 54,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.square_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.Quad": {
+      "sha256": "1ab693247e21b765525dfdd764de28159a8fc55739e7a1874c678d507138bed1",
+      "status": "checked",
+      "line": 62,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalField277.qm": {
+      "sha256": "0eaad3986b2918dea53e08151c6a36ab1c35f6669ddfdb15d5819eb11abff3ec",
+      "status": "checked",
+      "line": 64,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalField277.no_square_neg23_in_quad": {
+      "sha256": "63a6bc4f4f40d8186f1dd9f51be1cd75e8ae915b067413d5cdb4c1cab9ffd97c",
+      "status": "checked",
+      "line": 67,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.no_square_neg23_in_quad' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.quad_norm_nonzero": {
+      "sha256": "b9d83edae884e902eb1004fd9f6026660fc89645290c275aa1356b7adef8dc05",
+      "status": "checked",
+      "line": 81,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.quad_norm_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.qi": {
+      "sha256": "6456a7df41956805a5b1c8e5ae1f59d7325fa72df3b7bc0ee822ed2350118e14",
+      "status": "checked",
+      "line": 94,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalField277.quad_mul_inverse": {
+      "sha256": "e49e82a81db509fd3f8e973d584610e607b57b8f4145bb388a938aa648e9ae86",
+      "status": "checked",
+      "line": 98,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.quad_mul_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.qm_assoc": {
+      "sha256": "a6d98f299b4a94ef6f2b046a6ba3ca0df6549efbbed560c03694c72551393631",
+      "status": "checked",
+      "line": 106,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.qm_assoc' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.qm_comm": {
+      "sha256": "f9fa4e0ed2544b20d05ff55743d735cae6b0ee71387d04907f77147164e064ef",
+      "status": "checked",
+      "line": 109,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.qm_comm' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.qm_one": {
+      "sha256": "12530f2b61244ff54485628fdde5dc79abe2609d712003f0ee9a8d8434db2911",
+      "status": "checked",
+      "line": 112,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.qm_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.qm_zero": {
+      "sha256": "69997fa64c5351a8311963d6952391406219e3047ae17f981773ffc53918677d",
+      "status": "checked",
+      "line": 115,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.qm_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.qm_zero_right": {
+      "sha256": "8a69871313efe44161ca1da6998472074b79b814f4c0d46286a3983f5092b1f1",
+      "status": "checked",
+      "line": 118,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.qm_zero_right' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.quad_square_zero": {
+      "sha256": "6be2f4631310eb0ff3fe78b716f25c8bfec4b88cf0e28b8d2a191ee7eb79e968",
+      "status": "checked",
+      "line": 121,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.quad_square_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.qa": {
+      "sha256": "05d98c0ec2df659e02324ca88edefb915e888dc3c7c312d2d40fbbd8c35c1880",
+      "status": "checked",
+      "line": 129,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalField277.qs": {
+      "sha256": "548197c7f4aa267cc2dce7fa27541efd87434685bbe527dc962226eebd6f60a3",
+      "status": "checked",
+      "line": 131,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalField277.Biquad": {
+      "sha256": "8601b5ec4ba480a7eb88e3f9f702c3c8b5331ff2bbfa2e45f29b44945ab42fe5",
+      "status": "checked",
+      "line": 134,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalField277.bm": {
+      "sha256": "48089684486459f7e170bf55632611bc89b2fed82aa3bb1c28005547a2049223",
+      "status": "checked",
+      "line": 136,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalField277.relativeNorm": {
+      "sha256": "05afe3dc0b4c76030cf47ce8dcb11b4d92a063b565873764d8032b259797b941",
+      "status": "checked",
+      "line": 139,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalField277.norm_zero_identity": {
+      "sha256": "d7e919b428b46c661c94be1e2c6d91e91b3093c70e58fe3c4383ddc87173b4cb",
+      "status": "checked",
+      "line": 141,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.norm_zero_identity' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.quad_square_product": {
+      "sha256": "11b1441583fadac01ac66e7eb3b3ff37b06a36f8c2f1da4cd5176ca97ab60661",
+      "status": "checked",
+      "line": 147,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.quad_square_product' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.norm_nonzero": {
+      "sha256": "5f46c605904b57433965215bc48994b9866a675931d399a81f46ecc2001a81ae",
+      "status": "checked",
+      "line": 151,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.norm_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.bi": {
+      "sha256": "5df72bef6d408723948bdf99fee2e17e2781650c49a227befce9f9e8aae8ed90",
+      "status": "checked",
+      "line": 161,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalField277.relative_inverse_identity": {
+      "sha256": "d6d7765a4328dfef96e99cecfe582d29c73d3a07c56c9adb7c010e5025ecc3aa",
+      "status": "checked",
+      "line": 165,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.relative_inverse_identity' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.biquad_mul_inverse": {
+      "sha256": "2bdde0f3f561219109862d844fcccf5b4cbeaa2bbe698776fd84d8bb2724240c",
+      "status": "checked",
+      "line": 169,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.biquad_mul_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.ba": {
+      "sha256": "c0b4fdd52e0501bb49253ec01c71d9f373f30522dcf8c21243a7e5ecb65f3387",
+      "status": "checked",
+      "line": 174,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalField277.bn": {
+      "sha256": "11bbe7f5671af71ce66aca4562762732ea1a11d1b6b4d00a74b4c787f0c07746",
+      "status": "checked",
+      "line": 176,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalField277.add_group_laws": {
+      "sha256": "45389b98b05d7c4e102bba84910ffd827a3a652ec5bd20cac669d6911d87fbcc",
+      "status": "checked",
+      "line": 178,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.add_group_laws' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.mul_assoc": {
+      "sha256": "857c25c7e314de4538af0874e01282b186f86e6959e5570dacff203de0d15892",
+      "status": "checked",
+      "line": 184,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.mul_assoc' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.mul_comm": {
+      "sha256": "9e3268327554b9086f8789d8776949926646433a3b0c387634dbb774998a5bed",
+      "status": "checked",
+      "line": 187,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.mul_comm' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.mul_one": {
+      "sha256": "cb4f1efb843fc5877fc874be70810b8a6fe7a2a901638f22dd0a396c69a53bce",
+      "status": "checked",
+      "line": 190,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.mul_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.distributive": {
+      "sha256": "7b5b89826fb86fa2e98f81e7c33dbdc3a73b5f1b032f4e05a551d641006f9a98",
+      "status": "checked",
+      "line": 193,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.distributive' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.scalar": {
+      "sha256": "fd3cf19e1fa7531c9852d404990eb7c3ac05ec3cd7c39e96d2fd691f6d87c468",
+      "status": "checked",
+      "line": 196,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalField277.gen3": {
+      "sha256": "241dcd7be2150ce8b91c74939cfa90f041e8a82f9d6373217f3e9ba148aaadd1",
+      "status": "checked",
+      "line": 198,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalField277.gen23": {
+      "sha256": "c4f1a428d25288bcb75746bd2120a3117680557d20d8f1388cf62ea627624897",
+      "status": "checked",
+      "line": 200,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameRationalField277.scalar_embedding": {
+      "sha256": "375a0e591e3eba5eacbe7cc5cdcd171374f99fbdccdf777c51a2867e4650af60",
+      "status": "checked",
+      "line": 202,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.scalar_embedding' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.generator_squares": {
+      "sha256": "9176e00b2c6b9b5ae04212ac081886a10d5921593f9eb8e89962e00fa54cc15f",
+      "status": "checked",
+      "line": 211,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.generator_squares' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.basis_expansion": {
+      "sha256": "ea6a92c3c2dc1278c092f864b6f3ccc41fcbe1f740b1a04a9e8ebb743ffeb3db",
+      "status": "checked",
+      "line": 217,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameRationalField277.basis_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameRationalField277.complete": {
+      "sha256": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+      "status": "checked",
+      "line": 223,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

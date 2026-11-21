@@ -1,0 +1,108 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann.DyadicEmbeddedBase69": "8a033aea34fac09564d24b78a394f618f593c65403d10f41c0c0e37372609e9c",
+    "Mathlib.Data.Rat.Cast.CharZero": "ee8fdaa20383b7e978f573ba075692a5a99483ecfb307c442e30a68eda87f8a4",
+    "Mathlib.Tactic.Ring": "a8692039dfd1a85e1a1f422f0f9d6ec69ccc4ba24e829b034f94c2e435e815f4",
+    "Mathlib.Tactic.LinearCombination": "880059a766139f3c3f3377d1231b090d82bdfbe2787c1e637fa000e3ea409cf8",
+    "Reimann.DyadicBottomValue69": "c981f473f174d0beade340d3152f5dae84dcbe90d86e3a9aa62b013292010e13",
+    "Reimann.DyadicCyclotomicSpan69": "5f0ade04ffc0c5fcafd3d47882318201f5fcd05f8f7c1c96befe26df8336e531",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.DyadicArithmetic69": "25202fbf80801f8e411ebba306147443994cc115deca6f1d080384db5b86344c",
+    "Reimann.DyadicDecomposition69": "f9e1f3eff68b3a90602e5f88b0afad86d9fe9adec79eea327bcc29cc4a52fb55",
+    "Reimann.DyadicRealLayer": "42de36e6693bb486531be137a171474641e204eab2df7f98f5e7c0a321756950",
+    "Reimann.DyadicIntegralCriterion69": "e5af0b54bbe00924c288ab7b20affb95d49b92352f50adc40a125f30fd0b4733",
+    "Reimann.DyadicFieldTrace69": "93556570c2ab88fd48226f6f306788e5d82262fa79fb296a58449de583754872",
+    "Reimann.DyadicLocalizedPrimes69": "89a69f52f77a00bcc442246cf45a1bb5f8dee5a12871cb934364f4c6a93b7851",
+    "Reimann.DyadicOrderIntegral69": "457a32caa22571d9bef196278fb509f6aa0e39f1466492207d401c84e4aed37b",
+    "Reimann.DyadicPrimeClassification69": "2a3f041bfcc9d2c2c22d1b31d2e612b3bfc7579a0fd79954ddd7deca7112a734",
+    "Reimann.DyadicMahler69": "650977a81bb44e440b4f2db79adda963cec372e9279b349c7bb69246c20424e8",
+    "Reimann.SignedTaylorScalar": "801dfd3d99a5b4705b11e56ba98f12da934597f85725f024ed126738f9e7a09f",
+    "Reimann.DyadicGammaDistribution69": "3154381d6cf91109f56acb15b8338dadc6e27e0710f30bcc5e84efec408b6a12",
+    "Reimann.SignedGammaTower": "d1850b8d9f114d3e8f0bcb8fe3d2daaafbf10c9ad4402851e1a2c60ce3348e5b",
+    "Reimann.DyadicProgression69": "e048e6d1f3f1470b13b1280bff4b28ff200878afafad1465783a2ec9ba4da99b",
+    "Reimann.DyadicHalfPrecision": "bed557109063035c046ffe70b02293bcda9e715c06a2b608348cb3854d5e332a",
+    "Reimann.DyadicDistribution69": "2faaecdbb4ed62d3a57d766e82df67ba721b7f646b2406dff3a4a505a9fff33b",
+    "Reimann.SignedProjection": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f",
+    "Reimann.DyadicZeroValues": "0a919675f48954a60f6aa6d4bd7eefa37a0268cd82a0c156dc159378fa076542",
+    "Reimann.Dyadic": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+    "Reimann.DyadicSeriesProjection": "8da6ddb4e48eb78d3c55faff85f76849d57aca8bb304e222ce95f407f7ffd78e",
+    "Reimann.DyadicStickelberger69": "62a15b9d5aa2e3bd61c8bfb942493fce8065d0620705abc3026d13b17dbccf34",
+    "Reimann.DyadicClass69": "a1ac151c3f3d6ad9eab75b5378221c5a8e39211fd346102b6fedf3e32fb2a416",
+    "Reimann.DyadicOrder": "e853c84ff8ad9867dcc02660834a2ea9cfe195367e8deac0141bcc06a4862eea",
+    "Reimann.DyadicMoments": "f56765804b0990a222f4c3b34e6144be5429acc70600861c32f9f903d041bcbf",
+    "Reimann.DyadicLayers": "865f464a6f4dcda46926a0b1bb04ae193d0c7fc315f13f4bf980f57d00156113",
+    "Reimann.DyadicBottom": "c281688bff7fc68650e6b038c5135fca45b794bf62cce5edcabfcb09f655f245",
+    "Reimann.DyadicLattice": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+    "Reimann.DyadicQuotient": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+    "Reimann.DyadicCyclotomicImage": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+    "Reimann.SignedMeasure256": "5397c8babb10e9dd861146c8cbceb55873a3715680698049858fb88203fa66b3",
+    "Reimann.Character2893": "17b389e8f3b5bf0a53f712e721d8bc3ae5bf4eafa7fdd044c7a3cfc68c2f8905",
+    "Reimann.WeightClasses": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+    "Reimann.SampleSpacing": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+    "Reimann.SignedTaylor": "98243200ad22f4a1cee247ac6ad75e3ca87172a96f0757bd8ce81403e38ab9d9",
+    "Reimann.CoinvariantSupport": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+    "Reimann.DyadicOrderCompletion69": "337430c9bb356c1ac801d36ef263528c3cb98e91cda80a0409b7a85c9754bd82",
+    "Reimann.DyadicFiberDescent": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+    "Reimann.DyadicFiberPrimes": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+    "Reimann.DyadicInert": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+    "Reimann.DyadicIntegralPlaces": "ae2ae5fd25a06ad0dead3e536738ae0c0400d633247ef070a3bde6d52f639044",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Reimann.DyadicBasisComparison": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+    "Reimann.DyadicTraceOrder": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Reimann.DyadicPlaceAlgebra": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+    "Reimann.DyadicSplitRoot": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+    "Reimann.TameTraceLattice277": "e937721bf1de66955ada54ae38293ca285f2defd7d5307b3b2f23096cdd91e4d"
+  },
+  "steps": {
+    "DyadicNativeEmbedding69.quadValue": {
+      "sha256": "c7ae17ac94b257305c2cc0b81eab2c124a72a108f9f8a55718b6585e0d7ce371",
+      "line": 13,
+      "status": "checked"
+    },
+    "DyadicNativeEmbedding69.quad_product": {
+      "sha256": "7e1d627f23ae1b8470cd0139881f605694ee399bbec2ae23aeee3bc5a907c1d7",
+      "line": 15,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeEmbedding69.quad_product' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeEmbedding69.value": {
+      "sha256": "2762a4bbf77394b330364bb3e9146aa457a9c731f2fa1ff478ff34c96e200838",
+      "line": 20,
+      "status": "checked"
+    },
+    "DyadicNativeEmbedding69.value_add": {
+      "sha256": "4c3de0c5864eb9b9f30b02512d8f7778ea0365db3c6faf71df77ad00cb0988fd",
+      "line": 22,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeEmbedding69.value_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeEmbedding69.value_mul": {
+      "sha256": "c3b06a4a553ff57ce16f92f7cff54f3d9bc499d68166f7a87bd63340543e5290",
+      "line": 27,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicNativeEmbedding69.value_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeEmbedding69.root_embedding": {
+      "sha256": "3ccdfc8ed9f8fa622dd54f2704acdbb8a10cc6ab1b6a73024b2e8a7f23e54288",
+      "line": 39,
+      "status": "checked",
+      "checker_output": "<stdin>:50:4: warning: `simp` already closes the goal\n\nHint: Use `simp` instead of `simpa`:\n  [apply] simp [value, quadValue] at e\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`"
+    },
+    "DyadicNativeEmbedding69.roots_evaluate": {
+      "sha256": "f8ba01349b774ddf4ff9244cf4a9a3b9c9befb002e3889d04fd4f9ebb0933366",
+      "line": 52,
+      "status": "checked",
+      "checker_output": "<stdin>:50:4: warning: `simp` already closes the goal\n\nHint: Use `simp` instead of `simpa`:\n  [apply] simp [value, quadValue] at e\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\n'Reimann.DyadicNativeEmbedding69.roots_evaluate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicNativeEmbedding69.complete": {
+      "sha256": "bc8ba23b64c9ae71e60a59bd4c6ed59a302453a9e996b368f70742ea082d6216",
+      "line": 56,
+      "status": "checked",
+      "checker_output": "<stdin>:50:4: warning: `simp` already closes the goal\n\nHint: Use `simp` instead of `simpa`:\n  [apply] simp [value, quadValue] at e\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "steps": {
+    "DyadicSplitRoot.even_root_precision": {
+      "sha256": "c43600816e4c70d906c12de0042c4f70974f12f5e3147e5e4a5aa54684e06222",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicSplitRoot.even_root_precision' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicSplitRoot.finite_even_root": {
+      "sha256": "478cb90295cfd4d0dba5951b04494b448518741aded1af210828764f97cbbb64",
+      "status": "checked",
+      "line": 22,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicSplitRoot.finite_even_root' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicSplitRoot.finite_even_root_unique": {
+      "sha256": "65ab5c708a0b52a1312d96cdc6283a86acd44a10e1b05679c878c910319a33ca",
+      "status": "checked",
+      "line": 43,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicSplitRoot.finite_even_root_unique' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicSplitRoot.coherent_even_root": {
+      "sha256": "5f7919b81e083407d076eae39c803da76475f2971d2ab074a8a9bca4104b8a17",
+      "status": "checked",
+      "line": 60,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicSplitRoot.coherent_even_root' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicSplitRoot.complement_root": {
+      "sha256": "80fa5bac03ceb81a5e9425b9ab9dce4ccaa493fd8c186f314aa941ef88f31f5e",
+      "status": "checked",
+      "line": 75,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicSplitRoot.complement_root' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicSplitRoot.coherent_split_roots": {
+      "sha256": "fc4318c184925d97ed98ac5310acde080e7fe31d7ef7ed553d22f11669316c20",
+      "status": "checked",
+      "line": 86,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicSplitRoot.coherent_split_roots' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicSplitRoot.split_constant_even": {
+      "sha256": "8f446f14013ef1207e2a8bd343943f214f10e40f5f929d8350d6092a2558f7f7",
+      "status": "checked",
+      "line": 100,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicSplitRoot.split_constant_even' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicSplitRoot.split_roots_of_prime_residue": {
+      "sha256": "f0a60ba5a1b4387fd777095e307ab0b022d7c409d4e1692f5dcf7ce81ed104da",
+      "status": "checked",
+      "line": 108,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicSplitRoot.split_roots_of_prime_residue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicSplitRoot.complete": {
+      "sha256": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+      "status": "checked",
+      "line": 115,
+      "local_sources": {
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

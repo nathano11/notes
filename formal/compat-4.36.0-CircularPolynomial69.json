@@ -1,0 +1,203 @@
+{
+  "steps": {
+    "CircularPolynomial69.eval": {
+      "sha256": "a5d123c165363f10dd03db880bcc46593a7fc7eb2d1f4939ed42f13b94bc7523",
+      "status": "checked",
+      "line": 22,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularPolynomial69.complete": {
+      "sha256": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee",
+      "status": "checked",
+      "line": 192,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularPolynomial69.add": {
+      "sha256": "fba095f15db8eb23546d94b122da03fb2f3c1b70df08cc6b65281caa52fbf1db",
+      "status": "checked",
+      "line": 27,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularPolynomial69.eval_add": {
+      "sha256": "bf11f5b0da2745dc6c86470843c0575cbd798cda21b75c7088aae3e95eab951d",
+      "status": "checked",
+      "line": 32,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.eval_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPolynomial69.eval_scale": {
+      "sha256": "119a6c865af7871077e330490d9d2e6f9e714f5bfd5cd399732583e53b543241",
+      "status": "checked",
+      "line": 43,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.eval_scale' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPolynomial69.eval_shift": {
+      "sha256": "4e137e69cb7da8f8d4f6ceaefbf08c932f7009d85571c774cd066b0234e7cc48",
+      "status": "checked",
+      "line": 51,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.eval_shift' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPolynomial69.phiTail": {
+      "sha256": "dd33c51929e60b5a93f080a4b77238ef2dd9b7607d11770204a4ee7480de41d1",
+      "status": "checked",
+      "line": 61,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularPolynomial69.phi": {
+      "sha256": "afa2cd70bf0e1c35be2577e3f771ff8dc4cddfe36e9325679c7c23b5708912d5",
+      "status": "checked",
+      "line": 65,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularPolynomial69.phi_factor_coefficients": {
+      "sha256": "f913b80d33e0c17f302e0b6219e6a5a8ccb6eae284c956f067c820764020a3fd",
+      "status": "checked",
+      "line": 68,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.phi_factor_coefficients' does not depend on any axioms"
+    },
+    "CircularPolynomial69.phi_factorization": {
+      "sha256": "92840b88cac192372baa76e25493bb71724074f8129fd84bfc2ee921660fffe8",
+      "status": "checked",
+      "line": 73,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.phi_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPolynomial69.factor": {
+      "sha256": "fc65857150cb868fd95dccd968baabe75d6c6fd125c8ab886f9d3b79e959503a",
+      "status": "checked",
+      "line": 81,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularPolynomial69.eval_factor": {
+      "sha256": "5e622c6e77cd3c222a05f72d12e133c64d8ebbde32f5ec33fcbeb00afe30340b",
+      "status": "checked",
+      "line": 84,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.eval_factor' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPolynomial69.factors": {
+      "sha256": "c929326f3b9b9ba3497649814df28e917fd2722b7454797a000f044eda880a78",
+      "status": "checked",
+      "line": 89,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularPolynomial69.eval_factors": {
+      "sha256": "5b35288546ee82c47da1012f885e741ee66fc2a5a972bb1fa3a2bb6e15d64ead",
+      "status": "checked",
+      "line": 93,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.eval_factors' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPolynomial69.eval_factors_append": {
+      "sha256": "6792379737b35bdce7f274a2217fcdcc203264c4c5d6a087e259b655e2bd4cfe",
+      "status": "checked",
+      "line": 99,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.eval_factors_append' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPolynomial69.cancel": {
+      "sha256": "327cd1e24d3672b75c7691dbb90ee5c60ea5f3f06771f3b18ef4c71089dc2044",
+      "status": "checked",
+      "line": 107,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularPolynomial69.cancel_at_root": {
+      "sha256": "797440771daac5689a8186bf114a112365791a55c10dfb2ca7518bf7bcef4aa6",
+      "status": "checked",
+      "line": 110,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.cancel_at_root' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPolynomial69.strip": {
+      "sha256": "4f2611540dff5ca7cd299053515458ef763b696ba7b0f049ae512e0f43f02256",
+      "status": "checked",
+      "line": 118,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularPolynomial69.strip_sound": {
+      "sha256": "92e6498768578f3f1bb9da7b24d91a4d43a6855b610c69fc1fb880f2c39c067d",
+      "status": "checked",
+      "line": 123,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.strip_sound' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPolynomial69.eval_zeros": {
+      "sha256": "f8a12ac0cf3004b6224133ddbe65a7826f70f04d922dfe299cf92183937cae19",
+      "status": "checked",
+      "line": 133,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.eval_zeros' depends on axioms: [propext]"
+    },
+    "CircularPolynomial69.eta": {
+      "sha256": "11384aa15cef2f688c45627d08899b4fd251e4b3c5a4fba09062258e1cb5056a",
+      "status": "checked",
+      "line": 143,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularPolynomial69.exponents": {
+      "sha256": "d13d10d44e22b8d39959730f6c1d4a98b75a8d8178936199a3033e445bf640eb",
+      "status": "checked",
+      "line": 148,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularPolynomial69.signed_exponent_counts": {
+      "sha256": "57c56bf8ac40a4666296ed44835c3788d7f0c0f0987cb57ba1a8e76731cd9023",
+      "status": "checked",
+      "line": 151,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.signed_exponent_counts' does not depend on any axioms"
+    },
+    "CircularPolynomial69.traceDifference": {
+      "sha256": "720952f9c0ab7b5bf793bfb8959f8194197072602d742c1cb43fa39138f1d46e",
+      "status": "checked",
+      "line": 154,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularPolynomial69.normDifference": {
+      "sha256": "38bf5b1e760dd0eafcd42a2caf48a1ab8f10e7b484b3b47662218f4fb49f1de1",
+      "status": "checked",
+      "line": 157,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularPolynomial69.trace_divides": {
+      "sha256": "9b715e57728b081694d09b4e9b511e1f29fa4a9b6c0892074727997bf153e675",
+      "status": "checked",
+      "line": 160,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.trace_divides' does not depend on any axioms"
+    },
+    "CircularPolynomial69.norm_divides": {
+      "sha256": "34622b2e67745eecb0047f89f9bea2e19736533fa1ae2eec67924442f00a39f7",
+      "status": "checked",
+      "line": 164,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.norm_divides' does not depend on any axioms"
+    },
+    "CircularPolynomial69.signedProduct": {
+      "sha256": "a5ed5c209ffe76665cfb73620d3ad5b45cd7d7df75d92da528476b0e95424c5f",
+      "status": "checked",
+      "line": 169,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularPolynomial69.norm_products_trace": {
+      "sha256": "092b9d67ed795065c27e67cab4ffe36671c501102d08fa37af1692a916445a59",
+      "status": "checked",
+      "line": 172,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.norm_products_trace' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularPolynomial69.norm_products_multiply": {
+      "sha256": "40f8f137d2a4338152f6c376a5054f8ca44428ff46cd77054c7376462a2c6e45",
+      "status": "checked",
+      "line": 182,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularPolynomial69.norm_products_multiply' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

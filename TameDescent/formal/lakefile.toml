@@ -1,0 +1,6 @@
+name = "reimannCheckpoint"
+version = "0.1.0"
+defaultTargets = ["Reimann"]
+
+[[lean_lib]]
+name = "Reimann"

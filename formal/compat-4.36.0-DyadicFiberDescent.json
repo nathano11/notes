@@ -1,0 +1,144 @@
+{
+  "steps": {
+    "DyadicFiberDescent.Reduction": {
+      "sha256": "1f337c03aeb89fc746a1f0e82f889cc2ed8b9aed979f3027b1b2e94e4fff612a",
+      "status": "checked",
+      "line": 10,
+      "local_sources": {
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicFiberDescent.IsPrime": {
+      "sha256": "51cd9e34c47eeda50b27974bfce398a2914bd979dd14762d502907b23497fbbc",
+      "status": "checked",
+      "line": 24,
+      "local_sources": {
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicFiberDescent.Saturated": {
+      "sha256": "7c249f1574be99b8794e43f309a3c61eee5e71f4d1e61981dbec3bca0132ab3e",
+      "status": "checked",
+      "line": 31,
+      "local_sources": {
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicFiberDescent.coordinateKernel": {
+      "sha256": "97941ca6bd99f477f990c59ba44cfd775c214e26e1647fbe0bd0f4b97935f3d5",
+      "status": "checked",
+      "line": 34,
+      "local_sources": {
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicFiberDescent.image": {
+      "sha256": "84396b12aa30d234b3a68271c54281c1d4d0ec228f3dd57b39085c20dc07f2b2",
+      "status": "checked",
+      "line": 37,
+      "local_sources": {
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicFiberDescent.image_reduction_iff": {
+      "sha256": "48a5a5b1136c01ef739049730ca27aa608c3cb1f09261dadd0fc453f00d651f2",
+      "status": "checked",
+      "line": 40,
+      "local_sources": {
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicFiberDescent.image_reduction_iff' does not depend on any axioms"
+    },
+    "DyadicFiberDescent.prime_pullback": {
+      "sha256": "b7e1bc28837930ec1c6485839a033374d0ea4fbb65d154edc5e0a8296c94b110",
+      "status": "checked",
+      "line": 48,
+      "local_sources": {
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicFiberDescent.prime_pullback' does not depend on any axioms"
+    },
+    "DyadicFiberDescent.prime_on_fiber": {
+      "sha256": "59b3441e5f20458175dd23e5eec7650f67551bc57291d373e812a4e7fcfc22ac",
+      "status": "checked",
+      "line": 61,
+      "local_sources": {
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicFiberDescent.prime_on_fiber' does not depend on any axioms"
+    },
+    "DyadicFiberDescent.prime_iff_coordinate_kernel": {
+      "sha256": "5addd4e9993f74e965a2b97ec217678e850343551d2a7bdb655aa92ee37f3cac",
+      "status": "checked",
+      "line": 84,
+      "local_sources": {
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicFiberDescent.prime_iff_coordinate_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicFiberDescent.coordinate_kernels_distinct": {
+      "sha256": "9192e945ad1aa59074c7b5f70aeface0e2c89193756b64eb9fccc9d282ae5732",
+      "status": "checked",
+      "line": 99,
+      "local_sources": {
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicFiberDescent.coordinate_kernels_distinct' depends on axioms: [Quot.sound]"
+    },
+    "DyadicFiberDescent.complete": {
+      "sha256": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+      "status": "checked",
+      "line": 107,
+      "local_sources": {
+        "Reimann/DyadicFiberPrimes.lean": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+        "Reimann/DyadicInert.lean": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+        "Reimann/DyadicQuotient.lean": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+        "Reimann/DyadicLattice.lean": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

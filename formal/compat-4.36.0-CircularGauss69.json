@@ -1,0 +1,274 @@
+{
+  "steps": {
+    "CircularGauss69.least_witness": {
+      "sha256": "13578a7f6ef70cbdc0b72fa13c12eeb0a9d6a7d5c588c2dfd527e31241b4e1b5",
+      "status": "checked",
+      "line": 7,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.least_witness' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.PrimeDivisor": {
+      "sha256": "d4664ad5de5b0a26bb315474899746129246eaf6204332c9b5713eaa97cda45e",
+      "status": "checked",
+      "line": 18,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularGauss69.prime_divisor_exists": {
+      "sha256": "6aaf49d11657ec720eafcdee2f1f7ed540cf69b77971d37ad31e1777f484c74a",
+      "status": "checked",
+      "line": 21,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.prime_divisor_exists' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.prime_dvd_mul_int": {
+      "sha256": "8b58f37bbb9e1b1df84fd3dc0a902593eaffc0cd5f21989a73cda42a155ab7b4",
+      "status": "checked",
+      "line": 36,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.prime_dvd_mul_int' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularGauss69.sum_dvd": {
+      "sha256": "c0ab04a01165898ad7c906ab1f99d57a761c3deaf541a0b69428a0af4bbda8f7",
+      "status": "checked",
+      "line": 44,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.sum_dvd' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularGauss69.sum_except_dvd": {
+      "sha256": "de9734e3a79f3dd5e875da634137e83cc2c7380616de3583bb132529902aa624",
+      "status": "checked",
+      "line": 50,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.sum_except_dvd' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularGauss69.convolution_survives_prime": {
+      "sha256": "5f849c70ac239863fef2dc6b0412ac4fe76863f01635a54fe3fd71f64e0f1f94",
+      "status": "checked",
+      "line": 63,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.convolution_survives_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.clear_single_denominator": {
+      "sha256": "3dc41f8ffc6509e3a1798e94bc572e312b85f90fa1e409dcbb0818ebd75c2db2",
+      "status": "checked",
+      "line": 83,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.clear_single_denominator' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.clear_list_denominators": {
+      "sha256": "98d35f4fc73b1b85bebb9c7a4a1b654572e5a2d982d9bcda986f45159655f7d6",
+      "status": "checked",
+      "line": 94,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.clear_list_denominators' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.Clears": {
+      "sha256": "ed994cee7a3f4a280b4fa8539460872b2212cbba41a39c10b7757fb701b6e41b",
+      "status": "checked",
+      "line": 110,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "CircularGauss69.minimal_denominator": {
+      "sha256": "66c4d6c317c846ceec1ac2a53043af16d24bd275371d27c67fb6a74e538614df",
+      "status": "checked",
+      "line": 113,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.minimal_denominator' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.coeff_of_mem": {
+      "sha256": "c52695c644cdaf630dd47e5bb09de8bb4a74eed1cb0f26116c13840c97fe9f31",
+      "status": "checked",
+      "line": 125,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.coeff_of_mem' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularGauss69.cancel_rational_natural": {
+      "sha256": "d241dc655589eeb88951739fbd681b9e119ee65d43949c30adaa417d2fb18d26",
+      "status": "checked",
+      "line": 130,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.cancel_rational_natural' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.smaller_clear_of_prime_divisor": {
+      "sha256": "f655db16d50ae69be7e8b740fb61c7bd710654e83d77c85b9bfdeeeed549975b",
+      "status": "checked",
+      "line": 136,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.smaller_clear_of_prime_divisor' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.primitive_minimal_lift": {
+      "sha256": "cc1e265c281f200ade6bdd4a3e8a2bace68bd551afdd5e52d576fecdb9fe3d4e",
+      "status": "checked",
+      "line": 155,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.primitive_minimal_lift' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.exists_primitive_lift": {
+      "sha256": "bb9d2bc15054a37dc46b62f46667806855065cefdac3537bb2e1a33bf96899ca",
+      "status": "checked",
+      "line": 170,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.exists_primitive_lift' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.scaled_sum": {
+      "sha256": "2484ec8e472a35c5e9e618e95a1e05bbb8ffff4033718a91a2222636c10446aa",
+      "status": "checked",
+      "line": 180,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.scaled_sum' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.scaled_convolution": {
+      "sha256": "fa8aef19c0940fcda148e74bf43f4347009b69691a55fb001ea1dfe02b5032b8",
+      "status": "checked",
+      "line": 187,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.scaled_convolution' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.cleared_product_multiple": {
+      "sha256": "6cf15710fb2a18e566e2b3752c914a74437c258e10bf3e6da3438d4f907ece37",
+      "status": "checked",
+      "line": 196,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.cleared_product_multiple' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.denominator_product_one": {
+      "sha256": "fdd165bb0f10930ab17b7ee639819e26668b66e1d8b47719e4e8819213d4963e",
+      "status": "checked",
+      "line": 205,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.denominator_product_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.list_integral_of_denominator_one": {
+      "sha256": "eb13c2c10f587b915d0494a7c304d46a60073365e9f198b50a345a2e0b0fc20c",
+      "status": "checked",
+      "line": 218,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.list_integral_of_denominator_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.monic_factors_integral": {
+      "sha256": "ac48315768ca460b0fde27e8e0eb257c857a0465c361366c44707699d9359aaa",
+      "status": "checked",
+      "line": 225,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.monic_factors_integral' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.integral_list_cast": {
+      "sha256": "b9328e0821c2eb58a433243614f555571b1eb75ab314b8712fcea977b8901eaa",
+      "status": "checked",
+      "line": 234,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.integral_list_cast' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularGauss69.coeff_cast": {
+      "sha256": "594563efd39fc95ae2968530d9480f64c495306e21686f85e8ca7a56733dd2f1",
+      "status": "checked",
+      "line": 243,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.coeff_cast' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularGauss69.convolution_cast": {
+      "sha256": "29c258106157a8339bbfadd710891dfeb542b3bf61d05e77643cdfa0cfa7acb5",
+      "status": "checked",
+      "line": 247,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.convolution_cast' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.monic_factorization_descends": {
+      "sha256": "3f10de8386cd607c7fdd2ff2bf8467aa001f26142b8643062a6e94fa1050bfab",
+      "status": "checked",
+      "line": 255,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.CircularGauss69.monic_factorization_descends' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularGauss69.complete": {
+      "sha256": "d8add0fb7fc0709d553a9f31dad23aea1f030807f210966ff31ee9a232b922cd",
+      "status": "checked",
+      "line": 264,
+      "local_sources": {
+        "Reimann/CircularConvolution69.lean": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

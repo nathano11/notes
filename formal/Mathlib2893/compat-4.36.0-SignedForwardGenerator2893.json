@@ -1,0 +1,122 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann2893.SignedForwardPeriod2893": "da8e239fc5101fa91010e5f9bf4008a2fe406fe08166ee9d3990a92eb8e54f90",
+    "Mathlib.GroupTheory.OrderOfElement": "464d11048b99f6bb0811c78af6666ea33d22940db92a30a207019907c34257d2",
+    "Reimann2893.SignedFieldLayers2893": "e5d1cec02d6adbf207557994b67a9e234dea14dc914ba1726c0dded18b86d735",
+    "Mathlib.Algebra.QuadraticAlgebra.Basic": "a290cb1668536c7e63cf0f109c82e9621e26d3e8fd3924fe46813c5846d21eea",
+    "Mathlib.Data.Rat.Sqrt": "43a8685ebc47faaf47a484b3714d9266dfcb7d99fc168c82dc7049d5a7ce2e2c",
+    "Mathlib.Tactic.Linarith": "93dc12bfc3fc322fc4ed054e013bdaba10b97da70f02f3eb2f177512e6a3f373",
+    "Mathlib.Tactic.NormNum": "480ebc7f2e8d9370016d90be1babe5c26d8bfa3f597e0fa8fcd718528133826c",
+    "Mathlib.Tactic.Ring": "a8692039dfd1a85e1a1f422f0f9d6ec69ccc4ba24e829b034f94c2e435e815f4"
+  },
+  "steps": {
+    "SignedForwardGenerator2893.orbitProduct": {
+      "sha256": "ed056a7ed48983611e42f08f7413ff264ff0f72c4eaefdcb61bb22c16095a065",
+      "line": 9,
+      "status": "checked"
+    },
+    "SignedForwardGenerator2893.orbit_add": {
+      "sha256": "06a58e0c70cac27d142030fada6afd86c7fabac7894e335afb60128721c639f1",
+      "line": 13,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.orbit_add' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.orbit_mul": {
+      "sha256": "e47112598a887d8b1ea9f289979cb8dbff45d02d6886166222b0ef486587511c",
+      "line": 22,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.orbit_mul' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.orbit_double": {
+      "sha256": "9d5a6c9d69b530eb1ea1941fe17443027fa37162e3ff744151956b1a32d5eec4",
+      "line": 28,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.orbit_double' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.orbit_include": {
+      "sha256": "94109e8e3733156220687e18b2c0542682b6268de920ceb3612eec294aa891bf",
+      "line": 32,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.orbit_include' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.root_multiplier": {
+      "sha256": "cbbc3b55a573aa09ba72d19e53c7c4da0b3c3b9f44be8c0df55d651447351e07",
+      "line": 39,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.root_multiplier' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.power_on_trace": {
+      "sha256": "2d9ce08adaca265de899ec0f63206069513fec5b400551d4dcf263c713ce5492",
+      "line": 52,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.power_on_trace' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.multiplier_norm": {
+      "sha256": "7c5642744d80a8034c1544fe1bf1c1ca84d740971f3ec944ff6dab9f038d1bcf",
+      "line": 61,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.multiplier_norm' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.map_multiplier": {
+      "sha256": "452820b1886ca3229771da5c2f6ffbf64a7d3e30e1c7bd6098cf4d9ced6a4703",
+      "line": 73,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.map_multiplier' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.multiplier_orbits": {
+      "sha256": "1b0be6581ad920c12a76b222aa0d19ea50d0cd062dfdd952e70851b4bd21c667",
+      "line": 76,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.multiplier_orbits' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.forward_half_turn": {
+      "sha256": "e7861faf05382c5c70ddccf90bb09484f32acdef0bf1b3d3250c5f9b1ca5f7a3",
+      "line": 94,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.forward_half_turn' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.trace_nonzero": {
+      "sha256": "3b5d701733e307ae3d0742b2bcbeecfb7553618c6ca9cf76a8bea2b16e68eb86",
+      "line": 98,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.trace_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.half_turn_nontrivial": {
+      "sha256": "ce6cf5c12744052819f4c391a7b01eeebf042311e38e15ab56c4279526e77026",
+      "line": 108,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.half_turn_nontrivial' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.forward_order": {
+      "sha256": "068d90227c87025c98f8e12c73c29fb4dc87651e94b7f826fbdcc8d99f178ca5",
+      "line": 120,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.forward_order' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.extend_ext": {
+      "sha256": "4ae540ae4db6d1646aa06640d0e43b2c89248b2c4196322c17c2ce8f78f06d12",
+      "line": 127,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.extend_ext' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.embeddings_conjugate": {
+      "sha256": "b873e19414ec65a235c90b64b2dabac276b1e59f7c9e2cf87a66d1b0dee71029",
+      "line": 137,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.embeddings_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.relative_generator": {
+      "sha256": "7449fbba89f9129677f26d4c1b755a46567fe062a9b30da5e4f870ce7e5189e1",
+      "line": 168,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedForwardGenerator2893.relative_generator' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedForwardGenerator2893.complete": {
+      "sha256": "01271911ab93f49607c0c2dfb9ad0c914bf1f5a3c900c55a83974ef6b301dcec",
+      "line": 183,
+      "status": "checked"
+    }
+  }
+}

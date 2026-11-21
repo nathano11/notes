@@ -1,0 +1,55 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "ReimannNative69.DyadicHilbertStage69": "f6b817a641bbdfa6420ac33377a7109aa61eddb44d09934425a0fac5d2b6c285",
+    "ReimannNative69.DyadicNativeClass69": "1338172fb189e7c708b4b39bf14dbbe4ba9ed5e169b2fa5d973b7f584d778848",
+    "ReimannNative69.DyadicNativeFrob69": "36b74f127df22042117d38f716a434968547e16d5927d8a9b790be65fac2bde4",
+    "Reimann.DyadicArtinLimit69": "945a11a5f89cfd82cb5ebffc00aeb553519761cef9c6bc607a777b98a30964a2",
+    "Reimann.DyadicArtinFrobenius69": "4ef17a99f087182bc18807405b2ca7e27cf8741a5e7efe0480807ee1b67b94e8",
+    "Reimann.TameClassField": "a8bd2e982e8a88ac318acac2d6812a9c0ee7ab6fd8f93961c450413acd9f99ca",
+    "Reimann.TameContinuity": "0277af0f7f4de202444b4b4e16ef89e21cddb50c5f844ffe5c56d90c636dbfea",
+    "Reimann.TameRestriction": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+    "Reimann.Transfer": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.DyadicArtinCommutator69": "fd7c36fa224bb8ff1872749a36b049ba1e512a4b77d4f8b3d9186d6d14a1319d",
+    "Reimann.DyadicLocal": "fce54b7b129fa1d38371c59fad512b9de5c35f067e6dffd58ad12a3f3dd6afca",
+    "Reimann.DyadicPlaceProduct": "279b896de7562bede642ad803c0d50264c8b92e5bfd81c6159f723f23599219c",
+    "Reimann.DyadicLift": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+    "Reimann.TameCoefficients": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+    "Reimann.TameLocal": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19",
+    "Mathlib.RingTheory.Frobenius": "9302662fe77379ca31affd35c4b0e0c54b10129873bbdc6559f20d0d358da114",
+    "Mathlib.RingTheory.Ideal.Norm.RelNorm": "ab089ddb28036f7de16275aef60717c4524acd75ffeba72caeabd8957ccdefce",
+    "Mathlib.RingTheory.DedekindDomain.Factorization": "c2697e4e2d4a786e4057477924519461f32db0483bda4ba7f99507267407f03e",
+    "Mathlib.RingTheory.ClassGroup.Basic": "29e58f2e7f805bdb7c2d5850a67b0f0fdd84893ebe12ed12cfa348ddb5c14c1c"
+  },
+  "steps": {
+    "DyadicHilbertTransition69.normedPrime": {
+      "sha256": "3b88076bc96551a274b05833c04d3ba61552314b30552fabadbf5a999eb6bb36",
+      "line": 18,
+      "status": "checked"
+    },
+    "DyadicHilbertTransition69.unramified_prime_symbol": {
+      "sha256": "a92829314627a176bdacfcd1d6bfe015166ceb30ececee701df5694670472d4d",
+      "line": 22,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicHilbertTransition69.unramified_prime_symbol' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicHilbertTransition69.fractional_norm": {
+      "sha256": "6e435a4660b54d031c778a0cb9c10004a9d39025dbea235fe2f2da69cd73dc73",
+      "line": 37,
+      "status": "checked"
+    },
+    "DyadicHilbertTransition69.fractional_norm_at_prime": {
+      "sha256": "abfacfc9835172de26815ca7ffeb142751abba7a1a721c78d68d5166170d75e9",
+      "line": 41,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicHilbertTransition69.fractional_norm_at_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicHilbertTransition69.native_transition": {
+      "sha256": "c9c99e6836c64001e8c0c1af24e6c7c4f4e94d1cdf9baf2733b30052f5c86cdf",
+      "line": 48,
+      "status": "checked"
+    }
+  }
+}

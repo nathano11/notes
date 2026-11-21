@@ -1,0 +1,132 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "ReimannNative69.DyadicIntegerPrime69": "f524b86dc6462f7e1486b7809582ffba9fd55bd54d98bd00325ac0699080340a",
+    "Mathlib.Algebra.QuadraticAlgebra.Basic": "a290cb1668536c7e63cf0f109c82e9621e26d3e8fd3924fe46813c5846d21eea",
+    "Mathlib.Algebra.Field.ZMod": "e3ae19fe0e7b0869b4d7ceff0250f53d93d89785686b5c5211829bfafb5009aa",
+    "Mathlib.RingTheory.PrincipalIdealDomain": "7b37eb9f4a5f1779eba408c7514df59583f971ab5ae52be01ff55b75510aea88",
+    "Mathlib.Tactic.FieldSimp": "976875a59edb69c0d2f58e092b94e312a5b8d2176dac9eff3eeb7553c52693a1",
+    "Mathlib.Tactic.Linarith": "93dc12bfc3fc322fc4ed054e013bdaba10b97da70f02f3eb2f177512e6a3f373",
+    "ReimannNative69.DyadicNativePrime69": "8939a31d64129d93f84456af64ba001f938915471b113ccadd6984847a640574",
+    "Reimann.DyadicPrimeConjugacy69": "f8d939f55fb5d3d8052972b1faf4723f294ffda714e3f04a81d4491e1470a555",
+    "Mathlib.Algebra.Ring.GrindInstances": "3b908608621d9d497b29d916d64f6e4e0a5ef88ed2a0ee9c067d9dabdc3828f4",
+    "Mathlib.RingTheory.IntegralClosure.Algebra.Basic": "63ee00b21ee6547bedfcc8e86f86b0df4a65d9f1018c2e30425a0e2799710729",
+    "Mathlib.RingTheory.Ideal.GoingUp": "7f329c18ab0c71b0196a3f6007bd2da88d2b04ff53b53536d0d4b2d26b2aa68a",
+    "Reimann.DyadicUnramifiedBase69": "ca3c18ae20a21d69a5f44eefeb989cd98a7c9c26e1d80de8bd5332aa8b554494",
+    "Reimann.Transfer": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.DyadicOrderCompletion69": "337430c9bb356c1ac801d36ef263528c3cb98e91cda80a0409b7a85c9754bd82",
+    "Reimann.DyadicIntegralPlaces": "ae2ae5fd25a06ad0dead3e536738ae0c0400d633247ef070a3bde6d52f639044",
+    "Reimann.DyadicFieldTrace69": "93556570c2ab88fd48226f6f306788e5d82262fa79fb296a58449de583754872",
+    "Reimann.Dyadic": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Reimann.DyadicBasisComparison": "0fb644a9072325798bfad39a1fd64c4d8a337d130808e1244dca72127e58f1f7",
+    "Reimann.DyadicTraceOrder": "568a9324ce24fa1a3045d2362ac824c5a5c4805a945a21cd93b59a771f57c69a",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Reimann.DyadicPlaceAlgebra": "3859124e1d622ec80b42ba6737989718a5dc8826e195fa97b9714cfbf900b153",
+    "Reimann.DyadicFiberDescent": "d81891cf3164dd5c3c1bc8f800783078d7b3aabe646ffcab4bc65af6eb222bef",
+    "Reimann.DyadicFiberPrimes": "9a3e8d0a7499617cbaf046ffaf330639d47b76d19f16918401e75eca6dbc1d78",
+    "Reimann.DyadicInert": "9049cfb2114f073da59e6064ed42c6d7b23630a1428d22533984bb9459aa2263",
+    "Reimann.DyadicQuotient": "6758a7ea9a71bbb3b6e2950a4f295e9a470e79dfd00a8baa1bf4dd4889a6437d",
+    "Reimann.DyadicLattice": "0aaf88dd0f305fa00251832c2ef10f67db9375f22655e9e489cc4beeadd939ae",
+    "Reimann.DyadicSplitRoot": "d5c5db127785599ef1a83c53daf000a5ce711a8fbbfce2807b59d76c87a7b123",
+    "Mathlib.RingTheory.Ideal.Prime": "7d6cd8c9f31143dd875ab2df1cbb099149b39a96910a4053814162475c46fdd4",
+    "Mathlib.Algebra.Ring.Subring.Basic": "caf373944435b533d40a6a2aa32cb46abbf1afe8af12cb075c532f551cfdb8ea"
+  },
+  "steps": {
+    "DyadicBottomPrime69.quadraticOrder": {
+      "sha256": "c4d65588373f84557c611efebb616dc1bec8d02856019f4cb98960296ca19af2",
+      "line": 14,
+      "status": "checked"
+    },
+    "DyadicBottomPrime69.positive_norm_kernel": {
+      "sha256": "468fd12726e936c1f0db69e7b5bdf1a2bfb7a4161168c5b5aa6f780432cee6e0",
+      "line": 16,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicBottomPrime69.positive_norm_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBottomPrime69.evaluate": {
+      "sha256": "b526af9c604282a080b0413021432417b72f53eb60d3a80fe6ec85a10db0e501",
+      "line": 25,
+      "status": "checked"
+    },
+    "DyadicBottomPrime69.evaluate_generator": {
+      "sha256": "a998defe983c4e745b0950a289d3d7c863515bdd0b6c9322fc5d6f70e12290b2",
+      "line": 28,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicBottomPrime69.evaluate_generator' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBottomPrime69.evaluate_injective": {
+      "sha256": "2e688bacade1c6a2df3dbf48b997916b6a1c1f69d17517c143cc70dce307fa3c",
+      "line": 31,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicBottomPrime69.evaluate_injective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBottomPrime69.integerGenerator": {
+      "sha256": "ac1b51d8f872b14bcc4eae0d965ea3b6a2a91e2a528fc525177684e8acc2e98d",
+      "line": 42,
+      "status": "checked"
+    },
+    "DyadicBottomPrime69.residue": {
+      "sha256": "8e733bce315e877b2f6947a4efee0bbd741d1f24add07ae0cfeb2921e59f4522",
+      "line": 45,
+      "status": "checked"
+    },
+    "DyadicBottomPrime69.residue_generator": {
+      "sha256": "796db49fb1164b6d5426c37b9bf8564bf2d4079251f1c4430ffe3b16143b7c9d",
+      "line": 49,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicBottomPrime69.residue_generator' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBottomPrime69.residue_maximal": {
+      "sha256": "3574bff1f678004e16555bbd2b4874ddf58a67f942318d6ae170d81fef9fcd29",
+      "line": 52,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicBottomPrime69.residue_maximal' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBottomPrime69.prolong_residue": {
+      "sha256": "0d3531e7bfb5fc013bcb87c0796fafd954039535475c22fc29f78470cfd6afe5",
+      "line": 58,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicBottomPrime69.prolong_residue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBottomPrime69.two_dyadic_primes": {
+      "sha256": "06708fabe9d856491236b4611c8440e84625138c8e7d851a10b9ce63c404c72f",
+      "line": 71,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicBottomPrime69.two_dyadic_primes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBottomPrime69.half_generator_relation": {
+      "sha256": "022a810b52b5e7474ac2033acb35aa79b3fea41f8198a06c235854feff4e12b2",
+      "line": 92,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicBottomPrime69.half_generator_relation' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBottomPrime69.two_primes_at_sqrt_neg23": {
+      "sha256": "286b7047e7894c8906d241b7d883dc4619d800f93d023e9ac3ec6d10be060ec7",
+      "line": 98,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicBottomPrime69.two_primes_at_sqrt_neg23' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBottomPrime69.center_dichotomy": {
+      "sha256": "18d87e40f49d42eba16312297d3a4b51c1d71e51447b940cefaa215eb37016bd",
+      "line": 105,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicBottomPrime69.center_dichotomy' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBottomPrime69.prime_containing_two_maximal": {
+      "sha256": "b0bcdefdf4413a5bc836add958078efc68980486054bfb1af1c64950890103d6",
+      "line": 117,
+      "status": "checked",
+      "checker_output": "<stdin>:119:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:120:2: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.DyadicBottomPrime69.prime_containing_two_maximal' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicBottomPrime69.complete": {
+      "sha256": "11d069e74702dd013cc6888336b76e10b6f99cdb0c4c2a18ba8f3e76728c2189",
+      "line": 129,
+      "status": "checked",
+      "checker_output": "<stdin>:119:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:120:2: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    }
+  }
+}

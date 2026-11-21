@@ -1,0 +1,70 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Mathlib.LinearAlgebra.Charpoly.ToMatrix": "7815b2568744d8f836ce3c56d874bf37374621198f69072d358fe8ab6874da70",
+    "Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff": "6162b422fdac57c1eae7a7b180bbd182f1055d5d867554f086053aa0665edb98"
+  },
+  "steps": {
+    "SignedAdicDistinguished2893.descent_three": {
+      "sha256": "90173044637cd6ecbf01457d9e7f3b3695afb364211dddc8cbb0bf2e72c7be05",
+      "line": 13,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicDistinguished2893.descent_three' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicDistinguished2893.determinant_norm": {
+      "sha256": "2e59d1a2cf4327130b5494101ebf83df62f9ac62a78de973d826135c7374fa5c",
+      "line": 23,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicDistinguished2893.determinant_norm' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicDistinguished2893.trace_norm_cube": {
+      "sha256": "0fc82d54e464ca527d575d2babaeb6cf54e8d2cf36b2a19bc6ac4b70e40f95f7",
+      "line": 33,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicDistinguished2893.trace_norm_cube' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicDistinguished2893.trace_integral": {
+      "sha256": "a3f6b28292ad7a8b6825577ba0ce2413865115157635a77b3b98825bd0c0f7c5",
+      "line": 41,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicDistinguished2893.trace_integral' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicDistinguished2893.unit_reduction": {
+      "sha256": "6aa9dd2257caa187747dba272e0d0112172ebb58b559c6a91538f191acf49015",
+      "line": 68,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicDistinguished2893.unit_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicDistinguished2893.trace_reduction": {
+      "sha256": "067b4476ecce833c7708321ef7df0ccf5564d8d372249a50effdc11ce54b42f4",
+      "line": 73,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicDistinguished2893.trace_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicDistinguished2893.matrix_trace_cube": {
+      "sha256": "0ce238e9e59fdd5cfc50a19216e8f0b95b88379d5d2339481325b9566a03feb1",
+      "line": 84,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicDistinguished2893.matrix_trace_cube' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicDistinguished2893.matrix_shift": {
+      "sha256": "2782c67220036151386ee584774396fb5d8c8ac594758a725ef5e8dde94fac06",
+      "line": 89,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicDistinguished2893.matrix_shift' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedAdicDistinguished2893.distinguished_of_cube_roots": {
+      "sha256": "e86c679a25b9b1909bc8d071da119ee639f91295f798892381d189a3fec66a94",
+      "line": 95,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedAdicDistinguished2893.distinguished_of_cube_roots' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "SignedAdicDistinguished2893.complete": {
+      "sha256": "4e0a1401c23163c34d021b2ce813306763e8dade6d857c0bed16f17ae2c7e30f",
+      "line": 131,
+      "status": "checked"
+    }
+  }
+}

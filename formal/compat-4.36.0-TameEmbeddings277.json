@@ -1,0 +1,319 @@
+{
+  "steps": {
+    "TameEmbeddings277.RatMap": {
+      "sha256": "316d35ed2fe7dd29bff6d73ff07f351f5f8d7558e16fc849bb9ead9b4085df57",
+      "status": "checked",
+      "line": 8,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameEmbeddings277.map_neg": {
+      "sha256": "298175130f45559c6a85b97f4e66a58ad50234166de83cfbee50c0226ff3624c",
+      "status": "checked",
+      "line": 18,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.map_neg' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.evalQuad": {
+      "sha256": "51b4b8fbfcc34a028d8b5f4141c42ad8d287b218793cd2117deef242f2181785",
+      "status": "checked",
+      "line": 24,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameEmbeddings277.evalQuad_add": {
+      "sha256": "ae022dfc1cb3ba905924e0adf61905a516f09e15192891d5ea47b36e175077c6",
+      "status": "checked",
+      "line": 27,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.evalQuad_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.evalQuad_scale": {
+      "sha256": "509f654ed5ece8c5a1ca7304092e0183ccdd9cb6de7632b42d4f696399cbad89",
+      "status": "checked",
+      "line": 32,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.evalQuad_scale' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.evalQuad_mul": {
+      "sha256": "21386c808f5213a1f94882f9c780af5fc598c47e8eb98b547ae14b4342f5dee3",
+      "status": "checked",
+      "line": 37,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.evalQuad_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.evaluate": {
+      "sha256": "5358dc4e82889d8a01e01191a6aa1020d2fe4d3bc51d0b972740931aa985783c",
+      "status": "checked",
+      "line": 43,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameEmbeddings277.evaluate_add": {
+      "sha256": "d63f56f3eae13e1fd3ee1077ac2170c9dca384900f9089b97d73d8e744593827",
+      "status": "checked",
+      "line": 46,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.evaluate_add' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.evaluate_mul": {
+      "sha256": "016321cc1a439033c41a003c86cdfeecdb9f8dfb759f5441b576b6ddd6ac36ab",
+      "status": "checked",
+      "line": 51,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.evaluate_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.evaluate_scalar": {
+      "sha256": "4015ec4665bb84f36290d9043e672b91f92fc0665235f43281c439832097d21e",
+      "status": "checked",
+      "line": 57,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.evaluate_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.evaluate_generators": {
+      "sha256": "5d5480b643f71d8c135b36cb0e11d8fff6f569538a3b116fa4435dc1c85f231a",
+      "status": "checked",
+      "line": 62,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.evaluate_generators' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.OverRat": {
+      "sha256": "5778fc149490df601005d434ebdd225bc68454659f2c3b3d67c2d4ba2fc6bdb5",
+      "status": "checked",
+      "line": 68,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameEmbeddings277.ofRoots": {
+      "sha256": "142017aa16aca38a054dc919d78155170031eabff534a808e6ea71a0427f8b20",
+      "status": "checked",
+      "line": 74,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameEmbeddings277.images_are_roots": {
+      "sha256": "97a016a647f0e71724d6dd89a9bdd0463fc1ae12bfad31c0d21ff1c95e91b552",
+      "status": "checked",
+      "line": 78,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.images_are_roots' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.determined_by_generators": {
+      "sha256": "29c20d524780a7bedf78fdf66769126c91474f1a8125d0848388b60467e404aa",
+      "status": "checked",
+      "line": 84,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.determined_by_generators' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.algebra_map_ext": {
+      "sha256": "cbc9079e306990069b128c0c82f2247ef389da5812ba489b0d6f8c713eecea9e",
+      "status": "checked",
+      "line": 91,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.algebra_map_ext' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.unique_map_of_roots": {
+      "sha256": "69fe4d501c9c947697a96e2c0ceaadcb8538836884dc4bb6f4453cc9b7716bfd",
+      "status": "checked",
+      "line": 100,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.unique_map_of_roots' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.zero_kernel": {
+      "sha256": "9e89513de023498bc3c96352dd867616a86410c94c509a7a9796fef5e082bf6e",
+      "status": "checked",
+      "line": 108,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.zero_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.map_negate": {
+      "sha256": "74d8d209b3aac811f38a4810aa63470442f0b2d6626a695096c4ed2b1b7d2a64",
+      "status": "checked",
+      "line": 118,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.map_negate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.embedding_injective": {
+      "sha256": "d6b25ea6a253f51dc5ad49e595446bcdd0b293e352be2afbc7f8c80443620dba",
+      "status": "checked",
+      "line": 126,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.embedding_injective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.sign": {
+      "sha256": "122f3b3953f21930b3a2d0bf58a5cdb309860d878b4cc4d66f652338c2d97994",
+      "status": "checked",
+      "line": 137,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameEmbeddings277.sign_square": {
+      "sha256": "2dca69666e3735152461d28756ce681a23a9f58be9c7132c587c45e80d6e9f75",
+      "status": "checked",
+      "line": 139,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.sign_square' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.sign_unique": {
+      "sha256": "8d5f92b7cd86d2c0d495b72c8a3007512ce4101f5954ae831f59a01145bc32bf",
+      "status": "checked",
+      "line": 142,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.sign_unique' depends on axioms: [propext]"
+    },
+    "TameEmbeddings277.signedMap": {
+      "sha256": "251af937e28b49be370d8a12cd865294fcefc2440a63fd0337b244ce676fe4eb",
+      "status": "checked",
+      "line": 146,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "TameEmbeddings277.signed_images": {
+      "sha256": "d407ecd4569beb7ca5eefb50e9f13a9ccc7cc050a4b88413c1efb17b2f76a2b3",
+      "status": "checked",
+      "line": 150,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.signed_images' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.signed_injective": {
+      "sha256": "fb72bb20f134d168098b6c50ea0ddc93cafb9d5ec363d0805a89fc4d5db91577",
+      "status": "checked",
+      "line": 155,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.signed_injective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.exists_sign_of_square": {
+      "sha256": "5105a6de98b78b120ac0a24c431a0a756ed8b61d4b67d315401fd58a45ae347e",
+      "status": "checked",
+      "line": 163,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.exists_sign_of_square' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.signed_surjective": {
+      "sha256": "d36461dddcc79d971127061d8f8a9127163427b48f8a23c77780a6289e42a92b",
+      "status": "checked",
+      "line": 170,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.signed_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.source_signs_distinct": {
+      "sha256": "f8da21293696f0ff038904b2ce90eb23271e31a6bd3aeb3daa16beba74989354",
+      "status": "checked",
+      "line": 178,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.source_signs_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.root_signs_distinct": {
+      "sha256": "f10d5256a68b47e68c3b01841f64ef763cd3f86a0a8c97a9f9dbe612c889db0d",
+      "status": "checked",
+      "line": 189,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.root_signs_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.four_embeddings": {
+      "sha256": "1c99700302ecc30f33cb92b2bc954418b2b5d4e5867d7d1272791c129bb31dc9",
+      "status": "checked",
+      "line": 203,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.TameEmbeddings277.four_embeddings' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "TameEmbeddings277.complete": {
+      "sha256": "7c184751698ce48d191a56ef92f45ca365f177a4cab5a4f52c9c29bcee50b5c7",
+      "status": "checked",
+      "line": 213,
+      "local_sources": {
+        "Reimann/TameRationalField277.lean": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

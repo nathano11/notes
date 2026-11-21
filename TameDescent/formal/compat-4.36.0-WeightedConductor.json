@@ -1,0 +1,127 @@
+{
+  "steps": {
+    "WeightedConductor.weight_unit_cancel": {
+      "sha256": "1c2576cb4174cbf2853a5b03d400a8d884efbfa93c358cef284d58f5c0b16521",
+      "status": "checked",
+      "line": 6,
+      "local_sources": {
+        "Reimann/WeightDepth.lean": "154e0bdeea56016cbba72ac1f9ce2db2c983dd7fd5667b72614f049a64a57c7c",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightedConductor.weight_unit_cancel' depends on axioms: [propext, Quot.sound]"
+    },
+    "WeightedConductor.power_divides_weighted_exponent": {
+      "sha256": "d6bf0022928699d97182804c85ad6615a6094786b402e46fb3acaf21cc12a274",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/WeightDepth.lean": "154e0bdeea56016cbba72ac1f9ce2db2c983dd7fd5667b72614f049a64a57c7c",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightedConductor.power_divides_weighted_exponent' depends on axioms: [propext, Quot.sound]"
+    },
+    "WeightedConductor.weighted_period": {
+      "sha256": "27775fff39a41761f9f578777c962d764407d63e87ec32bf71d93a6aa046ac40",
+      "status": "checked",
+      "line": 32,
+      "local_sources": {
+        "Reimann/WeightDepth.lean": "154e0bdeea56016cbba72ac1f9ce2db2c983dd7fd5667b72614f049a64a57c7c",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightedConductor.weighted_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightedConductor.weighted_lift_period": {
+      "sha256": "4e29c2489a60146751d58a0cb7c9f741a4fb9f6b68bfb932600233b5f73bc252",
+      "status": "checked",
+      "line": 40,
+      "local_sources": {
+        "Reimann/WeightDepth.lean": "154e0bdeea56016cbba72ac1f9ce2db2c983dd7fd5667b72614f049a64a57c7c",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightedConductor.weighted_lift_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightedConductor.inverse_weighted_period": {
+      "sha256": "45b2d8e755f96170270db2bbd172786836784717c3580a6abc11e5a0125f7893",
+      "status": "checked",
+      "line": 47,
+      "local_sources": {
+        "Reimann/WeightDepth.lean": "154e0bdeea56016cbba72ac1f9ce2db2c983dd7fd5667b72614f049a64a57c7c",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightedConductor.inverse_weighted_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightedConductor.cyclic_kernel_divisor": {
+      "sha256": "e79ac9fd89f9ca00c95626c5fa5badd74683f338792c12e7134c9b374d3d34e6",
+      "status": "checked",
+      "line": 57,
+      "local_sources": {
+        "Reimann/WeightDepth.lean": "154e0bdeea56016cbba72ac1f9ce2db2c983dd7fd5667b72614f049a64a57c7c",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightedConductor.cyclic_kernel_divisor' depends on axioms: [propext, Quot.sound]"
+    },
+    "WeightedConductor.weighted_period_without_factorization": {
+      "sha256": "74cb2ccef00b04baafc438be22838db489035a33df99319d34e9a444a13a5b88",
+      "status": "checked",
+      "line": 69,
+      "local_sources": {
+        "Reimann/WeightDepth.lean": "154e0bdeea56016cbba72ac1f9ce2db2c983dd7fd5667b72614f049a64a57c7c",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightedConductor.weighted_period_without_factorization' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "WeightedConductor.tame_wild_period": {
+      "sha256": "8405aa7bc5ff2c20b03424853302260bb0cfd56a64b798fbc383b5d6f0361868",
+      "status": "checked",
+      "line": 78,
+      "local_sources": {
+        "Reimann/WeightDepth.lean": "154e0bdeea56016cbba72ac1f9ce2db2c983dd7fd5667b72614f049a64a57c7c",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightedConductor.tame_wild_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightedConductor.weighted_inverse_witness": {
+      "sha256": "38452491be746cb109d34cbb02b55d6047b507ac808fa7575b60ba59a0c23f88",
+      "status": "checked",
+      "line": 97,
+      "local_sources": {
+        "Reimann/WeightDepth.lean": "154e0bdeea56016cbba72ac1f9ce2db2c983dd7fd5667b72614f049a64a57c7c",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightedConductor.weighted_inverse_witness' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightedConductor.inverse_lift_period": {
+      "sha256": "8df69945f3762b48f4abe0ecf9ba4747a3204447e587bba9a7fae52782fad136",
+      "status": "checked",
+      "line": 111,
+      "local_sources": {
+        "Reimann/WeightDepth.lean": "154e0bdeea56016cbba72ac1f9ce2db2c983dd7fd5667b72614f049a64a57c7c",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.WeightedConductor.inverse_lift_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "WeightedConductor.complete": {
+      "sha256": "8c892247bb4a6486e9991d68f02c25277953f7fadaaa3991d8fcc20e0a7c8b65",
+      "status": "checked",
+      "line": 118,
+      "local_sources": {
+        "Reimann/WeightDepth.lean": "154e0bdeea56016cbba72ac1f9ce2db2c983dd7fd5667b72614f049a64a57c7c",
+        "Reimann/CyclotomicNorm.lean": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.36.0",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

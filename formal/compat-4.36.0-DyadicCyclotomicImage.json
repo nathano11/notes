@@ -1,0 +1,149 @@
+{
+  "steps": {
+    "DyadicCyclotomicImage.difference": {
+      "sha256": "0f38129405fda75f14ba1a5e56c838acc6e1c74a2200118325bd948c54894e4f",
+      "status": "checked",
+      "line": 11,
+      "local_sources": {
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicCyclotomicImage.difference_steps": {
+      "sha256": "6baea27d2ff59098ce76bee08118713ee825f6f7120995c9247debf87e5fa5ac",
+      "status": "checked",
+      "line": 13,
+      "local_sources": {
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicImage.difference_steps' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicImage.hit_iff_power_congruence": {
+      "sha256": "73dc01ab88d70686a8ac41ed78f519c24417699d04bc6326ea20eb158365857e",
+      "status": "checked",
+      "line": 24,
+      "local_sources": {
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicImage.hit_iff_power_congruence' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicImage.principal_unit_class": {
+      "sha256": "f1dbd4efd3df0705344490f652fc1b67404567320b7cfc77a9ca813eb772b727",
+      "status": "checked",
+      "line": 37,
+      "local_sources": {
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicImage.principal_unit_class' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicImage.five_exact_period": {
+      "sha256": "74e230661cfbaf3f8c7b52cfa5142b392b51e3a837310dfd5c371f0e82183546",
+      "status": "checked",
+      "line": 43,
+      "local_sources": {
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicImage.five_exact_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicImage.layer_generator_period": {
+      "sha256": "d5a7c4e249a915f00dac1e7348a20e420cfde59e62c8dc69337a11838bc88815",
+      "status": "checked",
+      "line": 50,
+      "local_sources": {
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicImage.layer_generator_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicImage.reduce_precision": {
+      "sha256": "e80b2e6141fb1dddc13601cfe6e0157fc23b467ebfdd890ea54d8c493e43bed8",
+      "status": "checked",
+      "line": 57,
+      "local_sources": {
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicImage.reduce_precision' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicCyclotomicImage.layer_principal_class": {
+      "sha256": "40c995d8c8266b2adbbe71e7384d86ce7f0561fb501ae370f7ad687e2bfc4f83",
+      "status": "checked",
+      "line": 64,
+      "local_sources": {
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicImage.layer_principal_class' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicImage.negative_power_excluded": {
+      "sha256": "b43471004c7b92b457c2841a6089d0ced6cad074857828e4ffc2c8b306acfcf9",
+      "status": "checked",
+      "line": 83,
+      "local_sources": {
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicImage.negative_power_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicImage.signed_layer_class": {
+      "sha256": "c13c4d2d6596502d0a208c7234bd19f21610174c49da7bc3f130c06ae6c85f50",
+      "status": "checked",
+      "line": 94,
+      "local_sources": {
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicImage.signed_layer_class' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicImage.signed_image_iff": {
+      "sha256": "4f3276678102966233d8bd37c83ecc0fdf868ba42e76c4342a335b61462e832d",
+      "status": "checked",
+      "line": 119,
+      "local_sources": {
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicCyclotomicImage.signed_image_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicCyclotomicImage.complete": {
+      "sha256": "4ac126c8c6c6658748772a2f0295796d89ef27cea50fa47fb7c49736a1b6eceb",
+      "status": "checked",
+      "line": 141,
+      "local_sources": {
+        "Reimann/WeightClasses.lean": "feaacd4f7f12333cd839ae184b22b96112d56da9e7e6e56ea2dcb5bcfe31b9b9",
+        "Reimann/SampleSpacing.lean": "498485b2ecfec142be05f13b336c82b468b987fae79a31bd78787f08c1b75b88",
+        "Reimann/Dyadic.lean": "c4d16ae8958465291a4f16ac5212a6221ddbb9dbd0fceb4ba5dfd22f56d6e32d"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

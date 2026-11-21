@@ -1,0 +1,168 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.RingTheory.IntegralClosure.Algebra.Basic": "63ee00b21ee6547bedfcc8e86f86b0df4a65d9f1018c2e30425a0e2799710729",
+    "Mathlib.RingTheory.Ideal.Quotient.Basic": "2d3eae760cf3532861226b2b66521b9d57a97979c0df2d2dfffa0049b8843762",
+    "Reimann.TameUnramified277": "fded94df921fd77392dda052c165c6f4eac8bb0d39c7717deb30d07c2c2c3f25",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e"
+  },
+  "steps": {
+    "Inertia.Integers": {
+      "sha256": "9a620b1a40d0b47328bfb1629e6567b4d644ad06dc6a9fad72b06aa7cdeefaf5",
+      "line": 9,
+      "status": "checked"
+    },
+    "Inertia.integral_of_power_root": {
+      "sha256": "dc6fa60df107a5f4431fdddb2df73565105397b8f70c4e06dd89c549a437aff2",
+      "line": 11,
+      "status": "checked",
+      "checker_output": "'Reimann.TameInertia277.integral_of_power_root' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.act": {
+      "sha256": "f883a080643f3608f300112bcf6e52a6c8f8cb527d1da69c9a8e749f9e294b41",
+      "line": 17,
+      "status": "checked"
+    },
+    "Inertia.act_one": {
+      "sha256": "c480f7e5f40afb2347b694e022a8bf6262dd7884cea321393ebc1b85b05965bf",
+      "line": 20,
+      "status": "checked",
+      "checker_output": "'Reimann.TameInertia277.act_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.act_mul": {
+      "sha256": "48b9560d9a60c7019fe61aca2728d8f000b26552021f25fd1eb2d3af21a61756",
+      "line": 22,
+      "status": "checked",
+      "checker_output": "'Reimann.TameInertia277.act_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.act_inv": {
+      "sha256": "a91a86db7246866df5d008cdc235acb2aea15b1d0ed00901e40d31f908e0036e",
+      "line": 25,
+      "status": "checked",
+      "checker_output": "'Reimann.TameInertia277.act_inv' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.act_inv_left": {
+      "sha256": "ae22db50741dcabbb03bbe7f8b03812c4cbb594621c5339ec3b673ed1d7adc64",
+      "line": 29,
+      "status": "checked",
+      "checker_output": "'Reimann.TameInertia277.act_inv_left' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.integralEquiv": {
+      "sha256": "c4417584da0d49a3b90bb327e37524cb879dca3ae40fe6b3942692967bee0838",
+      "line": 32,
+      "status": "checked"
+    },
+    "Inertia.conjugateIdeal": {
+      "sha256": "a2b03187f2f73e03fa78b9e80583a8c0b8be90f729dde7cf7c083bdbac866c42",
+      "line": 40,
+      "status": "checked"
+    },
+    "Inertia.integralMulAction": {
+      "sha256": "567217aa251a05e84bca0400f41a63ada5ae0e352b0fffb2e2777abb0ed09bf8",
+      "line": 43,
+      "status": "checked"
+    },
+    "Inertia.inertia": {
+      "sha256": "4d32704b19253ff0c5b724a8fa9c16ef1cde6ea774b49bb46b5df66143dac870",
+      "line": 51,
+      "status": "checked"
+    },
+    "Inertia.inertia_eq_mathlib": {
+      "sha256": "c32b9730fc02398cbf562220164b08d9354f6902a9e8657fdb9eed26f6663fb5",
+      "line": 64,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameInertia277.inertia_eq_mathlib' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.inertia_iff_residue": {
+      "sha256": "71abd4d9a4f28132c199549db16b24e7e84d935fa3b906f8fef0dac23887348b",
+      "line": 71,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameInertia277.inertia_iff_residue' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.same_residue_iff": {
+      "sha256": "a62eebad19942aae51bfee6fa547dda4e1476fd7a0e189750b0335b11ebe3cc4",
+      "line": 76,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameInertia277.same_residue_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.FrobeniusResidue": {
+      "sha256": "f5aacab9a8708306710d1171490ed35db87fe3cd01012863c255f5de67d8ef30",
+      "line": 88,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "Inertia.frobenius_iff": {
+      "sha256": "03a4d216e25037242e32bd095209fbf0121d9d77cdbf5a31ffbf54dd02e3db31",
+      "line": 91,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameInertia277.frobenius_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.frobenius_preserves_ideal": {
+      "sha256": "6aefd9c1ff2805e291c0ce74c7cea591b0f8626cfcc546720182294c3b161bfe",
+      "line": 96,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameInertia277.frobenius_preserves_ideal' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.frobenius_conjugate": {
+      "sha256": "1ad2e3692ecdfca60e0b8d35fa519685552b141dabf8c179d4fa8334ec6d9ea2",
+      "line": 105,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameInertia277.frobenius_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.frobenius_lifts_equal": {
+      "sha256": "0e21a0ac6dbb2a5563e0f7cbeb4a8d7402bdedba0d9e32b7377a3ecdb07b6143",
+      "line": 115,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameInertia277.frobenius_lifts_equal' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.inertia_preserves_ideal": {
+      "sha256": "ad7043bdeb4f88ec106ea17c5342ff7ea4596b3f7c77300f47d3f48981a40591",
+      "line": 123,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameInertia277.inertia_preserves_ideal' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.away": {
+      "sha256": "f4ed2284f85d19d679b900b0489214dd4fce11acd561c305e6c78798e3f00e70",
+      "line": 136,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "Inertia.away_iff": {
+      "sha256": "ecc9fc1d4e2e84f31d5ef639a53e553e19d117a8e228d4c0e5c9d62f6d39e722",
+      "line": 139,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameInertia277.away_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.residueMap": {
+      "sha256": "ba46e6e1d1c0104715e90ed8860ffa93ba12b228eeeb5ea912e066f1cdb36bc1",
+      "line": 144,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "Inertia.integralAction": {
+      "sha256": "1b0e67c1a83fab85bbe5e2a831302094f917199aafe819e69422397d713ca28d",
+      "line": 152,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "Inertia.survives": {
+      "sha256": "4a879dc863d50788a7a90c126b64df47c0a8cdf83f698501a68c8188c477bf08",
+      "line": 159,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:161:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameInertia277.survives' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.fixes_power_root": {
+      "sha256": "2cd09e3b33a4c6e8e4de947880a0be76b7007432fcea578d0c2a11d1bc412495",
+      "line": 171,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:161:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameInertia277.fixes_power_root' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Inertia.complete": {
+      "sha256": "2fd798730479b1e529f6a01be30c4a4b0aef428588625f481a839811a35cb739",
+      "line": 181,
+      "status": "checked",
+      "checker_output": "<stdin>:67:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:161:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    }
+  }
+}

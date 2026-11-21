@@ -1,0 +1,301 @@
+{
+  "steps": {
+    "CircularKernel69.unit_partition": {
+      "sha256": "605abc6e4087e1301106f0a6cc786a539ffd33b491cd40d2dbb6a1650c81aac7",
+      "status": "checked",
+      "line": 13,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.unit_partition' does not depend on any axioms"
+    },
+    "CircularKernel69.character_multiplicative": {
+      "sha256": "be9ff3fc055bc51f439964d5887b58a4dbe8b332252e237d31d09ca106a96ebb",
+      "status": "checked",
+      "line": 17,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.character_multiplicative' does not depend on any axioms"
+    },
+    "CircularKernel69.positive_closed": {
+      "sha256": "eb0aea38ab8bb91cacdd673d6f0591ee210f1d8229d9b729c44a20d410d253d4",
+      "status": "checked",
+      "line": 21,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.positive_closed' does not depend on any axioms"
+    },
+    "CircularKernel69.positive_contains_identity": {
+      "sha256": "857fc3a23e212eaccb74123a7afabf26c29a93b92b48225da693e0df15f6d03c",
+      "status": "checked",
+      "line": 25,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.positive_contains_identity' does not depend on any axioms"
+    },
+    "CircularKernel69.positive_contains_inverses": {
+      "sha256": "77166be7d2e490925c6054dabe0c49db550b49b96e93f5027e557f3ed8b0b9e5",
+      "status": "checked",
+      "line": 27,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.positive_contains_inverses' depends on axioms: [propext, Quot.sound]"
+    },
+    "CircularKernel69.negative_representative": {
+      "sha256": "b4b12785fc1fb3d3306a430337730e6a4638d9d1c91defda171b0a88137d28d5",
+      "status": "checked",
+      "line": 31,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.negative_representative' does not depend on any axioms"
+    },
+    "CircularKernel69.translate": {
+      "sha256": "4c32601873fb72b7eda5008fd9595a268d4742b7c61c1768b64d195ae863eac4",
+      "status": "checked",
+      "line": 34,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularKernel69.positive_permutations": {
+      "sha256": "b5f2549d9f2769678e37ffe69f8f0b76c47bd437823137a46a9c044f6a7345b5",
+      "status": "checked",
+      "line": 37,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.positive_permutations' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularKernel69.negative_permutations": {
+      "sha256": "f5f9f53e68c532e92769cb0dbbeb16f011d37e03c2f687bdac0efd2a4d3efc2c",
+      "status": "checked",
+      "line": 42,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.negative_permutations' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularKernel69.other_coset": {
+      "sha256": "91a1278cbf91fae33820f8fb3c94bc45ce94513b611856889d95d3500809c1ac",
+      "status": "checked",
+      "line": 47,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.other_coset' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularKernel69.power_of_power": {
+      "sha256": "145d936e6cbcfb7a9573b58c8d8da7fdeac200ec611b399a8203278e7136779b",
+      "status": "checked",
+      "line": 51,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.power_of_power' depends on axioms: [propext]"
+    },
+    "CircularKernel69.power_period": {
+      "sha256": "97e6db9f46ce19afb808e026d0335aaa33b4717ffa320d94a78336a2ef302588",
+      "status": "checked",
+      "line": 57,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.power_period' depends on axioms: [propext]"
+    },
+    "CircularKernel69.translated_factor": {
+      "sha256": "75411caa8ca36e4ec19039a0e4c4a3b4ff75247d590184c2972b25d9d10a952f",
+      "status": "checked",
+      "line": 64,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.translated_factor' depends on axioms: [propext]"
+    },
+    "CircularKernel69.product_permutation": {
+      "sha256": "bf8fb1161dd4909b904656b402342a6f8802b8a4a82905a8583882fe5b4f3533",
+      "status": "checked",
+      "line": 68,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.product_permutation' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularKernel69.factors_at_power": {
+      "sha256": "a6770d4b0bc6dc2c4b1d4567c5b87e84247ab827f81b5137daab930df7ab7f7f",
+      "status": "checked",
+      "line": 79,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.factors_at_power' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularKernel69.signed_action_of_permutation": {
+      "sha256": "0f17022dfa09636761c59cd857323914966658a4a9659c1899222da6011260dd",
+      "status": "checked",
+      "line": 90,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.signed_action_of_permutation' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularKernel69.positive_action": {
+      "sha256": "b03c22663925548b34b3062212c229474b936f6e87c3e7ba520c82d7c165520c",
+      "status": "checked",
+      "line": 98,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.positive_action' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularKernel69.negative_action": {
+      "sha256": "6a2568678b2a0b12ee76a126352249d917d76ea1393226eae2018bb17f8b8508",
+      "status": "checked",
+      "line": 106,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.negative_action' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularKernel69.primitive_products_distinct": {
+      "sha256": "d56b1c8d87d0c09b5a17f0cb323a275efe9844fdbc9d11dfade3875055c11ae4",
+      "status": "checked",
+      "line": 114,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.primitive_products_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularKernel69.positive_stabilizer_iff": {
+      "sha256": "1693f04a76d0eb94439e5fbdd24e9ef5ca2610643978c2279eaa9122a0e47a4f",
+      "status": "checked",
+      "line": 124,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.positive_stabilizer_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularKernel69.primitive_positive_stabilizer": {
+      "sha256": "061ff5da5b1da9b43df98c696e887844d5357f8637cd83f43de1acaa223898ab",
+      "status": "checked",
+      "line": 138,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.primitive_positive_stabilizer' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularKernel69.periodSum": {
+      "sha256": "fa3380f75aea0b92a5f99305fa68b15c36643747335f591c166a886de893ae74",
+      "status": "checked",
+      "line": 149,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularKernel69.period_permutation": {
+      "sha256": "7e7a434a0a93042aad7f4d2b554b3c9d7fafd46504b066960117e4de5c9a1307",
+      "status": "checked",
+      "line": 152,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.period_permutation' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularKernel69.period_at_power": {
+      "sha256": "90e00fa4a3f588547fbfd96248c39d4d12a725d0323d4b064d0f409afec4e831",
+      "status": "checked",
+      "line": 162,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.period_at_power' depends on axioms: [propext]"
+    },
+    "CircularKernel69.positive_period_action": {
+      "sha256": "5b33af6aa17b9465edfbb72b6afdbd895f1e779646e74511c5f7d81157bd81d3",
+      "status": "checked",
+      "line": 173,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.positive_period_action' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularKernel69.negative_period_action": {
+      "sha256": "d0b4b75a0c1f8c00c725f9f92e3ec0391ad6fe04b23afb5fe35734b20d4fff76",
+      "status": "checked",
+      "line": 182,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.CircularKernel69.negative_period_action' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CircularKernel69.complete": {
+      "sha256": "20bcc659b2c5e2524fe7d743d3a4376a9fb1ce5f209cbb53ce5c2fa643b999cc",
+      "status": "checked",
+      "line": 190,
+      "local_sources": {
+        "Reimann/CircularPrimitive69.lean": "92a401a37a903926ae2afcebc135373fb3dd62e515fa8e05299c6ffe12e7ec66",
+        "Reimann/CircularPolynomial69.lean": "fdcfa8ff765ead5b944a2ea969094e69767ff27cf402af5db7678a5ac07e2aee"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    }
+  },
+  "required_lean": "4.33.1",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+}

@@ -1,0 +1,31 @@
+{
+  "steps": {
+    "CircularConvolution69.coeff": {
+      "sha256": "c98002111e3c20c020e4d76f9b5ec14bf3d14b8dee6f677292a0effa1c455277",
+      "status": "checked",
+      "line": 5,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularConvolution69.sumBelow": {
+      "sha256": "e08f7e3a8a748336aa218fb0dedcba224d680e79f3988c72595686a24d8f0b48",
+      "status": "checked",
+      "line": 7,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularConvolution69.convolution": {
+      "sha256": "a53ab5c2efc63ed645f0a6fae1fc4aa24245c48884d84d79350880b4154f5bc1",
+      "status": "checked",
+      "line": 11,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "CircularConvolution69.complete": {
+      "sha256": "a5e4b0c0007bbbf108ce124cbecb5c27335f20dd4655ff982b15730604766bd7",
+      "status": "checked",
+      "line": 14,
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    }
+  },
+  "required_lean": "4.33.1",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+}

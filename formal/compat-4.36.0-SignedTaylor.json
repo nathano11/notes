@@ -1,0 +1,147 @@
+{
+  "steps": {
+    "SignedTaylor.cancel_odd": {
+      "sha256": "d171cc1ad1c6960de7ad4d32bd54aea69377d9e37779374f8f55859a97d6441c",
+      "status": "checked",
+      "line": 12,
+      "local_sources": {
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTaylor.cancel_odd' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedTaylor.cancel_small_index": {
+      "sha256": "f63363d93ab513cb38be055640b63d2a675152c7d221dd9e4fc27f13be803601",
+      "status": "checked",
+      "line": 20,
+      "local_sources": {
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTaylor.cancel_small_index' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedTaylor.power_binomial_dvd": {
+      "sha256": "db1d73fc45d1fc428eee1af11425f6fc342cc0bd6a7f9754a4d577afd4680a1c",
+      "status": "checked",
+      "line": 40,
+      "local_sources": {
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTaylor.power_binomial_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTaylor.binomial_period_pow": {
+      "sha256": "9e2b10901311f355090a26435da108471965b2bf9e07f0dd59f33704670b31cb",
+      "status": "checked",
+      "line": 55,
+      "local_sources": {
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTaylor.binomial_period_pow' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTaylor.binomial_period": {
+      "sha256": "0b1af87263b277707d6a032f7a2cd197983373450fb588cdb1408a448033d4bd",
+      "status": "checked",
+      "line": 72,
+      "local_sources": {
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTaylor.binomial_period' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTaylor.taylorAt": {
+      "sha256": "895b0b1061052c67a952869d06af3056573061452451e13b6330a4d2981c4f84",
+      "status": "checked",
+      "line": 77,
+      "local_sources": {
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedTaylor.canonical": {
+      "sha256": "492ed2417f10db36585040298e2415978e58e9a8cf211cf7021c4515394b170a",
+      "status": "checked",
+      "line": 81,
+      "local_sources": {
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedTaylor.total_pair_mod": {
+      "sha256": "8ba4bed1a7ba6b7d8708c3f8a939e34400ca480fea2765c1f4044a0ccdc25688",
+      "status": "checked",
+      "line": 83,
+      "local_sources": {
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTaylor.total_pair_mod' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedTaylor.taylorAt_step": {
+      "sha256": "3c85a62fff65752753fa902e40e9bdaf1f9990ea9ac7172c794bf73a1a9fb638",
+      "status": "checked",
+      "line": 96,
+      "local_sources": {
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTaylor.taylorAt_step' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTaylor.taylorAt_stable": {
+      "sha256": "b0fcb8a8693049ac56365110cb327ddbeee19fd7ea80ce021313d40f124bbfe3",
+      "status": "checked",
+      "line": 109,
+      "local_sources": {
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTaylor.taylorAt_stable' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTaylor.degree_bound": {
+      "sha256": "bfd2fc9e91b90724fdb6494fd2cfccb4f458c4d9ed268f2d99be719df85dc81c",
+      "status": "checked",
+      "line": 119,
+      "local_sources": {
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTaylor.degree_bound' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedTaylor.canonical_at_level": {
+      "sha256": "205e895480ffd0fd2070220cb786a4f315b253019c22477032796a6d875cb20f",
+      "status": "checked",
+      "line": 124,
+      "local_sources": {
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedTaylor.canonical_at_level' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedTaylor.complete": {
+      "sha256": "98243200ad22f4a1cee247ac6ad75e3ca87172a96f0757bd8ce81403e38ab9d9",
+      "status": "checked",
+      "line": 135,
+      "local_sources": {
+        "Reimann/CoinvariantSupport.lean": "bf4ae742868fb0f0825bfea606ad03303ed8dce8c9788d42b67892e567458619",
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

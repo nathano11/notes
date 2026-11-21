@@ -1,0 +1,44 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.Tactic.FieldSimp": "976875a59edb69c0d2f58e092b94e312a5b8d2176dac9eff3eeb7553c52693a1",
+    "Mathlib.Tactic.Ring": "a8692039dfd1a85e1a1f422f0f9d6ec69ccc4ba24e829b034f94c2e435e815f4"
+  },
+  "steps": {
+    "SignedCyclotomicTrace2893.realTrace": {
+      "sha256": "46410b473ec809dc086f084799013c27417f36891974b1248801398f2e2a5ce9",
+      "line": 9,
+      "status": "checked"
+    },
+    "SignedCyclotomicTrace2893.square_trace": {
+      "sha256": "bf03b23f4795baf004b53556cbb0c43799f0bdba91d8a6605bc2a7d7d5388c7c",
+      "line": 11,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedCyclotomicTrace2893.square_trace' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCyclotomicTrace2893.trace_zero": {
+      "sha256": "0b4ca8d0701e057d8f5fdd64b5dc5dee7e018c0b9c417e2853ed99b01b380817",
+      "line": 17,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedCyclotomicTrace2893.trace_zero' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCyclotomicTrace2893.forward_trace": {
+      "sha256": "ef5eabb9cde9c230994a97bd5ca3fc9cc3a6425e0a9aeb0fba8a7c2695df043f",
+      "line": 24,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedCyclotomicTrace2893.forward_trace' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCyclotomicTrace2893.compatible_traces": {
+      "sha256": "c7cc17ba5f09967ae1bf34f4f27b1312c861e878f18915cc19751ab901cb07de",
+      "line": 30,
+      "status": "checked",
+      "checker_output": "'Reimann.SignedCyclotomicTrace2893.compatible_traces' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedCyclotomicTrace2893.complete": {
+      "sha256": "9b471c290fee3cf718e78a914efb3bd5a546d5e11a7f0d9b66f07886a5d441c8",
+      "line": 36,
+      "status": "checked"
+    }
+  }
+}

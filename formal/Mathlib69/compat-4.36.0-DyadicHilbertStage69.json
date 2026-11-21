@@ -1,0 +1,75 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "ReimannNative69.DyadicNativeClass69": "1338172fb189e7c708b4b39bf14dbbe4ba9ed5e169b2fa5d973b7f584d778848",
+    "ReimannNative69.DyadicNativeFrob69": "36b74f127df22042117d38f716a434968547e16d5927d8a9b790be65fac2bde4",
+    "Reimann.DyadicArtinLimit69": "945a11a5f89cfd82cb5ebffc00aeb553519761cef9c6bc607a777b98a30964a2",
+    "Reimann.DyadicArtinFrobenius69": "4ef17a99f087182bc18807405b2ca7e27cf8741a5e7efe0480807ee1b67b94e8",
+    "Reimann.TameClassField": "a8bd2e982e8a88ac318acac2d6812a9c0ee7ab6fd8f93961c450413acd9f99ca",
+    "Reimann.TameContinuity": "0277af0f7f4de202444b4b4e16ef89e21cddb50c5f844ffe5c56d90c636dbfea",
+    "Reimann.TameRestriction": "85e96dfc3643cdee88d6d27aa74e7eaa60d88d4a3a8611c660a551a2bae50439",
+    "Reimann.Transfer": "af9e91b88f1018bbf364efc44081c8891a5b01818f6bc83b3637131698797cf3",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann.DyadicArtinCommutator69": "fd7c36fa224bb8ff1872749a36b049ba1e512a4b77d4f8b3d9186d6d14a1319d",
+    "Reimann.DyadicLocal": "fce54b7b129fa1d38371c59fad512b9de5c35f067e6dffd58ad12a3f3dd6afca",
+    "Reimann.DyadicPlaceProduct": "279b896de7562bede642ad803c0d50264c8b92e5bfd81c6159f723f23599219c",
+    "Reimann.DyadicLift": "d23181361a3e17cf9ba756f6f6337c0befd52e3f63c177e85b11be95d1f62a1f",
+    "Reimann.TameCoefficients": "5dd338e20b00733a94ca1d879f31956c9f952609e43822fb1956fa40a3fabcea",
+    "Reimann.TameLocal": "cb2c9c386a28e6345ebd68f5d6bdc71fdd9c6f08833c2ea67bd6d25f9eebea19",
+    "Mathlib.RingTheory.Frobenius": "9302662fe77379ca31affd35c4b0e0c54b10129873bbdc6559f20d0d358da114",
+    "Mathlib.RingTheory.Ideal.Norm.RelNorm": "ab089ddb28036f7de16275aef60717c4524acd75ffeba72caeabd8957ccdefce",
+    "Mathlib.RingTheory.DedekindDomain.Factorization": "c2697e4e2d4a786e4057477924519461f32db0483bda4ba7f99507267407f03e",
+    "Mathlib.RingTheory.ClassGroup.Basic": "29e58f2e7f805bdb7c2d5850a67b0f0fdd84893ebe12ed12cfa348ddb5c14c1c"
+  },
+  "steps": {
+    "DyadicHilbertStage69.groupLaw": {
+      "sha256": "a7af800d98db25626128048c51263f211d857ad50ebddf545677d7635f4290f9",
+      "line": 13,
+      "status": "checked"
+    },
+    "DyadicHilbertStage69.lawHom": {
+      "sha256": "5cc294ea25c5e531d8027fec31d475b47d45dc8724248bb1bed33c75759b9ea0",
+      "line": 23,
+      "status": "checked"
+    },
+    "DyadicHilbertStage69.numberFieldSymbol": {
+      "sha256": "6782d27fc56bc7140f4163d3c57edcedbf4bf1bad10cd1d492c89dcfbec786a5",
+      "line": 33,
+      "status": "checked"
+    },
+    "DyadicHilbertStage69.symbol_at_prime": {
+      "sha256": "529586dac564c50f2c680ff49acff78c5c017527ca4b02159192532b2862ab68",
+      "line": 36,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicHilbertStage69.symbol_at_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicHilbertStage69.numberFieldClassArtin": {
+      "sha256": "005499b91b9421068effa957b7d7bacbcec28ed5c7a89a15e5b512ed2c90682a",
+      "line": 41,
+      "status": "checked"
+    },
+    "DyadicHilbertStage69.classArtin_at_ideal": {
+      "sha256": "4dc8a2c186169a67952368aa618f9e0b7098b61950b4dc613eeb84f389f69899",
+      "line": 46,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicHilbertStage69.classArtin_at_ideal' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicHilbertStage69.hilbert_stage": {
+      "sha256": "3fed368c9e696fb48c4b7358623e580d7515184ab690ae2a39f669a0b75dfb2f",
+      "line": 54,
+      "status": "checked"
+    },
+    "DyadicHilbertStage69.hilbert_stage_at_prime": {
+      "sha256": "cca465637e7186b30cfb27f6ea3ed79fc8dde97c0fed5fea045bbd27d8b542a1",
+      "line": 68,
+      "status": "checked",
+      "checker_output": "'Reimann.DyadicHilbertStage69.hilbert_stage_at_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicHilbertStage69.complete": {
+      "sha256": "f6b817a641bbdfa6420ac33377a7109aa61eddb44d09934425a0fac5d2b6c285",
+      "line": 75,
+      "status": "checked"
+    }
+  }
+}

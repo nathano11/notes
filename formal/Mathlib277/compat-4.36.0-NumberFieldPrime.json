@@ -1,0 +1,141 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33",
+    "Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas": "dda72839a8f427d125f9ff4ba7cc57c27b8cface562af7dbd88e7010535a5a37",
+    "Mathlib.RingTheory.Polynomial.RationalRoot": "5deb8267b40ea8f5f9b528dcbfb2da9bd9845ea5f794f41b8646d6ce07fe4e60",
+    "Mathlib.Tactic.NormNum": "480ebc7f2e8d9370016d90be1babe5c26d8bfa3f597e0fa8fcd718528133826c",
+    "Reimann277.FiniteResidue": "8057211f528b52050823cef9600765c025b5c40670ad1ecd0211c73721fcfcb9",
+    "Reimann277.PadicPlaces": "155937076b57c18e90a487cda215e61c346e3cff5dbece5297f6d10847088522",
+    "Reimann277.BiquadraticNumberField": "9ed61f06c082da74c91725d648b3a6fae5680fa00197bd4e3168e3c3e8c59604",
+    "Mathlib.LinearAlgebra.Dimension.Constructions": "ddb3ce6891ef7453182bdbba8b9fa73c892f71dd0907ad2cf02a2e67c41fbcfd",
+    "Reimann277.BiquadraticReal": "a74e90feb809a047934a3b679a9bcfe158c3ff179d2050289c8bbeaffa63e716",
+    "Mathlib.Basic.Real.Basic": "47e972d32100969f0c7f6dc5a413dac152d941c4e14fc9cbc2d4b43e9d05ef63",
+    "Reimann277.Biquadratic": "1eecf3556b0b3cbf21ff1704cade538325a07227d454a3ade53283149eb974df",
+    "Mathlib.Algebra.Algebra.Hom": "cb23985743d69ab47c814e821ec7620d49ce642073d96ea0016b5f48fd5dd445",
+    "Mathlib.Algebra.Algebra.Rat": "27a6444a720f4100b0a93140231049882e266bacef7f4c6bb8c7a1374cc6561b",
+    "Mathlib.Algebra.Field.MinimalAxioms": "5a4f6a6ce4037663e35257965bd052a4fa36d040c7bc7ad7eed074e9dd1a2872",
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb",
+    "Reimann.TameEmbeddings277": "7c184751698ce48d191a56ef92f45ca365f177a4cab5a4f52c9c29bcee50b5c7",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann277.PadicEmbeddings": "9b170d977d243dd5ef8a465ef9a9bea343438cb0ea3bda092c8aed013ce2c9a8",
+    "Reimann277.Completion": "6cca8c54e06d14be2ed211ea4a1169ba4acdae1714e62bb4d94b8a7c2fd3a847",
+    "Reimann.TamePlaceRestriction277": "cf1ccc09ba9b61d840e4834dcc716e5ea57965a697fc54044a2489422cc114c8",
+    "Reimann.TameOrderFaithful277": "371738ead39dfaf6910c6fe1737e3a192e11812c07cf508fdd0b28ba0bb43d2f",
+    "Reimann.TameLocalOrders277": "7596b78ef21b0c5280340bd64566b0602408339c991da705e9cf24d97837dd18",
+    "Reimann.TameArithmetic277": "48e0882aeffd38210c101bceab1e5aafefd3c877b7bafc39567fb2b0ad592b54",
+    "Reimann.TameOrderCompletion277": "4f13588caa002782d7596a41dc4430d15f584506829b6e7cc3c5beb951f47cfd",
+    "Reimann.TamePrimePowers277": "9c5db0aad6d6d16ef27a54edf4fa99d8283bf17cc04157dc8955f41fc1adda6c",
+    "Reimann.TameOrderPrimes277": "847a93ca9be19999dca67c119cc95e685f21fd8f3956100065a73bc8b521336b",
+    "Reimann.TameFiber277": "7d07f4bd543ccecef281e086cbc1d023250657743c14eb5d5e5a0884442650d2",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Reimann.TameOrderReduction277": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+    "Reimann.TameLimit277": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+    "Mathlib.NumberTheory.Padics.PadicNumbers": "dbf403e24fbff90ced849ddbe6353860810e69ddd8c0cc7af3f4b1eb61ee0954",
+    "Mathlib.Topology.MetricSpace.Completion": "e0abedc5fa2a84e49e39e6008e9f274dd36431fc472206c453d07b49297337a6",
+    "Reimann277.PadicInteger": "b9528953f8045b5009ec90a0e7d305b4807d566fb2a50eb222fd24ff0d488f48",
+    "Reimann.TameSignedEmbeddings277": "3fd66f8a13aff48d00713431797d6f628c25abc54f4c7023f7c93ca2e483d588",
+    "Reimann.TameLimitRoots277": "cf5d2f76685ac0c2b3a7527dd65304d36462bc6502b0484e661782ba519abd57",
+    "Reimann.TameRootExhaustion277": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+    "Reimann.CyclicBoundary": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+    "Reimann.CyclotomicNorm": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Reimann277.FiniteAbsolute": "a164aee4207e1c4a3f06f34d1db852e2957e4979d4abc7771fc59f2d870555ae",
+    "Reimann277.FiniteRadii": "dfef236b68ce7dcc460599df6362cd156aa775d08deb4f8ca61729fd60f56c75",
+    "Mathlib.Algebra.Order.AbsoluteValue.Basic": "a304b96f13c00baa91c6b0b672177cf1eee3446bfa7c44b5ced7e1f4e9d9e7b6",
+    "Mathlib.Algebra.Order.Archimedean.Real.Basic": "6986ad382da2352fdcf72c581b569341d822ee395f0f68a5d9693354258f9308",
+    "Reimann.TameAdicDomain277": "94881de48c05025396e1264e57c3dbc8758913438fdab4116ddeef5887a27ab2",
+    "Reimann.TameTwist277": "22b04b28e70e04e71b1267df500cdd645de7f56fe681af60124f9aac9e9c4199",
+    "Reimann.ScalarCoinvariants": "e4d3e7a2edfc79d564329a4ae5d3812e0c322dd25f7ef478ab2bc0b2aa9f50ed"
+  },
+  "steps": {
+    "NumberFieldPrime.primeForIntegers": {
+      "sha256": "c490891111508f1fc19f722ee288c951bc7cf022e5e917e7991e6910275f0cf8",
+      "line": 14,
+      "status": "checked"
+    },
+    "NumberFieldPrime.integral_image_bounded": {
+      "sha256": "ff12ca3c3d4c2e024c1edb86aa252038b97c7e0a97c662af814edd2e0a7b39de",
+      "line": 18,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFinitePlaces277.integral_image_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "NumberFieldPrime.embeddingIdeal": {
+      "sha256": "b4b1028b9be06453f44e96a431e961a4962c47f9deef1dcf69e70e6c71b753f0",
+      "line": 28,
+      "status": "checked"
+    },
+    "NumberFieldPrime.mem_embeddingIdeal_iff": {
+      "sha256": "491dea0b6d7eff7e342b408b59fde0eb9fc0e73e0f1b917da18178b2d90fba48",
+      "line": 31,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFinitePlaces277.mem_embeddingIdeal_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "NumberFieldPrime.embeddingIdeal_prime": {
+      "sha256": "c6933dca35813b64ff1d2222b7176ffb9940e9dd4f4cb310dcf1f74a2467d783",
+      "line": 34,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFinitePlaces277.embeddingIdeal_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "NumberFieldPrime.prime_mem_embeddingIdeal": {
+      "sha256": "b288c1ff80e3e6362e1f876bf0142f5a7a5d073e8dbf0bbdb63eb65e3d1e0776",
+      "line": 37,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFinitePlaces277.prime_mem_embeddingIdeal' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "NumberFieldPrime.embeddingPrime": {
+      "sha256": "1071a35322350be786d0c3e3756a081375bcdbb62a0a1a42851fde7ac7c8c617",
+      "line": 41,
+      "status": "checked"
+    },
+    "NumberFieldPrime.residue_equiv": {
+      "sha256": "075fb0b0df9e594969c9c1c2618b98387177e997973adaf768e5b14e82eb1b9e",
+      "line": 50,
+      "status": "checked"
+    },
+    "NumberFieldPrime.residue_cardinality": {
+      "sha256": "8a2997bfbd2252bee1eeeeb6f7954409746bf60eba06e43f040020ce759ebbf2",
+      "line": 54,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFinitePlaces277.residue_cardinality' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "NumberFieldPrime.scalar_int": {
+      "sha256": "5099ab89d945851ffed4f1103a7462c9bb8eb812e64a887894a4d39ee79b0850",
+      "line": 61,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFinitePlaces277.scalar_int' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "NumberFieldPrime.integral_scalar": {
+      "sha256": "a4867a0b27f3e9e6df0bb316a5fca1376c4abc20e30dd5036e3e21bf22ea821a",
+      "line": 64,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFinitePlaces277.integral_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "NumberFieldPrime.integral_radicals": {
+      "sha256": "664be7e82502ba3970aaa103caf94a6bd05e92eeb26a2ea278ce966cc5bb8d5b",
+      "line": 69,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFinitePlaces277.integral_radicals' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "NumberFieldPrime.integral_on_order": {
+      "sha256": "26f22af7007ab24cb6d7a5704a7b58e470e654dc1bbf96ffb85153ec6cd8c894",
+      "line": 81,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFinitePlaces277.integral_on_order' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "NumberFieldPrime.signed_primes_injective": {
+      "sha256": "3b2dd27310b0e654ddbd8dc0c951706e0e01c26e7ec06d5d2ef27a0499dc4abb",
+      "line": 92,
+      "status": "checked",
+      "checker_output": "'Reimann.TameFinitePlaces277.signed_primes_injective' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "NumberFieldPrime.complete": {
+      "sha256": "0675bae47c8f6bda3e56db18149a2f9897ec7cf86610a983ff0442071b214408",
+      "line": 107,
+      "status": "checked"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure": "5bee948d1b475ea3c1ed28dad07788cfdd23259aaaace34ab8d59ab07fbdef90",
+    "Mathlib.FieldTheory.Separable": "274c40c3dc56b66b9c8979e997ec57b0710402078a0189810fe6be7c50be4637",
+    "Mathlib.RingTheory.RootsOfUnity.EnoughRootsOfUnity": "ab5ce55bcd415154e61fe2217b355a51031ddb39d43015616a03c3fc9c4f4053"
+  },
+  "steps": {
+    "CyclotomicRoots.separable_power_equation": {
+      "sha256": "cea275e8f631ad7f6f7e444035da560a0a1c950c8493fcb48d2da539f78af15f",
+      "line": 11,
+      "status": "checked",
+      "checker_output": "<stdin>:11:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameCyclotomicRoots277.separable_power_equation`:\n  [IsAlgClosed F]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [IsAlgClosed F] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.TameCyclotomicRoots277.separable_power_equation' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicRoots.root_count": {
+      "sha256": "e039fbce42407041929527a02df982bbb46f2b8129402e9eb2caae6c3f56c548",
+      "line": 14,
+      "status": "checked",
+      "checker_output": "<stdin>:11:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameCyclotomicRoots277.separable_power_equation`:\n  [IsAlgClosed F]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [IsAlgClosed F] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n<stdin>:14:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameCyclotomicRoots277.root_count`:\n  [CharZero F]\n  [NeZero m]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [CharZero F] [NeZero m] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.TameCyclotomicRoots277.root_count' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicRoots.unity_card": {
+      "sha256": "b6dfbf63db7f3c0e72398b3669fc77e738c8719fcaaf1173044fb9b3431fdbd7",
+      "line": 19,
+      "status": "checked",
+      "checker_output": "<stdin>:11:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameCyclotomicRoots277.separable_power_equation`:\n  [IsAlgClosed F]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [IsAlgClosed F] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n<stdin>:14:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameCyclotomicRoots277.root_count`:\n  [CharZero F]\n  [NeZero m]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [CharZero F] [NeZero m] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.TameCyclotomicRoots277.unity_card' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicRoots.enough": {
+      "sha256": "52a185250a0ce18ac124a7e45f757550a56fb705597ac4fdbb44d856fdcec4e7",
+      "line": 31,
+      "status": "checked",
+      "checker_output": "<stdin>:11:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameCyclotomicRoots277.separable_power_equation`:\n  [IsAlgClosed F]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [IsAlgClosed F] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n<stdin>:14:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameCyclotomicRoots277.root_count`:\n  [CharZero F]\n  [NeZero m]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [CharZero F] [NeZero m] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n'Reimann.TameCyclotomicRoots277.enough' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "CyclotomicRoots.complete": {
+      "sha256": "7fd154cc71d8b6a95ae46966cd027347b73abe0d2ccc3c52d445cdc9112184de",
+      "line": 34,
+      "status": "checked",
+      "checker_output": "<stdin>:11:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameCyclotomicRoots277.separable_power_equation`:\n  [IsAlgClosed F]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [IsAlgClosed F] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`\n<stdin>:14:0: warning: automatically included section variable(s) unused in theorem `Reimann.TameCyclotomicRoots277.root_count`:\n  [CharZero F]\n  [NeZero m]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [CharZero F] [NeZero m] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`"
+    }
+  }
+}

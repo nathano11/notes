@@ -1,0 +1,130 @@
+{
+  "steps": {
+    "SignedBernoulliPairing.rawTerm": {
+      "sha256": "791a807419ee0ad6ad5cf22b9107d3cb0ed054e2b40556765f8ea0f7404585da",
+      "status": "checked",
+      "line": 10,
+      "local_sources": {
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "SignedBernoulliPairing.literalTerm": {
+      "sha256": "5b92ae47909213a402e6326d7fb4ead8643d44fbb12f3200af0c285cf3c1ea92",
+      "status": "checked",
+      "line": 13,
+      "local_sources": {
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "SignedBernoulliPairing.rawPair": {
+      "sha256": "a50d9302a34968182a3cb69ea8f6bbd3c59c747f2d5a9fb11ca3eae91b5efeec",
+      "status": "checked",
+      "line": 15,
+      "local_sources": {
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "SignedBernoulliPairing.literalPair": {
+      "sha256": "b78914b0ddde112ee8593e7b0074ab179330b6e63673c1331026fdc3240ed385",
+      "status": "checked",
+      "line": 17,
+      "local_sources": {
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "SignedBernoulliPairing.raw_pair": {
+      "sha256": "fab187104cb368b8e56f514ad21d2a667e0ca3491edd21da3698ce952d9a6b15",
+      "status": "checked",
+      "line": 20,
+      "local_sources": {
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedBernoulliPairing.raw_pair' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedBernoulliPairing.literal_pair": {
+      "sha256": "47612c9265aa84fee2a55813bfe1ea50ac3a07239fc706f7d15f30aa1310979a",
+      "status": "checked",
+      "line": 25,
+      "local_sources": {
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedBernoulliPairing.literal_pair' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedBernoulliPairing.rawFibre": {
+      "sha256": "b919769a07f2c93358b96f343516446f1ed98cffc58d5bc6295a82f314b68f47",
+      "status": "checked",
+      "line": 31,
+      "local_sources": {
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "SignedBernoulliPairing.literalFibre": {
+      "sha256": "b5ff14e6707455ce2e7152b9066eb2388daf9e5d818b5991625a9a21cb6ec427",
+      "status": "checked",
+      "line": 34,
+      "local_sources": {
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    },
+    "SignedBernoulliPairing.total_congr": {
+      "sha256": "868981d7b82bf2be16d25eaff1a0a6530b7130b5f2ffddaa46fc60a5eaaacb8c",
+      "status": "checked",
+      "line": 37,
+      "local_sources": {
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedBernoulliPairing.total_congr' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedBernoulliPairing.raw_fibre_normalization": {
+      "sha256": "651184543e1ed21101a7f7687022253a12bee9d7b9d6bcb8e6cdeaf0bbb24791",
+      "status": "checked",
+      "line": 45,
+      "local_sources": {
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedBernoulliPairing.raw_fibre_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedBernoulliPairing.literal_fibre": {
+      "sha256": "7c71e7761089d7796993d62a973d66d74c5d58a28db1bbc2fbe7ea301dc4f31b",
+      "status": "checked",
+      "line": 59,
+      "local_sources": {
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedBernoulliPairing.literal_fibre' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedBernoulliPairing.fibre_normalization": {
+      "sha256": "d9dbacd420c4f638a9168c490d5375b85a4fdc6a3cb234b3dff52e656973379b",
+      "status": "checked",
+      "line": 74,
+      "local_sources": {
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "checker_output": "'Reimann.SignedBernoulliPairing.fibre_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedBernoulliPairing.complete": {
+      "sha256": "4911070a6de4cf07e23dbb4d13322a5cc1f684f20bcf674fd38ad00aa69b18d0",
+      "status": "checked",
+      "line": 86,
+      "local_sources": {
+        "Reimann/SignedProjection.lean": "99d84c859c073481a9a5dc171be1fcaa54db98bc9d556ecf5e62e057f444ba7f"
+      },
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+    }
+  },
+  "required_lean": "4.33.1",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)"
+}

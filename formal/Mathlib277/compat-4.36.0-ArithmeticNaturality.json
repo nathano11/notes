@@ -1,0 +1,201 @@
+{
+  "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "imports": {
+    "Reimann277.ArithmeticSymbol": "8ab169ab1e3446b9d2197880af8d6d4afea3ee99c802593703e1500946782aa4",
+    "Reimann277.QuotientConjugation": "536d9c56f4a0f61617236fade02a6934f44c9351f806cee34f8a6691a61eafe0",
+    "Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas": "dda72839a8f427d125f9ff4ba7cc57c27b8cface562af7dbd88e7010535a5a37",
+    "Reimann277.IdealAction": "303e047cb8a178bb64076f3bedf3fb315b70937d327b00d2cd417da78c56f018",
+    "Reimann277.QuotientTransport": "0b38aa2e5234b2eb32d1cfb109fb359a178099d4f5f861b29d9924de4b5b9610",
+    "Reimann277.Inertia": "2fd798730479b1e529f6a01be30c4a4b0aef428588625f481a839811a35cb739",
+    "Reimann277.SplitQuotient": "da1fc61725a62abcb6395a532199d0783d39ede7f152dc5dc781f06ab6e30245",
+    "Mathlib.Topology.Algebra.Group.Quotient": "da71e1e4b4c9a24918e9b56dc82da21597d5df79f9070cc2e5127b7925e4933b",
+    "Mathlib.Topology.Algebra.ContinuousMonoidHom": "2fd311acabbf5f50aa46547f23fc32f4e7359c2000034897357c8ec4fdef2bf8",
+    "Mathlib.GroupTheory.Commutator.Basic": "a3f5ea65a36bb722f0804b3c94e1f15c594c2a33fd6bbecded70678761d549ac",
+    "Mathlib.RingTheory.IntegralClosure.Algebra.Basic": "63ee00b21ee6547bedfcc8e86f86b0df4a65d9f1018c2e30425a0e2799710729",
+    "Mathlib.RingTheory.Ideal.Quotient.Basic": "2d3eae760cf3532861226b2b66521b9d57a97979c0df2d2dfffa0049b8843762",
+    "Reimann.TameUnramified277": "fded94df921fd77392dda052c165c6f4eac8bb0d39c7717deb30d07c2c2c3f25",
+    "Std": "01fc63642199164e1130e6867823dffe0615999951681094917158c263a42c1e",
+    "Reimann277.ArtinBasic": "94ce9823adc0121e31049bd3f082f68fdc587973ab2fc6234dd9b882143bab8b",
+    "Mathlib.RingTheory.ClassGroup.ExtendedHom": "51edede1a0e5b01d78572d9442974aebfb3452fb58eed9e675073bd25e08cadb",
+    "Reimann277.CyclotomicInertia": "7583fbcfc2cd6ae8389e46035b021026dc48b90370a2fc1adfb8d46301ef91de",
+    "Reimann277.BiquadraticNumberField": "9ed61f06c082da74c91725d648b3a6fae5680fa00197bd4e3168e3c3e8c59604",
+    "Reimann277.IdealArtin": "f4dcbeb91e9ab113af195a6c925bc49ccf98c58f47ac16c522ba776de2ae0c96",
+    "Mathlib.FieldTheory.Galois.Basic": "dd235d93256d0c152d28399aa38437ad8b6a911d1fc85e516091df91c951d065",
+    "Mathlib.RingTheory.ClassGroup.Basic": "29e58f2e7f805bdb7c2d5850a67b0f0fdd84893ebe12ed12cfa348ddb5c14c1c",
+    "Mathlib.RingTheory.Localization.Away.Basic": "bd126db89333d20da220104fd7d3d12ace6b7d7e9f49a072f7976297dcb9cf03",
+    "Mathlib.NumberTheory.NumberField.Basic": "f5e5117b4550c47fdf01317081495a4af0ca19b1753e03566a61ad5479c45b33",
+    "Mathlib.LinearAlgebra.Dimension.Constructions": "ddb3ce6891ef7453182bdbba8b9fa73c892f71dd0907ad2cf02a2e67c41fbcfd",
+    "Reimann277.BiquadraticReal": "a74e90feb809a047934a3b679a9bcfe158c3ff179d2050289c8bbeaffa63e716",
+    "Mathlib.Basic.Real.Basic": "47e972d32100969f0c7f6dc5a413dac152d941c4e14fc9cbc2d4b43e9d05ef63",
+    "Mathlib.Tactic.NormNum": "480ebc7f2e8d9370016d90be1babe5c26d8bfa3f597e0fa8fcd718528133826c",
+    "Reimann277.Biquadratic": "1eecf3556b0b3cbf21ff1704cade538325a07227d454a3ade53283149eb974df",
+    "Mathlib.Algebra.Algebra.Hom": "cb23985743d69ab47c814e821ec7620d49ce642073d96ea0016b5f48fd5dd445",
+    "Mathlib.Algebra.Algebra.Rat": "27a6444a720f4100b0a93140231049882e266bacef7f4c6bb8c7a1374cc6561b",
+    "Mathlib.Algebra.Field.MinimalAxioms": "5a4f6a6ce4037663e35257965bd052a4fa36d040c7bc7ad7eed074e9dd1a2872",
+    "Mathlib.Algebra.Field.Basic": "b135b48451e9b7766d52e4d1eadb8fa0316bd49ca03e6929ff72d71c88bea7cb",
+    "Reimann.TameEmbeddings277": "7c184751698ce48d191a56ef92f45ca365f177a4cab5a4f52c9c29bcee50b5c7",
+    "Reimann.TameRationalField277": "c5eb2e9ece9f30270fe1743aa935f913b2332ccb14811578af4293abf50b33c6",
+    "Reimann277.CyclotomicLocal": "ddc7101435b7ffc8ded3372c43e789b73a70b88f30e7d68329f5986029440986",
+    "Reimann277.AbsoluteDecomposition": "2097d8377c5c7459b1c5bc0fc16ebe4fec5847e5fd4d42d49b7a4c7fc62d015e",
+    "Reimann277.CyclotomicReduction": "dd25d98efd45c6ac5be439576866db9932c264d85ce4cb36a13fa2b8ec8069d6",
+    "Reimann277.CyclotomicRoots": "7fd154cc71d8b6a95ae46966cd027347b73abe0d2ccc3c52d445cdc9112184de",
+    "Mathlib.FieldTheory.Galois.Infinite": "fafd7393bb3ae8c704964fa1b3b00a91c9fc2590ff9e415f467a358c4635ccc0",
+    "Mathlib.NumberTheory.Cyclotomic.CyclotomicCharacter": "884abf82e78e5d2ee5411a67c913591cc309afca5b35ef3d53fd958aaf7b5837",
+    "Mathlib.Topology.Algebra.Group.Units": "391461914e60edcef38dadb7db8776c5fc36d3e43915fe0ea93ffbcba43fd4a7",
+    "Mathlib.Topology.Algebra.Group.ZPow": "cb68d6e276f157a861f1f8314612ed32ea28e271d6ce4d86f82d74924394b1bd",
+    "Mathlib.Topology.Instances.ZMod": "be5db6a7ac3268e4bff4e1efbd48b2ab13e7da12440e22930a2f3688660c7e4b",
+    "Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure": "5bee948d1b475ea3c1ed28dad07788cfdd23259aaaace34ab8d59ab07fbdef90",
+    "Mathlib.FieldTheory.Separable": "274c40c3dc56b66b9c8979e997ec57b0710402078a0189810fe6be7c50be4637",
+    "Mathlib.RingTheory.RootsOfUnity.EnoughRootsOfUnity": "ab5ce55bcd415154e61fe2217b355a51031ddb39d43015616a03c3fc9c4f4053",
+    "Reimann277.PadicInteger": "b9528953f8045b5009ec90a0e7d305b4807d566fb2a50eb222fd24ff0d488f48",
+    "Mathlib.NumberTheory.Padics.RingHoms": "8637c84d0a0cefd23f17b2bf272c51788e2000ea33971400544803fa34002ce9",
+    "Reimann.TameLimit277": "d36046d36eebeed26c7583ba658403972c277ee12541417191ae4f60eb8d8190",
+    "Reimann.TameLocalOrders277": "7596b78ef21b0c5280340bd64566b0602408339c991da705e9cf24d97837dd18",
+    "Reimann.TameArithmetic277": "48e0882aeffd38210c101bceab1e5aafefd3c877b7bafc39567fb2b0ad592b54",
+    "Reimann.TameOrderCompletion277": "4f13588caa002782d7596a41dc4430d15f584506829b6e7cc3c5beb951f47cfd",
+    "Reimann.TamePrimePowers277": "9c5db0aad6d6d16ef27a54edf4fa99d8283bf17cc04157dc8955f41fc1adda6c",
+    "Reimann.TameOrderPrimes277": "847a93ca9be19999dca67c119cc95e685f21fd8f3956100065a73bc8b521336b",
+    "Reimann.TameFiber277": "7d07f4bd543ccecef281e086cbc1d023250657743c14eb5d5e5a0884442650d2",
+    "Reimann.TameBiquadratic277": "50a456eb927b482b0a70057bd1a98633ffe92104c41dc3cca9890519286a0550",
+    "Reimann.TameSplitting277": "f5c3388813db17c027f834d46c86928398043e4dc1cb3cdb04c28ee592aafcb4",
+    "Reimann.TameOrderReduction277": "e308e1de576e50429733b9d520eba89ab0d57f760d38a20cfc4bf190b86065d6",
+    "Reimann277.PadicEmbeddings": "9b170d977d243dd5ef8a465ef9a9bea343438cb0ea3bda092c8aed013ce2c9a8",
+    "Mathlib.FieldTheory.AbsoluteGaloisGroup": "e7746c2ccccbe078b0f2fa2e1ebe6016737f3a603542c2281d530f9ca0d96c20",
+    "Reimann.TameSignedEmbeddings277": "3fd66f8a13aff48d00713431797d6f628c25abc54f4c7023f7c93ca2e483d588",
+    "Reimann.TameLimitRoots277": "cf5d2f76685ac0c2b3a7527dd65304d36462bc6502b0484e661782ba519abd57",
+    "Reimann.TameOrderFaithful277": "371738ead39dfaf6910c6fe1737e3a192e11812c07cf508fdd0b28ba0bb43d2f",
+    "Reimann.TameRootExhaustion277": "ca5fd9298e715eff8ab7ff344b1686b8ac7b3dbc13c0577bd1edf2e1f91f6e20",
+    "Reimann.CyclicBoundary": "87c169672b4c0c7350ad4f2c70fb253d2e2183e02550bb82ccd43756ba2139a3",
+    "Reimann.CyclotomicNorm": "e0f61f6b1c10b89164b0246783a27b6caab85e5cf8e00137f964348e8f254ace",
+    "Reimann277.Artin": "1e0ff6adf57ff079c83a624e679fbb661f448b7b05ab9d9e291364b8344643e0",
+    "Mathlib.RingTheory.Ideal.GoingUp": "7f329c18ab0c71b0196a3f6007bd2da88d2b04ff53b53536d0d4b2d26b2aa68a",
+    "Mathlib.SetTheory.Cardinal.NatCard": "f5c6f89626cb09a9c23bc6ddacab24824d43f4b7febc06c90c1ddee9a0a99be2",
+    "Reimann277.LocalClassGroup": "ba623995beb89f6a0969906f6418147a0d790fb4dfbc3536ce01b5422560bec2",
+    "Mathlib.RingTheory.DedekindDomain.Dvr": "8030b04dddebb6ae7d537d929a6bd4036aa7a5cc9406cb00d4f683b72ca1dff8",
+    "Mathlib.NumberTheory.ClassNumber.AdmissibleAbs": "6914e7bb1da3679dec96ae168b14e3946589a32173c19a0cefe3f810c3311f3c",
+    "Mathlib.NumberTheory.ClassNumber.Finite": "2e631e7e737c365dbd67c25c2dd35eade6c1244239822ab2af89f5a29d827af0"
+  },
+  "steps": {
+    "ArithmeticNaturality.class_hom_ext_on_primes": {
+      "sha256": "6069059671181c34d545c7bff0fc4307c8e996ae04f17fdd7b854343b0c77919",
+      "line": 17,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.class_hom_ext_on_primes' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ArithmeticNaturality.transport_contraction": {
+      "sha256": "d0fa9631b80f3de1464467609b11ba63462f3d6000b9d051752a888019fd9ef9",
+      "line": 46,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.transport_contraction' depends on axioms: [propext, Quot.sound]"
+    },
+    "ArithmeticNaturality.quotient_card_transport": {
+      "sha256": "c8d87e489452578cce2c9e35d6faf0d6947966e1ca420564d9dbe36722148b1d",
+      "line": 57,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.quotient_card_transport' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ArithmeticNaturality.primeTransport": {
+      "sha256": "9dc1d9c3cf7c1f9a8b4ae6ed2b169de61a4dde6d2e31701aec2dc5d4c2444ffb",
+      "line": 61,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "ArithmeticNaturality.transported_maximal": {
+      "sha256": "ea3eeb0949aa224d27c200e5f6f368a09276eb846c7ee03a4819a2630e0b9901",
+      "line": 68,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.transported_maximal' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ArithmeticNaturality.transported_residueSize": {
+      "sha256": "8d45d6d8ae95ea5a2ea5abe44fb91325df42c95f213a148c8ed106cffa538e1d",
+      "line": 73,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.transported_residueSize' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ArithmeticNaturality.integral_square": {
+      "sha256": "cef82ba0a21d3b568571ef7135a133a157d756689919538dc257f99604c925f9",
+      "line": 77,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.integral_square' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ArithmeticNaturality.localization_square": {
+      "sha256": "a1c7f6cf9e7ca85385039646f96a77973f08310549be3074d6afa05764a1d963",
+      "line": 84,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.localization_square' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ArithmeticNaturality.transported_prolongs": {
+      "sha256": "29320f9e07893d6d7266c509103cbed46da2cce137c15bce7a9303ae98f81f1a",
+      "line": 89,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.transported_prolongs' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ArithmeticNaturality.conjugated_frobenius": {
+      "sha256": "8dcbdfbcfc470280ec202f76f59b4de34694bbff9fa83a2ba0838a7020ad3098",
+      "line": 106,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.conjugated_frobenius' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ArithmeticNaturality.PrimeSymbol": {
+      "sha256": "0bb10b44d62b30454918c57ac0b10ab1c3117c50eb48b926d22587a2fffda0f8",
+      "line": 115,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "ArithmeticNaturality.all_frobenius_lifts": {
+      "sha256": "d6ee98388594eff049885e04d3cf45bef38eafd0d45604fdc073185c6fefadcd",
+      "line": 121,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.all_frobenius_lifts' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ArithmeticNaturality.classToGalois_mk0": {
+      "sha256": "bb14ba6b522c122e7f7dcca1405b0f788649d8d6c0dcbdcd131125ca03b947d9",
+      "line": 128,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.classToGalois_mk0' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ArithmeticNaturality.class_prime_action": {
+      "sha256": "a235112de4743fae447e3ffdd77cc76d01c3409a2bb302e5f985c181a4be606e",
+      "line": 133,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.class_prime_action' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ArithmeticNaturality.natural_on_prime": {
+      "sha256": "40746e917979ce96e2070ba3c31d3410346365aa50a568d0ebb62a39e6c84271",
+      "line": 137,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.natural_on_prime' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ArithmeticNaturality.natural_on_class": {
+      "sha256": "ea739c9730cb7fd92b7bf0d1ca651dea559c5b57e91df16124df96735344376a",
+      "line": 147,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.natural_on_class' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ArithmeticNaturality.natural_on_representatives": {
+      "sha256": "86e96b5b9b8f1c9fd40f11a1d22bbfe7851b60843e30d86b442f4d40a31bff75",
+      "line": 154,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.natural_on_representatives' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    "ArithmeticNaturality.toInput": {
+      "sha256": "d7e8009aa52f5aa7a3cf287f8d91aa602cf6fc76fb456a46a321bad42d224502",
+      "line": 162,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    },
+    "ArithmeticNaturality.arithmetic_equivariance": {
+      "sha256": "9fd0d82106b929bcc433865abc2d96b949ff8d83a61bf05c727ffdcb243e3b87",
+      "line": 167,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'Reimann.TameArithmeticNaturality277.arithmetic_equivariance' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "ArithmeticNaturality.complete": {
+      "sha256": "2be1fbf0338991cdf52ec444dfc8a59622d5b6e1065d59ab9e07122eebbb785b",
+      "line": 171,
+      "status": "checked",
+      "checker_output": "<stdin>:36:6: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n<stdin>:81:2: warning: Try this: \n  letI̵\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`"
+    }
+  }
+}

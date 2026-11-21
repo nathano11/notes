@@ -1,0 +1,85 @@
+{
+  "steps": {
+    "Bernoulli.reflectedIndex": {
+      "sha256": "c734daf278a9f437f1ecff9f258e24b099fa6e68adff39bbff82663dd8fff9c8",
+      "status": "checked",
+      "line": 6,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Bernoulli.reflectedIndex_spec": {
+      "sha256": "58e6d47c874c3e66936391687a27a1a94c4c03818063cec76d5f5a14080c7206",
+      "status": "checked",
+      "line": 10,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Bernoulli.reflectedIndex_spec' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "Bernoulli.modularPower": {
+      "sha256": "04afd994c92e6d479cf4fa59660bd5c4e6f201ca718038a562ff1e14e956321d",
+      "status": "checked",
+      "line": 19,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Bernoulli.quadraticValue": {
+      "sha256": "42d47ea935bcf9f8c3cc01b9a73309217155f18ac8c24522a76bb7acb5bb06ef",
+      "status": "checked",
+      "line": 23,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Bernoulli.smoothedResidue": {
+      "sha256": "1b47892cda5d7ebb8b8adfff1259323b1a83f9156b3bac1a5e2028a08a34fd8f",
+      "status": "checked",
+      "line": 30,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Bernoulli.conductor_three_residue": {
+      "sha256": "4519daa34a2ca202dcb5b4f7edcc80e8bd3146465fc0b80b9be4db70a9b26eaf",
+      "status": "checked",
+      "line": 40,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Bernoulli.conductor_three_residue' does not depend on any axioms"
+    },
+    "Bernoulli.conductor_twenty_three_residue": {
+      "sha256": "2e347c87811f871da324c142d0a58382776dfe0f81c9663d9011616ebc2bbebe",
+      "status": "checked",
+      "line": 45,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Bernoulli.conductor_twenty_three_residue' does not depend on any axioms"
+    },
+    "Bernoulli.neither_residue_vanishes": {
+      "sha256": "ba302983617535db53957d6b54cae1ce6b168239aec638ccc44c3bccc6b97e61",
+      "status": "checked",
+      "line": 48,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Bernoulli.neither_residue_vanishes' does not depend on any axioms"
+    },
+    "Bernoulli.scaledBernoulliFive": {
+      "sha256": "941744c4fb08df6521fbdfb63356edd3ef228b55fadc63f847b29692b04427b4",
+      "status": "checked",
+      "line": 55,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "Bernoulli.fifth_signed_moment": {
+      "sha256": "2af535e96b035f1e86c927626f7b87c3340c28ff379ada13d861f2f14e8710f3",
+      "status": "checked",
+      "line": 59,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Bernoulli.fifth_signed_moment' does not depend on any axioms"
+    },
+    "Bernoulli.small_check": {
+      "sha256": "8fe0111b8b0162244ae714784e032f82cf3d854a837da38e30c83fd05cbc7572",
+      "status": "checked",
+      "line": 63,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.Bernoulli.small_check' does not depend on any axioms"
+    },
+    "Bernoulli.complete": {
+      "sha256": "b23c363e05e5e7dfc04c188f3edff7c0d27e111b212831016bf47ba5b00f21b8",
+      "status": "checked",
+      "line": 66,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

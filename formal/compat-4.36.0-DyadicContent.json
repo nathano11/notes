@@ -1,0 +1,144 @@
+{
+  "steps": {
+    "DyadicContent.Mat": {
+      "sha256": "1fd05f1cc354d36c0a9b92d6d6ace10cf908e22883a5bfed6f67d52b16656dff",
+      "status": "checked",
+      "line": 21,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicContent.smith_two_by_two": {
+      "sha256": "43f907aaecb812e1a493af0dbb109bb9365d2f5344bc2da4f2f864ce214c48f8",
+      "status": "checked",
+      "line": 25,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.smith_two_by_two' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.regular_smith": {
+      "sha256": "0ce0f72a80dca661a5760e4d2a199a54e4431a798d28b06e04e20a489cd172c5",
+      "status": "checked",
+      "line": 42,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.regular_smith' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.strict_smith": {
+      "sha256": "0c4ceadbf4d70e19c74e3369fb47b26c1895c70f812c623e146d6ca9073fcb80",
+      "status": "checked",
+      "line": 56,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.strict_smith' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.eisenstein_distance": {
+      "sha256": "607847366bfd743c77bbd11025618b9ce9b079b6151bfc7d80c18be5f274966f",
+      "status": "checked",
+      "line": 73,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.eisenstein_distance' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.inert_distance": {
+      "sha256": "8b17dfefded195ebbb558a8647f5bab0ea3938710d05d3b8b7c5a233832b1a99",
+      "status": "checked",
+      "line": 94,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.inert_distance' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.split_distance": {
+      "sha256": "dbbfff42c4a0dec866a39872e8bb29545cf87aee3d3af61d44a4dcbcacde4fd8",
+      "status": "checked",
+      "line": 126,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.split_distance' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.qmul": {
+      "sha256": "52b800e05da7340be9f5d8f8da25e03d6e712e3c3638b71c6d62648b15362846",
+      "status": "checked",
+      "line": 140,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "DyadicContent.gamma_sq": {
+      "sha256": "52162c9d93833208e5aa8b543e35612b5653a37953824385860a1fbabfb0ae79",
+      "status": "checked",
+      "line": 144,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.gamma_sq' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicContent.gamma_sq_one_mod_two": {
+      "sha256": "22c5130c0bd391bbb45e1bccb53819801e671aedde676b265394b95c3f5a55cf",
+      "status": "checked",
+      "line": 149,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.gamma_sq_one_mod_two' depends on axioms: [propext, Quot.sound]"
+    },
+    "DyadicContent.eisenstein_layer_one": {
+      "sha256": "6d2b92bbbbed5e2a2153a9a927f8a88dd9ee1a1e8da0710e6a5d127671e837b5",
+      "status": "checked",
+      "line": 158,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.eisenstein_layer_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.eisenstein_quartic_factor": {
+      "sha256": "e36b0385e9e678d8a81ecd1786dd468003f2e1f0dc09459b3caa658db6121967",
+      "status": "checked",
+      "line": 167,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.eisenstein_quartic_factor' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.inert_layer_one": {
+      "sha256": "5fb4e1e4a44da763e1f6e3965a51bd73993ea002b8634e3f82b551244df500e2",
+      "status": "checked",
+      "line": 176,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.inert_layer_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.split_layer_one": {
+      "sha256": "10fca45899f1b8e7397927ef9111ba336c998784c57bb2221ab2ab1fc1f5697f",
+      "status": "checked",
+      "line": 185,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.split_layer_one' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.split_quartic_factor": {
+      "sha256": "583dedc950c010a7348a26e9e991d7d505a64b4b2db06626b0273d8d01c53ca7",
+      "status": "checked",
+      "line": 194,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.split_quartic_factor' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.sq_one_mod_four": {
+      "sha256": "9b00e43ed279e75b3beb9ac95c0b369452ff01fddb23b76139023ad945750891",
+      "status": "checked",
+      "line": 202,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.sq_one_mod_four' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.higher_layer_twice_unit": {
+      "sha256": "f867c6ff19c6f675022776659a5f046baaacf72b5062721b97d251c009e5154f",
+      "status": "checked",
+      "line": 212,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.higher_layer_twice_unit' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.unit_mul": {
+      "sha256": "c38901f0741032da338a13072b743158a23210bf069c201aa2f9065a478fd86b",
+      "status": "checked",
+      "line": 222,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.unit_mul' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.unit_mul_parity": {
+      "sha256": "e4f34c0e022413066294062695cb561e3e46c87dd406e47ab1420def8874b029",
+      "status": "checked",
+      "line": 232,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.DyadicContent.unit_mul_parity' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "DyadicContent.complete": {
+      "sha256": "4abc8ee5b0c6db3b55624dc36a7e319ca74a2f3b22cdb1e2000d142359ca5e30",
+      "status": "checked",
+      "line": 247,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}

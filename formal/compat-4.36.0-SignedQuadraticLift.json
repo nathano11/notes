@@ -1,0 +1,161 @@
+{
+  "steps": {
+    "SignedQuadraticLift.Stage": {
+      "sha256": "220d661a70941745742a5b2152e44112a7390face98bfc9b0da5e2e29e5db5d4",
+      "status": "checked",
+      "line": 9,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedQuadraticLift.delay": {
+      "sha256": "7506f03312152743a353ffd3df6876933c67bf044678e408c20f75b7b802c1f8",
+      "status": "checked",
+      "line": 15,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedQuadraticLift.product": {
+      "sha256": "9f275b25f40cd07c7d5ccf4c36bbb76099bf2a6656ee5e80469cf4b356d27a5c",
+      "status": "checked",
+      "line": 20,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedQuadraticLift.Matches": {
+      "sha256": "346a324ed7c4908b4b5d1f085312cfaf6cd4dd3b69a3dc6c9b35072f93dc7143",
+      "status": "checked",
+      "line": 23,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedQuadraticLift.Distinguished": {
+      "sha256": "b2fb7e5454067be4dc171e2d531f5081982b991eab70299d1f3a523fc97bef73",
+      "status": "checked",
+      "line": 26,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedQuadraticLift.error": {
+      "sha256": "8eedb48abfdf8a5a526046ba0ac7f41af67facb16b1b39bef750c04e9f142f5f",
+      "status": "checked",
+      "line": 29,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedQuadraticLift.constantBit": {
+      "sha256": "404cc6642218a2247219bfbf5f03da8d605036cb8a6ac1a92e9ca6fcac0a73b1",
+      "status": "checked",
+      "line": 32,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedQuadraticLift.linearBit": {
+      "sha256": "7e795a73b54df1c444defcee335e0c69de4f86a0b50681f6dc9209caf98e1aed",
+      "status": "checked",
+      "line": 34,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedQuadraticLift.cofactorBit": {
+      "sha256": "041e7e9f33735c744ffd6093d3251ac5b8f3650dc6071d605026e613f21f1476",
+      "status": "checked",
+      "line": 36,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedQuadraticLift.adjust": {
+      "sha256": "d3db038372cafa46c1a6f2c8e4f4eee2ed2cfbc033aefb9ae8b02f26f8e27883",
+      "status": "checked",
+      "line": 39,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedQuadraticLift.lift": {
+      "sha256": "05b3c248f3ea8cf7c93001adf81a0741460a5d61c2aa0486426d6cb328d0905c",
+      "status": "checked",
+      "line": 42,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedQuadraticLift.linearized": {
+      "sha256": "729c37b2debe9d7daf502122d9ddff58781493d58be080f6397206594be56b25",
+      "status": "checked",
+      "line": 47,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedQuadraticLift.delay_affine": {
+      "sha256": "896ae269b3a1e12a5021ddfe8de2782f82314049648898fee80e33d262254af3",
+      "status": "checked",
+      "line": 50,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedQuadraticLift.delay_affine' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedQuadraticLift.linearization_error": {
+      "sha256": "fb83a152df8b43e6c6b6549376e5514040ee6a5fc0e9b465c34e87578e7486aa",
+      "status": "checked",
+      "line": 56,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedQuadraticLift.linearization_error' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedQuadraticLift.odd_pivot": {
+      "sha256": "90ac0ef6068a64512eee6b10a77af31588c133600229d0f7b052fbc2c0e65bd2",
+      "status": "checked",
+      "line": 66,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedQuadraticLift.odd_pivot' depends on axioms: [propext]"
+    },
+    "SignedQuadraticLift.correction_solves": {
+      "sha256": "bcc814b4970172bbe32e85c66028a3f0ed29966b4bc83781eef946cc0028e20e",
+      "status": "checked",
+      "line": 73,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedQuadraticLift.correction_solves' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedQuadraticLift.error_exact": {
+      "sha256": "73911c7aa7eb22401e6e1da5918566af2ca6011e69eb7af10e011620b8d5b81e",
+      "status": "checked",
+      "line": 87,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedQuadraticLift.error_exact' depends on axioms: [propext]"
+    },
+    "SignedQuadraticLift.lift_matches": {
+      "sha256": "02e61167646b7b4772955f15ea018c02af903406f3e0ad4262562c61d8ed2cd5",
+      "status": "checked",
+      "line": 93,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedQuadraticLift.lift_matches' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedQuadraticLift.lift_preserves": {
+      "sha256": "431db82df1d3f3240772dbde97a970ff774fc5c673a065ce3fec7ee415c45a76",
+      "status": "checked",
+      "line": 111,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedQuadraticLift.lift_preserves' depends on axioms: [propext, Quot.sound]"
+    },
+    "SignedQuadraticLift.lift_distinguished": {
+      "sha256": "a7524aed10da74052a4904f1af4c8b08510532be1c15db1478d6100c4862fde7",
+      "status": "checked",
+      "line": 118,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedQuadraticLift.lift_distinguished' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    "SignedQuadraticLift.initial": {
+      "sha256": "f9bf5cb2b751aa4975558a6859d7dd334d56057c842a9dd15f6912a14f553e89",
+      "status": "checked",
+      "line": 131,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    },
+    "SignedQuadraticLift.initial_matches": {
+      "sha256": "08adcfd52b625fd37cb8402d50e2df550789b98c53d42b8d505d51b29056afef",
+      "status": "checked",
+      "line": 133,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedQuadraticLift.initial_matches' depends on axioms: [propext]"
+    },
+    "SignedQuadraticLift.initial_distinguished": {
+      "sha256": "645b33815c93cbe0fc6ca91063b280dc034383fcf774e95d09d4cdb2322f68a2",
+      "status": "checked",
+      "line": 143,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+      "checker_output": "'Reimann.SignedQuadraticLift.initial_distinguished' depends on axioms: [propext]"
+    },
+    "SignedQuadraticLift.complete": {
+      "sha256": "f4f7c45ad6eb5d52c634d35d689d0796dc66cbeea3b6c4d96dc622add2c45ee9",
+      "status": "checked",
+      "line": 147,
+      "compiler": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+    }
+  },
+  "required_lean": "4.36.0",
+  "release_pin": "4.33.1",
+  "toolchain_status": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)"
+}
